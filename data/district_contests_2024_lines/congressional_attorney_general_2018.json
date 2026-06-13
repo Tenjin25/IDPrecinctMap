@@ -3,30 +3,31 @@
   "scope": "congressional",
   "contest_type": "attorney_general",
   "meta": {
-    "match_coverage_pct": 68.62,
-    "matched_precinct_keys": 667,
+    "match_coverage_pct": 99.49,
+    "matched_precinct_keys": 967,
     "total_precinct_keys": 972,
-    "weighted_vote_coverage_pct": 70.74,
+    "weighted_vote_coverage_pct": 99.29,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "Attorney General",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 2,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 597,
-      "legacy_2008_vtd00_rows": 70,
-      "direct_2022_districtcoded_rows": 0
+      "modern_2020_vtd20_rows": 82,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 885
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 61169,
-        "rep_votes": 133450,
+        "dem_votes": 92316,
+        "rep_votes": 204692,
         "other_votes": 0,
-        "total_votes": 194619,
+        "total_votes": 297008,
         "dem_candidate": "Bruce S. Bistline",
         "rep_candidate": "Lawrence Wasden",
-        "margin": 72281,
-        "margin_pct": 37.1397,
+        "margin": 112376,
+        "margin_pct": 37.836,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -35,18 +36,18 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 89434,
-        "rep_votes": 131960,
+        "dem_votes": 109508,
+        "rep_votes": 177393,
         "other_votes": 0,
-        "total_votes": 221394,
+        "total_votes": 286901,
         "dem_candidate": "Bruce S. Bistline",
         "rep_candidate": "Lawrence Wasden",
-        "margin": 42526,
-        "margin_pct": 19.2083,
+        "margin": 67885,
+        "margin_pct": 23.6615,
         "winner": "REP",
-        "color": "#fb6a4a",
+        "color": "#de2d26",
         "competitiveness": {
-          "color": "#fb6a4a"
+          "color": "#de2d26"
         },
         "no_data": false
       }

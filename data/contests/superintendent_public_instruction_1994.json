@@ -4,7 +4,8 @@
   "meta": {
     "office": "Superintendent of Public Instruction",
     "source": "19941108__id__general__precinct.csv",
-    "aggregation": "precinct"
+    "aggregation": "precinct",
+    "candidate_count": 2
   },
   "rows": [
     {

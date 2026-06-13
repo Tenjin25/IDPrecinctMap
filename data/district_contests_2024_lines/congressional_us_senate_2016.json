@@ -3,30 +3,31 @@
   "scope": "congressional",
   "contest_type": "us_senate",
   "meta": {
-    "match_coverage_pct": 68.99,
-    "matched_precinct_keys": 663,
+    "match_coverage_pct": 99.9,
+    "matched_precinct_keys": 960,
     "total_precinct_keys": 961,
-    "weighted_vote_coverage_pct": 64.4,
+    "weighted_vote_coverage_pct": 100,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "United States Senator",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 3,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 592,
-      "legacy_2008_vtd00_rows": 71,
-      "direct_2022_districtcoded_rows": 0
+      "modern_2020_vtd20_rows": 83,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 877
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 46953,
-        "rep_votes": 128355,
-        "other_votes": 11087,
-        "total_votes": 186395,
+        "dem_votes": 85060,
+        "rep_votes": 235368,
+        "other_votes": 19757,
+        "total_votes": 340185,
         "dem_candidate": "Jerry Sturgill",
         "rep_candidate": "Mike Crapo",
-        "margin": 81402,
-        "margin_pct": 43.6718,
+        "margin": 150308,
+        "margin_pct": 44.1842,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -35,18 +36,18 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 82339,
-        "rep_votes": 153139,
-        "other_votes": 15391,
-        "total_votes": 250869,
+        "dem_votes": 103189,
+        "rep_votes": 213649,
+        "other_votes": 21920,
+        "total_votes": 338758,
         "dem_candidate": "Jerry Sturgill",
         "rep_candidate": "Mike Crapo",
-        "margin": 70800,
-        "margin_pct": 28.2219,
+        "margin": 110460,
+        "margin_pct": 32.6073,
         "winner": "REP",
-        "color": "#de2d26",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#de2d26"
+          "color": "#a50f15"
         },
         "no_data": false
       }

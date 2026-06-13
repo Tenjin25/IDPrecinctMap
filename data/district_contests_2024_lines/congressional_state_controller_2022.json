@@ -3,30 +3,31 @@
   "scope": "congressional",
   "contest_type": "state_controller",
   "meta": {
-    "match_coverage_pct": 95.4,
-    "matched_precinct_keys": 996,
-    "total_precinct_keys": 1044,
-    "weighted_vote_coverage_pct": 40.76,
+    "match_coverage_pct": 99.9,
+    "matched_precinct_keys": 998,
+    "total_precinct_keys": 999,
+    "weighted_vote_coverage_pct": 100,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "State Controller",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 3,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 1,
+      "modern_2020_vtd20_rows": 0,
       "legacy_2008_vtd00_rows": 0,
-      "direct_2022_districtcoded_rows": 995
+      "direct_2022_districtcoded_rows": 998
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 94268,
-        "rep_votes": 318541,
-        "other_votes": 15807,
-        "total_votes": 428616,
+        "dem_votes": 69757,
+        "rep_votes": 228307,
+        "other_votes": 11454,
+        "total_votes": 309518,
         "dem_candidate": "Dianna David",
         "rep_candidate": "Brandon D Woolf",
-        "margin": 224273,
-        "margin_pct": 52.3249,
+        "margin": 158550,
+        "margin_pct": 51.2248,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -35,14 +36,14 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 87802,
-        "rep_votes": 185665,
-        "other_votes": 10302,
-        "total_votes": 283769,
+        "dem_votes": 86475,
+        "rep_votes": 176768,
+        "other_votes": 9844,
+        "total_votes": 273087,
         "dem_candidate": "Dianna David",
         "rep_candidate": "Brandon D Woolf",
-        "margin": 97863,
-        "margin_pct": 34.4869,
+        "margin": 90293,
+        "margin_pct": 33.0638,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {

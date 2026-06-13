@@ -55,11 +55,23 @@ function sumDistrictRows(payload) {
   return { dem, rep, other };
 }
 
+function countPositiveBuckets(totals) {
+  let count = 0;
+  if (totals.dem > 0) count += 1;
+  if (totals.rep > 0) count += 1;
+  if (totals.other > 0) count += 1;
+  return count;
+}
+
 function isContested(entry, payload, kind) {
+  const candidateCount = Number(payload?.meta?.candidate_count);
+  if (Number.isFinite(candidateCount)) {
+    return candidateCount >= 2;
+  }
   const totals = kind === 'district'
     ? sumDistrictRows(payload)
     : sumCountyRows(payload?.rows || []);
-  return totals.dem > 0 && totals.rep > 0;
+  return countPositiveBuckets(totals) >= 2;
 }
 
 function describeEntry(entry) {

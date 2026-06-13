@@ -3,30 +3,31 @@
   "scope": "congressional",
   "contest_type": "president",
   "meta": {
-    "match_coverage_pct": 57.97,
-    "matched_precinct_keys": 571,
+    "match_coverage_pct": 98.48,
+    "matched_precinct_keys": 970,
     "total_precinct_keys": 985,
-    "weighted_vote_coverage_pct": 52.72,
+    "weighted_vote_coverage_pct": 97.77,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "President of the United States",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": null,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 510,
-      "legacy_2008_vtd00_rows": 61,
-      "direct_2022_districtcoded_rows": 0
+      "modern_2020_vtd20_rows": 81,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 889
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 61223,
-        "rep_votes": 151358,
-        "other_votes": 5345,
-        "total_votes": 217926,
+        "dem_votes": 125332,
+        "rep_votes": 340011,
+        "other_votes": 11798,
+        "total_votes": 477140,
         "dem_candidate": "Kamala D. Harris",
         "rep_candidate": "Donald J. Trump",
-        "margin": 90135,
-        "margin_pct": 41.3604,
+        "margin": 214679,
+        "margin_pct": 44.9929,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -35,14 +36,14 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 93117,
-        "rep_votes": 158331,
-        "other_votes": 7777,
-        "total_votes": 259225,
+        "dem_votes": 140609,
+        "rep_votes": 254700,
+        "other_votes": 12463,
+        "total_votes": 407773,
         "dem_candidate": "Kamala D. Harris",
         "rep_candidate": "Donald J. Trump",
-        "margin": 65214,
-        "margin_pct": 25.1573,
+        "margin": 114091,
+        "margin_pct": 27.979,
         "winner": "REP",
         "color": "#de2d26",
         "competitiveness": {

@@ -3,30 +3,31 @@
   "scope": "congressional",
   "contest_type": "president",
   "meta": {
-    "match_coverage_pct": 47.15,
-    "matched_precinct_keys": 438,
+    "match_coverage_pct": 100,
+    "matched_precinct_keys": 929,
     "total_precinct_keys": 929,
-    "weighted_vote_coverage_pct": 38.33,
+    "weighted_vote_coverage_pct": 113.28,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "President of the United States",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 7,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 341,
-      "legacy_2008_vtd00_rows": 97,
-      "direct_2022_districtcoded_rows": 0
+      "modern_2020_vtd20_rows": 0,
+      "legacy_2008_vtd00_rows": 19,
+      "direct_2022_districtcoded_rows": 910
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 20929,
-        "rep_votes": 48344,
-        "other_votes": 4465,
-        "total_votes": 73738,
+        "dem_votes": 56783,
+        "rep_votes": 142274,
+        "other_votes": 11048,
+        "total_votes": 210105,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 27415,
-        "margin_pct": 37.1789,
+        "margin": 85491,
+        "margin_pct": 40.6897,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -35,14 +36,14 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 31205,
-        "rep_votes": 77845,
-        "other_votes": 5314,
-        "total_votes": 114364,
+        "dem_votes": 99563,
+        "rep_votes": 228808,
+        "other_votes": 17502,
+        "total_votes": 345873,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 46640,
-        "margin_pct": 40.7821,
+        "margin": 129245,
+        "margin_pct": 37.3678,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {

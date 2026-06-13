@@ -136,6 +136,7 @@ def is_summary_precinct(precinct: str) -> bool:
         "CO TOTAL" in text
         or "CO. TOTAL" in text
         or "COUNTY TOTAL" in text
+        or "GRAND TOTAL" in text
     )
 
 
@@ -284,6 +285,23 @@ def summarize_votes(group: pd.DataFrame) -> dict[str, object]:
         "winner": winner,
         "color": pick_color(margin_pct),
     }
+
+
+def count_real_candidates(group: pd.DataFrame) -> int:
+    if "candidate" not in group.columns:
+        return 0
+    candidates = (
+        group["candidate"]
+        .fillna("")
+        .astype(str)
+        .str.strip()
+    )
+    candidates = candidates[~candidates.isin(["", "Overvotes", "Undervotes"])]
+    return int(candidates.nunique())
+
+
+def is_multicandidate_contest(group: pd.DataFrame) -> bool:
+    return count_real_candidates(group) >= 2
 
 
 def build_precinct_rows(df: pd.DataFrame) -> list[dict[str, object]]:
@@ -481,6 +499,7 @@ def add_2022_statewide_payloads(
                     "office": office_by_type.get(contest_type, contest_type),
                     "source": "2022_General_Canvass.zip",
                     "aggregation": "precinct",
+                    "candidate_count": count_real_candidates(frame),
                 },
                 "rows": rows,
             },
@@ -587,6 +606,12 @@ def add_2022_district_payloads(
             "meta": {
                 "office": office_label,
                 "source": "2022_General_Canvass.zip",
+                "candidate_count": max(
+                    count_real_candidates(senate_df) if contest_type == "state_senate" else 0,
+                    count_real_candidates(house_a_df) if contest_type == "state_house_a" else 0,
+                    count_real_candidates(house_b_df) if contest_type == "state_house_b" else 0,
+                    count_real_candidates(sheet_df) if contest_type == "us_house" else 0,
+                ),
             },
             "general": {
                 "results": results,
@@ -646,6 +671,8 @@ def main() -> None:
                 district_frames[key] = (str(parsed_district["office"]), district_group)
 
         for contest_type, (office_label, office_df) in sorted(statewide_frames.items()):
+            if not is_multicandidate_contest(office_df):
+                continue
             rows = build_precinct_rows(office_df)
             file_name = f"{contest_type}_{year}.json"
             write_json(
@@ -657,6 +684,7 @@ def main() -> None:
                         "office": office_label,
                         "source": path.name,
                         "aggregation": "precinct",
+                        "candidate_count": count_real_candidates(office_df),
                     },
                     "rows": rows,
                 },
@@ -675,6 +703,8 @@ def main() -> None:
             district_meta = parse_district_office(str(office_df["office"].iloc[0]), str(office_df["district"].iloc[0]))
             if district_meta is None:
                 continue
+            if not is_multicandidate_contest(office_df):
+                continue
             office_df = office_df.copy()
             office_df["district_num"] = office_df["district"].map(
                 lambda raw: (
@@ -690,6 +720,7 @@ def main() -> None:
                 "meta": {
                     "office": office_label,
                     "source": path.name,
+                    "candidate_count": count_real_candidates(office_df),
                 },
                 "general": {
                     "results": results,

@@ -3,30 +3,31 @@
   "scope": "congressional",
   "contest_type": "us_senate",
   "meta": {
-    "match_coverage_pct": 51.8,
-    "matched_precinct_keys": 488,
+    "match_coverage_pct": 98.94,
+    "matched_precinct_keys": 932,
     "total_precinct_keys": 942,
-    "weighted_vote_coverage_pct": 41.78,
+    "weighted_vote_coverage_pct": 108.15,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "United States Senator",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 2,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 402,
-      "legacy_2008_vtd00_rows": 86,
-      "direct_2022_districtcoded_rows": 0
+      "modern_2020_vtd20_rows": 0,
+      "legacy_2008_vtd00_rows": 12,
+      "direct_2022_districtcoded_rows": 920
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 25604,
-        "rep_votes": 43871,
+        "dem_votes": 57027,
+        "rep_votes": 105300,
         "other_votes": 0,
-        "total_votes": 69475,
+        "total_votes": 162327,
         "dem_candidate": "Alan Blinken",
         "rep_candidate": "Larry E. Craig",
-        "margin": 18267,
-        "margin_pct": 26.2929,
+        "margin": 48273,
+        "margin_pct": 29.7381,
         "winner": "REP",
         "color": "#de2d26",
         "competitiveness": {
@@ -35,14 +36,14 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 28598,
-        "rep_votes": 64790,
+        "dem_votes": 85575,
+        "rep_votes": 173685,
         "other_votes": 0,
-        "total_votes": 93388,
+        "total_votes": 259260,
         "dem_candidate": "Alan Blinken",
         "rep_candidate": "Larry E. Craig",
-        "margin": 36192,
-        "margin_pct": 38.7544,
+        "margin": 88110,
+        "margin_pct": 33.9852,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {

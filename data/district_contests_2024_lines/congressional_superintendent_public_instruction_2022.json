@@ -3,30 +3,31 @@
   "scope": "congressional",
   "contest_type": "superintendent_public_instruction",
   "meta": {
-    "match_coverage_pct": 95.59,
+    "match_coverage_pct": 99.9,
     "matched_precinct_keys": 998,
-    "total_precinct_keys": 1044,
-    "weighted_vote_coverage_pct": 40.69,
+    "total_precinct_keys": 999,
+    "weighted_vote_coverage_pct": 100,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "Superintendent of Public Instruction",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 2,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 1,
+      "modern_2020_vtd20_rows": 0,
       "legacy_2008_vtd00_rows": 0,
-      "direct_2022_districtcoded_rows": 997
+      "direct_2022_districtcoded_rows": 998
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 106176,
-        "rep_votes": 317627,
+        "dem_votes": 78532,
+        "rep_votes": 227980,
         "other_votes": 0,
-        "total_votes": 423803,
+        "total_votes": 306512,
         "dem_candidate": "Terry L. Gilbert",
         "rep_candidate": "Debbie Critchfield",
-        "margin": 211451,
-        "margin_pct": 49.8937,
+        "margin": 149448,
+        "margin_pct": 48.7576,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -35,18 +36,18 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 98208,
-        "rep_votes": 185600,
+        "dem_votes": 96544,
+        "rep_votes": 176569,
         "other_votes": 0,
-        "total_votes": 283808,
+        "total_votes": 273113,
         "dem_candidate": "Terry L. Gilbert",
         "rep_candidate": "Debbie Critchfield",
-        "margin": 87392,
-        "margin_pct": 30.7926,
+        "margin": 80025,
+        "margin_pct": 29.3011,
         "winner": "REP",
-        "color": "#a50f15",
+        "color": "#de2d26",
         "competitiveness": {
-          "color": "#a50f15"
+          "color": "#de2d26"
         },
         "no_data": false
       }

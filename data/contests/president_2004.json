@@ -4,7 +4,8 @@
   "meta": {
     "office": "President of the United States",
     "source": "20041102__id__general__precinct.csv",
-    "aggregation": "precinct"
+    "aggregation": "precinct",
+    "candidate_count": 5
   },
   "rows": [
     {

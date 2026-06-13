@@ -3,30 +3,31 @@
   "scope": "congressional",
   "contest_type": "attorney_general",
   "meta": {
-    "match_coverage_pct": 95.59,
+    "match_coverage_pct": 99.9,
     "matched_precinct_keys": 998,
-    "total_precinct_keys": 1044,
-    "weighted_vote_coverage_pct": 40.75,
+    "total_precinct_keys": 999,
+    "weighted_vote_coverage_pct": 100,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "Attorney General",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 2,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 1,
+      "modern_2020_vtd20_rows": 0,
       "legacy_2008_vtd00_rows": 0,
-      "direct_2022_districtcoded_rows": 997
+      "direct_2022_districtcoded_rows": 998
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 132153,
-        "rep_votes": 299268,
+        "dem_votes": 98118,
+        "rep_votes": 213464,
         "other_votes": 0,
-        "total_votes": 431421,
+        "total_votes": 311582,
         "dem_candidate": "Tom Arkoosh",
         "rep_candidate": "Raul Labrador",
-        "margin": 167115,
-        "margin_pct": 38.7359,
+        "margin": 115346,
+        "margin_pct": 37.0195,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -35,14 +36,14 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 123935,
-        "rep_votes": 162252,
+        "dem_votes": 121287,
+        "rep_votes": 154115,
         "other_votes": 0,
-        "total_votes": 286187,
+        "total_votes": 275402,
         "dem_candidate": "Tom Arkoosh",
         "rep_candidate": "Raul Labrador",
-        "margin": 38317,
-        "margin_pct": 13.3888,
+        "margin": 32828,
+        "margin_pct": 11.92,
         "winner": "REP",
         "color": "#fb6a4a",
         "competitiveness": {

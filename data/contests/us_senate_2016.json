@@ -4,7 +4,8 @@
   "meta": {
     "office": "United States Senator",
     "source": "20161108__id__general__precinct.csv",
-    "aggregation": "precinct"
+    "aggregation": "precinct",
+    "candidate_count": 3
   },
   "rows": [
     {

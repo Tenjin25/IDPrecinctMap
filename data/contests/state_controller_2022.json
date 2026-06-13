@@ -4,7 +4,8 @@
   "meta": {
     "office": "State Controller",
     "source": "20221108__id__general__precinct.csv",
-    "aggregation": "precinct"
+    "aggregation": "precinct",
+    "candidate_count": 3
   },
   "rows": [
     {
@@ -2569,19 +2570,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "ADA CONT. - CO. TOTAL",
-      "dem_votes": 68186,
-      "rep_votes": 107585,
-      "other_votes": 5586,
-      "total_votes": 181357,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 39399,
-      "margin_pct": 21.7246,
-      "winner": "REP",
-      "color": "#de2d26"
-    },
-    {
       "county": "ADAMS - ABSENTEE",
       "dem_votes": 139,
       "rep_votes": 325,
@@ -2604,19 +2592,6 @@
       "rep_candidate": "Brandon D Woolf",
       "margin": 35,
       "margin_pct": 94.5946,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "ADAMS - CO. TOTAL",
-      "dem_votes": 335,
-      "rep_votes": 1553,
-      "other_votes": 97,
-      "total_votes": 1985,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 1218,
-      "margin_pct": 61.3602,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -3035,19 +3010,6 @@
       "margin_pct": 56.9024,
       "winner": "REP",
       "color": "#a50f15"
-    },
-    {
-      "county": "BANNOCK CONT. - CO. TOTAL",
-      "dem_votes": 8733,
-      "rep_votes": 15626,
-      "other_votes": 844,
-      "total_votes": 25203,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 6893,
-      "margin_pct": 27.3499,
-      "winner": "REP",
-      "color": "#de2d26"
     },
     {
       "county": "BANNOCK CONT. - DOWNEY 062",
@@ -3583,19 +3545,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "BEAR LAKE CONT. - CO. TOTAL",
-      "dem_votes": 186,
-      "rep_votes": 1937,
-      "other_votes": 116,
-      "total_votes": 2239,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 1751,
-      "margin_pct": 78.2046,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "BEAR LAKE CONT. - LIBERTY 12",
       "dem_votes": 2,
       "rep_votes": 77,
@@ -3670,19 +3619,6 @@
       "rep_candidate": "Brandon D Woolf",
       "margin": 244,
       "margin_pct": 66.3043,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BENEWAH - CO. TOTAL",
-      "dem_votes": 513,
-      "rep_votes": 2718,
-      "other_votes": 166,
-      "total_votes": 3397,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 2205,
-      "margin_pct": 64.9102,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -3932,19 +3868,6 @@
       "margin_pct": 0.0,
       "winner": "TIE",
       "color": "#cbd5e1"
-    },
-    {
-      "county": "BINGHAM - CO. TOTAL",
-      "dem_votes": 1687,
-      "rep_votes": 10035,
-      "other_votes": 462,
-      "total_votes": 12184,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 8348,
-      "margin_pct": 68.5161,
-      "winner": "REP",
-      "color": "#a50f15"
     },
     {
       "county": "BINGHAM - FIRTH 7",
@@ -4246,19 +4169,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "BLAINE CONT. - CO. TOTAL",
-      "dem_votes": 5991,
-      "rep_votes": 3426,
-      "other_votes": 210,
-      "total_votes": 9627,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": -2565,
-      "margin_pct": -26.6438,
-      "winner": "DEM",
-      "color": "#08519c"
-    },
-    {
       "county": "BLAINE CONT. - DEER CREEK",
       "dem_votes": 273,
       "rep_votes": 190,
@@ -4491,19 +4401,6 @@
       "margin_pct": 29.9371,
       "winner": "REP",
       "color": "#de2d26"
-    },
-    {
-      "county": "BOISE - CO. TOTAL",
-      "dem_votes": 643,
-      "rep_votes": 2516,
-      "other_votes": 235,
-      "total_votes": 3394,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 1873,
-      "margin_pct": 55.1856,
-      "winner": "REP",
-      "color": "#a50f15"
     },
     {
       "county": "BONNER - AIRPORT",
@@ -4892,19 +4789,6 @@
       "rep_candidate": "Brandon D Woolf",
       "margin": 134,
       "margin_pct": 60.0897,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BONNER CONT. - CO. TOTAL",
-      "dem_votes": 5046,
-      "rep_votes": 14795,
-      "other_votes": 675,
-      "total_votes": 20516,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 9749,
-      "margin_pct": 47.519,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -5572,19 +5456,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "BONNEVILLE - CO. TOTAL",
-      "dem_votes": 7238,
-      "rep_votes": 25484,
-      "other_votes": 1424,
-      "total_votes": 34146,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 18246,
-      "margin_pct": 53.4352,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "BOUNDARY - ABSENTEE",
       "dem_votes": 406,
       "rep_votes": 1068,
@@ -5607,19 +5478,6 @@
       "rep_candidate": "Brandon D Woolf",
       "margin": 324,
       "margin_pct": 71.2088,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BOUNDARY - CO. TOTAL",
-      "dem_votes": 707,
-      "rep_votes": 4165,
-      "other_votes": 183,
-      "total_votes": 5055,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 3458,
-      "margin_pct": 68.4075,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -5737,32 +5595,6 @@
       "rep_candidate": "Brandon D Woolf",
       "margin": 124,
       "margin_pct": 97.6378,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BUTTE - CO. TOTAL",
-      "dem_votes": 101,
-      "rep_votes": 830,
-      "other_votes": 46,
-      "total_votes": 977,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 729,
-      "margin_pct": 74.6162,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CAMAS - CO. TOTAL",
-      "dem_votes": 79,
-      "rep_votes": 419,
-      "other_votes": 16,
-      "total_votes": 514,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 340,
-      "margin_pct": 66.1479,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -6521,19 +6353,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "CANYON CONT. - CO. TOTAL",
-      "dem_votes": 11876,
-      "rep_votes": 42895,
-      "other_votes": 2821,
-      "total_votes": 57592,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 31019,
-      "margin_pct": 53.8599,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "CARIBOU - BANCROFT",
       "dem_votes": 16,
       "rep_votes": 236,
@@ -6543,19 +6362,6 @@
       "rep_candidate": "Brandon D Woolf",
       "margin": 220,
       "margin_pct": 81.7844,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CARIBOU - CO. TOTAL",
-      "dem_votes": 194,
-      "rep_votes": 1794,
-      "other_votes": 96,
-      "total_votes": 2084,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 1600,
-      "margin_pct": 76.7754,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -6976,32 +6782,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "CASSIA CONT. - CO. TOTAL",
-      "dem_votes": 548,
-      "rep_votes": 4950,
-      "other_votes": 263,
-      "total_votes": 5761,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 4402,
-      "margin_pct": 76.4103,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CLARK - CO. TOTAL",
-      "dem_votes": 15,
-      "rep_votes": 178,
-      "other_votes": 12,
-      "total_votes": 205,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 163,
-      "margin_pct": 79.5122,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "CLARK - PRECINCT #1",
       "dem_votes": 4,
       "rep_votes": 59,
@@ -7063,19 +6843,6 @@
       "rep_candidate": "Brandon D Woolf",
       "margin": 126,
       "margin_pct": 68.8525,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CLEARWATER - CO. TOTAL",
-      "dem_votes": 499,
-      "rep_votes": 2482,
-      "other_votes": 112,
-      "total_votes": 3093,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 1983,
-      "margin_pct": 64.1125,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -7301,19 +7068,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "CUSTER - CO. TOTAL",
-      "dem_votes": 333,
-      "rep_votes": 1558,
-      "other_votes": 101,
-      "total_votes": 1992,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 1225,
-      "margin_pct": 61.496,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "CUSTER - LESLIE",
       "dem_votes": 22,
       "rep_votes": 231,
@@ -7531,19 +7285,6 @@
       "rep_candidate": "Brandon D Woolf",
       "margin": 365,
       "margin_pct": 57.3899,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "ELMORE CONT. - CO. TOTAL",
-      "dem_votes": 1298,
-      "rep_votes": 4904,
-      "other_votes": 345,
-      "total_votes": 6547,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 3606,
-      "margin_pct": 55.0787,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -7860,19 +7601,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "FRANKLIN - CO. TOTAL",
-      "dem_votes": 228,
-      "rep_votes": 3822,
-      "other_votes": 235,
-      "total_votes": 4285,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 3594,
-      "margin_pct": 83.874,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "FREMONT - 001",
       "dem_votes": 46,
       "rep_votes": 207,
@@ -8055,19 +7783,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "FREMONT - CO. TOTAL",
-      "dem_votes": 456,
-      "rep_votes": 3608,
-      "other_votes": 171,
-      "total_votes": 4235,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 3152,
-      "margin_pct": 74.4274,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "GEM - BUTTEVIEW",
       "dem_votes": 64,
       "rep_votes": 307,
@@ -8224,19 +7939,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "GEM CONT. - CO. TOTAL",
-      "dem_votes": 1032,
-      "rep_votes": 5962,
-      "other_votes": 502,
-      "total_votes": 7496,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 4930,
-      "margin_pct": 65.7684,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "GEM CONT. - OLA",
       "dem_votes": 11,
       "rep_votes": 68,
@@ -8272,19 +7974,6 @@
       "rep_candidate": "Brandon D Woolf",
       "margin": 106,
       "margin_pct": 52.7363,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "GOODING - CO. TOTAL",
-      "dem_votes": 576,
-      "rep_votes": 3239,
-      "other_votes": 183,
-      "total_votes": 3998,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 2663,
-      "margin_pct": 66.6083,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -8389,19 +8078,6 @@
       "rep_candidate": "Brandon D Woolf",
       "margin": 186,
       "margin_pct": 78.8136,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "IDAHO - CO. TOTAL",
-      "dem_votes": 926,
-      "rep_votes": 5970,
-      "other_votes": 479,
-      "total_votes": 7375,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 5044,
-      "margin_pct": 68.3932,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -8848,19 +8524,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "JEFFERSON CONT. - CO. TOTAL",
-      "dem_votes": 761,
-      "rep_votes": 7856,
-      "other_votes": 400,
-      "total_votes": 9017,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 7095,
-      "margin_pct": 78.6847,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "JEFFERSON CONT. - MENAN",
       "dem_votes": 33,
       "rep_votes": 379,
@@ -9052,19 +8715,6 @@
       "rep_candidate": "Brandon D Woolf",
       "margin": 257,
       "margin_pct": 69.837,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "JEROME - CO. TOTAL",
-      "dem_votes": 753,
-      "rep_votes": 3812,
-      "other_votes": 244,
-      "total_votes": 4809,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 3059,
-      "margin_pct": 63.6099,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -10135,19 +9785,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "KOOTENAI CONT. - CO. TOTAL",
-      "dem_votes": 12643,
-      "rep_votes": 47487,
-      "other_votes": 1537,
-      "total_votes": 61667,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 34844,
-      "margin_pct": 56.5035,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "LATAH - MOSCOW #01",
       "dem_votes": 43,
       "rep_votes": 76,
@@ -10224,19 +9861,6 @@
       "margin_pct": 48.9796,
       "winner": "REP",
       "color": "#a50f15"
-    },
-    {
-      "county": "LATAH CONT. - CO. TOTAL",
-      "dem_votes": 6445,
-      "rep_votes": 8127,
-      "other_votes": 274,
-      "total_votes": 14846,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 1682,
-      "margin_pct": 11.3297,
-      "winner": "REP",
-      "color": "#fb6a4a"
     },
     {
       "county": "LATAH CONT. - CORA #31",
@@ -10733,32 +10357,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "LEMHI - CO. TOTAL",
-      "dem_votes": 632,
-      "rep_votes": 2844,
-      "other_votes": 129,
-      "total_votes": 3605,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 2212,
-      "margin_pct": 61.3592,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "LEWIS - CO. TOTAL",
-      "dem_votes": 180,
-      "rep_votes": 1135,
-      "other_votes": 37,
-      "total_votes": 1352,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 955,
-      "margin_pct": 70.6361,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "LEWIS - CRAIGMONT",
       "dem_votes": 42,
       "rep_votes": 237,
@@ -10859,19 +10457,6 @@
       "rep_candidate": "Brandon D Woolf",
       "margin": 182,
       "margin_pct": 74.8971,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "LINCOLN - CO. TOTAL",
-      "dem_votes": 211,
-      "rep_votes": 1059,
-      "other_votes": 43,
-      "total_votes": 1313,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 848,
-      "margin_pct": 64.5849,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -11028,19 +10613,6 @@
       "rep_candidate": "Brandon D Woolf",
       "margin": 63,
       "margin_pct": 53.3898,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "MADISON - CO. TOTAL",
-      "dem_votes": 867,
-      "rep_votes": 6990,
-      "other_votes": 363,
-      "total_votes": 8220,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 6123,
-      "margin_pct": 74.4891,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -11249,19 +10821,6 @@
       "rep_candidate": "Brandon D Woolf",
       "margin": 318,
       "margin_pct": 83.6842,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "MINIDOKA - CO. TOTAL",
-      "dem_votes": 555,
-      "rep_votes": 3949,
-      "other_votes": 183,
-      "total_votes": 4687,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 3394,
-      "margin_pct": 72.4131,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -11838,32 +11397,6 @@
       "color": "#fb6a4a"
     },
     {
-      "county": "NEZ PERCE - CO. TOTAL",
-      "dem_votes": 3585,
-      "rep_votes": 9387,
-      "other_votes": 336,
-      "total_votes": 13308,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 5802,
-      "margin_pct": 43.5978,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "ONEIDA - CO. TOTAL",
-      "dem_votes": 116,
-      "rep_votes": 1397,
-      "other_votes": 92,
-      "total_votes": 1605,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 1281,
-      "margin_pct": 79.8131,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "ONEIDA - CURLEW",
       "dem_votes": 4,
       "rep_votes": 71,
@@ -11964,19 +11497,6 @@
       "rep_candidate": "Brandon D Woolf",
       "margin": 140,
       "margin_pct": 86.9565,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "OWYHEE - CO. TOTAL",
-      "dem_votes": 408,
-      "rep_votes": 2680,
-      "other_votes": 174,
-      "total_votes": 3262,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 2272,
-      "margin_pct": 69.6505,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -12254,19 +11774,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "PAYETTE CONT. - CO. TOTAL",
-      "dem_votes": 1009,
-      "rep_votes": 6179,
-      "other_votes": 340,
-      "total_votes": 7528,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 5170,
-      "margin_pct": 68.6769,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "POWER - 1",
       "dem_votes": 95,
       "rep_votes": 276,
@@ -12341,19 +11848,6 @@
       "rep_candidate": "Brandon D Woolf",
       "margin": 72,
       "margin_pct": 35.2941,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "POWER - CO. TOTAL",
-      "dem_votes": 410,
-      "rep_votes": 1481,
-      "other_votes": 56,
-      "total_votes": 1947,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 1071,
-      "margin_pct": 55.0077,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -12540,19 +12034,6 @@
       "color": "#fb6a4a"
     },
     {
-      "county": "SHOSHONE - CO. TOTAL",
-      "dem_votes": 995,
-      "rep_votes": 2929,
-      "other_votes": 121,
-      "total_votes": 4045,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 1934,
-      "margin_pct": 47.8121,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "TETON - 001",
       "dem_votes": 127,
       "rep_votes": 419,
@@ -12655,19 +12136,6 @@
       "margin_pct": -25.4692,
       "winner": "DEM",
       "color": "#08519c"
-    },
-    {
-      "county": "TETON - CO. TOTAL",
-      "dem_votes": 2289,
-      "rep_votes": 2234,
-      "other_votes": 83,
-      "total_votes": 4606,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": -55,
-      "margin_pct": -1.1941,
-      "winner": "DEM",
-      "color": "#cbd5e1"
     },
     {
       "county": "TWIN FALLS - BUHL 1",
@@ -12811,19 +12279,6 @@
       "margin_pct": 29.4118,
       "winner": "REP",
       "color": "#de2d26"
-    },
-    {
-      "county": "TWIN FALLS CONT. - CO. TOTAL",
-      "dem_votes": 4555,
-      "rep_votes": 16672,
-      "other_votes": 1283,
-      "total_votes": 22510,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 12117,
-      "margin_pct": 53.8294,
-      "winner": "REP",
-      "color": "#a50f15"
     },
     {
       "county": "TWIN FALLS CONT. - FILER 3",
@@ -13320,19 +12775,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "VALLEY - CO. TOTAL",
-      "dem_votes": 1873,
-      "rep_votes": 3158,
-      "other_votes": 111,
-      "total_votes": 5142,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 1285,
-      "margin_pct": 24.9903,
-      "winner": "REP",
-      "color": "#de2d26"
-    },
-    {
       "county": "VALLEY - DONNELLY",
       "dem_votes": 17,
       "rep_votes": 25,
@@ -13476,19 +12918,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "WASHINGTON CONT. - CO. TOTAL",
-      "dem_votes": 519,
-      "rep_votes": 3248,
-      "other_votes": 112,
-      "total_votes": 3879,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 2729,
-      "margin_pct": 70.3532,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "WASHINGTON CONT. - EAST WEISER",
       "dem_votes": 48,
       "rep_votes": 212,
@@ -13498,19 +12927,6 @@
       "rep_candidate": "Brandon D Woolf",
       "margin": 164,
       "margin_pct": 61.4232,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "WASHINGTON CONT. - GRAND TOTAL",
-      "dem_votes": 156232,
-      "rep_votes": 405075,
-      "other_votes": 21298,
-      "total_votes": 582605,
-      "dem_candidate": "Dianna David",
-      "rep_candidate": "Brandon D Woolf",
-      "margin": 248843,
-      "margin_pct": 42.7121,
       "winner": "REP",
       "color": "#a50f15"
     },

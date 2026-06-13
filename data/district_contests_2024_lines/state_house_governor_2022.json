@@ -3,17 +3,18 @@
   "scope": "state_house",
   "contest_type": "governor",
   "meta": {
-    "match_coverage_pct": 95.01,
-    "matched_precinct_keys": 991,
-    "total_precinct_keys": 1043,
-    "weighted_vote_coverage_pct": 33.13,
+    "match_coverage_pct": 99.9,
+    "matched_precinct_keys": 998,
+    "total_precinct_keys": 999,
+    "weighted_vote_coverage_pct": 100,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "Governor",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 6,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 4,
-      "legacy_2008_vtd00_rows": 1,
-      "direct_2022_districtcoded_rows": 986
+      "modern_2020_vtd20_rows": 3,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 995
     }
   },
   "general": {
@@ -115,14 +116,14 @@
         "no_data": false
       },
       "7": {
-        "dem_votes": 3097,
-        "rep_votes": 13693,
-        "other_votes": 3842,
-        "total_votes": 20632,
+        "dem_votes": 2802,
+        "rep_votes": 12613,
+        "other_votes": 3580,
+        "total_votes": 18995,
         "dem_candidate": "Stephen Heidt",
         "rep_candidate": "Brad Little",
-        "margin": 10596,
-        "margin_pct": 51.3571,
+        "margin": 9811,
+        "margin_pct": 51.6504,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -147,14 +148,14 @@
         "no_data": false
       },
       "9": {
-        "dem_votes": 1115,
-        "rep_votes": 8237,
-        "other_votes": 3651,
-        "total_votes": 13003,
+        "dem_votes": 1510,
+        "rep_votes": 10695,
+        "other_votes": 4612,
+        "total_votes": 16817,
         "dem_candidate": "Stephen Heidt",
         "rep_candidate": "Brad Little",
-        "margin": 7122,
-        "margin_pct": 54.772,
+        "margin": 9185,
+        "margin_pct": 54.6174,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -435,14 +436,14 @@
         "no_data": false
       },
       "27": {
-        "dem_votes": 773,
-        "rep_votes": 7383,
-        "other_votes": 2502,
-        "total_votes": 10658,
+        "dem_votes": 840,
+        "rep_votes": 8327,
+        "other_votes": 2983,
+        "total_votes": 12150,
         "dem_candidate": "Stephen Heidt",
         "rep_candidate": "Brad Little",
-        "margin": 6610,
-        "margin_pct": 62.0191,
+        "margin": 7487,
+        "margin_pct": 61.6214,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {

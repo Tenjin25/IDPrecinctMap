@@ -3,17 +3,18 @@
   "scope": "state_house",
   "contest_type": "state_controller",
   "meta": {
-    "match_coverage_pct": 94.83,
-    "matched_precinct_keys": 990,
-    "total_precinct_keys": 1044,
-    "weighted_vote_coverage_pct": 33.12,
+    "match_coverage_pct": 99.9,
+    "matched_precinct_keys": 998,
+    "total_precinct_keys": 999,
+    "weighted_vote_coverage_pct": 100,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "State Controller",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 3,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 4,
-      "legacy_2008_vtd00_rows": 1,
-      "direct_2022_districtcoded_rows": 985
+      "modern_2020_vtd20_rows": 3,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 995
     }
   },
   "general": {
@@ -115,14 +116,14 @@
         "no_data": false
       },
       "7": {
-        "dem_votes": 4237,
-        "rep_votes": 15256,
-        "other_votes": 876,
-        "total_votes": 20369,
+        "dem_votes": 3849,
+        "rep_votes": 14070,
+        "other_votes": 821,
+        "total_votes": 18740,
         "dem_candidate": "Dianna David",
         "rep_candidate": "Brandon D Woolf",
-        "margin": 11019,
-        "margin_pct": 54.0969,
+        "margin": 10221,
+        "margin_pct": 54.5411,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -147,14 +148,14 @@
         "no_data": false
       },
       "9": {
-        "dem_votes": 1584,
-        "rep_votes": 10703,
-        "other_votes": 580,
-        "total_votes": 12867,
+        "dem_votes": 2114,
+        "rep_votes": 13779,
+        "other_votes": 745,
+        "total_votes": 16638,
         "dem_candidate": "Dianna David",
         "rep_candidate": "Brandon D Woolf",
-        "margin": 9119,
-        "margin_pct": 70.8712,
+        "margin": 11665,
+        "margin_pct": 70.1106,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -371,14 +372,14 @@
         "no_data": false
       },
       "23": {
-        "dem_votes": 2623,
-        "rep_votes": 12241,
-        "other_votes": 792,
-        "total_votes": 15656,
+        "dem_votes": 2631,
+        "rep_votes": 12389,
+        "other_votes": 797,
+        "total_votes": 15817,
         "dem_candidate": "Dianna David",
         "rep_candidate": "Brandon D Woolf",
-        "margin": 9618,
-        "margin_pct": 61.4333,
+        "margin": 9758,
+        "margin_pct": 61.6931,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -435,14 +436,14 @@
         "no_data": false
       },
       "27": {
-        "dem_votes": 1107,
-        "rep_votes": 9025,
-        "other_votes": 452,
-        "total_votes": 10584,
+        "dem_votes": 1219,
+        "rep_votes": 10296,
+        "other_votes": 538,
+        "total_votes": 12053,
         "dem_candidate": "Dianna David",
         "rep_candidate": "Brandon D Woolf",
-        "margin": 7918,
-        "margin_pct": 74.811,
+        "margin": 9077,
+        "margin_pct": 75.3091,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {

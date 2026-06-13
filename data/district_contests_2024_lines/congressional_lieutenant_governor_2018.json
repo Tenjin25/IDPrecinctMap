@@ -3,30 +3,31 @@
   "scope": "congressional",
   "contest_type": "lieutenant_governor",
   "meta": {
-    "match_coverage_pct": 68.49,
-    "matched_precinct_keys": 665,
+    "match_coverage_pct": 98.97,
+    "matched_precinct_keys": 961,
     "total_precinct_keys": 971,
-    "weighted_vote_coverage_pct": 71.74,
+    "weighted_vote_coverage_pct": 99.22,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "Lieutenant Governor",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 2,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 594,
-      "legacy_2008_vtd00_rows": 71,
-      "direct_2022_districtcoded_rows": 0
+      "modern_2020_vtd20_rows": 82,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 879
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 71986,
-        "rep_votes": 113614,
+        "dem_votes": 107816,
+        "rep_votes": 177833,
         "other_votes": 0,
-        "total_votes": 185600,
+        "total_votes": 285649,
         "dem_candidate": "Kristin Collum",
         "rep_candidate": "Janice McGeachin",
-        "margin": 41628,
-        "margin_pct": 22.4289,
+        "margin": 70017,
+        "margin_pct": 24.5116,
         "winner": "REP",
         "color": "#de2d26",
         "competitiveness": {
@@ -35,14 +36,14 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 86940,
-        "rep_votes": 117473,
+        "dem_votes": 101803,
+        "rep_votes": 151936,
         "other_votes": 0,
-        "total_votes": 204413,
+        "total_votes": 253739,
         "dem_candidate": "Kristin Collum",
         "rep_candidate": "Janice McGeachin",
-        "margin": 30533,
-        "margin_pct": 14.9369,
+        "margin": 50133,
+        "margin_pct": 19.7577,
         "winner": "REP",
         "color": "#fb6a4a",
         "competitiveness": {

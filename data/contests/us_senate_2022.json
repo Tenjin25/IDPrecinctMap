@@ -4,7 +4,8 @@
   "meta": {
     "office": "United States Senator",
     "source": "20221108__id__general__precinct.csv",
-    "aggregation": "precinct"
+    "aggregation": "precinct",
+    "candidate_count": 5
   },
   "rows": [
     {
@@ -2569,19 +2570,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "ADA CONT. - CO. TOTAL",
-      "dem_votes": 76656,
-      "rep_votes": 87579,
-      "other_votes": 20286,
-      "total_votes": 184521,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 10923,
-      "margin_pct": 5.9197,
-      "winner": "REP",
-      "color": "#fcae91"
-    },
-    {
       "county": "ADAMS - ABSENTEE",
       "dem_votes": 160,
       "rep_votes": 282,
@@ -2604,19 +2592,6 @@
       "rep_candidate": "Mike Crapo",
       "margin": 32,
       "margin_pct": 86.4865,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "ADAMS - CO. TOTAL",
-      "dem_votes": 367,
-      "rep_votes": 1425,
-      "other_votes": 219,
-      "total_votes": 2011,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 1058,
-      "margin_pct": 52.6106,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -3035,19 +3010,6 @@
       "margin_pct": 52.0525,
       "winner": "REP",
       "color": "#a50f15"
-    },
-    {
-      "county": "BANNOCK CONT. - CO. TOTAL",
-      "dem_votes": 9054,
-      "rep_votes": 14480,
-      "other_votes": 1909,
-      "total_votes": 25443,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 5426,
-      "margin_pct": 21.3261,
-      "winner": "REP",
-      "color": "#de2d26"
     },
     {
       "county": "BANNOCK CONT. - DOWNEY 062",
@@ -3583,19 +3545,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "BEAR LAKE CONT. - CO. TOTAL",
-      "dem_votes": 196,
-      "rep_votes": 1871,
-      "other_votes": 177,
-      "total_votes": 2244,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 1675,
-      "margin_pct": 74.6435,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "BEAR LAKE CONT. - LIBERTY 12",
       "dem_votes": 4,
       "rep_votes": 74,
@@ -3670,19 +3619,6 @@
       "rep_candidate": "Mike Crapo",
       "margin": 242,
       "margin_pct": 64.8794,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BENEWAH - CO. TOTAL",
-      "dem_votes": 503,
-      "rep_votes": 2662,
-      "other_votes": 299,
-      "total_votes": 3464,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 2159,
-      "margin_pct": 62.3268,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -3932,19 +3868,6 @@
       "margin_pct": 0.0,
       "winner": "TIE",
       "color": "#cbd5e1"
-    },
-    {
-      "county": "BINGHAM - CO. TOTAL",
-      "dem_votes": 1750,
-      "rep_votes": 9491,
-      "other_votes": 1069,
-      "total_votes": 12310,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 7741,
-      "margin_pct": 62.8838,
-      "winner": "REP",
-      "color": "#a50f15"
     },
     {
       "county": "BINGHAM - FIRTH 7",
@@ -4246,19 +4169,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "BLAINE CONT. - CO. TOTAL",
-      "dem_votes": 6006,
-      "rep_votes": 3121,
-      "other_votes": 562,
-      "total_votes": 9689,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": -2885,
-      "margin_pct": -29.776,
-      "winner": "DEM",
-      "color": "#08519c"
-    },
-    {
       "county": "BLAINE CONT. - DEER CREEK",
       "dem_votes": 259,
       "rep_votes": 191,
@@ -4491,19 +4401,6 @@
       "margin_pct": 18.315,
       "winner": "REP",
       "color": "#fb6a4a"
-    },
-    {
-      "county": "BOISE - CO. TOTAL",
-      "dem_votes": 673,
-      "rep_votes": 2172,
-      "other_votes": 592,
-      "total_votes": 3437,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 1499,
-      "margin_pct": 43.6136,
-      "winner": "REP",
-      "color": "#a50f15"
     },
     {
       "county": "BONNER - AIRPORT",
@@ -4892,19 +4789,6 @@
       "rep_candidate": "Mike Crapo",
       "margin": 114,
       "margin_pct": 50.4425,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BONNER CONT. - CO. TOTAL",
-      "dem_votes": 5467,
-      "rep_votes": 13348,
-      "other_votes": 1946,
-      "total_votes": 20761,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 7881,
-      "margin_pct": 37.9606,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -5572,19 +5456,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "BONNEVILLE - CO. TOTAL",
-      "dem_votes": 7866,
-      "rep_votes": 24579,
-      "other_votes": 2994,
-      "total_votes": 35439,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 16713,
-      "margin_pct": 47.1599,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "BOUNDARY - ABSENTEE",
       "dem_votes": 446,
       "rep_votes": 999,
@@ -5607,19 +5478,6 @@
       "rep_candidate": "Mike Crapo",
       "margin": 320,
       "margin_pct": 67.7966,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BOUNDARY - CO. TOTAL",
-      "dem_votes": 732,
-      "rep_votes": 3939,
-      "other_votes": 529,
-      "total_votes": 5200,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 3207,
-      "margin_pct": 61.6731,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -5737,32 +5595,6 @@
       "rep_candidate": "Mike Crapo",
       "margin": 123,
       "margin_pct": 96.0938,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BUTTE - CO. TOTAL",
-      "dem_votes": 114,
-      "rep_votes": 783,
-      "other_votes": 96,
-      "total_votes": 993,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 669,
-      "margin_pct": 67.3716,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CAMAS - CO. TOTAL",
-      "dem_votes": 95,
-      "rep_votes": 367,
-      "other_votes": 54,
-      "total_votes": 516,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 272,
-      "margin_pct": 52.7132,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -6521,19 +6353,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "CANYON CONT. - CO. TOTAL",
-      "dem_votes": 12961,
-      "rep_votes": 36558,
-      "other_votes": 8710,
-      "total_votes": 58229,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 23597,
-      "margin_pct": 40.5245,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "CARIBOU - BANCROFT",
       "dem_votes": 21,
       "rep_votes": 224,
@@ -6543,19 +6362,6 @@
       "rep_candidate": "Mike Crapo",
       "margin": 203,
       "margin_pct": 73.8182,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CARIBOU - CO. TOTAL",
-      "dem_votes": 205,
-      "rep_votes": 1735,
-      "other_votes": 176,
-      "total_votes": 2116,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 1530,
-      "margin_pct": 72.3062,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -6976,32 +6782,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "CASSIA CONT. - CO. TOTAL",
-      "dem_votes": 584,
-      "rep_votes": 4619,
-      "other_votes": 593,
-      "total_votes": 5796,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 4035,
-      "margin_pct": 69.617,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CLARK - CO. TOTAL",
-      "dem_votes": 19,
-      "rep_votes": 161,
-      "other_votes": 26,
-      "total_votes": 206,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 142,
-      "margin_pct": 68.932,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "CLARK - PRECINCT #1",
       "dem_votes": 5,
       "rep_votes": 53,
@@ -7063,19 +6843,6 @@
       "rep_candidate": "Mike Crapo",
       "margin": 115,
       "margin_pct": 62.1622,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CLEARWATER - CO. TOTAL",
-      "dem_votes": 526,
-      "rep_votes": 2389,
-      "other_votes": 205,
-      "total_votes": 3120,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 1863,
-      "margin_pct": 59.7115,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -7301,19 +7068,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "CUSTER - CO. TOTAL",
-      "dem_votes": 359,
-      "rep_votes": 1447,
-      "other_votes": 203,
-      "total_votes": 2009,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 1088,
-      "margin_pct": 54.1563,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "CUSTER - LESLIE",
       "dem_votes": 25,
       "rep_votes": 218,
@@ -7531,19 +7285,6 @@
       "rep_candidate": "Mike Crapo",
       "margin": 315,
       "margin_pct": 49.373,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "ELMORE CONT. - CO. TOTAL",
-      "dem_votes": 1334,
-      "rep_votes": 4380,
-      "other_votes": 891,
-      "total_votes": 6605,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 3046,
-      "margin_pct": 46.1166,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -7860,19 +7601,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "FRANKLIN - CO. TOTAL",
-      "dem_votes": 302,
-      "rep_votes": 3588,
-      "other_votes": 415,
-      "total_votes": 4305,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 3286,
-      "margin_pct": 76.3298,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "FREMONT - 001",
       "dem_votes": 45,
       "rep_votes": 199,
@@ -8055,19 +7783,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "FREMONT - CO. TOTAL",
-      "dem_votes": 480,
-      "rep_votes": 3399,
-      "other_votes": 361,
-      "total_votes": 4240,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 2919,
-      "margin_pct": 68.8443,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "GEM - BUTTEVIEW",
       "dem_votes": 60,
       "rep_votes": 264,
@@ -8224,19 +7939,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "GEM CONT. - CO. TOTAL",
-      "dem_votes": 1076,
-      "rep_votes": 5118,
-      "other_votes": 1377,
-      "total_votes": 7571,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 4042,
-      "margin_pct": 53.3879,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "GEM CONT. - OLA",
       "dem_votes": 10,
       "rep_votes": 61,
@@ -8272,19 +7974,6 @@
       "rep_candidate": "Mike Crapo",
       "margin": 105,
       "margin_pct": 50.9709,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "GOODING - CO. TOTAL",
-      "dem_votes": 609,
-      "rep_votes": 2941,
-      "other_votes": 497,
-      "total_votes": 4047,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 2332,
-      "margin_pct": 57.6229,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -8389,19 +8078,6 @@
       "rep_candidate": "Mike Crapo",
       "margin": 177,
       "margin_pct": 75.3191,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "IDAHO - CO. TOTAL",
-      "dem_votes": 962,
-      "rep_votes": 5741,
-      "other_votes": 762,
-      "total_votes": 7465,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 4779,
-      "margin_pct": 64.0188,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -8848,19 +8524,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "JEFFERSON CONT. - CO. TOTAL",
-      "dem_votes": 836,
-      "rep_votes": 7396,
-      "other_votes": 862,
-      "total_votes": 9094,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 6560,
-      "margin_pct": 72.1355,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "JEFFERSON CONT. - MENAN",
       "dem_votes": 32,
       "rep_votes": 369,
@@ -9052,19 +8715,6 @@
       "rep_candidate": "Mike Crapo",
       "margin": 226,
       "margin_pct": 61.413,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "JEROME - CO. TOTAL",
-      "dem_votes": 803,
-      "rep_votes": 3506,
-      "other_votes": 556,
-      "total_votes": 4865,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 2703,
-      "margin_pct": 55.5601,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -10135,19 +9785,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "KOOTENAI CONT. - CO. TOTAL",
-      "dem_votes": 13404,
-      "rep_votes": 42115,
-      "other_votes": 6720,
-      "total_votes": 62239,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 28711,
-      "margin_pct": 46.1302,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "LATAH - MOSCOW #01",
       "dem_votes": 45,
       "rep_votes": 72,
@@ -10224,19 +9861,6 @@
       "margin_pct": 43.4343,
       "winner": "REP",
       "color": "#a50f15"
-    },
-    {
-      "county": "LATAH CONT. - CO. TOTAL",
-      "dem_votes": 6881,
-      "rep_votes": 7484,
-      "other_votes": 619,
-      "total_votes": 14984,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 603,
-      "margin_pct": 4.0243,
-      "winner": "REP",
-      "color": "#cbd5e1"
     },
     {
       "county": "LATAH CONT. - CORA #31",
@@ -10733,32 +10357,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "LEMHI - CO. TOTAL",
-      "dem_votes": 674,
-      "rep_votes": 2690,
-      "other_votes": 290,
-      "total_votes": 3654,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 2016,
-      "margin_pct": 55.1724,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "LEWIS - CO. TOTAL",
-      "dem_votes": 176,
-      "rep_votes": 1097,
-      "other_votes": 86,
-      "total_votes": 1359,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 921,
-      "margin_pct": 67.7704,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "LEWIS - CRAIGMONT",
       "dem_votes": 40,
       "rep_votes": 233,
@@ -10859,19 +10457,6 @@
       "rep_candidate": "Mike Crapo",
       "margin": 174,
       "margin_pct": 71.6049,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "LINCOLN - CO. TOTAL",
-      "dem_votes": 221,
-      "rep_votes": 978,
-      "other_votes": 115,
-      "total_votes": 1314,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 757,
-      "margin_pct": 57.6104,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -11028,19 +10613,6 @@
       "rep_candidate": "Mike Crapo",
       "margin": 53,
       "margin_pct": 43.0894,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "MADISON - CO. TOTAL",
-      "dem_votes": 972,
-      "rep_votes": 6533,
-      "other_votes": 771,
-      "total_votes": 8276,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 5561,
-      "margin_pct": 67.1943,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -11249,19 +10821,6 @@
       "rep_candidate": "Mike Crapo",
       "margin": 278,
       "margin_pct": 72.0207,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "MINIDOKA - CO. TOTAL",
-      "dem_votes": 592,
-      "rep_votes": 3623,
-      "other_votes": 497,
-      "total_votes": 4712,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 3031,
-      "margin_pct": 64.3251,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -11838,32 +11397,6 @@
       "color": "#fb6a4a"
     },
     {
-      "county": "NEZ PERCE CONT. - CO. TOTAL",
-      "dem_votes": 3628,
-      "rep_votes": 8986,
-      "other_votes": 832,
-      "total_votes": 13446,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 5358,
-      "margin_pct": 39.8483,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "ONEIDA - CO. TOTAL",
-      "dem_votes": 117,
-      "rep_votes": 1330,
-      "other_votes": 154,
-      "total_votes": 1601,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 1213,
-      "margin_pct": 75.7651,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "ONEIDA - CURLEW",
       "dem_votes": 3,
       "rep_votes": 69,
@@ -11964,19 +11497,6 @@
       "rep_candidate": "Mike Crapo",
       "margin": 123,
       "margin_pct": 76.875,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "OWYHEE - CO. TOTAL",
-      "dem_votes": 411,
-      "rep_votes": 2376,
-      "other_votes": 488,
-      "total_votes": 3275,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 1965,
-      "margin_pct": 60.0,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -12254,19 +11774,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "PAYETTE CONT. - CO. TOTAL",
-      "dem_votes": 1079,
-      "rep_votes": 5509,
-      "other_votes": 999,
-      "total_votes": 7587,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 4430,
-      "margin_pct": 58.3894,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "POWER - 1",
       "dem_votes": 102,
       "rep_votes": 263,
@@ -12341,19 +11848,6 @@
       "rep_candidate": "Mike Crapo",
       "margin": 75,
       "margin_pct": 36.5854,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "POWER - CO. TOTAL",
-      "dem_votes": 420,
-      "rep_votes": 1428,
-      "other_votes": 124,
-      "total_votes": 1972,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 1008,
-      "margin_pct": 51.1156,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -12540,19 +12034,6 @@
       "color": "#fb6a4a"
     },
     {
-      "county": "SHOSHONE - CO. TOTAL",
-      "dem_votes": 1005,
-      "rep_votes": 2858,
-      "other_votes": 246,
-      "total_votes": 4109,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 1853,
-      "margin_pct": 45.0961,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "TETON - 001",
       "dem_votes": 132,
       "rep_votes": 404,
@@ -12655,19 +12136,6 @@
       "margin_pct": -30.4371,
       "winner": "DEM",
       "color": "#08306b"
-    },
-    {
-      "county": "TETON - CO. TOTAL",
-      "dem_votes": 2375,
-      "rep_votes": 2100,
-      "other_votes": 211,
-      "total_votes": 4686,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": -275,
-      "margin_pct": -5.8685,
-      "winner": "DEM",
-      "color": "#6baed6"
     },
     {
       "county": "TWIN FALLS - BUHL 1",
@@ -12811,19 +12279,6 @@
       "margin_pct": 22.5314,
       "winner": "REP",
       "color": "#de2d26"
-    },
-    {
-      "county": "TWIN FALLS CONT. - CO. TOTAL",
-      "dem_votes": 4780,
-      "rep_votes": 14914,
-      "other_votes": 3169,
-      "total_votes": 22863,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 10134,
-      "margin_pct": 44.3249,
-      "winner": "REP",
-      "color": "#a50f15"
     },
     {
       "county": "TWIN FALLS CONT. - FILER 3",
@@ -13320,19 +12775,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "VALLEY - CO. TOTAL",
-      "dem_votes": 1974,
-      "rep_votes": 2829,
-      "other_votes": 417,
-      "total_votes": 5220,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 855,
-      "margin_pct": 16.3793,
-      "winner": "REP",
-      "color": "#fb6a4a"
-    },
-    {
       "county": "VALLEY - DONNELLY",
       "dem_votes": 15,
       "rep_votes": 17,
@@ -13476,19 +12918,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "WASHINGTON CONT. - CO. TOTAL",
-      "dem_votes": 564,
-      "rep_votes": 2894,
-      "other_votes": 439,
-      "total_votes": 3897,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 2330,
-      "margin_pct": 59.7896,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "WASHINGTON CONT. - EAST WEISER",
       "dem_votes": 50,
       "rep_votes": 193,
@@ -13498,19 +12927,6 @@
       "rep_candidate": "Mike Crapo",
       "margin": 143,
       "margin_pct": 53.5581,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "WASHINGTON CONT. - GRAND TOTAL",
-      "dem_votes": 169808,
-      "rep_votes": 358539,
-      "other_votes": 62543,
-      "total_votes": 590890,
-      "dem_candidate": "David Roth",
-      "rep_candidate": "Mike Crapo",
-      "margin": 188731,
-      "margin_pct": 31.9401,
       "winner": "REP",
       "color": "#a50f15"
     },

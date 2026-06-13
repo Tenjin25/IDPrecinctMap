@@ -3,30 +3,31 @@
   "scope": "congressional",
   "contest_type": "us_senate",
   "meta": {
-    "match_coverage_pct": 52.97,
-    "matched_precinct_keys": 509,
+    "match_coverage_pct": 98.86,
+    "matched_precinct_keys": 950,
     "total_precinct_keys": 961,
-    "weighted_vote_coverage_pct": 38.69,
+    "weighted_vote_coverage_pct": 97.57,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "United States Senator",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 4,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 418,
-      "legacy_2008_vtd00_rows": 91,
-      "direct_2022_districtcoded_rows": 0
+      "modern_2020_vtd20_rows": 0,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 950
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 18418,
-        "rep_votes": 48526,
-        "other_votes": 3310,
-        "total_votes": 70254,
+        "dem_votes": 50577,
+        "rep_votes": 140965,
+        "other_votes": 8212,
+        "total_votes": 199753,
         "dem_candidate": "P. Tom Sullivan",
         "rep_candidate": "Mike Crapo",
-        "margin": 30108,
-        "margin_pct": 42.8559,
+        "margin": 90388,
+        "margin_pct": 45.2499,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -35,14 +36,14 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 22298,
-        "rep_votes": 76997,
-        "other_votes": 4396,
-        "total_votes": 103691,
+        "dem_votes": 58786,
+        "rep_votes": 171106,
+        "other_votes": 8973,
+        "total_votes": 238866,
         "dem_candidate": "P. Tom Sullivan",
         "rep_candidate": "Mike Crapo",
-        "margin": 54699,
-        "margin_pct": 52.7519,
+        "margin": 112320,
+        "margin_pct": 47.0222,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {

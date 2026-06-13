@@ -3,50 +3,51 @@
   "scope": "congressional",
   "contest_type": "governor",
   "meta": {
-    "match_coverage_pct": 66.84,
-    "matched_precinct_keys": 645,
+    "match_coverage_pct": 99.79,
+    "matched_precinct_keys": 963,
     "total_precinct_keys": 965,
-    "weighted_vote_coverage_pct": 66.82,
+    "weighted_vote_coverage_pct": 100,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "Governor",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 6,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 570,
-      "legacy_2008_vtd00_rows": 75,
-      "direct_2022_districtcoded_rows": 0
+      "modern_2020_vtd20_rows": 83,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 880
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 42089,
-        "rep_votes": 64675,
-        "other_votes": 9921,
-        "total_votes": 116685,
+        "dem_votes": 73677,
+        "rep_votes": 121825,
+        "other_votes": 17823,
+        "total_votes": 213325,
         "dem_candidate": "A.J. Balukoff",
         "rep_candidate": "C.L. \"Butch\" Otter",
-        "margin": 22586,
-        "margin_pct": 19.3564,
+        "margin": 48148,
+        "margin_pct": 22.5703,
         "winner": "REP",
-        "color": "#fb6a4a",
+        "color": "#de2d26",
         "competitiveness": {
-          "color": "#fb6a4a"
+          "color": "#de2d26"
         },
         "no_data": false
       },
       "2": {
-        "dem_votes": 79778,
-        "rep_votes": 84606,
-        "other_votes": 12751,
-        "total_votes": 177135,
+        "dem_votes": 95879,
+        "rep_votes": 113580,
+        "other_votes": 16951,
+        "total_votes": 226410,
         "dem_candidate": "A.J. Balukoff",
         "rep_candidate": "C.L. \"Butch\" Otter",
-        "margin": 4828,
-        "margin_pct": 2.7256,
+        "margin": 17701,
+        "margin_pct": 7.8181,
         "winner": "REP",
-        "color": "#cbd5e1",
+        "color": "#fcae91",
         "competitiveness": {
-          "color": "#cbd5e1"
+          "color": "#fcae91"
         },
         "no_data": false
       }

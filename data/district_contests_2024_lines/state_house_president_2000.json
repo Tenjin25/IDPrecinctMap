@@ -3,30 +3,31 @@
   "scope": "state_house",
   "contest_type": "president",
   "meta": {
-    "match_coverage_pct": 47.15,
-    "matched_precinct_keys": 438,
+    "match_coverage_pct": 100,
+    "matched_precinct_keys": 929,
     "total_precinct_keys": 929,
-    "weighted_vote_coverage_pct": 38.33,
+    "weighted_vote_coverage_pct": 113.28,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "President of the United States",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 7,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 341,
-      "legacy_2008_vtd00_rows": 97,
-      "direct_2022_districtcoded_rows": 0
+      "modern_2020_vtd20_rows": 2,
+      "legacy_2008_vtd00_rows": 19,
+      "direct_2022_districtcoded_rows": 908
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 2994,
-        "rep_votes": 6974,
-        "other_votes": 821,
-        "total_votes": 10790,
+        "dem_votes": 4814,
+        "rep_votes": 10744,
+        "other_votes": 1437,
+        "total_votes": 16995,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 3980,
-        "margin_pct": 36.886,
+        "margin": 5930,
+        "margin_pct": 34.8926,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -35,14 +36,14 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 2777,
-        "rep_votes": 5742,
-        "other_votes": 482,
-        "total_votes": 9000,
+        "dem_votes": 5367,
+        "rep_votes": 11788,
+        "other_votes": 922,
+        "total_votes": 18078,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 2965,
-        "margin_pct": 32.9444,
+        "margin": 6421,
+        "margin_pct": 35.5183,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -51,62 +52,62 @@
         "no_data": false
       },
       "3": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+        "dem_votes": 2942,
+        "rep_votes": 7412,
+        "other_votes": 476,
+        "total_votes": 10830,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 4470,
+        "margin_pct": 41.2742,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "4": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+        "dem_votes": 3816,
+        "rep_votes": 6152,
+        "other_votes": 618,
+        "total_votes": 10585,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 2336,
+        "margin_pct": 22.069,
+        "winner": "REP",
+        "color": "#de2d26",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#de2d26"
         },
-        "no_data": true
+        "no_data": false
       },
       "5": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+        "dem_votes": 2708,
+        "rep_votes": 6002,
+        "other_votes": 501,
+        "total_votes": 9211,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 3294,
+        "margin_pct": 35.7616,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "6": {
-        "dem_votes": 7019,
-        "rep_votes": 11992,
-        "other_votes": 1566,
-        "total_votes": 20577,
+        "dem_votes": 6575,
+        "rep_votes": 11254,
+        "other_votes": 1544,
+        "total_votes": 19373,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 4973,
-        "margin_pct": 24.1678,
+        "margin": 4679,
+        "margin_pct": 24.1522,
         "winner": "REP",
         "color": "#de2d26",
         "competitiveness": {
@@ -115,14 +116,14 @@
         "no_data": false
       },
       "7": {
-        "dem_votes": 4560,
-        "rep_votes": 12258,
-        "other_votes": 757,
-        "total_votes": 17575,
+        "dem_votes": 5465,
+        "rep_votes": 15331,
+        "other_votes": 902,
+        "total_votes": 21697,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 7698,
-        "margin_pct": 43.8009,
+        "margin": 9866,
+        "margin_pct": 45.4717,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -131,14 +132,14 @@
         "no_data": false
       },
       "8": {
-        "dem_votes": 2068,
-        "rep_votes": 6125,
-        "other_votes": 523,
-        "total_votes": 8716,
+        "dem_votes": 4131,
+        "rep_votes": 11253,
+        "other_votes": 947,
+        "total_votes": 16331,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 4057,
-        "margin_pct": 46.5466,
+        "margin": 7122,
+        "margin_pct": 43.6103,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -147,14 +148,14 @@
         "no_data": false
       },
       "9": {
-        "dem_votes": 980,
-        "rep_votes": 2899,
-        "other_votes": 190,
-        "total_votes": 4069,
+        "dem_votes": 3512,
+        "rep_votes": 11230,
+        "other_votes": 626,
+        "total_votes": 15367,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 1919,
-        "margin_pct": 47.1615,
+        "margin": 7718,
+        "margin_pct": 50.2245,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -163,78 +164,78 @@
         "no_data": false
       },
       "10": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+        "dem_votes": 1677,
+        "rep_votes": 5084,
+        "other_votes": 333,
+        "total_votes": 7095,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 3407,
+        "margin_pct": 48.0197,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "11": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+        "dem_votes": 2517,
+        "rep_votes": 5665,
+        "other_votes": 418,
+        "total_votes": 8600,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 3148,
+        "margin_pct": 36.6047,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "12": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+        "dem_votes": 2305,
+        "rep_votes": 6123,
+        "other_votes": 365,
+        "total_votes": 8792,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 3818,
+        "margin_pct": 43.4258,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "13": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+        "dem_votes": 2853,
+        "rep_votes": 8506,
+        "other_votes": 476,
+        "total_votes": 11835,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 5653,
+        "margin_pct": 47.7651,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "14": {
-        "dem_votes": 1346,
-        "rep_votes": 4376,
-        "other_votes": 261,
-        "total_votes": 5983,
+        "dem_votes": 2925,
+        "rep_votes": 8643,
+        "other_votes": 509,
+        "total_votes": 12078,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 3030,
-        "margin_pct": 50.6435,
+        "margin": 5718,
+        "margin_pct": 47.3423,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -243,142 +244,142 @@
         "no_data": false
       },
       "15": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+        "dem_votes": 4165,
+        "rep_votes": 9726,
+        "other_votes": 619,
+        "total_votes": 14511,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 5561,
+        "margin_pct": 38.3227,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "16": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+        "dem_votes": 10199,
+        "rep_votes": 17453,
+        "other_votes": 1661,
+        "total_votes": 29312,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 7254,
+        "margin_pct": 24.7475,
+        "winner": "REP",
+        "color": "#de2d26",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#de2d26"
         },
-        "no_data": true
+        "no_data": false
       },
       "17": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+        "dem_votes": 5699,
+        "rep_votes": 9166,
+        "other_votes": 1102,
+        "total_votes": 15967,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 3467,
+        "margin_pct": 21.7135,
+        "winner": "REP",
+        "color": "#de2d26",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#de2d26"
         },
-        "no_data": true
+        "no_data": false
       },
       "18": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+        "dem_votes": 13878,
+        "rep_votes": 24460,
+        "other_votes": 2253,
+        "total_votes": 40590,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 10582,
+        "margin_pct": 26.0705,
+        "winner": "REP",
+        "color": "#de2d26",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#de2d26"
         },
-        "no_data": true
+        "no_data": false
       },
       "19": {
-        "dem_votes": 398,
-        "rep_votes": 478,
-        "other_votes": 104,
-        "total_votes": 980,
+        "dem_votes": 19952,
+        "rep_votes": 31737,
+        "other_votes": 3781,
+        "total_votes": 55470,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 80,
-        "margin_pct": 8.1633,
+        "margin": 11785,
+        "margin_pct": 21.2457,
         "winner": "REP",
-        "color": "#fcae91",
+        "color": "#de2d26",
         "competitiveness": {
-          "color": "#fcae91"
+          "color": "#de2d26"
         },
         "no_data": false
       },
       "20": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+        "dem_votes": 976,
+        "rep_votes": 3011,
+        "other_votes": 113,
+        "total_votes": 4100,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 2035,
+        "margin_pct": 49.6341,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "21": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+        "dem_votes": 2636,
+        "rep_votes": 7980,
+        "other_votes": 385,
+        "total_votes": 11001,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 5344,
+        "margin_pct": 48.5774,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "22": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+        "dem_votes": 1666,
+        "rep_votes": 4750,
+        "other_votes": 361,
+        "total_votes": 6778,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 3084,
+        "margin_pct": 45.5001,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "23": {
-        "dem_votes": 597,
-        "rep_votes": 2286,
-        "other_votes": 114,
-        "total_votes": 2997,
+        "dem_votes": 2005,
+        "rep_votes": 7810,
+        "other_votes": 443,
+        "total_votes": 10257,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 1689,
-        "margin_pct": 56.3564,
+        "margin": 5805,
+        "margin_pct": 56.5955,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -387,14 +388,14 @@
         "no_data": false
       },
       "24": {
-        "dem_votes": 2154,
-        "rep_votes": 6281,
-        "other_votes": 382,
-        "total_votes": 8817,
+        "dem_votes": 2276,
+        "rep_votes": 6779,
+        "other_votes": 407,
+        "total_votes": 9462,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 4127,
-        "margin_pct": 46.8073,
+        "margin": 4503,
+        "margin_pct": 47.5904,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -403,14 +404,14 @@
         "no_data": false
       },
       "25": {
-        "dem_votes": 4982,
-        "rep_votes": 13325,
-        "other_votes": 850,
-        "total_votes": 19157,
+        "dem_votes": 4896,
+        "rep_votes": 12876,
+        "other_votes": 829,
+        "total_votes": 18601,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 8343,
-        "margin_pct": 43.5507,
+        "margin": 7980,
+        "margin_pct": 42.9009,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -419,14 +420,14 @@
         "no_data": false
       },
       "26": {
-        "dem_votes": 1101,
-        "rep_votes": 1759,
-        "other_votes": 274,
-        "total_votes": 3134,
+        "dem_votes": 5545,
+        "rep_votes": 8995,
+        "other_votes": 979,
+        "total_votes": 15519,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 658,
-        "margin_pct": 20.9955,
+        "margin": 3450,
+        "margin_pct": 22.2308,
         "winner": "REP",
         "color": "#de2d26",
         "competitiveness": {
@@ -435,14 +436,14 @@
         "no_data": false
       },
       "27": {
-        "dem_votes": 1280,
-        "rep_votes": 4985,
-        "other_votes": 209,
-        "total_votes": 6474,
+        "dem_votes": 2738,
+        "rep_votes": 12317,
+        "other_votes": 541,
+        "total_votes": 15596,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 3705,
-        "margin_pct": 57.2289,
+        "margin": 9579,
+        "margin_pct": 61.4196,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -451,14 +452,14 @@
         "no_data": false
       },
       "28": {
-        "dem_votes": 4603,
-        "rep_votes": 12486,
-        "other_votes": 724,
-        "total_votes": 17813,
+        "dem_votes": 3834,
+        "rep_votes": 10768,
+        "other_votes": 591,
+        "total_votes": 15193,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 7883,
-        "margin_pct": 44.2542,
+        "margin": 6934,
+        "margin_pct": 45.6394,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -467,14 +468,14 @@
         "no_data": false
       },
       "29": {
-        "dem_votes": 10336,
-        "rep_votes": 15664,
-        "other_votes": 1549,
-        "total_votes": 27549,
+        "dem_votes": 6622,
+        "rep_votes": 10155,
+        "other_votes": 1141,
+        "total_votes": 17918,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 5328,
-        "margin_pct": 19.3401,
+        "margin": 3533,
+        "margin_pct": 19.7176,
         "winner": "REP",
         "color": "#fb6a4a",
         "competitiveness": {
@@ -483,14 +484,14 @@
         "no_data": false
       },
       "30": {
-        "dem_votes": 1498,
-        "rep_votes": 4413,
-        "other_votes": 261,
-        "total_votes": 6172,
+        "dem_votes": 3664,
+        "rep_votes": 11683,
+        "other_votes": 579,
+        "total_votes": 15926,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 2915,
-        "margin_pct": 47.2294,
+        "margin": 8019,
+        "margin_pct": 50.3516,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -499,14 +500,14 @@
         "no_data": false
       },
       "31": {
-        "dem_votes": 783,
-        "rep_votes": 4165,
-        "other_votes": 139,
-        "total_votes": 5087,
+        "dem_votes": 2521,
+        "rep_votes": 13887,
+        "other_votes": 533,
+        "total_votes": 16941,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 3382,
-        "margin_pct": 66.4832,
+        "margin": 11366,
+        "margin_pct": 67.0917,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -515,46 +516,46 @@
         "no_data": false
       },
       "32": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+        "dem_votes": 1853,
+        "rep_votes": 7685,
+        "other_votes": 387,
+        "total_votes": 9925,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 5832,
+        "margin_pct": 58.7607,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "33": {
-        "dem_votes": 0,
-        "rep_votes": 0,
-        "other_votes": 0,
-        "total_votes": 0,
+        "dem_votes": 5246,
+        "rep_votes": 13904,
+        "other_votes": 817,
+        "total_votes": 19967,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 8658,
+        "margin_pct": 43.3615,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "34": {
-        "dem_votes": 204,
-        "rep_votes": 1767,
-        "other_votes": 52,
-        "total_votes": 2023,
+        "dem_votes": 1350,
+        "rep_votes": 8751,
+        "other_votes": 260,
+        "total_votes": 10361,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 1563,
-        "margin_pct": 77.2615,
+        "margin": 7401,
+        "margin_pct": 71.4313,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -563,14 +564,14 @@
         "no_data": false
       },
       "35": {
-        "dem_votes": 2453,
-        "rep_votes": 8214,
-        "other_votes": 522,
-        "total_votes": 11189,
+        "dem_votes": 3020,
+        "rep_votes": 12002,
+        "other_votes": 692,
+        "total_votes": 15713,
         "dem_candidate": "Al Gore",
         "rep_candidate": "George W. Bush",
-        "margin": 5761,
-        "margin_pct": 51.4881,
+        "margin": 8982,
+        "margin_pct": 57.1629,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {

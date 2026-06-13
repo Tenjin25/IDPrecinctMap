@@ -4,7 +4,8 @@
   "meta": {
     "office": "Governor",
     "source": "20061107__id__general__precinct.csv",
-    "aggregation": "precinct"
+    "aggregation": "precinct",
+    "candidate_count": 4
   },
   "rows": [
     {

@@ -4,7 +4,8 @@
   "contest_type": "us_house",
   "meta": {
     "office": "U.S. House",
-    "source": "20241105__id__general__precinct.csv"
+    "source": "20241105__id__general__precinct.csv",
+    "candidate_count": 10
   },
   "general": {
     "results": {

@@ -3,30 +3,31 @@
   "scope": "congressional",
   "contest_type": "lieutenant_governor",
   "meta": {
-    "match_coverage_pct": 50.53,
-    "matched_precinct_keys": 481,
+    "match_coverage_pct": 97.48,
+    "matched_precinct_keys": 928,
     "total_precinct_keys": 952,
-    "weighted_vote_coverage_pct": 40.71,
+    "weighted_vote_coverage_pct": 97.69,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "Lieutenant Governor",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 3,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 402,
-      "legacy_2008_vtd00_rows": 79,
-      "direct_2022_districtcoded_rows": 0
+      "modern_2020_vtd20_rows": 0,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 928
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 29784,
-        "rep_votes": 39131,
-        "other_votes": 1549,
-        "total_votes": 70464,
+        "dem_votes": 70932,
+        "rep_votes": 105879,
+        "other_votes": 4190,
+        "total_votes": 181001,
         "dem_candidate": "Larry LaRocco",
         "rep_candidate": "Jim Risch",
-        "margin": 9347,
-        "margin_pct": 13.2649,
+        "margin": 34947,
+        "margin_pct": 19.3076,
         "winner": "REP",
         "color": "#fb6a4a",
         "competitiveness": {
@@ -35,14 +36,14 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 37706,
-        "rep_votes": 66528,
-        "other_votes": 2962,
-        "total_votes": 107196,
+        "dem_votes": 94705,
+        "rep_votes": 144662,
+        "other_votes": 5950,
+        "total_votes": 245317,
         "dem_candidate": "Larry LaRocco",
         "rep_candidate": "Jim Risch",
-        "margin": 28822,
-        "margin_pct": 26.8872,
+        "margin": 49957,
+        "margin_pct": 20.3643,
         "winner": "REP",
         "color": "#de2d26",
         "competitiveness": {

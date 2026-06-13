@@ -3,30 +3,31 @@
   "scope": "congressional",
   "contest_type": "us_senate",
   "meta": {
-    "match_coverage_pct": 66.84,
-    "matched_precinct_keys": 645,
+    "match_coverage_pct": 99.79,
+    "matched_precinct_keys": 963,
     "total_precinct_keys": 965,
-    "weighted_vote_coverage_pct": 66.77,
+    "weighted_vote_coverage_pct": 100,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "United States Senator",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 2,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 570,
-      "legacy_2008_vtd00_rows": 75,
-      "direct_2022_districtcoded_rows": 0
+      "modern_2020_vtd20_rows": 83,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 880
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 37098,
-        "rep_votes": 78806,
+        "dem_votes": 66224,
+        "rep_votes": 146006,
         "other_votes": 0,
-        "total_votes": 115904,
+        "total_votes": 212230,
         "dem_candidate": "Nels Mitchell",
         "rep_candidate": "Jim Risch",
-        "margin": 41708,
-        "margin_pct": 35.985,
+        "margin": 79782,
+        "margin_pct": 37.5922,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -35,18 +36,18 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 71602,
-        "rep_votes": 104397,
+        "dem_votes": 85350,
+        "rep_votes": 139590,
         "other_votes": 0,
-        "total_votes": 175999,
+        "total_votes": 224940,
         "dem_candidate": "Nels Mitchell",
         "rep_candidate": "Jim Risch",
-        "margin": 32795,
-        "margin_pct": 18.6336,
+        "margin": 54240,
+        "margin_pct": 24.1131,
         "winner": "REP",
-        "color": "#fb6a4a",
+        "color": "#de2d26",
         "competitiveness": {
-          "color": "#fb6a4a"
+          "color": "#de2d26"
         },
         "no_data": false
       }

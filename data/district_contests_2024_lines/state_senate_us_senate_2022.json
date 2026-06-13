@@ -3,17 +3,18 @@
   "scope": "state_senate",
   "contest_type": "us_senate",
   "meta": {
-    "match_coverage_pct": 94.92,
-    "matched_precinct_keys": 991,
-    "total_precinct_keys": 1044,
-    "weighted_vote_coverage_pct": 33.13,
+    "match_coverage_pct": 99.9,
+    "matched_precinct_keys": 998,
+    "total_precinct_keys": 999,
+    "weighted_vote_coverage_pct": 100,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "United States Senator",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 5,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 4,
-      "legacy_2008_vtd00_rows": 1,
-      "direct_2022_districtcoded_rows": 986
+      "modern_2020_vtd20_rows": 3,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 995
     }
   },
   "general": {
@@ -115,14 +116,14 @@
         "no_data": false
       },
       "7": {
-        "dem_votes": 4413,
-        "rep_votes": 14465,
-        "other_votes": 1727,
-        "total_votes": 20605,
+        "dem_votes": 3994,
+        "rep_votes": 13356,
+        "other_votes": 1611,
+        "total_votes": 18961,
         "dem_candidate": "David Roth",
         "rep_candidate": "Mike Crapo",
-        "margin": 10052,
-        "margin_pct": 48.7843,
+        "margin": 9362,
+        "margin_pct": 49.375,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -147,14 +148,14 @@
         "no_data": false
       },
       "9": {
-        "dem_votes": 1722,
-        "rep_votes": 9481,
-        "other_votes": 1746,
-        "total_votes": 12949,
+        "dem_votes": 2299,
+        "rep_votes": 12186,
+        "other_votes": 2273,
+        "total_votes": 16758,
         "dem_candidate": "David Roth",
         "rep_candidate": "Mike Crapo",
-        "margin": 7759,
-        "margin_pct": 59.9197,
+        "margin": 9887,
+        "margin_pct": 58.9987,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -435,14 +436,14 @@
         "no_data": false
       },
       "27": {
-        "dem_votes": 1179,
-        "rep_votes": 8357,
-        "other_votes": 1099,
-        "total_votes": 10635,
+        "dem_votes": 1293,
+        "rep_votes": 9572,
+        "other_votes": 1244,
+        "total_votes": 12109,
         "dem_candidate": "David Roth",
         "rep_candidate": "Mike Crapo",
-        "margin": 7178,
-        "margin_pct": 67.4941,
+        "margin": 8279,
+        "margin_pct": 68.3706,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {

@@ -3,30 +3,31 @@
   "scope": "congressional",
   "contest_type": "governor",
   "meta": {
-    "match_coverage_pct": 50.53,
-    "matched_precinct_keys": 481,
+    "match_coverage_pct": 97.48,
+    "matched_precinct_keys": 928,
     "total_precinct_keys": 952,
-    "weighted_vote_coverage_pct": 40.67,
+    "weighted_vote_coverage_pct": 97.69,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "Governor",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 4,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 402,
-      "legacy_2008_vtd00_rows": 79,
-      "direct_2022_districtcoded_rows": 0
+      "modern_2020_vtd20_rows": 0,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 928
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 32637,
-        "rep_votes": 36552,
-        "other_votes": 2293,
-        "total_votes": 71482,
+        "dem_votes": 79556,
+        "rep_votes": 97807,
+        "other_votes": 5914,
+        "total_votes": 183276,
         "dem_candidate": "Jerry M. Brady",
         "rep_candidate": "C.L. \"Butch\" Otter",
-        "margin": 3915,
-        "margin_pct": 5.4769,
+        "margin": 18251,
+        "margin_pct": 9.9582,
         "winner": "REP",
         "color": "#fcae91",
         "competitiveness": {
@@ -35,18 +36,18 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 43629,
-        "rep_votes": 60548,
-        "other_votes": 4028,
-        "total_votes": 108205,
+        "dem_votes": 108747,
+        "rep_votes": 131348,
+        "other_votes": 8239,
+        "total_votes": 248335,
         "dem_candidate": "Jerry M. Brady",
         "rep_candidate": "C.L. \"Butch\" Otter",
-        "margin": 16919,
-        "margin_pct": 15.6361,
+        "margin": 22601,
+        "margin_pct": 9.101,
         "winner": "REP",
-        "color": "#fb6a4a",
+        "color": "#fcae91",
         "competitiveness": {
-          "color": "#fb6a4a"
+          "color": "#fcae91"
         },
         "no_data": false
       }

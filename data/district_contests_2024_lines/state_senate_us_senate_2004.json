@@ -3,30 +3,31 @@
   "scope": "state_senate",
   "contest_type": "us_senate",
   "meta": {
-    "match_coverage_pct": 52.74,
-    "matched_precinct_keys": 500,
+    "match_coverage_pct": 99.79,
+    "matched_precinct_keys": 946,
     "total_precinct_keys": 948,
-    "weighted_vote_coverage_pct": 43.13,
+    "weighted_vote_coverage_pct": 121.52,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "United States Senator",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 2,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 420,
-      "legacy_2008_vtd00_rows": 80,
-      "direct_2022_districtcoded_rows": 0
+      "modern_2020_vtd20_rows": 38,
+      "legacy_2008_vtd00_rows": 22,
+      "direct_2022_districtcoded_rows": 886
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 196,
-        "rep_votes": 10378,
+        "dem_votes": 268,
+        "rep_votes": 16002,
         "other_votes": 0,
-        "total_votes": 10574,
+        "total_votes": 16270,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 10182,
-        "margin_pct": 96.2928,
+        "margin": 15734,
+        "margin_pct": 96.7056,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -35,14 +36,14 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 129,
-        "rep_votes": 9173,
+        "dem_votes": 651,
+        "rep_votes": 36333,
         "other_votes": 0,
-        "total_votes": 9302,
+        "total_votes": 36984,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 9044,
-        "margin_pct": 97.2264,
+        "margin": 35682,
+        "margin_pct": 96.4796,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -51,30 +52,30 @@
         "no_data": false
       },
       "3": {
-        "dem_votes": 0,
-        "rep_votes": 0,
+        "dem_votes": 671,
+        "rep_votes": 33768,
         "other_votes": 0,
-        "total_votes": 0,
+        "total_votes": 34439,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 33097,
+        "margin_pct": 96.1033,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "4": {
-        "dem_votes": 95,
-        "rep_votes": 3769,
+        "dem_votes": 192,
+        "rep_votes": 12099,
         "other_votes": 0,
-        "total_votes": 3865,
+        "total_votes": 12291,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 3674,
-        "margin_pct": 95.0582,
+        "margin": 11907,
+        "margin_pct": 96.8758,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -83,14 +84,14 @@
         "no_data": false
       },
       "5": {
-        "dem_votes": 39,
-        "rep_votes": 2056,
+        "dem_votes": 121,
+        "rep_votes": 9049,
         "other_votes": 0,
-        "total_votes": 2095,
+        "total_votes": 9170,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 2017,
-        "margin_pct": 96.2768,
+        "margin": 8928,
+        "margin_pct": 97.361,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -99,14 +100,14 @@
         "no_data": false
       },
       "6": {
-        "dem_votes": 502,
-        "rep_votes": 17250,
+        "dem_votes": 606,
+        "rep_votes": 17817,
         "other_votes": 0,
-        "total_votes": 17752,
+        "total_votes": 18423,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 16748,
-        "margin_pct": 94.3443,
+        "margin": 17211,
+        "margin_pct": 93.4213,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -115,14 +116,14 @@
         "no_data": false
       },
       "7": {
-        "dem_votes": 109,
-        "rep_votes": 16785,
+        "dem_votes": 110,
+        "rep_votes": 19138,
         "other_votes": 0,
-        "total_votes": 16894,
+        "total_votes": 19248,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 16676,
-        "margin_pct": 98.7096,
+        "margin": 19028,
+        "margin_pct": 98.857,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -131,14 +132,14 @@
         "no_data": false
       },
       "8": {
-        "dem_votes": 39,
-        "rep_votes": 11384,
+        "dem_votes": 54,
+        "rep_votes": 15522,
         "other_votes": 0,
-        "total_votes": 11423,
+        "total_votes": 15576,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 11345,
-        "margin_pct": 99.3172,
+        "margin": 15468,
+        "margin_pct": 99.3066,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -147,14 +148,14 @@
         "no_data": false
       },
       "9": {
-        "dem_votes": 9,
-        "rep_votes": 9481,
+        "dem_votes": 20,
+        "rep_votes": 15098,
         "other_votes": 0,
-        "total_votes": 9490,
+        "total_votes": 15117,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 9472,
-        "margin_pct": 99.8103,
+        "margin": 15078,
+        "margin_pct": 99.742,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -163,14 +164,14 @@
         "no_data": false
       },
       "10": {
-        "dem_votes": 1,
-        "rep_votes": 1130,
+        "dem_votes": 15,
+        "rep_votes": 8645,
         "other_votes": 0,
-        "total_votes": 1131,
+        "total_votes": 8660,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 1129,
-        "margin_pct": 99.8232,
+        "margin": 8630,
+        "margin_pct": 99.6536,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -179,62 +180,62 @@
         "no_data": false
       },
       "11": {
-        "dem_votes": 0,
-        "rep_votes": 0,
+        "dem_votes": 18,
+        "rep_votes": 9631,
         "other_votes": 0,
-        "total_votes": 0,
+        "total_votes": 9648,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 9613,
+        "margin_pct": 99.6372,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "12": {
-        "dem_votes": 0,
-        "rep_votes": 0,
+        "dem_votes": 12,
+        "rep_votes": 10789,
         "other_votes": 0,
-        "total_votes": 0,
+        "total_votes": 10800,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 10777,
+        "margin_pct": 99.787,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "13": {
-        "dem_votes": 0,
-        "rep_votes": 0,
+        "dem_votes": 18,
+        "rep_votes": 12490,
         "other_votes": 0,
-        "total_votes": 0,
+        "total_votes": 12509,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 12472,
+        "margin_pct": 99.7042,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "14": {
-        "dem_votes": 14,
-        "rep_votes": 7210,
+        "dem_votes": 25,
+        "rep_votes": 10289,
         "other_votes": 0,
-        "total_votes": 7224,
+        "total_votes": 10314,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 7196,
-        "margin_pct": 99.6124,
+        "margin": 10264,
+        "margin_pct": 99.5152,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -243,78 +244,78 @@
         "no_data": false
       },
       "15": {
-        "dem_votes": 0,
-        "rep_votes": 0,
+        "dem_votes": 31,
+        "rep_votes": 10522,
         "other_votes": 0,
-        "total_votes": 0,
+        "total_votes": 10553,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 10491,
+        "margin_pct": 99.4125,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "16": {
-        "dem_votes": 0,
-        "rep_votes": 0,
+        "dem_votes": 165,
+        "rep_votes": 34170,
         "other_votes": 0,
-        "total_votes": 0,
+        "total_votes": 34335,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 34005,
+        "margin_pct": 99.0389,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "17": {
-        "dem_votes": 0,
-        "rep_votes": 0,
+        "dem_votes": 65,
+        "rep_votes": 19832,
         "other_votes": 0,
-        "total_votes": 0,
+        "total_votes": 19897,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 19767,
+        "margin_pct": 99.3466,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "18": {
-        "dem_votes": 0,
-        "rep_votes": 0,
+        "dem_votes": 264,
+        "rep_votes": 44400,
         "other_votes": 0,
-        "total_votes": 0,
+        "total_votes": 44665,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 44136,
+        "margin_pct": 98.8156,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "19": {
-        "dem_votes": 0,
-        "rep_votes": 607,
+        "dem_votes": 384,
+        "rep_votes": 62467,
         "other_votes": 0,
-        "total_votes": 607,
+        "total_votes": 62851,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 607,
-        "margin_pct": 100,
+        "margin": 62083,
+        "margin_pct": 98.7781,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -323,62 +324,62 @@
         "no_data": false
       },
       "20": {
-        "dem_votes": 0,
-        "rep_votes": 0,
+        "dem_votes": 6,
+        "rep_votes": 2536,
         "other_votes": 0,
-        "total_votes": 0,
+        "total_votes": 2542,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 2530,
+        "margin_pct": 99.5279,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "21": {
-        "dem_votes": 0,
-        "rep_votes": 0,
+        "dem_votes": 23,
+        "rep_votes": 7962,
         "other_votes": 0,
-        "total_votes": 0,
+        "total_votes": 7985,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 7939,
+        "margin_pct": 99.4239,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "22": {
-        "dem_votes": 0,
-        "rep_votes": 0,
+        "dem_votes": 17,
+        "rep_votes": 7384,
         "other_votes": 0,
-        "total_votes": 0,
+        "total_votes": 7402,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 7367,
+        "margin_pct": 99.5272,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "23": {
-        "dem_votes": 3,
-        "rep_votes": 2821,
+        "dem_votes": 12,
+        "rep_votes": 10185,
         "other_votes": 0,
-        "total_votes": 2824,
+        "total_votes": 10197,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 2818,
-        "margin_pct": 99.7875,
+        "margin": 10173,
+        "margin_pct": 99.7646,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -387,14 +388,14 @@
         "no_data": false
       },
       "24": {
-        "dem_votes": 158,
-        "rep_votes": 11746,
+        "dem_votes": 157,
+        "rep_votes": 12432,
         "other_votes": 0,
-        "total_votes": 11904,
+        "total_votes": 12588,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 11588,
-        "margin_pct": 97.3454,
+        "margin": 12275,
+        "margin_pct": 97.5135,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -403,14 +404,14 @@
         "no_data": false
       },
       "25": {
-        "dem_votes": 249,
-        "rep_votes": 15181,
+        "dem_votes": 252,
+        "rep_votes": 14994,
         "other_votes": 0,
-        "total_votes": 15430,
+        "total_votes": 15246,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 14932,
-        "margin_pct": 96.7725,
+        "margin": 14742,
+        "margin_pct": 96.6942,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -419,14 +420,14 @@
         "no_data": false
       },
       "26": {
-        "dem_votes": 121,
-        "rep_votes": 10537,
+        "dem_votes": 205,
+        "rep_votes": 14535,
         "other_votes": 0,
-        "total_votes": 10658,
+        "total_votes": 14740,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 10416,
-        "margin_pct": 97.7294,
+        "margin": 14330,
+        "margin_pct": 97.2185,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -435,14 +436,14 @@
         "no_data": false
       },
       "27": {
-        "dem_votes": 21,
-        "rep_votes": 9560,
+        "dem_votes": 30,
+        "rep_votes": 15400,
         "other_votes": 0,
-        "total_votes": 9581,
+        "total_votes": 15430,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 9539,
-        "margin_pct": 99.5616,
+        "margin": 15370,
+        "margin_pct": 99.6111,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -451,14 +452,14 @@
         "no_data": false
       },
       "28": {
-        "dem_votes": 121,
-        "rep_votes": 15421,
+        "dem_votes": 86,
+        "rep_votes": 15255,
         "other_votes": 0,
-        "total_votes": 15541,
+        "total_votes": 15340,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 15300,
-        "margin_pct": 98.4493,
+        "margin": 15169,
+        "margin_pct": 98.8853,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -467,14 +468,14 @@
         "no_data": false
       },
       "29": {
-        "dem_votes": 418,
-        "rep_votes": 20645,
+        "dem_votes": 398,
+        "rep_votes": 19266,
         "other_votes": 0,
-        "total_votes": 21063,
+        "total_votes": 19665,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 20227,
-        "margin_pct": 96.031,
+        "margin": 18868,
+        "margin_pct": 95.9471,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -483,14 +484,14 @@
         "no_data": false
       },
       "30": {
-        "dem_votes": 21,
-        "rep_votes": 6901,
+        "dem_votes": 60,
+        "rep_votes": 15991,
         "other_votes": 0,
-        "total_votes": 6922,
+        "total_votes": 16051,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 6880,
-        "margin_pct": 99.3932,
+        "margin": 15931,
+        "margin_pct": 99.2524,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -499,14 +500,14 @@
         "no_data": false
       },
       "31": {
-        "dem_votes": 27,
-        "rep_votes": 8579,
+        "dem_votes": 98,
+        "rep_votes": 17488,
         "other_votes": 0,
-        "total_votes": 8606,
+        "total_votes": 17586,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 8552,
-        "margin_pct": 99.3725,
+        "margin": 17390,
+        "margin_pct": 98.8855,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -515,14 +516,14 @@
         "no_data": false
       },
       "32": {
-        "dem_votes": 19,
-        "rep_votes": 1092,
+        "dem_votes": 102,
+        "rep_votes": 9761,
         "other_votes": 0,
-        "total_votes": 1111,
+        "total_votes": 9863,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 1073,
-        "margin_pct": 96.5797,
+        "margin": 9659,
+        "margin_pct": 97.9317,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -531,29 +532,29 @@
         "no_data": false
       },
       "33": {
-        "dem_votes": 0,
-        "rep_votes": 0,
+        "dem_votes": 289,
+        "rep_votes": 17944,
         "other_votes": 0,
-        "total_votes": 0,
+        "total_votes": 18233,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": 17655,
+        "margin_pct": 96.8299,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#a50f15"
         },
-        "no_data": true
+        "no_data": false
       },
       "34": {
         "dem_votes": 24,
-        "rep_votes": 11004,
+        "rep_votes": 11003,
         "other_votes": 0,
-        "total_votes": 11028,
+        "total_votes": 11027,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 10980,
+        "margin": 10979,
         "margin_pct": 99.5647,
         "winner": "REP",
         "color": "#a50f15",
@@ -563,14 +564,14 @@
         "no_data": false
       },
       "35": {
-        "dem_votes": 61,
-        "rep_votes": 12240,
+        "dem_votes": 65,
+        "rep_votes": 16678,
         "other_votes": 0,
-        "total_votes": 12301,
+        "total_votes": 16743,
         "dem_candidate": "Scott F. McClure",
         "rep_candidate": "Mike Crapo",
-        "margin": 12179,
-        "margin_pct": 99.0082,
+        "margin": 16613,
+        "margin_pct": 99.2236,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {

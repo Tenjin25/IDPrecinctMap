@@ -4,30 +4,31 @@
   "contest_type": "us_house",
   "meta": {
     "office": "U.S. House",
-    "source": "2022_General_Canvass.zip"
+    "source": "2022_General_Canvass.zip",
+    "candidate_count": 2
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 164522,
-        "rep_votes": 445802,
-        "other_votes": 14560,
-        "total_votes": 624884,
+        "dem_votes": 82261,
+        "rep_votes": 222901,
+        "other_votes": 7280,
+        "total_votes": 312442,
         "dem_candidate": "Kaylee Peterson",
         "rep_candidate": "Russ Fulcher",
-        "margin": 281280,
+        "margin": 140640,
         "margin_pct": 45.0132,
         "winner": "REP",
         "color": "#a50f15"
       },
       "2": {
-        "dem_votes": 197472,
-        "rep_votes": 344900,
+        "dem_votes": 98736,
+        "rep_votes": 172450,
         "other_votes": 0,
-        "total_votes": 542372,
+        "total_votes": 271186,
         "dem_candidate": "Wendy Norman",
         "rep_candidate": "Mike Simpson",
-        "margin": 147428,
+        "margin": 73714,
         "margin_pct": 27.1821,
         "winner": "REP",
         "color": "#de2d26"

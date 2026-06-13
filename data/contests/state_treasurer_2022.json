@@ -4,7 +4,8 @@
   "meta": {
     "office": "State Treasurer",
     "source": "20221108__id__general__precinct.csv",
-    "aggregation": "precinct"
+    "aggregation": "precinct",
+    "candidate_count": 2
   },
   "rows": [
     {
@@ -2569,19 +2570,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "ADA CONT. - CO. TOTAL",
-      "dem_votes": 72352,
-      "rep_votes": 108099,
-      "other_votes": 0,
-      "total_votes": 180451,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 35747,
-      "margin_pct": 19.8098,
-      "winner": "REP",
-      "color": "#fb6a4a"
-    },
-    {
       "county": "ADAMS - ABSENTEE",
       "dem_votes": 147,
       "rep_votes": 325,
@@ -2604,19 +2592,6 @@
       "rep_candidate": "Julie A. Ellsworth",
       "margin": 37,
       "margin_pct": 100.0,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "ADAMS - CO. TOTAL",
-      "dem_votes": 352,
-      "rep_votes": 1636,
-      "other_votes": 0,
-      "total_votes": 1988,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 1284,
-      "margin_pct": 64.5875,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -3035,19 +3010,6 @@
       "margin_pct": 54.2571,
       "winner": "REP",
       "color": "#a50f15"
-    },
-    {
-      "county": "BANNOCK CONT. - CO. TOTAL",
-      "dem_votes": 9393,
-      "rep_votes": 15686,
-      "other_votes": 0,
-      "total_votes": 25079,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 6293,
-      "margin_pct": 25.0927,
-      "winner": "REP",
-      "color": "#de2d26"
     },
     {
       "county": "BANNOCK CONT. - DOWNEY 062",
@@ -3583,19 +3545,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "BEAR LAKE CONT. - CO. TOTAL",
-      "dem_votes": 205,
-      "rep_votes": 2029,
-      "other_votes": 0,
-      "total_votes": 2234,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 1824,
-      "margin_pct": 81.6473,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "BEAR LAKE CONT. - LIBERTY 12",
       "dem_votes": 2,
       "rep_votes": 79,
@@ -3670,19 +3619,6 @@
       "rep_candidate": "Julie A. Ellsworth",
       "margin": 253,
       "margin_pct": 69.3151,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BENEWAH - CO. TOTAL",
-      "dem_votes": 526,
-      "rep_votes": 2863,
-      "other_votes": 0,
-      "total_votes": 3389,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 2337,
-      "margin_pct": 68.9584,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -3932,19 +3868,6 @@
       "margin_pct": 0.0,
       "winner": "TIE",
       "color": "#cbd5e1"
-    },
-    {
-      "county": "BINGHAM - CO. TOTAL",
-      "dem_votes": 1860,
-      "rep_votes": 10229,
-      "other_votes": 0,
-      "total_votes": 12089,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 8369,
-      "margin_pct": 69.2282,
-      "winner": "REP",
-      "color": "#a50f15"
     },
     {
       "county": "BINGHAM - FIRTH 7",
@@ -4246,19 +4169,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "BLAINE CONT. - CO. TOTAL",
-      "dem_votes": 6168,
-      "rep_votes": 3495,
-      "other_votes": 0,
-      "total_votes": 9663,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": -2673,
-      "margin_pct": -27.6622,
-      "winner": "DEM",
-      "color": "#08519c"
-    },
-    {
       "county": "BLAINE CONT. - DEER CREEK",
       "dem_votes": 283,
       "rep_votes": 195,
@@ -4491,19 +4401,6 @@
       "margin_pct": 27.3189,
       "winner": "REP",
       "color": "#de2d26"
-    },
-    {
-      "county": "BOISE - CO. TOTAL",
-      "dem_votes": 686,
-      "rep_votes": 2686,
-      "other_votes": 0,
-      "total_votes": 3372,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 2000,
-      "margin_pct": 59.312,
-      "winner": "REP",
-      "color": "#a50f15"
     },
     {
       "county": "BONNER - AIRPORT",
@@ -4892,19 +4789,6 @@
       "rep_candidate": "Julie A. Ellsworth",
       "margin": 125,
       "margin_pct": 57.0776,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BONNER CONT. - CO. TOTAL",
-      "dem_votes": 5394,
-      "rep_votes": 15020,
-      "other_votes": 0,
-      "total_votes": 20414,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 9626,
-      "margin_pct": 47.1539,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -5572,19 +5456,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "BONNEVILLE - CO. TOTAL",
-      "dem_votes": 7774,
-      "rep_votes": 26141,
-      "other_votes": 0,
-      "total_votes": 33915,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 18367,
-      "margin_pct": 54.156,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "BOUNDARY - ABSENTEE",
       "dem_votes": 442,
       "rep_votes": 1054,
@@ -5607,19 +5478,6 @@
       "rep_candidate": "Julie A. Ellsworth",
       "margin": 330,
       "margin_pct": 71.1207,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BOUNDARY - CO. TOTAL",
-      "dem_votes": 796,
-      "rep_votes": 4302,
-      "other_votes": 0,
-      "total_votes": 5098,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 3506,
-      "margin_pct": 68.7721,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -5737,32 +5595,6 @@
       "rep_candidate": "Julie A. Ellsworth",
       "margin": 123,
       "margin_pct": 98.4,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BUTTE - CO. TOTAL",
-      "dem_votes": 114,
-      "rep_votes": 864,
-      "other_votes": 0,
-      "total_votes": 978,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 750,
-      "margin_pct": 76.6871,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CAMAS - CO. TOTAL",
-      "dem_votes": 95,
-      "rep_votes": 415,
-      "other_votes": 0,
-      "total_votes": 510,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 320,
-      "margin_pct": 62.7451,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -6521,19 +6353,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "CANYON CONT. - CO. TOTAL",
-      "dem_votes": 12844,
-      "rep_votes": 44724,
-      "other_votes": 0,
-      "total_votes": 57568,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 31880,
-      "margin_pct": 55.378,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "CARIBOU - BANCROFT",
       "dem_votes": 20,
       "rep_votes": 249,
@@ -6543,19 +6362,6 @@
       "rep_candidate": "Julie A. Ellsworth",
       "margin": 229,
       "margin_pct": 85.1301,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CARIBOU - CO. TOTAL",
-      "dem_votes": 233,
-      "rep_votes": 1837,
-      "other_votes": 0,
-      "total_votes": 2070,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 1604,
-      "margin_pct": 77.4879,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -6976,32 +6782,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "CASSIA CONT. - CO. TOTAL",
-      "dem_votes": 605,
-      "rep_votes": 5138,
-      "other_votes": 0,
-      "total_votes": 5743,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 4533,
-      "margin_pct": 78.9309,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CLARK - CO. TOTAL",
-      "dem_votes": 18,
-      "rep_votes": 187,
-      "other_votes": 0,
-      "total_votes": 205,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 169,
-      "margin_pct": 82.439,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "CLARK - PRECINCT #1",
       "dem_votes": 6,
       "rep_votes": 57,
@@ -7063,19 +6843,6 @@
       "rep_candidate": "Julie A. Ellsworth",
       "margin": 130,
       "margin_pct": 69.8925,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CLEARWATER - CO. TOTAL",
-      "dem_votes": 549,
-      "rep_votes": 2530,
-      "other_votes": 0,
-      "total_votes": 3079,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 1981,
-      "margin_pct": 64.3391,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -7301,19 +7068,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "CUSTER - CO. TOTAL",
-      "dem_votes": 370,
-      "rep_votes": 1611,
-      "other_votes": 0,
-      "total_votes": 1981,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 1241,
-      "margin_pct": 62.6451,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "CUSTER - LESLIE",
       "dem_votes": 29,
       "rep_votes": 247,
@@ -7531,19 +7285,6 @@
       "rep_candidate": "Julie A. Ellsworth",
       "margin": 377,
       "margin_pct": 59.3701,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "ELMORE CONT. - CO. TOTAL",
-      "dem_votes": 1392,
-      "rep_votes": 5089,
-      "other_votes": 0,
-      "total_votes": 6481,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 3697,
-      "margin_pct": 57.0437,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -7860,19 +7601,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "FRANKLIN - CO. TOTAL",
-      "dem_votes": 333,
-      "rep_votes": 3898,
-      "other_votes": 0,
-      "total_votes": 4231,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 3565,
-      "margin_pct": 84.259,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "FREMONT - 001",
       "dem_votes": 46,
       "rep_votes": 216,
@@ -8055,19 +7783,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "FREMONT - CO. TOTAL",
-      "dem_votes": 527,
-      "rep_votes": 3698,
-      "other_votes": 0,
-      "total_votes": 4225,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 3171,
-      "margin_pct": 75.0533,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "GEM - BUTTEVIEW",
       "dem_votes": 65,
       "rep_votes": 333,
@@ -8224,19 +7939,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "GEM CONT. - CO. TOTAL",
-      "dem_votes": 1109,
-      "rep_votes": 6351,
-      "other_votes": 0,
-      "total_votes": 7460,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 5242,
-      "margin_pct": 70.2681,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "GEM CONT. - OLA",
       "dem_votes": 13,
       "rep_votes": 75,
@@ -8272,19 +7974,6 @@
       "rep_candidate": "Julie A. Ellsworth",
       "margin": 105,
       "margin_pct": 52.2388,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "GOODING - CO. TOTAL",
-      "dem_votes": 684,
-      "rep_votes": 3270,
-      "other_votes": 0,
-      "total_votes": 3954,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 2586,
-      "margin_pct": 65.4021,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -8389,19 +8078,6 @@
       "rep_candidate": "Julie A. Ellsworth",
       "margin": 199,
       "margin_pct": 83.9662,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "IDAHO - CO. TOTAL",
-      "dem_votes": 1048,
-      "rep_votes": 6263,
-      "other_votes": 0,
-      "total_votes": 7311,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 5215,
-      "margin_pct": 71.3309,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -8848,19 +8524,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "JEFFERSON CONT. - CO. TOTAL",
-      "dem_votes": 843,
-      "rep_votes": 8142,
-      "other_votes": 0,
-      "total_votes": 8985,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 7299,
-      "margin_pct": 81.2354,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "JEFFERSON CONT. - MENAN",
       "dem_votes": 31,
       "rep_votes": 392,
@@ -9052,19 +8715,6 @@
       "rep_candidate": "Julie A. Ellsworth",
       "margin": 252,
       "margin_pct": 69.2308,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "JEROME - CO. TOTAL",
-      "dem_votes": 935,
-      "rep_votes": 3864,
-      "other_votes": 0,
-      "total_votes": 4799,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 2929,
-      "margin_pct": 61.0335,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -10135,19 +9785,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "KOOTENAI CONT. - CO. TOTAL",
-      "dem_votes": 13466,
-      "rep_votes": 47957,
-      "other_votes": 0,
-      "total_votes": 61423,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 34491,
-      "margin_pct": 56.1532,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "LATAH - MOSCOW #01",
       "dem_votes": 46,
       "rep_votes": 77,
@@ -10224,19 +9861,6 @@
       "margin_pct": 53.5354,
       "winner": "REP",
       "color": "#a50f15"
-    },
-    {
-      "county": "LATAH CONT. - CO. TOTAL",
-      "dem_votes": 6776,
-      "rep_votes": 8001,
-      "other_votes": 0,
-      "total_votes": 14777,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 1225,
-      "margin_pct": 8.2899,
-      "winner": "REP",
-      "color": "#fcae91"
     },
     {
       "county": "LATAH CONT. - CORA #31",
@@ -10733,32 +10357,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "LEMHI - CO. TOTAL",
-      "dem_votes": 682,
-      "rep_votes": 2908,
-      "other_votes": 0,
-      "total_votes": 3590,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 2226,
-      "margin_pct": 62.0056,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "LEWIS - CO. TOTAL",
-      "dem_votes": 194,
-      "rep_votes": 1157,
-      "other_votes": 0,
-      "total_votes": 1351,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 963,
-      "margin_pct": 71.2805,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "LEWIS - CRAIGMONT",
       "dem_votes": 43,
       "rep_votes": 237,
@@ -10859,19 +10457,6 @@
       "rep_candidate": "Julie A. Ellsworth",
       "margin": 186,
       "margin_pct": 76.2295,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "LINCOLN - CO. TOTAL",
-      "dem_votes": 248,
-      "rep_votes": 1059,
-      "other_votes": 0,
-      "total_votes": 1307,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 811,
-      "margin_pct": 62.0505,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -11028,19 +10613,6 @@
       "rep_candidate": "Julie A. Ellsworth",
       "margin": 62,
       "margin_pct": 52.5424,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "MADISON - CO. TOTAL",
-      "dem_votes": 1001,
-      "rep_votes": 7167,
-      "other_votes": 0,
-      "total_votes": 8168,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 6166,
-      "margin_pct": 75.4897,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -11249,19 +10821,6 @@
       "rep_candidate": "Julie A. Ellsworth",
       "margin": 324,
       "margin_pct": 85.2632,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "MINIDOKA - CO. TOTAL",
-      "dem_votes": 635,
-      "rep_votes": 4007,
-      "other_votes": 0,
-      "total_votes": 4642,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 3372,
-      "margin_pct": 72.6411,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -11838,32 +11397,6 @@
       "color": "#fb6a4a"
     },
     {
-      "county": "NEZ PERCE - CO. TOTAL",
-      "dem_votes": 3836,
-      "rep_votes": 9403,
-      "other_votes": 0,
-      "total_votes": 13239,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 5567,
-      "margin_pct": 42.05,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "ONEIDA - CO. TOTAL",
-      "dem_votes": 147,
-      "rep_votes": 1430,
-      "other_votes": 0,
-      "total_votes": 1577,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 1283,
-      "margin_pct": 81.357,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "ONEIDA - CURLEW",
       "dem_votes": 5,
       "rep_votes": 74,
@@ -11964,19 +11497,6 @@
       "rep_candidate": "Julie A. Ellsworth",
       "margin": 129,
       "margin_pct": 83.2258,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "OWYHEE - CO. TOTAL",
-      "dem_votes": 441,
-      "rep_votes": 2787,
-      "other_votes": 0,
-      "total_votes": 3228,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 2346,
-      "margin_pct": 72.6766,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -12254,19 +11774,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "PAYETTE CONT. - CO. TOTAL",
-      "dem_votes": 1101,
-      "rep_votes": 6377,
-      "other_votes": 0,
-      "total_votes": 7478,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 5276,
-      "margin_pct": 70.5536,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "POWER - 1",
       "dem_votes": 121,
       "rep_votes": 261,
@@ -12341,19 +11848,6 @@
       "rep_candidate": "Julie A. Ellsworth",
       "margin": 72,
       "margin_pct": 35.6436,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "POWER - CO. TOTAL",
-      "dem_votes": 464,
-      "rep_votes": 1468,
-      "other_votes": 0,
-      "total_votes": 1932,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 1004,
-      "margin_pct": 51.9669,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -12540,19 +12034,6 @@
       "color": "#fb6a4a"
     },
     {
-      "county": "SHOSHONE - CO. TOTAL",
-      "dem_votes": 1061,
-      "rep_votes": 2945,
-      "other_votes": 0,
-      "total_votes": 4006,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 1884,
-      "margin_pct": 47.0295,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "TETON - 001",
       "dem_votes": 137,
       "rep_votes": 423,
@@ -12655,19 +12136,6 @@
       "margin_pct": -27.3797,
       "winner": "DEM",
       "color": "#08519c"
-    },
-    {
-      "county": "TETON - CO. TOTAL",
-      "dem_votes": 2353,
-      "rep_votes": 2254,
-      "other_votes": 0,
-      "total_votes": 4607,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": -99,
-      "margin_pct": -2.1489,
-      "winner": "DEM",
-      "color": "#cbd5e1"
     },
     {
       "county": "TWIN FALLS - BUHL 1",
@@ -12811,19 +12279,6 @@
       "margin_pct": 22.7171,
       "winner": "REP",
       "color": "#de2d26"
-    },
-    {
-      "county": "TWIN FALLS CONT. - CO. TOTAL",
-      "dem_votes": 5463,
-      "rep_votes": 17070,
-      "other_votes": 0,
-      "total_votes": 22533,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 11607,
-      "margin_pct": 51.5111,
-      "winner": "REP",
-      "color": "#a50f15"
     },
     {
       "county": "TWIN FALLS CONT. - FILER 3",
@@ -13320,19 +12775,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "VALLEY - CO. TOTAL",
-      "dem_votes": 1966,
-      "rep_votes": 3167,
-      "other_votes": 0,
-      "total_votes": 5133,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 1201,
-      "margin_pct": 23.3976,
-      "winner": "REP",
-      "color": "#de2d26"
-    },
-    {
       "county": "VALLEY - DONNELLY",
       "dem_votes": 24,
       "rep_votes": 19,
@@ -13476,19 +12918,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "WASHINGTON CONT. - CO. TOTAL",
-      "dem_votes": 557,
-      "rep_votes": 3278,
-      "other_votes": 0,
-      "total_votes": 3835,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 2721,
-      "margin_pct": 70.9518,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "WASHINGTON CONT. - EAST WEISER",
       "dem_votes": 47,
       "rep_votes": 216,
@@ -13498,19 +12927,6 @@
       "rep_candidate": "Julie A. Ellsworth",
       "margin": 169,
       "margin_pct": 64.2586,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "WASHINGTON CONT. - GRAND TOTAL",
-      "dem_votes": 167596,
-      "rep_votes": 412502,
-      "other_votes": 0,
-      "total_votes": 580098,
-      "dem_candidate": "Deborah Silver",
-      "rep_candidate": "Julie A. Ellsworth",
-      "margin": 244906,
-      "margin_pct": 42.218,
       "winner": "REP",
       "color": "#a50f15"
     },

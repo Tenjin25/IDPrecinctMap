@@ -3,17 +3,18 @@
   "scope": "state_senate",
   "contest_type": "state_treasurer",
   "meta": {
-    "match_coverage_pct": 94.83,
-    "matched_precinct_keys": 990,
-    "total_precinct_keys": 1044,
-    "weighted_vote_coverage_pct": 33.12,
+    "match_coverage_pct": 99.9,
+    "matched_precinct_keys": 998,
+    "total_precinct_keys": 999,
+    "weighted_vote_coverage_pct": 100,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "State Treasurer",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 2,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 4,
-      "legacy_2008_vtd00_rows": 1,
-      "direct_2022_districtcoded_rows": 985
+      "modern_2020_vtd20_rows": 3,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 995
     }
   },
   "general": {
@@ -115,14 +116,14 @@
         "no_data": false
       },
       "7": {
-        "dem_votes": 4599,
-        "rep_votes": 15650,
+        "dem_votes": 4183,
+        "rep_votes": 14446,
         "other_votes": 0,
-        "total_votes": 20249,
+        "total_votes": 18629,
         "dem_candidate": "Deborah Silver",
         "rep_candidate": "Julie A. Ellsworth",
-        "margin": 11051,
-        "margin_pct": 54.5755,
+        "margin": 10263,
+        "margin_pct": 55.0915,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -147,14 +148,14 @@
         "no_data": false
       },
       "9": {
-        "dem_votes": 1715,
-        "rep_votes": 11062,
+        "dem_votes": 2307,
+        "rep_votes": 14223,
         "other_votes": 0,
-        "total_votes": 12777,
+        "total_votes": 16530,
         "dem_candidate": "Deborah Silver",
         "rep_candidate": "Julie A. Ellsworth",
-        "margin": 9347,
-        "margin_pct": 73.1549,
+        "margin": 11916,
+        "margin_pct": 72.0871,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -371,14 +372,14 @@
         "no_data": false
       },
       "23": {
-        "dem_votes": 2779,
-        "rep_votes": 12787,
+        "dem_votes": 2792,
+        "rep_votes": 12929,
         "other_votes": 0,
-        "total_votes": 15566,
+        "total_votes": 15721,
         "dem_candidate": "Deborah Silver",
         "rep_candidate": "Julie A. Ellsworth",
-        "margin": 10008,
-        "margin_pct": 64.294,
+        "margin": 10137,
+        "margin_pct": 64.4806,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -435,14 +436,14 @@
         "no_data": false
       },
       "27": {
-        "dem_votes": 1247,
-        "rep_votes": 9267,
+        "dem_votes": 1387,
+        "rep_votes": 10575,
         "other_votes": 0,
-        "total_votes": 10514,
+        "total_votes": 11962,
         "dem_candidate": "Deborah Silver",
         "rep_candidate": "Julie A. Ellsworth",
-        "margin": 8020,
-        "margin_pct": 76.2792,
+        "margin": 9188,
+        "margin_pct": 76.8099,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {

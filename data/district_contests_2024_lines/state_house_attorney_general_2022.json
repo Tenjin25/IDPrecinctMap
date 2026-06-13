@@ -3,17 +3,18 @@
   "scope": "state_house",
   "contest_type": "attorney_general",
   "meta": {
-    "match_coverage_pct": 94.92,
-    "matched_precinct_keys": 991,
-    "total_precinct_keys": 1044,
-    "weighted_vote_coverage_pct": 33.13,
+    "match_coverage_pct": 99.9,
+    "matched_precinct_keys": 998,
+    "total_precinct_keys": 999,
+    "weighted_vote_coverage_pct": 100,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "Attorney General",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 2,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 5,
-      "legacy_2008_vtd00_rows": 1,
-      "direct_2022_districtcoded_rows": 985
+      "modern_2020_vtd20_rows": 3,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 995
     }
   },
   "general": {
@@ -115,14 +116,14 @@
         "no_data": false
       },
       "7": {
-        "dem_votes": 5976,
-        "rep_votes": 14514,
+        "dem_votes": 5436,
+        "rep_votes": 13414,
         "other_votes": 0,
-        "total_votes": 20490,
+        "total_votes": 18850,
         "dem_candidate": "Tom Arkoosh",
         "rep_candidate": "Raul Labrador",
-        "margin": 8538,
-        "margin_pct": 41.6691,
+        "margin": 7978,
+        "margin_pct": 42.3236,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -147,14 +148,14 @@
         "no_data": false
       },
       "9": {
-        "dem_votes": 2941,
-        "rep_votes": 9905,
+        "dem_votes": 3819,
+        "rep_votes": 12815,
         "other_votes": 0,
-        "total_votes": 12846,
+        "total_votes": 16634,
         "dem_candidate": "Tom Arkoosh",
         "rep_candidate": "Raul Labrador",
-        "margin": 6964,
-        "margin_pct": 54.2114,
+        "margin": 8996,
+        "margin_pct": 54.082,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -435,14 +436,14 @@
         "no_data": false
       },
       "27": {
-        "dem_votes": 2284,
-        "rep_votes": 8316,
+        "dem_votes": 2492,
+        "rep_votes": 9560,
         "other_votes": 0,
-        "total_votes": 10600,
+        "total_votes": 12052,
         "dem_candidate": "Tom Arkoosh",
         "rep_candidate": "Raul Labrador",
-        "margin": 6032,
-        "margin_pct": 56.9057,
+        "margin": 7068,
+        "margin_pct": 58.6459,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {

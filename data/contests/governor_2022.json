@@ -4,7 +4,8 @@
   "meta": {
     "office": "Governor",
     "source": "20221108__id__general__precinct.csv",
-    "aggregation": "precinct"
+    "aggregation": "precinct",
+    "candidate_count": 6
   },
   "rows": [
     {
@@ -2569,19 +2570,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "ADA CONT. - CO. TOTAL",
-      "dem_votes": 53693,
-      "rep_votes": 105276,
-      "other_votes": 26260,
-      "total_votes": 185229,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 51583,
-      "margin_pct": 27.8482,
-      "winner": "REP",
-      "color": "#de2d26"
-    },
-    {
       "county": "ADAMS - ABSENTEE",
       "dem_votes": 113,
       "rep_votes": 293,
@@ -2604,19 +2592,6 @@
       "rep_candidate": "Brad Little",
       "margin": 29,
       "margin_pct": 78.3784,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "ADAMS - CO. TOTAL",
-      "dem_votes": 239,
-      "rep_votes": 1287,
-      "other_votes": 494,
-      "total_votes": 2020,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 1048,
-      "margin_pct": 51.8812,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -3033,19 +3008,6 @@
       "rep_candidate": "Brad Little",
       "margin": 357,
       "margin_pct": 58.6207,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BANNOCK CONT. - CO. TOTAL",
-      "dem_votes": 7006,
-      "rep_votes": 14945,
-      "other_votes": 3550,
-      "total_votes": 25501,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 7939,
-      "margin_pct": 31.1321,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -3583,19 +3545,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "BEAR LAKE CONT. - CO. TOTAL",
-      "dem_votes": 140,
-      "rep_votes": 1412,
-      "other_votes": 714,
-      "total_votes": 2266,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 1272,
-      "margin_pct": 56.1342,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "BEAR LAKE CONT. - LIBERTY 12",
       "dem_votes": 4,
       "rep_votes": 53,
@@ -3670,19 +3619,6 @@
       "rep_candidate": "Brad Little",
       "margin": 206,
       "margin_pct": 55.6757,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BENEWAH - CO. TOTAL",
-      "dem_votes": 397,
-      "rep_votes": 2097,
-      "other_votes": 960,
-      "total_votes": 3454,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 1700,
-      "margin_pct": 49.2183,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -3932,19 +3868,6 @@
       "margin_pct": 0.0,
       "winner": "TIE",
       "color": "#cbd5e1"
-    },
-    {
-      "county": "BINGHAM - CO. TOTAL",
-      "dem_votes": 1277,
-      "rep_votes": 8750,
-      "other_votes": 2357,
-      "total_votes": 12384,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 7473,
-      "margin_pct": 60.344,
-      "winner": "REP",
-      "color": "#a50f15"
     },
     {
       "county": "BINGHAM - FIRTH 7",
@@ -4246,19 +4169,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "BLAINE CONT. - CO. TOTAL",
-      "dem_votes": 5149,
-      "rep_votes": 4022,
-      "other_votes": 549,
-      "total_votes": 9720,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": -1127,
-      "margin_pct": -11.5947,
-      "winner": "DEM",
-      "color": "#2171b5"
-    },
-    {
       "county": "BLAINE CONT. - DEER CREEK",
       "dem_votes": 244,
       "rep_votes": 217,
@@ -4489,19 +4399,6 @@
       "rep_candidate": "Brad Little",
       "margin": 264,
       "margin_pct": 32.6733,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BOISE - CO. TOTAL",
-      "dem_votes": 453,
-      "rep_votes": 1932,
-      "other_votes": 1059,
-      "total_votes": 3444,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 1479,
-      "margin_pct": 42.9443,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -4853,19 +4750,6 @@
       "rep_candidate": "Brad Little",
       "margin": 412,
       "margin_pct": 35.6401,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BONNER CONT. - CO. TOTAL",
-      "dem_votes": 3121,
-      "rep_votes": 12136,
-      "other_votes": 5537,
-      "total_votes": 20794,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 9015,
-      "margin_pct": 43.3539,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -5572,19 +5456,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "BONNEVILLE CONT. - CO. TOTAL",
-      "dem_votes": 5310,
-      "rep_votes": 24525,
-      "other_votes": 5652,
-      "total_votes": 35487,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 19215,
-      "margin_pct": 54.1466,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "BOUNDARY - ABSENTEE",
       "dem_votes": 253,
       "rep_votes": 1034,
@@ -5607,19 +5478,6 @@
       "rep_candidate": "Brad Little",
       "margin": 209,
       "margin_pct": 44.2797,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BOUNDARY - CO. TOTAL",
-      "dem_votes": 437,
-      "rep_votes": 3084,
-      "other_votes": 1718,
-      "total_votes": 5239,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 2647,
-      "margin_pct": 50.5249,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -5737,32 +5595,6 @@
       "rep_candidate": "Brad Little",
       "margin": 106,
       "margin_pct": 75.7143,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BUTTE - CO. TOTAL",
-      "dem_votes": 74,
-      "rep_votes": 635,
-      "other_votes": 300,
-      "total_votes": 1009,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 561,
-      "margin_pct": 55.5996,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CAMAS - CO. TOTAL",
-      "dem_votes": 61,
-      "rep_votes": 337,
-      "other_votes": 119,
-      "total_votes": 517,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 276,
-      "margin_pct": 53.3849,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -6521,19 +6353,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "CANYON CONT. - CO. TOTAL",
-      "dem_votes": 9236,
-      "rep_votes": 34316,
-      "other_votes": 14777,
-      "total_votes": 58329,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 25080,
-      "margin_pct": 42.9975,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "CARIBOU - BANCROFT",
       "dem_votes": 12,
       "rep_votes": 195,
@@ -6543,19 +6362,6 @@
       "rep_candidate": "Brad Little",
       "margin": 183,
       "margin_pct": 66.3043,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CARIBOU - CO. TOTAL",
-      "dem_votes": 142,
-      "rep_votes": 1495,
-      "other_votes": 483,
-      "total_votes": 2120,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 1353,
-      "margin_pct": 63.8208,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -6976,32 +6782,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "CASSIA CONT. - CO. TOTAL",
-      "dem_votes": 371,
-      "rep_votes": 4074,
-      "other_votes": 1357,
-      "total_votes": 5802,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 3703,
-      "margin_pct": 63.8228,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CLARK - CO. TOTAL",
-      "dem_votes": 12,
-      "rep_votes": 145,
-      "other_votes": 51,
-      "total_votes": 208,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 133,
-      "margin_pct": 63.9423,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "CLARK - PRECINCT #1",
       "dem_votes": 4,
       "rep_votes": 48,
@@ -7063,19 +6843,6 @@
       "rep_candidate": "Brad Little",
       "margin": 107,
       "margin_pct": 58.1522,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CLEARWATER - CO. TOTAL",
-      "dem_votes": 368,
-      "rep_votes": 2220,
-      "other_votes": 533,
-      "total_votes": 3121,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 1852,
-      "margin_pct": 59.34,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -7301,19 +7068,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "CUSTER - CO. TOTAL",
-      "dem_votes": 232,
-      "rep_votes": 1228,
-      "other_votes": 576,
-      "total_votes": 2036,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 996,
-      "margin_pct": 48.9194,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "CUSTER - LESLIE",
       "dem_votes": 18,
       "rep_votes": 172,
@@ -7479,19 +7233,6 @@
       "rep_candidate": "Brad Little",
       "margin": 173,
       "margin_pct": 52.2659,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "ELMORE CONT. - CO. TOTAL",
-      "dem_votes": 1023,
-      "rep_votes": 4260,
-      "other_votes": 1347,
-      "total_votes": 6630,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 3237,
-      "margin_pct": 48.8235,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -7860,19 +7601,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "FRANKLIN - CO. TOTAL",
-      "dem_votes": 213,
-      "rep_votes": 2744,
-      "other_votes": 1380,
-      "total_votes": 4337,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 2531,
-      "margin_pct": 58.3583,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "FREMONT - 001",
       "dem_votes": 32,
       "rep_votes": 186,
@@ -8055,19 +7783,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "FREMONT - CO. TOTAL",
-      "dem_votes": 347,
-      "rep_votes": 3073,
-      "other_votes": 842,
-      "total_votes": 4262,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 2726,
-      "margin_pct": 63.9606,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "GEM - BUTTEVIEW",
       "dem_votes": 29,
       "rep_votes": 240,
@@ -8172,19 +7887,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "GEM CONT. - CO. TOTAL",
-      "dem_votes": 599,
-      "rep_votes": 4582,
-      "other_votes": 2450,
-      "total_votes": 7631,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 3983,
-      "margin_pct": 52.195,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "GEM CONT. - EMERSON",
       "dem_votes": 33,
       "rep_votes": 369,
@@ -8272,19 +7974,6 @@
       "rep_candidate": "Brad Little",
       "margin": 84,
       "margin_pct": 40.9756,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "GOODING - CO. TOTAL",
-      "dem_votes": 430,
-      "rep_votes": 2458,
-      "other_votes": 1163,
-      "total_votes": 4051,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 2028,
-      "margin_pct": 50.0617,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -8389,19 +8078,6 @@
       "rep_candidate": "Brad Little",
       "margin": 131,
       "margin_pct": 54.5833,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "IDAHO - CO. TOTAL",
-      "dem_votes": 638,
-      "rep_votes": 4840,
-      "other_votes": 1992,
-      "total_votes": 7470,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 4202,
-      "margin_pct": 56.2517,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -8796,19 +8472,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "JEFFERSON CONT. - CO. TOTAL",
-      "dem_votes": 580,
-      "rep_votes": 6591,
-      "other_votes": 1918,
-      "total_votes": 9089,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 6011,
-      "margin_pct": 66.1349,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "JEFFERSON CONT. - HAMER",
       "dem_votes": 4,
       "rep_votes": 115,
@@ -9052,19 +8715,6 @@
       "rep_candidate": "Brad Little",
       "margin": 192,
       "margin_pct": 52.459,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "JEROME - CO. TOTAL",
-      "dem_votes": 540,
-      "rep_votes": 3161,
-      "other_votes": 1157,
-      "total_votes": 4858,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 2621,
-      "margin_pct": 53.9522,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -10135,19 +9785,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "KOOTENAI CONT. - CO. TOTAL",
-      "dem_votes": 9299,
-      "rep_votes": 38296,
-      "other_votes": 14701,
-      "total_votes": 62296,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 28997,
-      "margin_pct": 46.5471,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "LATAH - BOVILL #32",
       "dem_votes": 14,
       "rep_votes": 74,
@@ -10159,19 +9796,6 @@
       "margin_pct": 60.0,
       "winner": "REP",
       "color": "#a50f15"
-    },
-    {
-      "county": "LATAH - CO. TOTAL",
-      "dem_votes": 5043,
-      "rep_votes": 8256,
-      "other_votes": 1674,
-      "total_votes": 14973,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 3213,
-      "margin_pct": 21.4586,
-      "winner": "REP",
-      "color": "#de2d26"
     },
     {
       "county": "LATAH - CORA #31",
@@ -10733,19 +10357,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "LEMHI - CO. TOTAL",
-      "dem_votes": 421,
-      "rep_votes": 2465,
-      "other_votes": 774,
-      "total_votes": 3660,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 2044,
-      "margin_pct": 55.847,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "LEWIS - CRAIGMONT",
       "dem_votes": 24,
       "rep_votes": 229,
@@ -10824,19 +10435,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "LEWIS CONT. - CO. TOTAL",
-      "dem_votes": 123,
-      "rep_votes": 1013,
-      "other_votes": 225,
-      "total_votes": 1361,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 890,
-      "margin_pct": 65.3931,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "LEWIS CONT. - MOHLER",
       "dem_votes": 0,
       "rep_votes": 26,
@@ -10861,19 +10459,6 @@
       "margin_pct": 0.0,
       "winner": "TIE",
       "color": "#cbd5e1"
-    },
-    {
-      "county": "LINCOLN - CO. TOTAL",
-      "dem_votes": 152,
-      "rep_votes": 841,
-      "other_votes": 328,
-      "total_votes": 1321,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 689,
-      "margin_pct": 52.1575,
-      "winner": "REP",
-      "color": "#a50f15"
     },
     {
       "county": "LINCOLN - DIETRICH",
@@ -11028,19 +10613,6 @@
       "rep_candidate": "Brad Little",
       "margin": 47,
       "margin_pct": 37.6,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "MADISON - CO. TOTAL",
-      "dem_votes": 694,
-      "rep_votes": 6037,
-      "other_votes": 1605,
-      "total_votes": 8336,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 5343,
-      "margin_pct": 64.0955,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -11249,19 +10821,6 @@
       "rep_candidate": "Brad Little",
       "margin": 254,
       "margin_pct": 65.8031,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "MINIDOKA - CO. TOTAL",
-      "dem_votes": 399,
-      "rep_votes": 3222,
-      "other_votes": 1100,
-      "total_votes": 4721,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 2823,
-      "margin_pct": 59.7967,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -11838,32 +11397,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "NEZ PERCE CONT. - CO. TOTAL",
-      "dem_votes": 2659,
-      "rep_votes": 9252,
-      "other_votes": 1570,
-      "total_votes": 13481,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 6593,
-      "margin_pct": 48.9059,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "ONEIDA - CO. TOTAL",
-      "dem_votes": 70,
-      "rep_votes": 1031,
-      "other_votes": 526,
-      "total_votes": 1627,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 961,
-      "margin_pct": 59.0658,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "ONEIDA - CURLEW",
       "dem_votes": 3,
       "rep_votes": 58,
@@ -11964,19 +11497,6 @@
       "rep_candidate": "Brad Little",
       "margin": 104,
       "margin_pct": 65.0,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "OWYHEE - CO. TOTAL",
-      "dem_votes": 300,
-      "rep_votes": 1881,
-      "other_votes": 1109,
-      "total_votes": 3290,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 1581,
-      "margin_pct": 48.0547,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -12254,19 +11774,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "PAYETTE - CO. TOTAL",
-      "dem_votes": 723,
-      "rep_votes": 4874,
-      "other_votes": 2012,
-      "total_votes": 7609,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 4151,
-      "margin_pct": 54.5538,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "POWER - 1",
       "dem_votes": 75,
       "rep_votes": 266,
@@ -12341,19 +11848,6 @@
       "rep_candidate": "Brad Little",
       "margin": 65,
       "margin_pct": 31.7073,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "POWER - CO. TOTAL",
-      "dem_votes": 297,
-      "rep_votes": 1411,
-      "other_votes": 264,
-      "total_votes": 1972,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 1114,
-      "margin_pct": 56.4909,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -12540,19 +12034,6 @@
       "color": "#de2d26"
     },
     {
-      "county": "SHOSHONE - CO. TOTAL",
-      "dem_votes": 767,
-      "rep_votes": 2614,
-      "other_votes": 747,
-      "total_votes": 4128,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 1847,
-      "margin_pct": 44.7432,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "TETON - 001",
       "dem_votes": 106,
       "rep_votes": 339,
@@ -12657,19 +12138,6 @@
       "color": "#2171b5"
     },
     {
-      "county": "TETON - CO. TOTAL",
-      "dem_votes": 1989,
-      "rep_votes": 2169,
-      "other_votes": 534,
-      "total_votes": 4692,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 180,
-      "margin_pct": 3.8363,
-      "winner": "REP",
-      "color": "#cbd5e1"
-    },
-    {
       "county": "TWIN FALLS - BUHL 1",
       "dem_votes": 25,
       "rep_votes": 212,
@@ -12770,19 +12238,6 @@
       "rep_candidate": "Brad Little",
       "margin": 135,
       "margin_pct": 46.7128,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "TWIN FALLS CONT. - CO. TOTAL",
-      "dem_votes": 3428,
-      "rep_votes": 13884,
-      "other_votes": 5681,
-      "total_votes": 22993,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 10456,
-      "margin_pct": 45.4747,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -13320,19 +12775,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "VALLEY - CO. TOTAL",
-      "dem_votes": 1344,
-      "rep_votes": 3211,
-      "other_votes": 677,
-      "total_votes": 5232,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 1867,
-      "margin_pct": 35.6843,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "VALLEY - DONNELLY",
       "dem_votes": 11,
       "rep_votes": 17,
@@ -13420,19 +12862,6 @@
       "rep_candidate": "Brad Little",
       "margin": 295,
       "margin_pct": 57.9568,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "WASHINGTON - CO. TOTAL",
-      "dem_votes": 120524,
-      "rep_votes": 361114,
-      "other_votes": 114910,
-      "total_votes": 596548,
-      "dem_candidate": "Stephen Heidt",
-      "rep_candidate": "Brad Little",
-      "margin": 240590,
-      "margin_pct": 40.3304,
       "winner": "REP",
       "color": "#a50f15"
     },

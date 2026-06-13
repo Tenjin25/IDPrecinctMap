@@ -223,6 +223,31 @@ function readCountyNameByFips() {
   return out;
 }
 
+function readCountyFipsByName() {
+  const byFips = readCountyNameByFips();
+  const out = new Map();
+  for (const [countyFips, countyName] of byFips.entries()) {
+    out.set(countyName, countyFips);
+  }
+  return out;
+}
+
+function readModernCountyByPrecinctKey() {
+  const geojson = readJson(PRECINCT_2020_PATH);
+  const out = new Map();
+  for (const feature of geojson.features || []) {
+    const props = feature?.properties || {};
+    const precinctKey = clean(
+      props.GEOID20
+      || props.GEOID
+      || `${clean(props.STATEFP20)}${clean(props.COUNTYFP20)}${clean(props.VTDST20)}`
+    );
+    const countyNorm = normalizeCountyToken(props.county_nam || '');
+    if (precinctKey && countyNorm) out.set(precinctKey, countyNorm);
+  }
+  return out;
+}
+
 function loadModernPrecinctResolver() {
   const geojson = readJson(PRECINCT_2020_PATH);
   const aliasMap = new Map();
@@ -263,10 +288,15 @@ function loadLegacyPrecinctResolver() {
     const countyNorm = countyNameByFips.get(countyFips) || '';
     const code = upper(props.NAME00 || '');
     if (!countyNorm || !code) continue;
-    const codeDigits = (code.match(/(\d+)/)?.[1] || '').padStart(3, '0');
-    const precinctKey = codeDigits
-      ? `16${countyFips}${countyFips}${codeDigits}`
-      : `16${countyFips}${code}`;
+    let precinctKey = '';
+    if (/^\d{6}$/.test(code) && code.startsWith(countyFips)) {
+      precinctKey = `16${countyFips}${code}`;
+    } else {
+      const codeDigits = (code.match(/(\d{1,3})$/)?.[1] || code.match(/(\d+)/)?.[1] || '').padStart(3, '0');
+      precinctKey = codeDigits
+        ? `16${countyFips}${countyFips}${codeDigits}`
+        : `16${countyFips}${code}`;
+    }
     addAliasVariants(aliasMap, countyNorm, code, precinctKey);
   }
 
@@ -375,8 +405,16 @@ function addContestDerivedAliasBridges(sourceManifest, resolvers) {
       const normalized = normalizeCountyToken(row.county);
       if (!normalized.includes(' - ')) continue;
       const [countyNorm, rawToken] = normalized.split(' - ', 2);
-      const prefixNumberedMatch = upper(rawToken).match(/^#?0*([0-9]{1,4})\s+(.+)$/);
-      const suffixNumberedMatch = upper(rawToken).match(/^(.+?)\s+0*([0-9]{1,4})$/);
+      const rawUpper = upper(rawToken);
+      const cleanedToken = rawUpper
+        .replace(/[#.]/g, ' ')
+        .replace(/\s*-\s*/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+      const prefixNumberedMatch = rawUpper.match(/^#?0*([0-9]{1,4})\s+(.+)$/)
+        || cleanedToken.match(/^#?0*([0-9]{1,4})\s+(.+)$/);
+      const suffixNumberedMatch = rawUpper.match(/^(.+?)\s+0*([0-9]{1,4})$/)
+        || cleanedToken.match(/^(.+?)\s+0*([0-9]{1,4})$/);
       const precinctNumber = prefixNumberedMatch?.[1] || suffixNumberedMatch?.[2] || '';
       if (!precinctNumber) continue;
       const resolved = resolvePrecinctKeys(`${countyNorm} - ${precinctNumber}`, resolvers);
@@ -391,6 +429,9 @@ function addContestDerivedAliasBridges(sourceManifest, resolvers) {
         aliasNames.add(`${stem} ${String(Number(precinctNumber)).padStart(2, '0')}`);
         aliasNames.add(`${stem} ${String(Number(precinctNumber)).padStart(3, '0')}`);
       }
+      if (cleanedToken && cleanedToken !== rawUpper) {
+        aliasNames.add(cleanedToken);
+      }
       if (!aliasNames.size) continue;
       for (const precinctKey of resolved.keys) {
         for (const aliasName of aliasNames) {
@@ -401,7 +442,53 @@ function addContestDerivedAliasBridges(sourceManifest, resolvers) {
   }
 }
 
-function loadCrosswalkPair(scope) {
+function buildSingleDistrictByCounty(crosswalk, countyByPrecinct) {
+  const districtsByCounty = new Map();
+  for (const [precinctKey, links] of crosswalk.byPrecinct.entries()) {
+    const countyNorm = countyByPrecinct.get(precinctKey);
+    if (!countyNorm) continue;
+    if (!districtsByCounty.has(countyNorm)) districtsByCounty.set(countyNorm, new Set());
+    for (const link of links || []) {
+      const districtNum = Number(link.districtNum);
+      const weight = Number(link.weight);
+      if (Number.isFinite(districtNum) && Number.isFinite(weight) && weight > 0.001) {
+        districtsByCounty.get(countyNorm).add(districtNum);
+      }
+    }
+  }
+
+  const out = new Map();
+  for (const [countyNorm, districtSet] of districtsByCounty.entries()) {
+    if (districtSet.size === 1) out.set(countyNorm, Array.from(districtSet)[0]);
+  }
+  return out;
+}
+
+function buildUniqueCongressionalByLegislativeDistrict(stateHouseCrosswalk, congressionalCrosswalk) {
+  const byLegDistrict = new Map();
+  for (const [precinctKey, stateHouseLinks] of stateHouseCrosswalk.byPrecinct.entries()) {
+    const houseMatch = (stateHouseLinks || []).find((link) => Number(link.weight) > 0.001);
+    if (!houseMatch) continue;
+    const legDistrict = Number(houseMatch.districtNum);
+    if (!Number.isFinite(legDistrict) || legDistrict <= 0) continue;
+    if (!byLegDistrict.has(legDistrict)) byLegDistrict.set(legDistrict, new Set());
+    for (const link of congressionalCrosswalk.byPrecinct.get(precinctKey) || []) {
+      const districtNum = Number(link.districtNum);
+      const weight = Number(link.weight);
+      if (Number.isFinite(districtNum) && Number.isFinite(weight) && weight > 0.001) {
+        byLegDistrict.get(legDistrict).add(districtNum);
+      }
+    }
+  }
+
+  const out = new Map();
+  for (const [legDistrict, districtSet] of byLegDistrict.entries()) {
+    if (districtSet.size === 1) out.set(legDistrict, Array.from(districtSet)[0]);
+  }
+  return out;
+}
+
+function loadCrosswalkPair(scope, countyByPrecinct) {
   const spec = CROSSWALKS[scope];
   const loadOne = (csvPath) => {
     const rows = parseCsv(fs.readFileSync(csvPath, 'utf8'));
@@ -419,10 +506,13 @@ function loadCrosswalkPair(scope) {
     return { byPrecinct, districtCount: districts.size };
   };
 
+  const modern = loadOne(spec.modern);
+  const legacy = loadOne(spec.legacy);
   return {
-    modern: loadOne(spec.modern),
-    legacy: loadOne(spec.legacy),
-    districtCount: loadOne(spec.modern).districtCount || loadOne(spec.legacy).districtCount,
+    modern,
+    legacy,
+    districtCount: modern.districtCount || legacy.districtCount,
+    singleDistrictByCounty: buildSingleDistrictByCounty(modern, countyByPrecinct),
   };
 }
 
@@ -437,6 +527,26 @@ function loadManifest(filePath) {
 
 function isPrecinctContestPayload(payload) {
   return Array.isArray(payload?.rows) && payload.rows.length > 0;
+}
+
+function isContestedPrecinctPayload(payload) {
+  const candidateCount = Number(payload?.meta?.candidate_count);
+  if (Number.isFinite(candidateCount)) {
+    return candidateCount >= 2;
+  }
+  let dem = 0;
+  let rep = 0;
+  let other = 0;
+  for (const row of payload?.rows || []) {
+    dem += Number(row?.dem_votes) || 0;
+    rep += Number(row?.rep_votes) || 0;
+    other += Number(row?.other_votes) || 0;
+  }
+  let nonzeroBuckets = 0;
+  if (dem > 0) nonzeroBuckets += 1;
+  if (rep > 0) nonzeroBuckets += 1;
+  if (other > 0) nonzeroBuckets += 1;
+  return nonzeroBuckets >= 2;
 }
 
 function resolvePrecinctKeys(rowCounty, resolvers) {
@@ -603,6 +713,89 @@ function buildDirect2022Links(rowLabel, year, scope, legislative2022Resolver, co
   return [];
 }
 
+function buildLegacyNumericLinks(rowLabel, year, crosswalkPair, countyFipsByName) {
+  const numericYear = Number(year);
+  if (!Number.isFinite(numericYear) || numericYear > 2010) return [];
+  const normalized = normalizeCountyToken(rowLabel);
+  if (!normalized.includes(' - ')) return [];
+  const [countyNorm, rawToken] = normalized.split(' - ', 2);
+  const countyFips = countyFipsByName.get(countyNorm);
+  if (!countyFips) return [];
+
+  const cleanedToken = upper(rawToken)
+    .replace(/[#.]/g, ' ')
+    .replace(/\s*-\s*/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  const numericMatch = cleanedToken.match(/^0*([0-9]{1,3})$/)
+    || cleanedToken.match(/^0*([0-9]{1,3})\s+/)
+    || cleanedToken.match(/\s+0*([0-9]{1,3})$/);
+  const precinctNumber = numericMatch?.[1] || '';
+  if (!precinctNumber) return [];
+
+  const precinctKey = `16${countyFips}${countyFips}${String(Number(precinctNumber)).padStart(3, '0')}`;
+  return crosswalkPair?.legacy?.byPrecinct?.get(precinctKey) || [];
+}
+
+function inferStructuredLegislativeDistrict(rowLabel) {
+  const normalized = normalizeCountyToken(rowLabel);
+  if (!normalized.includes(' - ')) return null;
+  const [countyNorm, rawToken] = normalized.split(' - ', 2);
+  const cleanedToken = upper(rawToken)
+    .replace(/[#.]/g, ' ')
+    .replace(/\s*-\s*/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  let districtNum = null;
+  if (countyNorm === 'ADA') {
+    const match = cleanedToken.match(/^([0-9]{2})[0-9]{2}$/);
+    districtNum = match ? Number(match[1]) : null;
+  } else if (countyNorm === 'CANYON') {
+    const match = cleanedToken.match(/^[0-9]{2}\s*([0-9]{2})$/)
+      || cleanedToken.match(/^([0-9]{2})\s+([0-9]{2})$/);
+    districtNum = match ? Number(match[1] || match[2]) : null;
+  } else if (countyNorm === 'KOOTENAI') {
+    const match = cleanedToken.match(/^PRECINCT\s+([2-5])[0-9]{2}$/);
+    districtNum = match ? Number(match[1]) : null;
+  } else if (countyNorm === 'BONNEVILLE') {
+    const match = cleanedToken.match(/^ABSENTEE\s+([0-9]{2})$/);
+    districtNum = match ? Number(match[1]) : null;
+  } else if (countyNorm === 'BANNOCK') {
+    const match = cleanedToken.match(/^ABSENTEE\s+L?([0-9]{2})$/);
+    districtNum = match ? Number(match[1]) : null;
+  }
+
+  if (!Number.isFinite(districtNum) || districtNum <= 0 || districtNum > 35) return null;
+  return districtNum;
+}
+
+function buildStructuredDirectLinks(rowLabel, scope, crosswalkPair, uniqueCongressionalByLegDistrict) {
+  const normalized = normalizeCountyToken(rowLabel);
+  if (!normalized.includes(' - ')) return [];
+  const [countyNorm] = normalized.split(' - ', 2);
+
+  const structuredDistrict = inferStructuredLegislativeDistrict(rowLabel);
+  if (Number.isFinite(structuredDistrict)) {
+    if (scope === 'state_house' || scope === 'state_senate') {
+      return [{ districtNum: structuredDistrict, weight: 1 }];
+    }
+    if (scope === 'congressional') {
+      const congressionalDistrict = uniqueCongressionalByLegDistrict.get(structuredDistrict);
+      if (Number.isFinite(congressionalDistrict) && congressionalDistrict > 0) {
+        return [{ districtNum: congressionalDistrict, weight: 1 }];
+      }
+    }
+  }
+
+  const countyDistrict = crosswalkPair?.singleDistrictByCounty?.get(countyNorm);
+  if (Number.isFinite(countyDistrict) && countyDistrict > 0) {
+    return [{ districtNum: countyDistrict, weight: 1 }];
+  }
+
+  return [];
+}
+
 function aggregateContestToScope(
   payload,
   manifestEntry,
@@ -610,7 +803,9 @@ function aggregateContestToScope(
   crosswalkPair,
   resolvers,
   legislative2022Resolver,
-  congressional2022Resolver
+  congressional2022Resolver,
+  countyFipsByName,
+  uniqueCongressionalByLegDistrict
 ) {
   const contestType = clean(payload.contest_type || manifestEntry?.contest_type);
   const totalsByDistrict = new Map();
@@ -640,6 +835,28 @@ function aggregateContestToScope(
         scope,
         legislative2022Resolver,
         congressional2022Resolver
+      )) {
+        links.push(match);
+      }
+    }
+
+    if (!links.length) {
+      for (const match of buildLegacyNumericLinks(
+        rowLabel,
+        payload.year || manifestEntry?.year,
+        crosswalkPair,
+        countyFipsByName
+      )) {
+        links.push(match);
+      }
+    }
+
+    if (!links.length) {
+      for (const match of buildStructuredDirectLinks(
+        rowLabel,
+        scope,
+        crosswalkPair,
+        uniqueCongressionalByLegDistrict
       )) {
         links.push(match);
       }
@@ -747,6 +964,7 @@ function aggregateContestToScope(
       source: 'idaho_hybrid_precinct_crosswalk_population_weighted',
       office: clean(payload?.meta?.office) || clean(manifestEntry?.office) || contestType,
       nongeo_allocation_mode: 'precinct_population_weighted',
+        candidate_count: Number(payload?.meta?.candidate_count) || null,
         precinct_basis_breakdown: {
           modern_2020_vtd20_rows: modernMatchCount,
           legacy_2008_vtd00_rows: legacyMatchCount,
@@ -771,8 +989,13 @@ function filterExistingEntries(manifest, scopeGuard = null) {
 
 function main() {
   const sourceManifest = loadSourceManifest();
+  const countyByPrecinct = readModernCountyByPrecinctKey();
   const crosswalkPairs = Object.fromEntries(
-    Object.keys(CROSSWALKS).map((scope) => [scope, loadCrosswalkPair(scope)])
+    Object.keys(CROSSWALKS).map((scope) => [scope, loadCrosswalkPair(scope, countyByPrecinct)])
+  );
+  const uniqueCongressionalByLegDistrict = buildUniqueCongressionalByLegislativeDistrict(
+    crosswalkPairs.state_house.modern,
+    crosswalkPairs.congressional.modern
   );
   const resolvers = {
     modern: loadModernPrecinctResolver(),
@@ -780,6 +1003,7 @@ function main() {
   };
   const legislative2022Resolver = load2022LegislativeWorkbookResolver();
   const congressional2022Resolver = load2022CongressionalWorkbookResolver();
+  const countyFipsByName = readCountyFipsByName();
   addContestDerivedAliasBridges(sourceManifest, resolvers);
   const manifest2024 = loadManifest(MANIFEST_2024_PATH);
   const manifest2026 = loadManifest(MANIFEST_2026_PATH);
@@ -798,6 +1022,7 @@ function main() {
     const sourceYear = Number(entry.year || payload?.year);
     if (!Number.isFinite(sourceYear) || sourceYear < MIN_YEAR || sourceYear > MAX_YEAR) continue;
     if (!isPrecinctContestPayload(payload)) continue;
+    if (!isContestedPrecinctPayload(payload)) continue;
 
     for (const scope of Object.keys(CROSSWALKS)) {
       const aggregated = aggregateContestToScope(
@@ -807,7 +1032,9 @@ function main() {
         crosswalkPairs[scope],
         resolvers,
         legislative2022Resolver,
-        congressional2022Resolver
+        congressional2022Resolver,
+        countyFipsByName,
+        uniqueCongressionalByLegDistrict
       );
       if (!Object.keys(aggregated.general.results || {}).length) continue;
 

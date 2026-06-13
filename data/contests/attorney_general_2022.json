@@ -4,7 +4,8 @@
   "meta": {
     "office": "Attorney General",
     "source": "20221108__id__general__precinct.csv",
-    "aggregation": "precinct"
+    "aggregation": "precinct",
+    "candidate_count": 2
   },
   "rows": [
     {
@@ -2569,19 +2570,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "ADA CONT. - CO. TOTAL",
-      "dem_votes": 95467,
-      "rep_votes": 88131,
-      "other_votes": 0,
-      "total_votes": 183598,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": -7336,
-      "margin_pct": -3.9957,
-      "winner": "DEM",
-      "color": "#cbd5e1"
-    },
-    {
       "county": "ADAMS - ABSENTEE",
       "dem_votes": 188,
       "rep_votes": 288,
@@ -2604,19 +2592,6 @@
       "rep_candidate": "Raul Labrador",
       "margin": 33,
       "margin_pct": 94.2857,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "ADAMS - CO. TOTAL",
-      "dem_votes": 510,
-      "rep_votes": 1476,
-      "other_votes": 0,
-      "total_votes": 1986,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 966,
-      "margin_pct": 48.6405,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -3035,19 +3010,6 @@
       "margin_pct": 37.4376,
       "winner": "REP",
       "color": "#a50f15"
-    },
-    {
-      "county": "BANNOCK CONT. - CO. TOTAL",
-      "dem_votes": 11130,
-      "rep_votes": 14198,
-      "other_votes": 0,
-      "total_votes": 25328,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 3068,
-      "margin_pct": 12.1131,
-      "winner": "REP",
-      "color": "#fb6a4a"
     },
     {
       "county": "BANNOCK CONT. - DOWNEY 062",
@@ -3583,19 +3545,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "BEAR LAKE CONT. - CO. TOTAL",
-      "dem_votes": 272,
-      "rep_votes": 1959,
-      "other_votes": 0,
-      "total_votes": 2231,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 1687,
-      "margin_pct": 75.6163,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "BEAR LAKE CONT. - LIBERTY 12",
       "dem_votes": 6,
       "rep_votes": 76,
@@ -3670,19 +3619,6 @@
       "rep_candidate": "Raul Labrador",
       "margin": 238,
       "margin_pct": 63.9785,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BENEWAH - CO. TOTAL",
-      "dem_votes": 582,
-      "rep_votes": 2823,
-      "other_votes": 0,
-      "total_votes": 3405,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 2241,
-      "margin_pct": 65.815,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -3932,19 +3868,6 @@
       "margin_pct": 0.0,
       "winner": "TIE",
       "color": "#cbd5e1"
-    },
-    {
-      "county": "BINGHAM - CO. TOTAL",
-      "dem_votes": 2792,
-      "rep_votes": 9428,
-      "other_votes": 0,
-      "total_votes": 12220,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 6636,
-      "margin_pct": 54.3044,
-      "winner": "REP",
-      "color": "#a50f15"
     },
     {
       "county": "BINGHAM - FIRTH 7",
@@ -4246,19 +4169,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "BLAINE CONT. - CO. TOTAL",
-      "dem_votes": 6851,
-      "rep_votes": 2837,
-      "other_votes": 0,
-      "total_votes": 9688,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": -4014,
-      "margin_pct": -41.4327,
-      "winner": "DEM",
-      "color": "#08306b"
-    },
-    {
       "county": "BLAINE CONT. - DEER CREEK",
       "dem_votes": 310,
       "rep_votes": 164,
@@ -4491,19 +4401,6 @@
       "margin_pct": 9.434,
       "winner": "REP",
       "color": "#fcae91"
-    },
-    {
-      "county": "BOISE - CO. TOTAL",
-      "dem_votes": 951,
-      "rep_votes": 2455,
-      "other_votes": 0,
-      "total_votes": 3406,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 1504,
-      "margin_pct": 44.1574,
-      "winner": "REP",
-      "color": "#a50f15"
     },
     {
       "county": "BONNER - AIRPORT",
@@ -4892,19 +4789,6 @@
       "rep_candidate": "Raul Labrador",
       "margin": 107,
       "margin_pct": 47.9821,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BONNER CONT. - CO. TOTAL",
-      "dem_votes": 6174,
-      "rep_votes": 14525,
-      "other_votes": 0,
-      "total_votes": 20699,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 8351,
-      "margin_pct": 40.3449,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -5572,19 +5456,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "BONNEVILLE - CO. TOTAL",
-      "dem_votes": 11042,
-      "rep_votes": 23602,
-      "other_votes": 0,
-      "total_votes": 34644,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 12560,
-      "margin_pct": 36.2545,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "BOUNDARY - ABSENTEE",
       "dem_votes": 536,
       "rep_votes": 984,
@@ -5607,19 +5478,6 @@
       "rep_candidate": "Raul Labrador",
       "margin": 325,
       "margin_pct": 68.7104,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BOUNDARY - CO. TOTAL",
-      "dem_votes": 967,
-      "rep_votes": 4212,
-      "other_votes": 0,
-      "total_votes": 5179,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 3245,
-      "margin_pct": 62.6569,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -5737,32 +5595,6 @@
       "rep_candidate": "Raul Labrador",
       "margin": 110,
       "margin_pct": 87.3016,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BUTTE - CO. TOTAL",
-      "dem_votes": 171,
-      "rep_votes": 807,
-      "other_votes": 0,
-      "total_votes": 978,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 636,
-      "margin_pct": 65.0307,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CAMAS - CO. TOTAL",
-      "dem_votes": 175,
-      "rep_votes": 338,
-      "other_votes": 0,
-      "total_votes": 513,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 163,
-      "margin_pct": 31.7739,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -6521,19 +6353,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "CANYON CONT. - CO. TOTAL",
-      "dem_votes": 18339,
-      "rep_votes": 39380,
-      "other_votes": 0,
-      "total_votes": 57719,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 21041,
-      "margin_pct": 36.4542,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "CARIBOU - BANCROFT",
       "dem_votes": 40,
       "rep_votes": 227,
@@ -6543,19 +6362,6 @@
       "rep_candidate": "Raul Labrador",
       "margin": 187,
       "margin_pct": 70.0375,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CARIBOU - CO. TOTAL",
-      "dem_votes": 402,
-      "rep_votes": 1681,
-      "other_votes": 0,
-      "total_votes": 2083,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 1279,
-      "margin_pct": 61.4018,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -6976,32 +6782,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "CASSIA CONT. - CO. TOTAL",
-      "dem_votes": 1186,
-      "rep_votes": 4590,
-      "other_votes": 0,
-      "total_votes": 5776,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 3404,
-      "margin_pct": 58.9335,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CLARK - CO. TOTAL",
-      "dem_votes": 39,
-      "rep_votes": 160,
-      "other_votes": 0,
-      "total_votes": 199,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 121,
-      "margin_pct": 60.804,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "CLARK - PRECINCT #1",
       "dem_votes": 13,
       "rep_votes": 48,
@@ -7063,19 +6843,6 @@
       "rep_candidate": "Raul Labrador",
       "margin": 116,
       "margin_pct": 63.7363,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CLEARWATER - CO. TOTAL",
-      "dem_votes": 674,
-      "rep_votes": 2420,
-      "other_votes": 0,
-      "total_votes": 3094,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 1746,
-      "margin_pct": 56.4318,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -7301,19 +7068,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "CUSTER - CO. TOTAL",
-      "dem_votes": 492,
-      "rep_votes": 1490,
-      "other_votes": 0,
-      "total_votes": 1982,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 998,
-      "margin_pct": 50.3532,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "CUSTER - LESLIE",
       "dem_votes": 48,
       "rep_votes": 233,
@@ -7531,19 +7285,6 @@
       "rep_candidate": "Raul Labrador",
       "margin": 294,
       "margin_pct": 46.8153,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "ELMORE CONT. - CO. TOTAL",
-      "dem_votes": 1962,
-      "rep_votes": 4551,
-      "other_votes": 0,
-      "total_votes": 6513,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 2589,
-      "margin_pct": 39.7513,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -7860,19 +7601,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "FRANKLIN - CO. TOTAL",
-      "dem_votes": 455,
-      "rep_votes": 3821,
-      "other_votes": 0,
-      "total_votes": 4276,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 3366,
-      "margin_pct": 78.7184,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "FREMONT - 001",
       "dem_votes": 67,
       "rep_votes": 192,
@@ -8055,19 +7783,6 @@
       "color": "#fb6a4a"
     },
     {
-      "county": "FREMONT - CO. TOTAL",
-      "dem_votes": 848,
-      "rep_votes": 3379,
-      "other_votes": 0,
-      "total_votes": 4227,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 2531,
-      "margin_pct": 59.877,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "GEM - BUTTEVIEW",
       "dem_votes": 101,
       "rep_votes": 294,
@@ -8224,19 +7939,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "GEM CONT. - CO. TOTAL",
-      "dem_votes": 1761,
-      "rep_votes": 5757,
-      "other_votes": 0,
-      "total_votes": 7518,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 3996,
-      "margin_pct": 53.1524,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "GEM CONT. - OLA",
       "dem_votes": 19,
       "rep_votes": 70,
@@ -8272,19 +7974,6 @@
       "rep_candidate": "Raul Labrador",
       "margin": 66,
       "margin_pct": 32.3529,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "GOODING - CO. TOTAL",
-      "dem_votes": 1276,
-      "rep_votes": 2732,
-      "other_votes": 0,
-      "total_votes": 4008,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 1456,
-      "margin_pct": 36.3273,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -8389,19 +8078,6 @@
       "rep_candidate": "Raul Labrador",
       "margin": 192,
       "margin_pct": 80.0,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "IDAHO - CO. TOTAL",
-      "dem_votes": 1408,
-      "rep_votes": 6020,
-      "other_votes": 0,
-      "total_votes": 7428,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 4612,
-      "margin_pct": 62.0894,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -8848,19 +8524,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "JEFFERSON CONT. - CO. TOTAL",
-      "dem_votes": 1517,
-      "rep_votes": 7510,
-      "other_votes": 0,
-      "total_votes": 9027,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 5993,
-      "margin_pct": 66.3897,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "JEFFERSON CONT. - MENAN",
       "dem_votes": 66,
       "rep_votes": 364,
@@ -9052,19 +8715,6 @@
       "rep_candidate": "Raul Labrador",
       "margin": 179,
       "margin_pct": 49.3113,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "JEROME - CO. TOTAL",
-      "dem_votes": 1458,
-      "rep_votes": 3367,
-      "other_votes": 0,
-      "total_votes": 4825,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 1909,
-      "margin_pct": 39.5648,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -10135,19 +9785,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "KOOTENAI CONT. - CO. TOTAL",
-      "dem_votes": 15696,
-      "rep_votes": 46424,
-      "other_votes": 0,
-      "total_votes": 62120,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 30728,
-      "margin_pct": 49.4656,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "LATAH - MOSCOW #01",
       "dem_votes": 53,
       "rep_votes": 72,
@@ -10224,19 +9861,6 @@
       "margin_pct": 45.4545,
       "winner": "REP",
       "color": "#a50f15"
-    },
-    {
-      "county": "LATAH CONT. - CO. TOTAL",
-      "dem_votes": 7725,
-      "rep_votes": 7223,
-      "other_votes": 0,
-      "total_votes": 14948,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": -502,
-      "margin_pct": -3.3583,
-      "winner": "DEM",
-      "color": "#cbd5e1"
     },
     {
       "county": "LATAH CONT. - CORA #31",
@@ -10733,32 +10357,6 @@
       "color": "#de2d26"
     },
     {
-      "county": "LEMHI - CO. TOTAL",
-      "dem_votes": 891,
-      "rep_votes": 2716,
-      "other_votes": 0,
-      "total_votes": 3607,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 1825,
-      "margin_pct": 50.5961,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "LEWIS - CO. TOTAL",
-      "dem_votes": 302,
-      "rep_votes": 1059,
-      "other_votes": 0,
-      "total_votes": 1361,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 757,
-      "margin_pct": 55.6209,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "LEWIS - CRAIGMONT",
       "dem_votes": 68,
       "rep_votes": 216,
@@ -10859,19 +10457,6 @@
       "rep_candidate": "Raul Labrador",
       "margin": 133,
       "margin_pct": 54.7325,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "LINCOLN - CO. TOTAL",
-      "dem_votes": 417,
-      "rep_votes": 902,
-      "other_votes": 0,
-      "total_votes": 1319,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 485,
-      "margin_pct": 36.7703,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -11028,19 +10613,6 @@
       "rep_candidate": "Raul Labrador",
       "margin": 52,
       "margin_pct": 44.8276,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "MADISON - CO. TOTAL",
-      "dem_votes": 1580,
-      "rep_votes": 6649,
-      "other_votes": 0,
-      "total_votes": 8229,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 5069,
-      "margin_pct": 61.5992,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -11249,19 +10821,6 @@
       "rep_candidate": "Raul Labrador",
       "margin": 237,
       "margin_pct": 61.5584,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "MINIDOKA - CO. TOTAL",
-      "dem_votes": 1092,
-      "rep_votes": 3592,
-      "other_votes": 0,
-      "total_votes": 4684,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 2500,
-      "margin_pct": 53.3732,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -11838,32 +11397,6 @@
       "color": "#6baed6"
     },
     {
-      "county": "NEZ PERCE CONT. - CO. TOTAL",
-      "dem_votes": 4821,
-      "rep_votes": 8567,
-      "other_votes": 0,
-      "total_votes": 13388,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 3746,
-      "margin_pct": 27.9803,
-      "winner": "REP",
-      "color": "#de2d26"
-    },
-    {
-      "county": "ONEIDA - CO. TOTAL",
-      "dem_votes": 214,
-      "rep_votes": 1378,
-      "other_votes": 0,
-      "total_votes": 1592,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 1164,
-      "margin_pct": 73.1156,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "ONEIDA - CURLEW",
       "dem_votes": 4,
       "rep_votes": 75,
@@ -11964,19 +11497,6 @@
       "rep_candidate": "Raul Labrador",
       "margin": 99,
       "margin_pct": 62.2642,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "OWYHEE - CO. TOTAL",
-      "dem_votes": 679,
-      "rep_votes": 2586,
-      "other_votes": 0,
-      "total_votes": 3265,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 1907,
-      "margin_pct": 58.4074,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -12254,19 +11774,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "PAYETTE CONT. - CO. TOTAL",
-      "dem_votes": 1691,
-      "rep_votes": 5847,
-      "other_votes": 0,
-      "total_votes": 7538,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 4156,
-      "margin_pct": 55.134,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "POWER - 1",
       "dem_votes": 149,
       "rep_votes": 234,
@@ -12341,19 +11848,6 @@
       "rep_candidate": "Raul Labrador",
       "margin": 65,
       "margin_pct": 31.7073,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "POWER - CO. TOTAL",
-      "dem_votes": 622,
-      "rep_votes": 1337,
-      "other_votes": 0,
-      "total_votes": 1959,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 715,
-      "margin_pct": 36.4982,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -12540,19 +12034,6 @@
       "color": "#fcae91"
     },
     {
-      "county": "SHOSHONE - CO. TOTAL",
-      "dem_votes": 1163,
-      "rep_votes": 2914,
-      "other_votes": 0,
-      "total_votes": 4077,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 1751,
-      "margin_pct": 42.9482,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "TETON - 001",
       "dem_votes": 159,
       "rep_votes": 398,
@@ -12655,19 +12136,6 @@
       "margin_pct": -35.5249,
       "winner": "DEM",
       "color": "#08306b"
-    },
-    {
-      "county": "TETON - CO. TOTAL",
-      "dem_votes": 2554,
-      "rep_votes": 2078,
-      "other_votes": 0,
-      "total_votes": 4632,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": -476,
-      "margin_pct": -10.2763,
-      "winner": "DEM",
-      "color": "#2171b5"
     },
     {
       "county": "TWIN FALLS - BUHL 1",
@@ -12811,19 +12279,6 @@
       "margin_pct": 2.0662,
       "winner": "REP",
       "color": "#cbd5e1"
-    },
-    {
-      "county": "TWIN FALLS CONT. - CO. TOTAL",
-      "dem_votes": 7625,
-      "rep_votes": 15009,
-      "other_votes": 0,
-      "total_votes": 22634,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 7384,
-      "margin_pct": 32.6235,
-      "winner": "REP",
-      "color": "#a50f15"
     },
     {
       "county": "TWIN FALLS CONT. - FILER 3",
@@ -13320,19 +12775,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "VALLEY - CO. TOTAL",
-      "dem_votes": 2513,
-      "rep_votes": 2680,
-      "other_votes": 0,
-      "total_votes": 5193,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 167,
-      "margin_pct": 3.2159,
-      "winner": "REP",
-      "color": "#cbd5e1"
-    },
-    {
       "county": "VALLEY - DONNELLY",
       "dem_votes": 21,
       "rep_votes": 22,
@@ -13476,19 +12918,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "WASHINGTON CONT. - CO. TOTAL",
-      "dem_votes": 919,
-      "rep_votes": 2969,
-      "other_votes": 0,
-      "total_votes": 3888,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 2050,
-      "margin_pct": 52.7263,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "WASHINGTON CONT. - EAST WEISER",
       "dem_votes": 87,
       "rep_votes": 179,
@@ -13500,19 +12929,6 @@
       "margin_pct": 34.5865,
       "winner": "REP",
       "color": "#a50f15"
-    },
-    {
-      "county": "WASHINGTON CONT. - GRAND TOTAL",
-      "dem_votes": 219405,
-      "rep_votes": 367579,
-      "other_votes": 0,
-      "total_votes": 586984,
-      "dem_candidate": "Tom Arkoosh",
-      "rep_candidate": "Raul Labrador",
-      "margin": 148174,
-      "margin_pct": 25.2433,
-      "winner": "REP",
-      "color": "#de2d26"
     },
     {
       "county": "WASHINGTON CONT. - MIDDLE WEISER",

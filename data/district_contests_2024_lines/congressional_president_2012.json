@@ -3,30 +3,31 @@
   "scope": "congressional",
   "contest_type": "president",
   "meta": {
-    "match_coverage_pct": 67.11,
-    "matched_precinct_keys": 649,
+    "match_coverage_pct": 100,
+    "matched_precinct_keys": 967,
     "total_precinct_keys": 967,
-    "weighted_vote_coverage_pct": 63.38,
+    "weighted_vote_coverage_pct": 100,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "President of the United States",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 6,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 574,
-      "legacy_2008_vtd00_rows": 75,
-      "direct_2022_districtcoded_rows": 0
+      "modern_2020_vtd20_rows": 83,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 884
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 54641,
-        "rep_votes": 108046,
-        "other_votes": 5211,
-        "total_votes": 167897,
+        "dem_votes": 100917,
+        "rep_votes": 205071,
+        "other_votes": 9196,
+        "total_votes": 315184,
         "dem_candidate": "Barack Obama",
         "rep_candidate": "Mitt Romney",
-        "margin": 53405,
-        "margin_pct": 31.8082,
+        "margin": 104154,
+        "margin_pct": 33.0455,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -35,18 +36,18 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 87807,
-        "rep_votes": 150429,
-        "other_votes": 7298,
-        "total_votes": 245535,
+        "dem_votes": 111870,
+        "rep_votes": 215840,
+        "other_votes": 9380,
+        "total_votes": 337090,
         "dem_candidate": "Barack Obama",
         "rep_candidate": "Mitt Romney",
-        "margin": 62622,
-        "margin_pct": 25.5043,
+        "margin": 103970,
+        "margin_pct": 30.8434,
         "winner": "REP",
-        "color": "#de2d26",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#de2d26"
+          "color": "#a50f15"
         },
         "no_data": false
       }

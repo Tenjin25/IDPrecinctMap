@@ -3,30 +3,31 @@
   "scope": "congressional",
   "contest_type": "superintendent_public_instruction",
   "meta": {
-    "match_coverage_pct": 68.62,
-    "matched_precinct_keys": 667,
+    "match_coverage_pct": 99.49,
+    "matched_precinct_keys": 967,
     "total_precinct_keys": 972,
-    "weighted_vote_coverage_pct": 70.8,
+    "weighted_vote_coverage_pct": 99.29,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "Superintendent of Public Instruction",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 2,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 597,
-      "legacy_2008_vtd00_rows": 70,
-      "direct_2022_districtcoded_rows": 0
+      "modern_2020_vtd20_rows": 82,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 885
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 83957,
-        "rep_votes": 113034,
+        "dem_votes": 125361,
+        "rep_votes": 174803,
         "other_votes": 0,
-        "total_votes": 196991,
+        "total_votes": 300164,
         "dem_candidate": "Cindy Wilson",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 29077,
-        "margin_pct": 14.7606,
+        "margin": 49442,
+        "margin_pct": 16.4717,
         "winner": "REP",
         "color": "#fb6a4a",
         "competitiveness": {
@@ -35,14 +36,14 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 127969,
-        "rep_votes": 95954,
+        "dem_votes": 160934,
+        "rep_votes": 129144,
         "other_votes": 0,
-        "total_votes": 223923,
+        "total_votes": 290078,
         "dem_candidate": "Cindy Wilson",
         "rep_candidate": "Sherri Ybarra",
-        "margin": -32015,
-        "margin_pct": -14.2973,
+        "margin": -31790,
+        "margin_pct": -10.9591,
         "winner": "DEM",
         "color": "#2171b5",
         "competitiveness": {

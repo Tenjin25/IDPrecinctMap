@@ -4,7 +4,8 @@
   "meta": {
     "office": "Attorney General",
     "source": "20181106__id__general__precinct.csv",
-    "aggregation": "precinct"
+    "aggregation": "precinct",
+    "candidate_count": 2
   },
   "rows": [
     {

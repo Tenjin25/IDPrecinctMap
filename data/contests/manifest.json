@@ -170,13 +170,6 @@
     },
     {
       "year": 2006,
-      "contest_type": "secretary_of_state",
-      "file": "secretary_of_state_2006.json",
-      "rows": 952,
-      "office": "Secretary of State"
-    },
-    {
-      "year": 2006,
       "contest_type": "state_controller",
       "file": "state_controller_2006.json",
       "rows": 952,
@@ -275,20 +268,6 @@
     },
     {
       "year": 2018,
-      "contest_type": "state_controller",
-      "file": "state_controller_2018.json",
-      "rows": 971,
-      "office": "State Controller"
-    },
-    {
-      "year": 2018,
-      "contest_type": "state_treasurer",
-      "file": "state_treasurer_2018.json",
-      "rows": 972,
-      "office": "State Treasurer"
-    },
-    {
-      "year": 2018,
       "contest_type": "superintendent_public_instruction",
       "file": "superintendent_public_instruction_2018.json",
       "rows": 972,
@@ -312,56 +291,56 @@
       "year": 2022,
       "contest_type": "attorney_general",
       "file": "attorney_general_2022.json",
-      "rows": 1044,
+      "rows": 999,
       "office": "Attorney General"
     },
     {
       "year": 2022,
       "contest_type": "governor",
       "file": "governor_2022.json",
-      "rows": 1043,
+      "rows": 999,
       "office": "Governor"
     },
     {
       "year": 2022,
       "contest_type": "lieutenant_governor",
       "file": "lieutenant_governor_2022.json",
-      "rows": 1044,
+      "rows": 999,
       "office": "Lieutenant Governor"
     },
     {
       "year": 2022,
       "contest_type": "secretary_of_state",
       "file": "secretary_of_state_2022.json",
-      "rows": 1044,
+      "rows": 999,
       "office": "Secretary of State"
     },
     {
       "year": 2022,
       "contest_type": "state_controller",
       "file": "state_controller_2022.json",
-      "rows": 1044,
+      "rows": 999,
       "office": "State Controller"
     },
     {
       "year": 2022,
       "contest_type": "state_treasurer",
       "file": "state_treasurer_2022.json",
-      "rows": 1044,
+      "rows": 999,
       "office": "State Treasurer"
     },
     {
       "year": 2022,
       "contest_type": "superintendent_public_instruction",
       "file": "superintendent_public_instruction_2022.json",
-      "rows": 1044,
+      "rows": 999,
       "office": "Superintendent of Public Instruction"
     },
     {
       "year": 2022,
       "contest_type": "us_senate",
       "file": "us_senate_2022.json",
-      "rows": 1044,
+      "rows": 999,
       "office": "United States Senator"
     },
     {

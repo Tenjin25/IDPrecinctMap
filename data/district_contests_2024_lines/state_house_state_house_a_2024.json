@@ -4,7 +4,8 @@
   "contest_type": "state_house_a",
   "meta": {
     "office": "State House Seat A",
-    "source": "20241105__id__general__precinct.csv"
+    "source": "20241105__id__general__precinct.csv",
+    "candidate_count": 63
   },
   "general": {
     "results": {

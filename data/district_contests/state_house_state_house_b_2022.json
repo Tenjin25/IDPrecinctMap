@@ -4,7 +4,8 @@
   "contest_type": "state_house_b",
   "meta": {
     "office": "State House Seat B",
-    "source": "2022_General_Canvass.zip"
+    "source": "2022_General_Canvass.zip",
+    "candidate_count": 1
   },
   "general": {
     "results": {

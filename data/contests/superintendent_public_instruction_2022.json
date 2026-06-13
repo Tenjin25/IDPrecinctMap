@@ -4,7 +4,8 @@
   "meta": {
     "office": "Superintendent of Public Instruction",
     "source": "20221108__id__general__precinct.csv",
-    "aggregation": "precinct"
+    "aggregation": "precinct",
+    "candidate_count": 2
   },
   "rows": [
     {
@@ -2569,19 +2570,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "ADA CONT. - CO. TOTAL",
-      "dem_votes": 76447,
-      "rep_votes": 105337,
-      "other_votes": 0,
-      "total_votes": 181784,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 28890,
-      "margin_pct": 15.8925,
-      "winner": "REP",
-      "color": "#fb6a4a"
-    },
-    {
       "county": "ADAMS - ABSENTEE",
       "dem_votes": 152,
       "rep_votes": 324,
@@ -2604,19 +2592,6 @@
       "rep_candidate": "Debbie Critchfield",
       "margin": 35,
       "margin_pct": 94.5946,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "ADAMS - CO. TOTAL",
-      "dem_votes": 376,
-      "rep_votes": 1606,
-      "other_votes": 0,
-      "total_votes": 1982,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 1230,
-      "margin_pct": 62.0585,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -3035,19 +3010,6 @@
       "margin_pct": 51.5755,
       "winner": "REP",
       "color": "#a50f15"
-    },
-    {
-      "county": "BANNOCK CONT. - CO. TOTAL",
-      "dem_votes": 9666,
-      "rep_votes": 15495,
-      "other_votes": 0,
-      "total_votes": 25161,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 5829,
-      "margin_pct": 23.1668,
-      "winner": "REP",
-      "color": "#de2d26"
     },
     {
       "county": "BANNOCK CONT. - DOWNEY 062",
@@ -3583,19 +3545,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "BEAR LAKE CONT. - CO. TOTAL",
-      "dem_votes": 233,
-      "rep_votes": 1987,
-      "other_votes": 0,
-      "total_votes": 2220,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 1754,
-      "margin_pct": 79.009,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "BEAR LAKE CONT. - LIBERTY 12",
       "dem_votes": 5,
       "rep_votes": 76,
@@ -3670,19 +3619,6 @@
       "rep_candidate": "Debbie Critchfield",
       "margin": 246,
       "margin_pct": 67.5824,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BENEWAH - CO. TOTAL",
-      "dem_votes": 558,
-      "rep_votes": 2804,
-      "other_votes": 0,
-      "total_votes": 3362,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 2246,
-      "margin_pct": 66.8055,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -3932,19 +3868,6 @@
       "margin_pct": 0.0,
       "winner": "TIE",
       "color": "#cbd5e1"
-    },
-    {
-      "county": "BINGHAM - CO. TOTAL",
-      "dem_votes": 2057,
-      "rep_votes": 10103,
-      "other_votes": 0,
-      "total_votes": 12160,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 8046,
-      "margin_pct": 66.1678,
-      "winner": "REP",
-      "color": "#a50f15"
     },
     {
       "county": "BINGHAM - FIRTH 7",
@@ -4246,19 +4169,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "BLAINE CONT. - CO. TOTAL",
-      "dem_votes": 6368,
-      "rep_votes": 3271,
-      "other_votes": 0,
-      "total_votes": 9639,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": -3097,
-      "margin_pct": -32.1299,
-      "winner": "DEM",
-      "color": "#08306b"
-    },
-    {
       "county": "BLAINE CONT. - DEER CREEK",
       "dem_votes": 282,
       "rep_votes": 191,
@@ -4491,19 +4401,6 @@
       "margin_pct": 23.7374,
       "winner": "REP",
       "color": "#de2d26"
-    },
-    {
-      "county": "BOISE - CO. TOTAL",
-      "dem_votes": 748,
-      "rep_votes": 2627,
-      "other_votes": 0,
-      "total_votes": 3375,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 1879,
-      "margin_pct": 55.6741,
-      "winner": "REP",
-      "color": "#a50f15"
     },
     {
       "county": "BONNER - AIRPORT",
@@ -4892,19 +4789,6 @@
       "rep_candidate": "Debbie Critchfield",
       "margin": 114,
       "margin_pct": 52.7778,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BONNER CONT. - CO. TOTAL",
-      "dem_votes": 5647,
-      "rep_votes": 14320,
-      "other_votes": 0,
-      "total_votes": 19967,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 8673,
-      "margin_pct": 43.4367,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -5572,19 +5456,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "BONNEVILLE - CO. TOTAL",
-      "dem_votes": 8432,
-      "rep_votes": 25664,
-      "other_votes": 0,
-      "total_votes": 34096,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 17232,
-      "margin_pct": 50.5397,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "BOUNDARY - ABSENTEE",
       "dem_votes": 443,
       "rep_votes": 1052,
@@ -5607,19 +5478,6 @@
       "rep_candidate": "Debbie Critchfield",
       "margin": 314,
       "margin_pct": 69.7778,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BOUNDARY - CO. TOTAL",
-      "dem_votes": 817,
-      "rep_votes": 4200,
-      "other_votes": 0,
-      "total_votes": 5017,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 3383,
-      "margin_pct": 67.4307,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -5737,32 +5595,6 @@
       "rep_candidate": "Debbie Critchfield",
       "margin": 123,
       "margin_pct": 98.4,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "BUTTE - CO. TOTAL",
-      "dem_votes": 128,
-      "rep_votes": 846,
-      "other_votes": 0,
-      "total_votes": 974,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 718,
-      "margin_pct": 73.7166,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CAMAS - CO. TOTAL",
-      "dem_votes": 110,
-      "rep_votes": 403,
-      "other_votes": 0,
-      "total_votes": 513,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 293,
-      "margin_pct": 57.115,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -6521,19 +6353,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "CANYON CONT. - CO. TOTAL",
-      "dem_votes": 13676,
-      "rep_votes": 43716,
-      "other_votes": 0,
-      "total_votes": 57392,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 30040,
-      "margin_pct": 52.3418,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "CARIBOU - BANCROFT",
       "dem_votes": 23,
       "rep_votes": 249,
@@ -6543,19 +6362,6 @@
       "rep_candidate": "Debbie Critchfield",
       "margin": 226,
       "margin_pct": 83.0882,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CARIBOU - CO. TOTAL",
-      "dem_votes": 248,
-      "rep_votes": 1827,
-      "other_votes": 0,
-      "total_votes": 2075,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 1579,
-      "margin_pct": 76.0964,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -6976,32 +6782,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "CASSIA CONT. - CO. TOTAL",
-      "dem_votes": 574,
-      "rep_votes": 5170,
-      "other_votes": 0,
-      "total_votes": 5744,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 4596,
-      "margin_pct": 80.0139,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CLARK - CO. TOTAL",
-      "dem_votes": 19,
-      "rep_votes": 183,
-      "other_votes": 0,
-      "total_votes": 202,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 164,
-      "margin_pct": 81.1881,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "CLARK - PRECINCT #1",
       "dem_votes": 8,
       "rep_votes": 56,
@@ -7063,19 +6843,6 @@
       "rep_candidate": "Debbie Critchfield",
       "margin": 111,
       "margin_pct": 61.326,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "CLEARWATER - CO. TOTAL",
-      "dem_votes": 578,
-      "rep_votes": 2486,
-      "other_votes": 0,
-      "total_votes": 3064,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 1908,
-      "margin_pct": 62.2715,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -7301,19 +7068,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "CUSTER - CO. TOTAL",
-      "dem_votes": 386,
-      "rep_votes": 1580,
-      "other_votes": 0,
-      "total_votes": 1966,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 1194,
-      "margin_pct": 60.7325,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "CUSTER - LESLIE",
       "dem_votes": 26,
       "rep_votes": 248,
@@ -7531,19 +7285,6 @@
       "rep_candidate": "Debbie Critchfield",
       "margin": 370,
       "margin_pct": 58.5443,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "ELMORE CONT. - CO. TOTAL",
-      "dem_votes": 1503,
-      "rep_votes": 5007,
-      "other_votes": 0,
-      "total_votes": 6510,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 3504,
-      "margin_pct": 53.8249,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -7860,19 +7601,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "FRANKLIN - CO. TOTAL",
-      "dem_votes": 425,
-      "rep_votes": 3804,
-      "other_votes": 0,
-      "total_votes": 4229,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 3379,
-      "margin_pct": 79.9007,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "FREMONT - 001",
       "dem_votes": 45,
       "rep_votes": 218,
@@ -8055,19 +7783,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "FREMONT - CO. TOTAL",
-      "dem_votes": 566,
-      "rep_votes": 3663,
-      "other_votes": 0,
-      "total_votes": 4229,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 3097,
-      "margin_pct": 73.2324,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "GEM - BUTTEVIEW",
       "dem_votes": 63,
       "rep_votes": 335,
@@ -8224,19 +7939,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "GEM CONT. - CO. TOTAL",
-      "dem_votes": 1184,
-      "rep_votes": 6286,
-      "other_votes": 0,
-      "total_votes": 7470,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 5102,
-      "margin_pct": 68.2999,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "GEM CONT. - OLA",
       "dem_votes": 15,
       "rep_votes": 73,
@@ -8272,19 +7974,6 @@
       "rep_candidate": "Debbie Critchfield",
       "margin": 103,
       "margin_pct": 52.2843,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "GOODING - CO. TOTAL",
-      "dem_votes": 687,
-      "rep_votes": 3283,
-      "other_votes": 0,
-      "total_votes": 3970,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 2596,
-      "margin_pct": 65.3904,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -8389,19 +8078,6 @@
       "rep_candidate": "Debbie Critchfield",
       "margin": 207,
       "margin_pct": 88.0851,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "IDAHO - CO. TOTAL",
-      "dem_votes": 1067,
-      "rep_votes": 6183,
-      "other_votes": 0,
-      "total_votes": 7250,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 5116,
-      "margin_pct": 70.5655,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -8848,19 +8524,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "JEFFERSON CONT. - CO. TOTAL",
-      "dem_votes": 938,
-      "rep_votes": 8024,
-      "other_votes": 0,
-      "total_votes": 8962,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 7086,
-      "margin_pct": 79.0672,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "JEFFERSON CONT. - MENAN",
       "dem_votes": 47,
       "rep_votes": 379,
@@ -9052,19 +8715,6 @@
       "rep_candidate": "Debbie Critchfield",
       "margin": 246,
       "margin_pct": 68.3333,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "JEROME - CO. TOTAL",
-      "dem_votes": 808,
-      "rep_votes": 3980,
-      "other_votes": 0,
-      "total_votes": 4788,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 3172,
-      "margin_pct": 66.249,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -10135,19 +9785,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "KOOTENAI CONT. - CO. TOTAL",
-      "dem_votes": 13968,
-      "rep_votes": 45931,
-      "other_votes": 0,
-      "total_votes": 59899,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 31963,
-      "margin_pct": 53.3615,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "LATAH - MOSCOW #01",
       "dem_votes": 47,
       "rep_votes": 73,
@@ -10224,19 +9861,6 @@
       "margin_pct": 50.5155,
       "winner": "REP",
       "color": "#a50f15"
-    },
-    {
-      "county": "LATAH CONT. - CO. TOTAL",
-      "dem_votes": 7075,
-      "rep_votes": 7705,
-      "other_votes": 0,
-      "total_votes": 14780,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 630,
-      "margin_pct": 4.2625,
-      "winner": "REP",
-      "color": "#cbd5e1"
     },
     {
       "county": "LATAH CONT. - CORA #31",
@@ -10733,32 +10357,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "LEMHI - CO. TOTAL",
-      "dem_votes": 741,
-      "rep_votes": 2865,
-      "other_votes": 0,
-      "total_votes": 3606,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 2124,
-      "margin_pct": 58.9018,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "LEWIS - CO. TOTAL",
-      "dem_votes": 203,
-      "rep_votes": 1150,
-      "other_votes": 0,
-      "total_votes": 1353,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 947,
-      "margin_pct": 69.9926,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "LEWIS - CRAIGMONT",
       "dem_votes": 46,
       "rep_votes": 233,
@@ -10859,19 +10457,6 @@
       "rep_candidate": "Debbie Critchfield",
       "margin": 176,
       "margin_pct": 72.1311,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "LINCOLN - CO. TOTAL",
-      "dem_votes": 229,
-      "rep_votes": 1083,
-      "other_votes": 0,
-      "total_votes": 1312,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 854,
-      "margin_pct": 65.0915,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -11028,19 +10613,6 @@
       "rep_candidate": "Debbie Critchfield",
       "margin": 61,
       "margin_pct": 50.4132,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "MADISON - CO. TOTAL",
-      "dem_votes": 1134,
-      "rep_votes": 7029,
-      "other_votes": 0,
-      "total_votes": 8163,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 5895,
-      "margin_pct": 72.2161,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -11249,19 +10821,6 @@
       "rep_candidate": "Debbie Critchfield",
       "margin": 327,
       "margin_pct": 86.2797,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "MINIDOKA - CO. TOTAL",
-      "dem_votes": 551,
-      "rep_votes": 4123,
-      "other_votes": 0,
-      "total_votes": 4674,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 3572,
-      "margin_pct": 76.4228,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -11838,32 +11397,6 @@
       "color": "#fb6a4a"
     },
     {
-      "county": "NEZ PERCE CONT. - CO. TOTAL",
-      "dem_votes": 3821,
-      "rep_votes": 9518,
-      "other_votes": 0,
-      "total_votes": 13339,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 5697,
-      "margin_pct": 42.7093,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "ONEIDA - CO. TOTAL",
-      "dem_votes": 162,
-      "rep_votes": 1401,
-      "other_votes": 0,
-      "total_votes": 1563,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 1239,
-      "margin_pct": 79.2706,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "ONEIDA - CURLEW",
       "dem_votes": 3,
       "rep_votes": 71,
@@ -11964,19 +11497,6 @@
       "rep_candidate": "Debbie Critchfield",
       "margin": 133,
       "margin_pct": 83.6478,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "OWYHEE - CO. TOTAL",
-      "dem_votes": 473,
-      "rep_votes": 2766,
-      "other_votes": 0,
-      "total_votes": 3239,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 2293,
-      "margin_pct": 70.7935,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -12254,19 +11774,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "PAYETTE CONT. - CO. TOTAL",
-      "dem_votes": 1159,
-      "rep_votes": 6362,
-      "other_votes": 0,
-      "total_votes": 7521,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 5203,
-      "margin_pct": 69.1796,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "POWER - 1",
       "dem_votes": 113,
       "rep_votes": 272,
@@ -12341,19 +11848,6 @@
       "rep_candidate": "Debbie Critchfield",
       "margin": 68,
       "margin_pct": 33.3333,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "POWER - CO. TOTAL",
-      "dem_votes": 452,
-      "rep_votes": 1504,
-      "other_votes": 0,
-      "total_votes": 1956,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 1052,
-      "margin_pct": 53.7832,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -12540,19 +12034,6 @@
       "color": "#fcae91"
     },
     {
-      "county": "SHOSHONE - CO. TOTAL",
-      "dem_votes": 1098,
-      "rep_votes": 2904,
-      "other_votes": 0,
-      "total_votes": 4002,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 1806,
-      "margin_pct": 45.1274,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "TETON - 001",
       "dem_votes": 140,
       "rep_votes": 415,
@@ -12655,19 +12136,6 @@
       "margin_pct": -31.123,
       "winner": "DEM",
       "color": "#08306b"
-    },
-    {
-      "county": "TETON - CO. TOTAL",
-      "dem_votes": 2463,
-      "rep_votes": 2147,
-      "other_votes": 0,
-      "total_votes": 4610,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": -316,
-      "margin_pct": -6.8547,
-      "winner": "DEM",
-      "color": "#6baed6"
     },
     {
       "county": "TWIN FALLS - BUHL 1",
@@ -12809,19 +12277,6 @@
       "rep_candidate": "Debbie Critchfield",
       "margin": 1412,
       "margin_pct": 35.0025,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "TWIN FALLS CONT. - CO. TOTAL",
-      "dem_votes": 4678,
-      "rep_votes": 17819,
-      "other_votes": 0,
-      "total_votes": 22497,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 13141,
-      "margin_pct": 58.4122,
       "winner": "REP",
       "color": "#a50f15"
     },
@@ -13320,19 +12775,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "VALLEY - CO. TOTAL",
-      "dem_votes": 2034,
-      "rep_votes": 3111,
-      "other_votes": 0,
-      "total_votes": 5145,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 1077,
-      "margin_pct": 20.9329,
-      "winner": "REP",
-      "color": "#de2d26"
-    },
-    {
       "county": "VALLEY - DONNELLY",
       "dem_votes": 16,
       "rep_votes": 26,
@@ -13476,19 +12918,6 @@
       "color": "#a50f15"
     },
     {
-      "county": "WASHINGTON CONT. - CO. TOTAL",
-      "dem_votes": 589,
-      "rep_votes": 3276,
-      "other_votes": 0,
-      "total_votes": 3865,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 2687,
-      "margin_pct": 69.5213,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
       "county": "WASHINGTON CONT. - EAST WEISER",
       "dem_votes": 48,
       "rep_votes": 215,
@@ -13498,19 +12927,6 @@
       "rep_candidate": "Debbie Critchfield",
       "margin": 167,
       "margin_pct": 63.4981,
-      "winner": "REP",
-      "color": "#a50f15"
-    },
-    {
-      "county": "WASHINGTON CONT. - GRAND TOTAL",
-      "dem_votes": 175076,
-      "rep_votes": 404549,
-      "other_votes": 0,
-      "total_votes": 579625,
-      "dem_candidate": "Terry L. Gilbert",
-      "rep_candidate": "Debbie Critchfield",
-      "margin": 229473,
-      "margin_pct": 39.5899,
       "winner": "REP",
       "color": "#a50f15"
     },

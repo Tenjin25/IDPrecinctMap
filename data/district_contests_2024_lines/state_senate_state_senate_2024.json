@@ -4,7 +4,8 @@
   "contest_type": "state_senate",
   "meta": {
     "office": "State Senate",
-    "source": "20241105__id__general__precinct.csv"
+    "source": "20241105__id__general__precinct.csv",
+    "candidate_count": 66
   },
   "general": {
     "results": {

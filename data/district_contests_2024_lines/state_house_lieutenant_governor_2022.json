@@ -3,17 +3,18 @@
   "scope": "state_house",
   "contest_type": "lieutenant_governor",
   "meta": {
-    "match_coverage_pct": 94.73,
-    "matched_precinct_keys": 989,
-    "total_precinct_keys": 1044,
-    "weighted_vote_coverage_pct": 33.05,
+    "match_coverage_pct": 99.9,
+    "matched_precinct_keys": 998,
+    "total_precinct_keys": 999,
+    "weighted_vote_coverage_pct": 100,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "Lieutenant Governor",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 3,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 4,
-      "legacy_2008_vtd00_rows": 1,
-      "direct_2022_districtcoded_rows": 984
+      "modern_2020_vtd20_rows": 3,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 995
     }
   },
   "general": {
@@ -115,14 +116,14 @@
         "no_data": false
       },
       "7": {
-        "dem_votes": 4629,
-        "rep_votes": 14570,
-        "other_votes": 1086,
-        "total_votes": 20285,
+        "dem_votes": 4202,
+        "rep_votes": 13453,
+        "other_votes": 1018,
+        "total_votes": 18673,
         "dem_candidate": "Terri Pickens Manweiler",
         "rep_candidate": "Scott Bedke",
-        "margin": 9941,
-        "margin_pct": 49.0067,
+        "margin": 9251,
+        "margin_pct": 49.5421,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -147,14 +148,14 @@
         "no_data": false
       },
       "9": {
-        "dem_votes": 1889,
-        "rep_votes": 9795,
-        "other_votes": 1178,
-        "total_votes": 12862,
+        "dem_votes": 2506,
+        "rep_votes": 12665,
+        "other_votes": 1473,
+        "total_votes": 16644,
         "dem_candidate": "Terri Pickens Manweiler",
         "rep_candidate": "Scott Bedke",
-        "margin": 7906,
-        "margin_pct": 61.4679,
+        "margin": 10159,
+        "margin_pct": 61.037,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -371,14 +372,14 @@
         "no_data": false
       },
       "23": {
-        "dem_votes": 3115,
-        "rep_votes": 11265,
-        "other_votes": 1359,
-        "total_votes": 15739,
+        "dem_votes": 3129,
+        "rep_votes": 11407,
+        "other_votes": 1366,
+        "total_votes": 15902,
         "dem_candidate": "Terri Pickens Manweiler",
         "rep_candidate": "Scott Bedke",
-        "margin": 8150,
-        "margin_pct": 51.7822,
+        "margin": 8278,
+        "margin_pct": 52.0563,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -435,14 +436,14 @@
         "no_data": false
       },
       "27": {
-        "dem_votes": 1211,
-        "rep_votes": 8806,
-        "other_votes": 554,
-        "total_votes": 10571,
+        "dem_votes": 1324,
+        "rep_votes": 10059,
+        "other_votes": 651,
+        "total_votes": 12034,
         "dem_candidate": "Terri Pickens Manweiler",
         "rep_candidate": "Scott Bedke",
-        "margin": 7595,
-        "margin_pct": 71.8475,
+        "margin": 8735,
+        "margin_pct": 72.586,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -499,14 +500,14 @@
         "no_data": false
       },
       "31": {
-        "dem_votes": 1827,
-        "rep_votes": 13428,
-        "other_votes": 672,
-        "total_votes": 15927,
+        "dem_votes": 2192,
+        "rep_votes": 14150,
+        "other_votes": 708,
+        "total_votes": 17050,
         "dem_candidate": "Terri Pickens Manweiler",
         "rep_candidate": "Scott Bedke",
-        "margin": 11601,
-        "margin_pct": 72.8386,
+        "margin": 11958,
+        "margin_pct": 70.1349,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {

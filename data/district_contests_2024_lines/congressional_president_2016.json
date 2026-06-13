@@ -3,30 +3,31 @@
   "scope": "congressional",
   "contest_type": "president",
   "meta": {
-    "match_coverage_pct": 68.99,
-    "matched_precinct_keys": 663,
+    "match_coverage_pct": 99.9,
+    "matched_precinct_keys": 960,
     "total_precinct_keys": 961,
-    "weighted_vote_coverage_pct": 64.72,
+    "weighted_vote_coverage_pct": 100,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "President of the United States",
     "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 8,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 592,
-      "legacy_2008_vtd00_rows": 71,
-      "direct_2022_districtcoded_rows": 0
+      "modern_2020_vtd20_rows": 83,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 877
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 47653,
-        "rep_votes": 121329,
-        "other_votes": 22021,
-        "total_votes": 191002,
+        "dem_votes": 86666,
+        "rep_votes": 221720,
+        "other_votes": 37421,
+        "total_votes": 345806,
         "dem_candidate": "Hillary Rodham Clinton",
         "rep_candidate": "Donald J. Trump",
-        "margin": 73676,
-        "margin_pct": 38.5734,
+        "margin": 135054,
+        "margin_pct": 39.0548,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -35,18 +36,18 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 82691,
-        "rep_votes": 133105,
-        "other_votes": 39937,
-        "total_votes": 255734,
+        "dem_votes": 103099,
+        "rep_votes": 187335,
+        "other_votes": 54014,
+        "total_votes": 344449,
         "dem_candidate": "Hillary Rodham Clinton",
         "rep_candidate": "Donald J. Trump",
-        "margin": 50414,
-        "margin_pct": 19.7135,
+        "margin": 84236,
+        "margin_pct": 24.4553,
         "winner": "REP",
-        "color": "#fb6a4a",
+        "color": "#de2d26",
         "competitiveness": {
-          "color": "#fb6a4a"
+          "color": "#de2d26"
         },
         "no_data": false
       }
