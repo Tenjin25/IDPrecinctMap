@@ -1,0 +1,52 @@
+{
+  "year": 1998,
+  "scope": "congressional",
+  "contest_type": "attorney_general",
+  "meta": {
+    "match_coverage_pct": 25.48,
+    "matched_precinct_keys": 237,
+    "total_precinct_keys": 930,
+    "weighted_vote_coverage_pct": 26.54,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Attorney General",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 237,
+      "legacy_2008_vtd00_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 17219,
+        "rep_votes": 38315,
+        "other_votes": 0,
+        "total_votes": 55534,
+        "dem_candidate": "Brit Groom",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 21096,
+        "margin_pct": 37.9875,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "2": {
+        "dem_votes": 10618,
+        "rep_votes": 29803,
+        "other_votes": 0,
+        "total_votes": 40421,
+        "dem_candidate": "Brit Groom",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 19185,
+        "margin_pct": 47.463,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      }
+    }
+  }
+}

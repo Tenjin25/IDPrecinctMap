@@ -1,0 +1,54 @@
+{
+  "year": 2014,
+  "scope": "congressional",
+  "contest_type": "superintendent_public_instruction",
+  "meta": {
+    "match_coverage_pct": 38.03,
+    "matched_precinct_keys": 386,
+    "total_precinct_keys": 1015,
+    "weighted_vote_coverage_pct": 7.45,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Superintendent of Public Instruction",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 353,
+      "legacy_2008_vtd00_rows": 33
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 31985,
+        "rep_votes": 45568,
+        "other_votes": 0,
+        "total_votes": 77553,
+        "dem_candidate": "Jana Jones",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 13583,
+        "margin_pct": 17.5145,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 32635,
+        "rep_votes": 36439,
+        "other_votes": 0,
+        "total_votes": 69074,
+        "dem_candidate": "Jana Jones",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 3804,
+        "margin_pct": 5.5071,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

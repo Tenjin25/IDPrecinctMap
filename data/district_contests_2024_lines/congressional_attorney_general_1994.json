@@ -1,0 +1,52 @@
+{
+  "year": 1994,
+  "scope": "congressional",
+  "contest_type": "attorney_general",
+  "meta": {
+    "match_coverage_pct": 36.71,
+    "matched_precinct_keys": 330,
+    "total_precinct_keys": 899,
+    "weighted_vote_coverage_pct": 34.38,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Attorney General",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 330,
+      "legacy_2008_vtd00_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 31444,
+        "rep_votes": 43222,
+        "other_votes": 0,
+        "total_votes": 74666,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 11778,
+        "margin_pct": 15.7742,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "2": {
+        "dem_votes": 21995,
+        "rep_votes": 39730,
+        "other_votes": 0,
+        "total_votes": 61725,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 17735,
+        "margin_pct": 28.7323,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      }
+    }
+  }
+}

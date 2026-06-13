@@ -1,0 +1,55 @@
+{
+  "year": 2012,
+  "scope": "congressional",
+  "contest_type": "president",
+  "meta": {
+    "match_coverage_pct": 67.11,
+    "matched_precinct_keys": 649,
+    "total_precinct_keys": 967,
+    "weighted_vote_coverage_pct": 63.38,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "President of the United States",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 574,
+      "legacy_2008_vtd00_rows": 75,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 54641,
+        "rep_votes": 108046,
+        "other_votes": 5211,
+        "total_votes": 167897,
+        "dem_candidate": "Barack Obama",
+        "rep_candidate": "Mitt Romney",
+        "margin": 53405,
+        "margin_pct": 31.8082,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 87807,
+        "rep_votes": 150429,
+        "other_votes": 7298,
+        "total_votes": 245535,
+        "dem_candidate": "Barack Obama",
+        "rep_candidate": "Mitt Romney",
+        "margin": 62622,
+        "margin_pct": 25.5043,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "year": 1994,
+  "scope": "state_house",
+  "contest_type": "attorney_general",
+  "meta": {
+    "match_coverage_pct": 36.71,
+    "matched_precinct_keys": 330,
+    "total_precinct_keys": 899,
+    "weighted_vote_coverage_pct": 34.38,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Attorney General",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 330,
+      "legacy_2008_vtd00_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 743,
+        "rep_votes": 1215,
+        "other_votes": 0,
+        "total_votes": 1958,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 472,
+        "margin_pct": 24.1062,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "2": {
+        "dem_votes": 3287,
+        "rep_votes": 3140,
+        "other_votes": 0,
+        "total_votes": 6427,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": -147,
+        "margin_pct": -2.2872,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        }
+      },
+      "3": {
+        "dem_votes": 6163,
+        "rep_votes": 8275,
+        "other_votes": 0,
+        "total_votes": 14437,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 2112,
+        "margin_pct": 14.6291,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "4": {
+        "dem_votes": 5,
+        "rep_votes": 7,
+        "other_votes": 0,
+        "total_votes": 12,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 2,
+        "margin_pct": 16.6667,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "5": {
+        "dem_votes": 2914,
+        "rep_votes": 4439,
+        "other_votes": 0,
+        "total_votes": 7353,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 1525,
+        "margin_pct": 20.7398,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "6": {
+        "dem_votes": 6904,
+        "rep_votes": 5660,
+        "other_votes": 0,
+        "total_votes": 12564,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": -1244,
+        "margin_pct": -9.9013,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "7": {
+        "dem_votes": 1147,
+        "rep_votes": 1648,
+        "other_votes": 0,
+        "total_votes": 2795,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 501,
+        "margin_pct": 17.9249,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "8": {
+        "dem_votes": 2883,
+        "rep_votes": 3851,
+        "other_votes": 0,
+        "total_votes": 6734,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 968,
+        "margin_pct": 14.3748,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "9": {
+        "dem_votes": 1499,
+        "rep_votes": 2480,
+        "other_votes": 0,
+        "total_votes": 3979,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 981,
+        "margin_pct": 24.6544,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "10": {
+        "dem_votes": 1266,
+        "rep_votes": 2437,
+        "other_votes": 0,
+        "total_votes": 3703,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 1171,
+        "margin_pct": 31.623,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "11": {
+        "dem_votes": 1974,
+        "rep_votes": 3699,
+        "other_votes": 0,
+        "total_votes": 5673,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 1725,
+        "margin_pct": 30.4072,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "12": {
+        "dem_votes": 2139,
+        "rep_votes": 4665,
+        "other_votes": 0,
+        "total_votes": 6804,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 2526,
+        "margin_pct": 37.1252,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "13": {
+        "dem_votes": 790,
+        "rep_votes": 1607,
+        "other_votes": 0,
+        "total_votes": 2398,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 817,
+        "margin_pct": 34.0701,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        }
+      },
+      "23": {
+        "dem_votes": 855,
+        "rep_votes": 1577,
+        "other_votes": 0,
+        "total_votes": 2432,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 722,
+        "margin_pct": 29.6875,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "24": {
+        "dem_votes": 737,
+        "rep_votes": 1271,
+        "other_votes": 0,
+        "total_votes": 2008,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 534,
+        "margin_pct": 26.5936,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "26": {
+        "dem_votes": 1427,
+        "rep_votes": 2249,
+        "other_votes": 0,
+        "total_votes": 3676,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 822,
+        "margin_pct": 22.3613,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "27": {
+        "dem_votes": 2817,
+        "rep_votes": 5731,
+        "other_votes": 0,
+        "total_votes": 8548,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 2914,
+        "margin_pct": 34.0898,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "28": {
+        "dem_votes": 997,
+        "rep_votes": 2442,
+        "other_votes": 0,
+        "total_votes": 3439,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 1445,
+        "margin_pct": 42.018,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "30": {
+        "dem_votes": 545,
+        "rep_votes": 673,
+        "other_votes": 0,
+        "total_votes": 1218,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 128,
+        "margin_pct": 10.509,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "31": {
+        "dem_votes": 2674,
+        "rep_votes": 5518,
+        "other_votes": 0,
+        "total_votes": 8192,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 2844,
+        "margin_pct": 34.7168,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "32": {
+        "dem_votes": 3412,
+        "rep_votes": 7054,
+        "other_votes": 0,
+        "total_votes": 10466,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 3642,
+        "margin_pct": 34.7984,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "33": {
+        "dem_votes": 5436,
+        "rep_votes": 7905,
+        "other_votes": 0,
+        "total_votes": 13341,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 2469,
+        "margin_pct": 18.5069,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "35": {
+        "dem_votes": 2825,
+        "rep_votes": 5410,
+        "other_votes": 0,
+        "total_votes": 8235,
+        "dem_candidate": "Mike Burkett",
+        "rep_candidate": "Alan G. Lance",
+        "margin": 2585,
+        "margin_pct": 31.3904,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      }
+    }
+  }
+}

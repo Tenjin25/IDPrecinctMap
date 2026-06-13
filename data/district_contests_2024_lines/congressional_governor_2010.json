@@ -1,0 +1,55 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "governor",
+  "meta": {
+    "match_coverage_pct": 52.97,
+    "matched_precinct_keys": 509,
+    "total_precinct_keys": 961,
+    "weighted_vote_coverage_pct": 38.65,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Governor",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 418,
+      "legacy_2008_vtd00_rows": 91,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 21054,
+        "rep_votes": 43748,
+        "other_votes": 5890,
+        "total_votes": 70692,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 22694,
+        "margin_pct": 32.1026,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 34825,
+        "rep_votes": 61510,
+        "other_votes": 7878,
+        "total_votes": 104213,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 26685,
+        "margin_pct": 25.6062,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

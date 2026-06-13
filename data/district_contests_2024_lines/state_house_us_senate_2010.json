@@ -1,0 +1,583 @@
+{
+  "year": 2010,
+  "scope": "state_house",
+  "contest_type": "us_senate",
+  "meta": {
+    "match_coverage_pct": 52.97,
+    "matched_precinct_keys": 509,
+    "total_precinct_keys": 961,
+    "weighted_vote_coverage_pct": 38.69,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "United States Senator",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 418,
+      "legacy_2008_vtd00_rows": 91,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 3041,
+        "rep_votes": 7416,
+        "other_votes": 474,
+        "total_votes": 10932,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 4375,
+        "margin_pct": 40.0201,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 2130,
+        "rep_votes": 5386,
+        "other_votes": 429,
+        "total_votes": 7945,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 3256,
+        "margin_pct": 40.9817,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "4": {
+        "dem_votes": 1220,
+        "rep_votes": 1664,
+        "other_votes": 148,
+        "total_votes": 3032,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 444,
+        "margin_pct": 14.6438,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 433,
+        "rep_votes": 1562,
+        "other_votes": 63,
+        "total_votes": 2057,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 1129,
+        "margin_pct": 54.8858,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 5403,
+        "rep_votes": 9151,
+        "other_votes": 515,
+        "total_votes": 15069,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 3748,
+        "margin_pct": 24.8723,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 3296,
+        "rep_votes": 9926,
+        "other_votes": 680,
+        "total_votes": 13902,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 6630,
+        "margin_pct": 47.691,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 1772,
+        "rep_votes": 6754,
+        "other_votes": 444,
+        "total_votes": 8970,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 4982,
+        "margin_pct": 55.5407,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 727,
+        "rep_votes": 3340,
+        "other_votes": 407,
+        "total_votes": 4473,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 2613,
+        "margin_pct": 58.4172,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 175,
+        "rep_votes": 735,
+        "other_votes": 24,
+        "total_votes": 934,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 560,
+        "margin_pct": 59.9572,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 32,
+        "rep_votes": 185,
+        "other_votes": 8,
+        "total_votes": 226,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 153,
+        "margin_pct": 67.6991,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "14": {
+        "dem_votes": 1163,
+        "rep_votes": 5341,
+        "other_votes": 304,
+        "total_votes": 6808,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 4178,
+        "margin_pct": 61.369,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "19": {
+        "dem_votes": 165,
+        "rep_votes": 410,
+        "other_votes": 12,
+        "total_votes": 587,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 245,
+        "margin_pct": 41.7376,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "23": {
+        "dem_votes": 357,
+        "rep_votes": 2128,
+        "other_votes": 129,
+        "total_votes": 2614,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 1771,
+        "margin_pct": 67.7506,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 1151,
+        "rep_votes": 5305,
+        "other_votes": 344,
+        "total_votes": 6800,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 4154,
+        "margin_pct": 61.0882,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 2645,
+        "rep_votes": 9506,
+        "other_votes": 572,
+        "total_votes": 12723,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 6861,
+        "margin_pct": 53.926,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 1907,
+        "rep_votes": 4283,
+        "other_votes": 196,
+        "total_votes": 6386,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 2376,
+        "margin_pct": 37.2064,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 863,
+        "rep_votes": 5412,
+        "other_votes": 287,
+        "total_votes": 6562,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 4549,
+        "margin_pct": 69.3234,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 2250,
+        "rep_votes": 7619,
+        "other_votes": 515,
+        "total_votes": 10384,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 5369,
+        "margin_pct": 51.7045,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 5671,
+        "rep_votes": 9470,
+        "other_votes": 578,
+        "total_votes": 15719,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 3799,
+        "margin_pct": 24.1682,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 2330,
+        "rep_votes": 9658,
+        "other_votes": 468,
+        "total_votes": 12456,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 7328,
+        "margin_pct": 58.8311,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 1049,
+        "rep_votes": 6676,
+        "other_votes": 414,
+        "total_votes": 8139,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 5627,
+        "margin_pct": 69.1363,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 203,
+        "rep_votes": 662,
+        "other_votes": 8,
+        "total_votes": 873,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 459,
+        "margin_pct": 52.5773,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "34": {
+        "dem_votes": 734,
+        "rep_votes": 6616,
+        "other_votes": 340,
+        "total_votes": 7690,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 5882,
+        "margin_pct": 76.4889,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 1999,
+        "rep_votes": 6319,
+        "other_votes": 346,
+        "total_votes": 8664,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 4320,
+        "margin_pct": 49.8615,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

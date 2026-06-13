@@ -1,0 +1,582 @@
+{
+  "year": 2010,
+  "scope": "state_senate",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "match_coverage_pct": 37.82,
+    "matched_precinct_keys": 382,
+    "total_precinct_keys": 1010,
+    "weighted_vote_coverage_pct": 6.74,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Lieutenant Governor",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 341,
+      "legacy_2008_vtd00_rows": 41
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 3057,
+        "rep_votes": 6813,
+        "other_votes": 583,
+        "total_votes": 10453,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 3756,
+        "margin_pct": 35.9323,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 2045,
+        "rep_votes": 5962,
+        "other_votes": 510,
+        "total_votes": 8517,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 3917,
+        "margin_pct": 45.9904,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 437,
+        "rep_votes": 1721,
+        "other_votes": 128,
+        "total_votes": 2286,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 1284,
+        "margin_pct": 56.168,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "5": {
+        "dem_votes": 93,
+        "rep_votes": 343,
+        "other_votes": 22,
+        "total_votes": 458,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 250,
+        "margin_pct": 54.5852,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 2676,
+        "rep_votes": 3340,
+        "other_votes": 250,
+        "total_votes": 6266,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 664,
+        "margin_pct": 10.5969,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 2309,
+        "rep_votes": 5123,
+        "other_votes": 350,
+        "total_votes": 7782,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 2814,
+        "margin_pct": 36.1604,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 2226,
+        "rep_votes": 6743,
+        "other_votes": 547,
+        "total_votes": 9516,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 4517,
+        "margin_pct": 47.4674,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 662,
+        "rep_votes": 3007,
+        "other_votes": 220,
+        "total_votes": 3889,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 2345,
+        "margin_pct": 60.2983,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 183,
+        "rep_votes": 1017,
+        "other_votes": 63,
+        "total_votes": 1263,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 834,
+        "margin_pct": 66.0333,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 1726,
+        "rep_votes": 5937,
+        "other_votes": 450,
+        "total_votes": 8113,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 4211,
+        "margin_pct": 51.9044,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "13": {
+        "dem_votes": 306,
+        "rep_votes": 1433,
+        "other_votes": 128,
+        "total_votes": 1866,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 1127,
+        "margin_pct": 60.3966,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "14": {
+        "dem_votes": 481,
+        "rep_votes": 3183,
+        "other_votes": 232,
+        "total_votes": 3896,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 2702,
+        "margin_pct": 69.3532,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "23": {
+        "dem_votes": 687,
+        "rep_votes": 3565,
+        "other_votes": 282,
+        "total_votes": 4535,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 2878,
+        "margin_pct": 63.462,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 901,
+        "rep_votes": 3092,
+        "other_votes": 226,
+        "total_votes": 4219,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 2191,
+        "margin_pct": 51.9317,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 218,
+        "rep_votes": 627,
+        "other_votes": 51,
+        "total_votes": 896,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 409,
+        "margin_pct": 45.6473,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 1186,
+        "rep_votes": 3959,
+        "other_votes": 246,
+        "total_votes": 5391,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 2773,
+        "margin_pct": 51.4376,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 1058,
+        "rep_votes": 4833,
+        "other_votes": 285,
+        "total_votes": 6176,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 3775,
+        "margin_pct": 61.1237,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 480,
+        "rep_votes": 2786,
+        "other_votes": 196,
+        "total_votes": 3463,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 2306,
+        "margin_pct": 66.5897,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 1665,
+        "rep_votes": 1900,
+        "other_votes": 173,
+        "total_votes": 3737,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 235,
+        "margin_pct": 6.2885,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 3071,
+        "rep_votes": 9025,
+        "other_votes": 611,
+        "total_votes": 12707,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 5954,
+        "margin_pct": 46.8561,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 1670,
+        "rep_votes": 7658,
+        "other_votes": 641,
+        "total_votes": 9969,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 5988,
+        "margin_pct": 60.0662,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 1,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 2662,
+        "rep_votes": 5235,
+        "other_votes": 403,
+        "total_votes": 8299,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 2573,
+        "margin_pct": 31.0037,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "34": {
+        "dem_votes": 1119,
+        "rep_votes": 5933,
+        "other_votes": 389,
+        "total_votes": 7441,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 4814,
+        "margin_pct": 64.6956,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 1217,
+        "rep_votes": 2640,
+        "other_votes": 169,
+        "total_votes": 4026,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 1423,
+        "margin_pct": 35.3453,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

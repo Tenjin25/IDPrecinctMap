@@ -1,0 +1,55 @@
+{
+  "year": 2000,
+  "scope": "congressional",
+  "contest_type": "president",
+  "meta": {
+    "match_coverage_pct": 47.15,
+    "matched_precinct_keys": 438,
+    "total_precinct_keys": 929,
+    "weighted_vote_coverage_pct": 38.33,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "President of the United States",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 341,
+      "legacy_2008_vtd00_rows": 97,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 20929,
+        "rep_votes": 48344,
+        "other_votes": 4465,
+        "total_votes": 73738,
+        "dem_candidate": "Al Gore",
+        "rep_candidate": "George W. Bush",
+        "margin": 27415,
+        "margin_pct": 37.1789,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 31205,
+        "rep_votes": 77845,
+        "other_votes": 5314,
+        "total_votes": 114364,
+        "dem_candidate": "Al Gore",
+        "rep_candidate": "George W. Bush",
+        "margin": 46640,
+        "margin_pct": 40.7821,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

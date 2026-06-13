@@ -1,0 +1,52 @@
+{
+  "year": 1994,
+  "scope": "congressional",
+  "contest_type": "governor",
+  "meta": {
+    "match_coverage_pct": 36.71,
+    "matched_precinct_keys": 330,
+    "total_precinct_keys": 899,
+    "weighted_vote_coverage_pct": 34.53,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Governor",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 330,
+      "legacy_2008_vtd00_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 65769,
+        "rep_votes": 85210,
+        "other_votes": 4099,
+        "total_votes": 155078,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 19441,
+        "margin_pct": 12.5363,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "2": {
+        "dem_votes": 51586,
+        "rep_votes": 73283,
+        "other_votes": 2260,
+        "total_votes": 127129,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 21697,
+        "margin_pct": 17.0669,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      }
+    }
+  }
+}

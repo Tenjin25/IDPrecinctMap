@@ -1,0 +1,25 @@
+{
+  "year": 1994,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "meta": {
+    "office": "U.S. House",
+    "source": "19941108__id__general__precinct.csv"
+  },
+  "general": {
+    "results": {
+      "20": {
+        "dem_votes": 47936,
+        "rep_votes": 143593,
+        "other_votes": 0,
+        "total_votes": 191529,
+        "dem_candidate": "Penny Fletcher",
+        "rep_candidate": "Mike Crapo",
+        "margin": 95657,
+        "margin_pct": 49.9439,
+        "winner": "REP",
+        "color": "#a50f15"
+      }
+    }
+  }
+}

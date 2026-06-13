@@ -1,0 +1,582 @@
+{
+  "year": 2014,
+  "scope": "state_senate",
+  "contest_type": "state_treasurer",
+  "meta": {
+    "match_coverage_pct": 38.03,
+    "matched_precinct_keys": 386,
+    "total_precinct_keys": 1015,
+    "weighted_vote_coverage_pct": 7.48,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "State Treasurer",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 353,
+      "legacy_2008_vtd00_rows": 33
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 1685,
+        "rep_votes": 3515,
+        "other_votes": 0,
+        "total_votes": 5200,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 1830,
+        "margin_pct": 35.1923,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 2712,
+        "rep_votes": 5022,
+        "other_votes": 0,
+        "total_votes": 7734,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 2310,
+        "margin_pct": 29.8681,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 2011,
+        "rep_votes": 5948,
+        "other_votes": 0,
+        "total_votes": 7959,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 3937,
+        "margin_pct": 49.466,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "4": {
+        "dem_votes": 3,
+        "rep_votes": 7,
+        "other_votes": 0,
+        "total_votes": 10,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 4,
+        "margin_pct": 40,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 473,
+        "rep_votes": 1273,
+        "other_votes": 0,
+        "total_votes": 1747,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 800,
+        "margin_pct": 45.7928,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 1081,
+        "rep_votes": 1576,
+        "other_votes": 0,
+        "total_votes": 2657,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 495,
+        "margin_pct": 18.63,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 2897,
+        "rep_votes": 4425,
+        "other_votes": 0,
+        "total_votes": 7322,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 1528,
+        "margin_pct": 20.8686,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 2863,
+        "rep_votes": 5475,
+        "other_votes": 0,
+        "total_votes": 8338,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 2612,
+        "margin_pct": 31.3265,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 1346,
+        "rep_votes": 3657,
+        "other_votes": 0,
+        "total_votes": 5003,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 2311,
+        "margin_pct": 46.1923,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 1314,
+        "rep_votes": 3305,
+        "other_votes": 0,
+        "total_votes": 4618,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 1991,
+        "margin_pct": 43.1139,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 2887,
+        "rep_votes": 4732,
+        "other_votes": 0,
+        "total_votes": 7619,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 1845,
+        "margin_pct": 24.2158,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 42,
+        "rep_votes": 109,
+        "other_votes": 0,
+        "total_votes": 151,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 67,
+        "margin_pct": 44.3709,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "13": {
+        "dem_votes": 339,
+        "rep_votes": 869,
+        "other_votes": 0,
+        "total_votes": 1208,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 530,
+        "margin_pct": 43.8742,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "14": {
+        "dem_votes": 4307,
+        "rep_votes": 8282,
+        "other_votes": 0,
+        "total_votes": 12588,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 3975,
+        "margin_pct": 31.5777,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 3661,
+        "rep_votes": 4477,
+        "other_votes": 0,
+        "total_votes": 8138,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 816,
+        "margin_pct": 10.027,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "20": {
+        "dem_votes": 576,
+        "rep_votes": 1157,
+        "other_votes": 0,
+        "total_votes": 1733,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 581,
+        "margin_pct": 33.5257,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "21": {
+        "dem_votes": 980,
+        "rep_votes": 1651,
+        "other_votes": 0,
+        "total_votes": 2632,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 671,
+        "margin_pct": 25.4939,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "23": {
+        "dem_votes": 1362,
+        "rep_votes": 4359,
+        "other_votes": 0,
+        "total_votes": 5721,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 2997,
+        "margin_pct": 52.3859,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 1907,
+        "rep_votes": 3839,
+        "other_votes": 0,
+        "total_votes": 5746,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 1932,
+        "margin_pct": 33.6234,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 1227,
+        "rep_votes": 2625,
+        "other_votes": 0,
+        "total_votes": 3852,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 1398,
+        "margin_pct": 36.2928,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 1554,
+        "rep_votes": 3057,
+        "other_votes": 0,
+        "total_votes": 4611,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 1503,
+        "margin_pct": 32.596,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 2442,
+        "rep_votes": 8608,
+        "other_votes": 0,
+        "total_votes": 11050,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 6166,
+        "margin_pct": 55.8009,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 330,
+        "rep_votes": 2099,
+        "other_votes": 0,
+        "total_votes": 2428,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 1769,
+        "margin_pct": 72.8583,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 707,
+        "rep_votes": 743,
+        "other_votes": 0,
+        "total_votes": 1451,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 36,
+        "margin_pct": 2.481,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 2047,
+        "rep_votes": 5421,
+        "other_votes": 0,
+        "total_votes": 7468,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 3374,
+        "margin_pct": 45.1794,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 1052,
+        "rep_votes": 3927,
+        "other_votes": 0,
+        "total_votes": 4979,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 2875,
+        "margin_pct": 57.7425,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 915,
+        "rep_votes": 2014,
+        "other_votes": 0,
+        "total_votes": 2929,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 1099,
+        "margin_pct": 37.5213,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 3455,
+        "rep_votes": 4993,
+        "other_votes": 0,
+        "total_votes": 8449,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 1538,
+        "margin_pct": 18.2033,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "34": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "35": {
+        "dem_votes": 808,
+        "rep_votes": 2069,
+        "other_votes": 0,
+        "total_votes": 2877,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 1261,
+        "margin_pct": 43.8304,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

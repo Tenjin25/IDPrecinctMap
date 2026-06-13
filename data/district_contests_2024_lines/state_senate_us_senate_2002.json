@@ -1,0 +1,583 @@
+{
+  "year": 2002,
+  "scope": "state_senate",
+  "contest_type": "us_senate",
+  "meta": {
+    "match_coverage_pct": 51.8,
+    "matched_precinct_keys": 488,
+    "total_precinct_keys": 942,
+    "weighted_vote_coverage_pct": 41.78,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "United States Senator",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 402,
+      "legacy_2008_vtd00_rows": 86,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 3311,
+        "rep_votes": 5282,
+        "other_votes": 0,
+        "total_votes": 8593,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 1971,
+        "margin_pct": 22.9373,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 3338,
+        "rep_votes": 5295,
+        "other_votes": 0,
+        "total_votes": 8633,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 1957,
+        "margin_pct": 22.6688,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "4": {
+        "dem_votes": 1508,
+        "rep_votes": 1877,
+        "other_votes": 0,
+        "total_votes": 3385,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 369,
+        "margin_pct": 10.901,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 615,
+        "rep_votes": 1283,
+        "other_votes": 0,
+        "total_votes": 1898,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 668,
+        "margin_pct": 35.1949,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 7053,
+        "rep_votes": 8594,
+        "other_votes": 0,
+        "total_votes": 15647,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 1541,
+        "margin_pct": 9.8485,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 4573,
+        "rep_votes": 8339,
+        "other_votes": 0,
+        "total_votes": 12912,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 3766,
+        "margin_pct": 29.1667,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 2216,
+        "rep_votes": 4910,
+        "other_votes": 0,
+        "total_votes": 7126,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 2694,
+        "margin_pct": 37.8052,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 2104,
+        "rep_votes": 5699,
+        "other_votes": 0,
+        "total_votes": 7803,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 3595,
+        "margin_pct": 46.072,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "14": {
+        "dem_votes": 1781,
+        "rep_votes": 4063,
+        "other_votes": 0,
+        "total_votes": 5844,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 2282,
+        "margin_pct": 39.0486,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "19": {
+        "dem_votes": 181,
+        "rep_votes": 363,
+        "other_votes": 0,
+        "total_votes": 544,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 182,
+        "margin_pct": 33.4559,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "23": {
+        "dem_votes": 588,
+        "rep_votes": 1839,
+        "other_votes": 0,
+        "total_votes": 2427,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 1251,
+        "margin_pct": 51.5451,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 1387,
+        "rep_votes": 3673,
+        "other_votes": 0,
+        "total_votes": 5061,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 2286,
+        "margin_pct": 45.1689,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 4662,
+        "rep_votes": 9944,
+        "other_votes": 0,
+        "total_votes": 14605,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 5282,
+        "margin_pct": 36.1657,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 2847,
+        "rep_votes": 3062,
+        "other_votes": 0,
+        "total_votes": 5909,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 215,
+        "margin_pct": 3.6385,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 1469,
+        "rep_votes": 4671,
+        "other_votes": 0,
+        "total_votes": 6140,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 3202,
+        "margin_pct": 52.1498,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 4222,
+        "rep_votes": 10329,
+        "other_votes": 0,
+        "total_votes": 14551,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 6107,
+        "margin_pct": 41.9696,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 6586,
+        "rep_votes": 8961,
+        "other_votes": 0,
+        "total_votes": 15548,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 2375,
+        "margin_pct": 15.2753,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 1465,
+        "rep_votes": 4258,
+        "other_votes": 0,
+        "total_votes": 5723,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 2793,
+        "margin_pct": 48.8031,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 969,
+        "rep_votes": 4607,
+        "other_votes": 0,
+        "total_votes": 5576,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 3638,
+        "margin_pct": 65.2439,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 166,
+        "rep_votes": 699,
+        "other_votes": 0,
+        "total_votes": 865,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 533,
+        "margin_pct": 61.6185,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "34": {
+        "dem_votes": 463,
+        "rep_votes": 3186,
+        "other_votes": 0,
+        "total_votes": 3649,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 2723,
+        "margin_pct": 74.6232,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 2698,
+        "rep_votes": 7727,
+        "other_votes": 0,
+        "total_votes": 10425,
+        "dem_candidate": "Alan Blinken",
+        "rep_candidate": "Larry E. Craig",
+        "margin": 5029,
+        "margin_pct": 48.2398,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

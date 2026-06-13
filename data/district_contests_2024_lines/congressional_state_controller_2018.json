@@ -1,0 +1,55 @@
+{
+  "year": 2018,
+  "scope": "congressional",
+  "contest_type": "state_controller",
+  "meta": {
+    "match_coverage_pct": 64.68,
+    "matched_precinct_keys": 628,
+    "total_precinct_keys": 971,
+    "weighted_vote_coverage_pct": 69.54,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "State Controller",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 558,
+      "legacy_2008_vtd00_rows": 70,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 122881,
+        "other_votes": 0,
+        "total_votes": 122881,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 122881,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 154887,
+        "other_votes": 0,
+        "total_votes": 154887,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 154887,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

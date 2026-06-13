@@ -1,0 +1,37 @@
+{
+  "year": 2014,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "meta": {
+    "office": "U.S. House",
+    "source": "20141104__id__general__precinct.csv"
+  },
+  "general": {
+    "results": {
+      "10": {
+        "dem_votes": 77277,
+        "rep_votes": 143580,
+        "other_votes": 7,
+        "total_votes": 220864,
+        "dem_candidate": "Shirley G. Ringo",
+        "rep_candidate": "Raul R. Labrador",
+        "margin": 66303,
+        "margin_pct": 30.0198,
+        "winner": "REP",
+        "color": "#a50f15"
+      },
+      "20": {
+        "dem_votes": 82801,
+        "rep_votes": 131492,
+        "other_votes": 0,
+        "total_votes": 214293,
+        "dem_candidate": "Richard Stallings",
+        "rep_candidate": "Mike Simpson",
+        "margin": 48691,
+        "margin_pct": 22.7217,
+        "winner": "REP",
+        "color": "#de2d26"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "year": 2002,
+  "scope": "congressional",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "match_coverage_pct": 51.8,
+    "matched_precinct_keys": 488,
+    "total_precinct_keys": 942,
+    "weighted_vote_coverage_pct": 41.41,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Lieutenant Governor",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 402,
+      "legacy_2008_vtd00_rows": 86,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 30090,
+        "rep_votes": 35899,
+        "other_votes": 3143,
+        "total_votes": 69132,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 5809,
+        "margin_pct": 8.4028,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 32171,
+        "rep_votes": 57716,
+        "other_votes": 3597,
+        "total_votes": 93484,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 25545,
+        "margin_pct": 27.3255,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

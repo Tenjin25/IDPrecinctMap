@@ -1,0 +1,55 @@
+{
+  "year": 2008,
+  "scope": "congressional",
+  "contest_type": "president",
+  "meta": {
+    "match_coverage_pct": 52.94,
+    "matched_precinct_keys": 505,
+    "total_precinct_keys": 954,
+    "weighted_vote_coverage_pct": 41.66,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "President of the United States",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 415,
+      "legacy_2008_vtd00_rows": 90,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 46605,
+        "rep_votes": 74602,
+        "other_votes": 3310,
+        "total_votes": 124517,
+        "dem_candidate": "Barack Obama",
+        "rep_candidate": "John McCain",
+        "margin": 27997,
+        "margin_pct": 22.4845,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 42362,
+        "rep_votes": 101772,
+        "other_votes": 3854,
+        "total_votes": 147988,
+        "dem_candidate": "Barack Obama",
+        "rep_candidate": "John McCain",
+        "margin": 59410,
+        "margin_pct": 40.1451,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

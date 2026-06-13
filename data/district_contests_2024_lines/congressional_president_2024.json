@@ -1,0 +1,55 @@
+{
+  "year": 2024,
+  "scope": "congressional",
+  "contest_type": "president",
+  "meta": {
+    "match_coverage_pct": 57.97,
+    "matched_precinct_keys": 571,
+    "total_precinct_keys": 985,
+    "weighted_vote_coverage_pct": 52.72,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "President of the United States",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 510,
+      "legacy_2008_vtd00_rows": 61,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 61223,
+        "rep_votes": 151358,
+        "other_votes": 5345,
+        "total_votes": 217926,
+        "dem_candidate": "Kamala D. Harris",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 90135,
+        "margin_pct": 41.3604,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 93117,
+        "rep_votes": 158331,
+        "other_votes": 7777,
+        "total_votes": 259225,
+        "dem_candidate": "Kamala D. Harris",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 65214,
+        "margin_pct": 25.1573,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

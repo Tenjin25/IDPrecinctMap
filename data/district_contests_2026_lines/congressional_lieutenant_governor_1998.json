@@ -1,0 +1,52 @@
+{
+  "year": 1998,
+  "scope": "congressional",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "match_coverage_pct": 25.48,
+    "matched_precinct_keys": 237,
+    "total_precinct_keys": 930,
+    "weighted_vote_coverage_pct": 26.53,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Lieutenant Governor",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 237,
+      "legacy_2008_vtd00_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 18638,
+        "rep_votes": 35340,
+        "other_votes": 2878,
+        "total_votes": 56856,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 16702,
+        "margin_pct": 29.376,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "2": {
+        "dem_votes": 11390,
+        "rep_votes": 28296,
+        "other_votes": 1497,
+        "total_votes": 41183,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 16906,
+        "margin_pct": 41.0509,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      }
+    }
+  }
+}

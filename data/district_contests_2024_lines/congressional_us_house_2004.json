@@ -1,0 +1,25 @@
+{
+  "year": 2004,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "meta": {
+    "office": "U.S. House",
+    "source": "20041102__id__general__precinct.csv"
+  },
+  "general": {
+    "results": {
+      "20": {
+        "dem_votes": 80133,
+        "rep_votes": 193704,
+        "other_votes": 0,
+        "total_votes": 273837,
+        "dem_candidate": "Lin Whitworth",
+        "rep_candidate": "Mike Simpson",
+        "margin": 113571,
+        "margin_pct": 41.4739,
+        "winner": "REP",
+        "color": "#a50f15"
+      }
+    }
+  }
+}

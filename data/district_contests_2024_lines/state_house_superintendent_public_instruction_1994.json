@@ -1,0 +1,382 @@
+{
+  "year": 1994,
+  "scope": "state_house",
+  "contest_type": "superintendent_public_instruction",
+  "meta": {
+    "match_coverage_pct": 36.71,
+    "matched_precinct_keys": 330,
+    "total_precinct_keys": 899,
+    "weighted_vote_coverage_pct": 34.61,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Superintendent of Public Instruction",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 330,
+      "legacy_2008_vtd00_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 720,
+        "rep_votes": 1282,
+        "other_votes": 0,
+        "total_votes": 2002,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 562,
+        "margin_pct": 28.0719,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "2": {
+        "dem_votes": 3106,
+        "rep_votes": 3447,
+        "other_votes": 0,
+        "total_votes": 6553,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 341,
+        "margin_pct": 5.2037,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "3": {
+        "dem_votes": 5984,
+        "rep_votes": 8870,
+        "other_votes": 0,
+        "total_votes": 14854,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 2886,
+        "margin_pct": 19.4291,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "4": {
+        "dem_votes": 5,
+        "rep_votes": 7,
+        "other_votes": 0,
+        "total_votes": 12,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 2,
+        "margin_pct": 16.6667,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "5": {
+        "dem_votes": 2837,
+        "rep_votes": 4743,
+        "other_votes": 0,
+        "total_votes": 7580,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 1906,
+        "margin_pct": 25.1451,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "6": {
+        "dem_votes": 6853,
+        "rep_votes": 5827,
+        "other_votes": 0,
+        "total_votes": 12680,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": -1026,
+        "margin_pct": -8.0915,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "7": {
+        "dem_votes": 1051,
+        "rep_votes": 1779,
+        "other_votes": 0,
+        "total_votes": 2830,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 728,
+        "margin_pct": 25.7244,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "8": {
+        "dem_votes": 2776,
+        "rep_votes": 3948,
+        "other_votes": 0,
+        "total_votes": 6724,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 1172,
+        "margin_pct": 17.4301,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "9": {
+        "dem_votes": 1581,
+        "rep_votes": 2402,
+        "other_votes": 0,
+        "total_votes": 3983,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 821,
+        "margin_pct": 20.6126,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "10": {
+        "dem_votes": 1314,
+        "rep_votes": 2397,
+        "other_votes": 0,
+        "total_votes": 3711,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 1083,
+        "margin_pct": 29.1835,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "11": {
+        "dem_votes": 2296,
+        "rep_votes": 3421,
+        "other_votes": 0,
+        "total_votes": 5717,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 1125,
+        "margin_pct": 19.6782,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "12": {
+        "dem_votes": 2356,
+        "rep_votes": 4472,
+        "other_votes": 0,
+        "total_votes": 6828,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 2116,
+        "margin_pct": 30.99,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "13": {
+        "dem_votes": 831,
+        "rep_votes": 1570,
+        "other_votes": 0,
+        "total_votes": 2401,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 739,
+        "margin_pct": 30.7788,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        }
+      },
+      "23": {
+        "dem_votes": 885,
+        "rep_votes": 1539,
+        "other_votes": 0,
+        "total_votes": 2424,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 654,
+        "margin_pct": 26.9802,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "24": {
+        "dem_votes": 851,
+        "rep_votes": 1190,
+        "other_votes": 0,
+        "total_votes": 2041,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 339,
+        "margin_pct": 16.6095,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "26": {
+        "dem_votes": 1601,
+        "rep_votes": 2067,
+        "other_votes": 0,
+        "total_votes": 3668,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 466,
+        "margin_pct": 12.7045,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "27": {
+        "dem_votes": 3067,
+        "rep_votes": 5523,
+        "other_votes": 0,
+        "total_votes": 8590,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 2456,
+        "margin_pct": 28.5914,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "28": {
+        "dem_votes": 948,
+        "rep_votes": 2473,
+        "other_votes": 0,
+        "total_votes": 3421,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 1525,
+        "margin_pct": 44.5776,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "30": {
+        "dem_votes": 491,
+        "rep_votes": 727,
+        "other_votes": 0,
+        "total_votes": 1218,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 236,
+        "margin_pct": 19.376,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "31": {
+        "dem_votes": 2503,
+        "rep_votes": 5717,
+        "other_votes": 0,
+        "total_votes": 8220,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 3214,
+        "margin_pct": 39.0998,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "32": {
+        "dem_votes": 3423,
+        "rep_votes": 7105,
+        "other_votes": 0,
+        "total_votes": 10528,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 3682,
+        "margin_pct": 34.9734,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "33": {
+        "dem_votes": 5097,
+        "rep_votes": 8330,
+        "other_votes": 0,
+        "total_votes": 13427,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 3233,
+        "margin_pct": 24.0783,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "35": {
+        "dem_votes": 2863,
+        "rep_votes": 5392,
+        "other_votes": 0,
+        "total_votes": 8255,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 2529,
+        "margin_pct": 30.636,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      }
+    }
+  }
+}

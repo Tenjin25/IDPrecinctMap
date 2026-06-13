@@ -1,0 +1,52 @@
+{
+  "year": 1996,
+  "scope": "congressional",
+  "contest_type": "president",
+  "meta": {
+    "match_coverage_pct": 35.51,
+    "matched_precinct_keys": 326,
+    "total_precinct_keys": 918,
+    "weighted_vote_coverage_pct": 32.87,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "President of the United States",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 326,
+      "legacy_2008_vtd00_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 31228,
+        "rep_votes": 46090,
+        "other_votes": 13814,
+        "total_votes": 91132,
+        "dem_candidate": "Bill Clinton",
+        "rep_candidate": "Bob Dole",
+        "margin": 14862,
+        "margin_pct": 16.3082,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "2": {
+        "dem_votes": 18087,
+        "rep_votes": 41593,
+        "other_votes": 10260,
+        "total_votes": 69940,
+        "dem_candidate": "Bill Clinton",
+        "rep_candidate": "Bob Dole",
+        "margin": 23506,
+        "margin_pct": 33.6088,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      }
+    }
+  }
+}

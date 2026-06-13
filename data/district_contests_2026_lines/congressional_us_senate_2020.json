@@ -1,0 +1,55 @@
+{
+  "year": 2020,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "match_coverage_pct": 67.8,
+    "matched_precinct_keys": 659,
+    "total_precinct_keys": 972,
+    "weighted_vote_coverage_pct": 58.88,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "United States Senator",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 590,
+      "legacy_2008_vtd00_rows": 69,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 67060,
+        "rep_votes": 155805,
+        "other_votes": 8917,
+        "total_votes": 231782,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 88745,
+        "margin_pct": 38.2881,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 109311,
+        "rep_votes": 153318,
+        "other_votes": 11873,
+        "total_votes": 274502,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 44007,
+        "margin_pct": 16.0316,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

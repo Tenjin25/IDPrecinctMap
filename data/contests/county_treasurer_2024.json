@@ -1,0 +1,37 @@
+{
+  "year": 2024,
+  "contest_type": "county_treasurer",
+  "meta": {
+    "office": "County Treasurer",
+    "source": "idaho_raw_races_general",
+    "aggregation": "county"
+  },
+  "rows": [
+    {
+      "county": "CAMAS",
+      "dem_votes": 0,
+      "rep_votes": 636,
+      "other_votes": 0,
+      "total_votes": 636,
+      "dem_candidate": "",
+      "rep_candidate": "Jennifer Fredrickson",
+      "margin": 636,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "color": "#a50f15"
+    },
+    {
+      "county": "FREMONT",
+      "dem_votes": 0,
+      "rep_votes": 6238,
+      "other_votes": 0,
+      "total_votes": 6238,
+      "dem_candidate": "",
+      "rep_candidate": "Lori Beard",
+      "margin": 6238,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "color": "#a50f15"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "year": 2022,
+  "scope": "congressional",
+  "contest_type": "governor",
+  "meta": {
+    "match_coverage_pct": 95.59,
+    "matched_precinct_keys": 997,
+    "total_precinct_keys": 1043,
+    "weighted_vote_coverage_pct": 40.73,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Governor",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 1,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 996
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 70635,
+        "rep_votes": 264808,
+        "other_votes": 99251,
+        "total_votes": 434694,
+        "dem_candidate": "Stephen Heidt",
+        "rep_candidate": "Brad Little",
+        "margin": 194173,
+        "margin_pct": 44.6689,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 69116,
+        "rep_votes": 173904,
+        "other_votes": 46363,
+        "total_votes": 289383,
+        "dem_candidate": "Stephen Heidt",
+        "rep_candidate": "Brad Little",
+        "margin": 104788,
+        "margin_pct": 36.2108,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

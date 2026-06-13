@@ -1,0 +1,55 @@
+{
+  "year": 2004,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "match_coverage_pct": 52.74,
+    "matched_precinct_keys": 500,
+    "total_precinct_keys": 948,
+    "weighted_vote_coverage_pct": 43.13,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "United States Senator",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 420,
+      "legacy_2008_vtd00_rows": 80,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 1112,
+        "rep_votes": 82512,
+        "other_votes": 0,
+        "total_votes": 83624,
+        "dem_candidate": "Scott F. McClure",
+        "rep_candidate": "Mike Crapo",
+        "margin": 81400,
+        "margin_pct": 97.3405,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 1264,
+        "rep_votes": 132438,
+        "other_votes": 0,
+        "total_votes": 133702,
+        "dem_candidate": "Scott F. McClure",
+        "rep_candidate": "Mike Crapo",
+        "margin": 131174,
+        "margin_pct": 98.1092,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "year": 2016,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "meta": {
+    "office": "U.S. House",
+    "source": "20161108__id__general__precinct.csv"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 113052,
+        "rep_votes": 242252,
+        "other_votes": 53,
+        "total_votes": 355357,
+        "dem_candidate": "James Piotrowski",
+        "rep_candidate": "Raul R. Labrador",
+        "margin": 129200,
+        "margin_pct": 36.3578,
+        "winner": "REP",
+        "color": "#a50f15"
+      },
+      "2": {
+        "dem_votes": 95940,
+        "rep_votes": 205292,
+        "other_votes": 25005,
+        "total_votes": 326237,
+        "dem_candidate": "Jennifer Martinez",
+        "rep_candidate": "Mike Simpson",
+        "margin": 109352,
+        "margin_pct": 33.5192,
+        "winner": "REP",
+        "color": "#a50f15"
+      }
+    }
+  }
+}

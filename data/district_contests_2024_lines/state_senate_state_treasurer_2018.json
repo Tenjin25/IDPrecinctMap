@@ -1,0 +1,583 @@
+{
+  "year": 2018,
+  "scope": "state_senate",
+  "contest_type": "state_treasurer",
+  "meta": {
+    "match_coverage_pct": 68.62,
+    "matched_precinct_keys": 667,
+    "total_precinct_keys": 972,
+    "weighted_vote_coverage_pct": 70.05,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "State Treasurer",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 597,
+      "legacy_2008_vtd00_rows": 70,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 11663,
+        "other_votes": 0,
+        "total_votes": 11663,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 11663,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 21042,
+        "other_votes": 0,
+        "total_votes": 21042,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 21042,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 3112,
+        "other_votes": 0,
+        "total_votes": 3112,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 3112,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 2070,
+        "other_votes": 0,
+        "total_votes": 2070,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 2070,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 11915,
+        "other_votes": 0,
+        "total_votes": 11915,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 11915,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 13419,
+        "other_votes": 0,
+        "total_votes": 13419,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 13419,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 7380,
+        "other_votes": 0,
+        "total_votes": 7380,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 7380,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 4562,
+        "other_votes": 0,
+        "total_votes": 4562,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 4562,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 6306,
+        "other_votes": 0,
+        "total_votes": 6306,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 6306,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 2303,
+        "other_votes": 0,
+        "total_votes": 2303,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 2303,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 3936,
+        "other_votes": 0,
+        "total_votes": 3936,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 3936,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 9402,
+        "other_votes": 0,
+        "total_votes": 9402,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 9402,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 19063,
+        "other_votes": 0,
+        "total_votes": 19063,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 19063,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 14086,
+        "other_votes": 0,
+        "total_votes": 14086,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 14086,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 13339,
+        "other_votes": 0,
+        "total_votes": 13339,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 13339,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 13293,
+        "other_votes": 0,
+        "total_votes": 13293,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 13293,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 13883,
+        "other_votes": 0,
+        "total_votes": 13883,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 13883,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 14399,
+        "other_votes": 0,
+        "total_votes": 14399,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 14399,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 10579,
+        "other_votes": 0,
+        "total_votes": 10579,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 10579,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 13392,
+        "other_votes": 0,
+        "total_votes": 13392,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 13392,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 13096,
+        "other_votes": 0,
+        "total_votes": 13096,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 13096,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "23": {
+        "dem_votes": 0,
+        "rep_votes": 8917,
+        "other_votes": 0,
+        "total_votes": 8917,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 8917,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 0,
+        "rep_votes": 11280,
+        "other_votes": 0,
+        "total_votes": 11280,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 11280,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 12592,
+        "other_votes": 0,
+        "total_votes": 12592,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 12592,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 0,
+        "rep_votes": 8090,
+        "other_votes": 0,
+        "total_votes": 8090,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 8090,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 6315,
+        "other_votes": 0,
+        "total_votes": 6315,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 6315,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 0,
+        "rep_votes": 9591,
+        "other_votes": 0,
+        "total_votes": 9591,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 9591,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 0,
+        "rep_votes": 11281,
+        "other_votes": 0,
+        "total_votes": 11281,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 11281,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 0,
+        "rep_votes": 12043,
+        "other_votes": 0,
+        "total_votes": 12043,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 12043,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 0,
+        "rep_votes": 8209,
+        "other_votes": 0,
+        "total_votes": 8209,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 8209,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 0,
+        "rep_votes": 408,
+        "other_votes": 0,
+        "total_votes": 408,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 408,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "34": {
+        "dem_votes": 0,
+        "rep_votes": 7587,
+        "other_votes": 0,
+        "total_votes": 7587,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 7587,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 0,
+        "rep_votes": 7272,
+        "other_votes": 0,
+        "total_votes": 7272,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 7272,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

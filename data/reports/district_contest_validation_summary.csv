@@ -1,0 +1,157 @@
+manifest_label,scope,year,contest_type,office,file,expected_districts,present_districts,missing_districts_count,missing_districts,unexpected_districts_count,unexpected_districts,no_data_districts,source_total_votes,aggregated_total_votes,recomputed_coverage_pct,meta_weighted_vote_coverage_pct,meta_match_coverage_pct,complete_district_set,source_file
+2024-lines,congressional,2000,president,President of the United States,congressional_president_2000.json,2,2,0,,0,,0,490803,188102,38.33,38.33,47.15,true,president_2000.json
+2024-lines,state_house,2000,president,President of the United States,state_house_president_2000.json,35,35,0,,0,,16,490803,188102,38.33,38.33,47.15,true,president_2000.json
+2024-lines,state_senate,2000,president,President of the United States,state_senate_president_2000.json,35,35,0,,0,,16,490803,188102,38.33,38.33,47.15,true,president_2000.json
+2024-lines,congressional,2002,governor,Governor,congressional_governor_2002.json,2,2,0,,0,,0,401897,167497,41.68,41.68,51.8,true,governor_2002.json
+2024-lines,congressional,2002,lieutenant_governor,Lieutenant Governor,congressional_lieutenant_governor_2002.json,2,2,0,,0,,0,392662,162616,41.41,41.41,51.8,true,lieutenant_governor_2002.json
+2024-lines,congressional,2002,secretary_of_state,Secretary of State,congressional_secretary_of_state_2002.json,2,2,0,,0,,0,374799,154080,41.11,41.11,51.8,true,secretary_of_state_2002.json
+2024-lines,congressional,2002,us_senate,United States Senator,congressional_us_senate_2002.json,2,2,0,,0,,0,389804,162863,41.78,41.78,51.8,true,us_senate_2002.json
+2024-lines,state_house,2002,governor,Governor,state_house_governor_2002.json,35,35,0,,0,,13,401897,167497,41.68,41.68,51.8,true,governor_2002.json
+2024-lines,state_house,2002,lieutenant_governor,Lieutenant Governor,state_house_lieutenant_governor_2002.json,35,35,0,,0,,13,392662,162615,41.41,41.41,51.8,true,lieutenant_governor_2002.json
+2024-lines,state_house,2002,secretary_of_state,Secretary of State,state_house_secretary_of_state_2002.json,35,35,0,,0,,13,374799,154080,41.11,41.11,51.8,true,secretary_of_state_2002.json
+2024-lines,state_house,2002,us_senate,United States Senator,state_house_us_senate_2002.json,35,35,0,,0,,13,389804,162864,41.78,41.78,51.8,true,us_senate_2002.json
+2024-lines,state_senate,2002,governor,Governor,state_senate_governor_2002.json,35,35,0,,0,,13,401897,167497,41.68,41.68,51.8,true,governor_2002.json
+2024-lines,state_senate,2002,lieutenant_governor,Lieutenant Governor,state_senate_lieutenant_governor_2002.json,35,35,0,,0,,13,392662,162615,41.41,41.41,51.8,true,lieutenant_governor_2002.json
+2024-lines,state_senate,2002,secretary_of_state,Secretary of State,state_senate_secretary_of_state_2002.json,35,35,0,,0,,13,374799,154080,41.11,41.11,51.8,true,secretary_of_state_2002.json
+2024-lines,state_senate,2002,us_senate,United States Senator,state_senate_us_senate_2002.json,35,35,0,,0,,13,389804,162864,41.78,41.78,51.8,true,us_senate_2002.json
+2024-lines,congressional,2004,president,President of the United States,congressional_president_2004.json,2,2,0,,0,,0,598376,257418,43.02,43.02,52.74,true,president_2004.json
+2024-lines,congressional,2004,us_senate,United States Senator,congressional_us_senate_2004.json,2,2,0,,0,,0,503932,217326,43.13,43.13,52.74,true,us_senate_2004.json
+2024-lines,state_house,2004,president,President of the United States,state_house_president_2004.json,35,35,0,,0,,12,598376,257419,43.02,43.02,52.74,true,president_2004.json
+2024-lines,state_house,2004,us_senate,United States Senator,state_house_us_senate_2004.json,35,35,0,,0,,12,503932,217326,43.13,43.13,52.74,true,us_senate_2004.json
+2024-lines,state_senate,2004,president,President of the United States,state_senate_president_2004.json,35,35,0,,0,,12,598376,257419,43.02,43.02,52.74,true,president_2004.json
+2024-lines,state_senate,2004,us_senate,United States Senator,state_senate_us_senate_2004.json,35,35,0,,0,,12,503932,217326,43.13,43.13,52.74,true,us_senate_2004.json
+2024-lines,congressional,2006,governor,Governor,congressional_governor_2006.json,2,2,0,,0,,0,441803,179687,40.67,40.67,50.53,true,governor_2006.json
+2024-lines,congressional,2006,lieutenant_governor,Lieutenant Governor,congressional_lieutenant_governor_2006.json,2,2,0,,0,,0,436418,177660,40.71,40.71,50.53,true,lieutenant_governor_2006.json
+2024-lines,congressional,2006,secretary_of_state,Secretary of State,congressional_secretary_of_state_2006.json,2,2,0,,0,,0,358176,145311,40.57,40.57,50.53,true,secretary_of_state_2006.json
+2024-lines,congressional,2006,state_controller,State Controller,congressional_state_controller_2006.json,2,2,0,,0,,0,424838,172236,40.54,40.54,50.53,true,state_controller_2006.json
+2024-lines,state_house,2006,governor,Governor,state_house_governor_2006.json,35,35,0,,0,,12,441803,179686,40.67,40.67,50.53,true,governor_2006.json
+2024-lines,state_house,2006,lieutenant_governor,Lieutenant Governor,state_house_lieutenant_governor_2006.json,35,35,0,,0,,12,436418,177659,40.71,40.71,50.53,true,lieutenant_governor_2006.json
+2024-lines,state_house,2006,secretary_of_state,Secretary of State,state_house_secretary_of_state_2006.json,35,35,0,,0,,12,358176,145311,40.57,40.57,50.53,true,secretary_of_state_2006.json
+2024-lines,state_house,2006,state_controller,State Controller,state_house_state_controller_2006.json,35,35,0,,0,,12,424838,172237,40.54,40.54,50.53,true,state_controller_2006.json
+2024-lines,state_senate,2006,governor,Governor,state_senate_governor_2006.json,35,35,0,,0,,12,441803,179686,40.67,40.67,50.53,true,governor_2006.json
+2024-lines,state_senate,2006,lieutenant_governor,Lieutenant Governor,state_senate_lieutenant_governor_2006.json,35,35,0,,0,,12,436418,177659,40.71,40.71,50.53,true,lieutenant_governor_2006.json
+2024-lines,state_senate,2006,secretary_of_state,Secretary of State,state_senate_secretary_of_state_2006.json,35,35,0,,0,,12,358176,145311,40.57,40.57,50.53,true,secretary_of_state_2006.json
+2024-lines,state_senate,2006,state_controller,State Controller,state_senate_state_controller_2006.json,35,35,0,,0,,12,424838,172237,40.54,40.54,50.53,true,state_controller_2006.json
+2024-lines,congressional,2008,president,President of the United States,congressional_president_2008.json,2,2,0,,0,,0,654110,272505,41.66,41.66,52.94,true,president_2008.json
+2024-lines,congressional,2008,us_senate,United States Senator,congressional_us_senate_2008.json,2,2,0,,0,,0,643854,268987,41.78,41.78,52.94,true,us_senate_2008.json
+2024-lines,state_house,2008,president,President of the United States,state_house_president_2008.json,35,35,0,,0,,10,654110,272506,41.66,41.66,52.94,true,president_2008.json
+2024-lines,state_house,2008,us_senate,United States Senator,state_house_us_senate_2008.json,35,35,0,,0,,10,643854,268989,41.78,41.78,52.94,true,us_senate_2008.json
+2024-lines,state_senate,2008,president,President of the United States,state_senate_president_2008.json,35,35,0,,0,,10,654110,272506,41.66,41.66,52.94,true,president_2008.json
+2024-lines,state_senate,2008,us_senate,United States Senator,state_senate_us_senate_2008.json,35,35,0,,0,,10,643854,268989,41.78,41.78,52.94,true,us_senate_2008.json
+2024-lines,congressional,2010,governor,Governor,congressional_governor_2010.json,2,2,0,,0,,0,452535,174905,38.65,38.65,52.97,true,governor_2010.json
+2024-lines,congressional,2010,us_senate,United States Senator,congressional_us_senate_2010.json,2,2,0,,0,,0,449530,173945,38.69,38.69,52.97,true,us_senate_2010.json
+2024-lines,state_house,2010,governor,Governor,state_house_governor_2010.json,35,35,0,,0,,11,452535,174904,38.65,38.65,52.97,true,governor_2010.json
+2024-lines,state_house,2010,us_senate,United States Senator,state_house_us_senate_2010.json,35,35,0,,0,,11,449530,173945,38.69,38.69,52.97,true,us_senate_2010.json
+2024-lines,state_senate,2010,governor,Governor,state_senate_governor_2010.json,35,35,0,,0,,11,452535,174904,38.65,38.65,52.97,true,governor_2010.json
+2024-lines,state_senate,2010,us_senate,United States Senator,state_senate_us_senate_2010.json,35,35,0,,0,,11,449530,173945,38.69,38.69,52.97,true,us_senate_2010.json
+2024-lines,congressional,2012,president,President of the United States,congressional_president_2012.json,2,2,0,,0,,0,652274,413432,63.38,63.38,67.11,true,president_2012.json
+2024-lines,state_house,2012,president,President of the United States,state_house_president_2012.json,35,35,0,,0,,6,652274,413430,63.38,63.38,67.11,true,president_2012.json
+2024-lines,state_senate,2012,president,President of the United States,state_senate_president_2012.json,35,35,0,,0,,6,652274,413430,63.38,63.38,67.11,true,president_2012.json
+2024-lines,congressional,2014,governor,Governor,congressional_governor_2014.json,2,2,0,,0,,0,439735,293820,66.82,66.82,66.84,true,governor_2014.json
+2024-lines,congressional,2014,us_senate,United States Senator,congressional_us_senate_2014.json,2,2,0,,0,,0,437170,291903,66.77,66.77,66.84,true,us_senate_2014.json
+2024-lines,state_house,2014,governor,Governor,state_house_governor_2014.json,35,35,0,,0,,6,439735,293820,66.82,66.82,66.84,true,governor_2014.json
+2024-lines,state_house,2014,us_senate,United States Senator,state_house_us_senate_2014.json,35,35,0,,0,,6,437170,291904,66.77,66.77,66.84,true,us_senate_2014.json
+2024-lines,state_senate,2014,governor,Governor,state_senate_governor_2014.json,35,35,0,,0,,6,439735,293820,66.82,66.82,66.84,true,governor_2014.json
+2024-lines,state_senate,2014,us_senate,United States Senator,state_senate_us_senate_2014.json,35,35,0,,0,,6,437170,291904,66.77,66.77,66.84,true,us_senate_2014.json
+2024-lines,congressional,2016,president,President of the United States,congressional_president_2016.json,2,2,0,,0,,0,690255,446736,64.72,64.72,68.99,true,president_2016.json
+2024-lines,congressional,2016,us_senate,United States Senator,congressional_us_senate_2016.json,2,2,0,,0,,0,678943,437264,64.4,64.4,68.99,true,us_senate_2016.json
+2024-lines,state_house,2016,president,President of the United States,state_house_president_2016.json,35,35,0,,0,,4,690255,446736,64.72,64.72,68.99,true,president_2016.json
+2024-lines,state_house,2016,us_senate,United States Senator,state_house_us_senate_2016.json,35,35,0,,0,,4,678943,437264,64.4,64.4,68.99,true,us_senate_2016.json
+2024-lines,state_senate,2016,president,President of the United States,state_senate_president_2016.json,35,35,0,,0,,4,690255,446736,64.72,64.72,68.99,true,president_2016.json
+2024-lines,state_senate,2016,us_senate,United States Senator,state_senate_us_senate_2016.json,35,35,0,,0,,4,678943,437264,64.4,64.4,68.99,true,us_senate_2016.json
+2024-lines,congressional,2018,attorney_general,Attorney General,congressional_attorney_general_2018.json,2,2,0,,0,,0,588074,416013,70.74,70.74,68.62,true,attorney_general_2018.json
+2024-lines,congressional,2018,governor,Governor,congressional_governor_2018.json,2,2,0,,0,,0,554582,398729,71.9,71.9,68.59,true,governor_2018.json
+2024-lines,congressional,2018,lieutenant_governor,Lieutenant Governor,congressional_lieutenant_governor_2018.json,2,2,0,,0,,0,543640,390013,71.74,71.74,68.49,true,lieutenant_governor_2018.json
+2024-lines,congressional,2018,secretary_of_state,Secretary of State,congressional_secretary_of_state_2018.json,2,2,0,,0,,0,542986,390467,71.91,71.91,68.38,true,secretary_of_state_2018.json
+2024-lines,congressional,2018,state_controller,State Controller,congressional_state_controller_2018.json,2,2,0,,0,,0,399411,277768,69.54,69.54,64.68,true,state_controller_2018.json
+2024-lines,congressional,2018,state_treasurer,State Treasurer,congressional_state_treasurer_2018.json,2,2,0,,0,,0,465119,325825,70.05,70.05,68.62,true,state_treasurer_2018.json
+2024-lines,congressional,2018,superintendent_public_instruction,Superintendent of Public Instruction,congressional_superintendent_public_instruction_2018.json,2,2,0,,0,,0,594475,420914,70.8,70.8,68.62,true,superintendent_public_instruction_2018.json
+2024-lines,state_house,2018,attorney_general,Attorney General,state_house_attorney_general_2018.json,35,35,0,,0,,2,588074,416013,70.74,70.74,68.62,true,attorney_general_2018.json
+2024-lines,state_house,2018,governor,Governor,state_house_governor_2018.json,35,35,0,,0,,2,554582,398731,71.9,71.9,68.59,true,governor_2018.json
+2024-lines,state_house,2018,lieutenant_governor,Lieutenant Governor,state_house_lieutenant_governor_2018.json,35,35,0,,0,,2,543640,390014,71.74,71.74,68.49,true,lieutenant_governor_2018.json
+2024-lines,state_house,2018,secretary_of_state,Secretary of State,state_house_secretary_of_state_2018.json,35,35,0,,0,,2,542986,390466,71.91,71.91,68.38,true,secretary_of_state_2018.json
+2024-lines,state_house,2018,state_controller,State Controller,state_house_state_controller_2018.json,35,35,0,,0,,2,399411,277769,69.54,69.54,64.68,true,state_controller_2018.json
+2024-lines,state_house,2018,state_treasurer,State Treasurer,state_house_state_treasurer_2018.json,35,35,0,,0,,2,465119,325825,70.05,70.05,68.62,true,state_treasurer_2018.json
+2024-lines,state_house,2018,superintendent_public_instruction,Superintendent of Public Instruction,state_house_superintendent_public_instruction_2018.json,35,35,0,,0,,2,594475,420915,70.8,70.8,68.62,true,superintendent_public_instruction_2018.json
+2024-lines,state_senate,2018,attorney_general,Attorney General,state_senate_attorney_general_2018.json,35,35,0,,0,,2,588074,416013,70.74,70.74,68.62,true,attorney_general_2018.json
+2024-lines,state_senate,2018,governor,Governor,state_senate_governor_2018.json,35,35,0,,0,,2,554582,398731,71.9,71.9,68.59,true,governor_2018.json
+2024-lines,state_senate,2018,lieutenant_governor,Lieutenant Governor,state_senate_lieutenant_governor_2018.json,35,35,0,,0,,2,543640,390014,71.74,71.74,68.49,true,lieutenant_governor_2018.json
+2024-lines,state_senate,2018,secretary_of_state,Secretary of State,state_senate_secretary_of_state_2018.json,35,35,0,,0,,2,542986,390466,71.91,71.91,68.38,true,secretary_of_state_2018.json
+2024-lines,state_senate,2018,state_controller,State Controller,state_senate_state_controller_2018.json,35,35,0,,0,,2,399411,277769,69.54,69.54,64.68,true,state_controller_2018.json
+2024-lines,state_senate,2018,state_treasurer,State Treasurer,state_senate_state_treasurer_2018.json,35,35,0,,0,,2,465119,325825,70.05,70.05,68.62,true,state_treasurer_2018.json
+2024-lines,state_senate,2018,superintendent_public_instruction,Superintendent of Public Instruction,state_senate_superintendent_public_instruction_2018.json,35,35,0,,0,,2,594475,420915,70.8,70.8,68.62,true,superintendent_public_instruction_2018.json
+2024-lines,congressional,2020,president,President of the United States,congressional_president_2020.json,2,2,0,,0,,0,867281,510449,58.86,58.86,67.8,true,president_2020.json
+2024-lines,congressional,2020,us_senate,United States Senator,congressional_us_senate_2020.json,2,2,0,,0,,0,859827,506284,58.88,58.88,67.8,true,us_senate_2020.json
+2024-lines,state_house,2020,president,President of the United States,state_house_president_2020.json,35,35,0,,0,,4,867281,510451,58.86,58.86,67.8,true,president_2020.json
+2024-lines,state_house,2020,us_senate,United States Senator,state_house_us_senate_2020.json,35,35,0,,0,,4,859827,506283,58.88,58.88,67.8,true,us_senate_2020.json
+2024-lines,state_senate,2020,president,President of the United States,state_senate_president_2020.json,35,35,0,,0,,4,867281,510451,58.86,58.86,67.8,true,president_2020.json
+2024-lines,state_senate,2020,us_senate,United States Senator,state_senate_us_senate_2020.json,35,35,0,,0,,4,859827,506283,58.88,58.88,67.8,true,us_senate_2020.json
+2024-lines,congressional,2022,attorney_general,Attorney General,congressional_attorney_general_2022.json,2,2,0,,0,,0,1760952,717608,40.75,40.75,95.59,true,attorney_general_2022.json
+2024-lines,congressional,2022,governor,Governor,congressional_governor_2022.json,2,2,0,,0,,0,1777872,724077,40.73,40.73,95.59,true,governor_2022.json
+2024-lines,congressional,2022,lieutenant_governor,Lieutenant Governor,congressional_lieutenant_governor_2022.json,2,2,0,,0,,0,1753215,711955,40.61,40.61,95.31,true,lieutenant_governor_2022.json
+2024-lines,congressional,2022,secretary_of_state,Secretary of State,congressional_secretary_of_state_2022.json,2,2,0,,0,,0,1742736,707876,40.62,40.62,95.31,true,secretary_of_state_2022.json
+2024-lines,congressional,2022,state_controller,State Controller,congressional_state_controller_2022.json,2,2,0,,0,,0,1747815,712385,40.76,40.76,95.4,true,state_controller_2022.json
+2024-lines,congressional,2022,state_treasurer,State Treasurer,congressional_state_treasurer_2022.json,2,2,0,,0,,0,1740294,709541,40.77,40.77,95.4,true,state_treasurer_2022.json
+2024-lines,congressional,2022,superintendent_public_instruction,Superintendent of Public Instruction,congressional_superintendent_public_instruction_2022.json,2,2,0,,0,,0,1738875,707611,40.69,40.69,95.59,true,superintendent_public_instruction_2022.json
+2024-lines,congressional,2022,us_senate,United States Senator,congressional_us_senate_2022.json,2,2,0,,0,,0,1772670,722140,40.74,40.74,95.5,true,us_senate_2022.json
+2024-lines,state_house,2022,attorney_general,Attorney General,state_house_attorney_general_2022.json,35,35,0,,0,,0,1760952,583384,33.13,33.13,94.92,true,attorney_general_2022.json
+2024-lines,state_house,2022,governor,Governor,state_house_governor_2022.json,35,35,0,,0,,0,1777872,588955,33.13,33.13,95.01,true,governor_2022.json
+2024-lines,state_house,2022,lieutenant_governor,Lieutenant Governor,state_house_lieutenant_governor_2022.json,35,35,0,,0,,0,1753215,579486,33.05,33.05,94.73,true,lieutenant_governor_2022.json
+2024-lines,state_house,2022,secretary_of_state,Secretary of State,state_house_secretary_of_state_2022.json,35,35,0,,0,,0,1742736,576024,33.05,33.05,94.73,true,secretary_of_state_2022.json
+2024-lines,state_house,2022,state_controller,State Controller,state_house_state_controller_2022.json,35,35,0,,0,,0,1747815,578833,33.12,33.12,94.83,true,state_controller_2022.json
+2024-lines,state_house,2022,state_treasurer,State Treasurer,state_house_state_treasurer_2022.json,35,35,0,,0,,0,1740294,576362,33.12,33.12,94.83,true,state_treasurer_2022.json
+2024-lines,state_house,2022,superintendent_public_instruction,Superintendent of Public Instruction,state_house_superintendent_public_instruction_2022.json,35,35,0,,0,,0,1738875,576050,33.13,33.13,94.92,true,superintendent_public_instruction_2022.json
+2024-lines,state_house,2022,us_senate,United States Senator,state_house_us_senate_2022.json,35,35,0,,0,,0,1772670,587251,33.13,33.13,94.92,true,us_senate_2022.json
+2024-lines,state_senate,2022,attorney_general,Attorney General,state_senate_attorney_general_2022.json,35,35,0,,0,,0,1760952,583384,33.13,33.13,94.92,true,attorney_general_2022.json
+2024-lines,state_senate,2022,governor,Governor,state_senate_governor_2022.json,35,35,0,,0,,0,1777872,588955,33.13,33.13,95.01,true,governor_2022.json
+2024-lines,state_senate,2022,lieutenant_governor,Lieutenant Governor,state_senate_lieutenant_governor_2022.json,35,35,0,,0,,0,1753215,579486,33.05,33.05,94.73,true,lieutenant_governor_2022.json
+2024-lines,state_senate,2022,secretary_of_state,Secretary of State,state_senate_secretary_of_state_2022.json,35,35,0,,0,,0,1742736,576024,33.05,33.05,94.73,true,secretary_of_state_2022.json
+2024-lines,state_senate,2022,state_controller,State Controller,state_senate_state_controller_2022.json,35,35,0,,0,,0,1747815,578833,33.12,33.12,94.83,true,state_controller_2022.json
+2024-lines,state_senate,2022,state_treasurer,State Treasurer,state_senate_state_treasurer_2022.json,35,35,0,,0,,0,1740294,576362,33.12,33.12,94.83,true,state_treasurer_2022.json
+2024-lines,state_senate,2022,superintendent_public_instruction,Superintendent of Public Instruction,state_senate_superintendent_public_instruction_2022.json,35,35,0,,0,,0,1738875,576050,33.13,33.13,94.92,true,superintendent_public_instruction_2022.json
+2024-lines,state_senate,2022,us_senate,United States Senator,state_senate_us_senate_2022.json,35,35,0,,0,,0,1772670,587251,33.13,33.13,94.92,true,us_senate_2022.json
+2024-lines,congressional,2024,president,President of the United States,congressional_president_2024.json,2,2,0,,0,,0,905057,477151,52.72,52.72,57.97,true,president_2024.json
+2024-lines,congressional,2024,us_house,U.S. House,congressional_us_house_2024.json,2,2,0,,0,,0,0,873704,,,,true,
+2024-lines,state_house,2024,president,President of the United States,state_house_president_2024.json,35,35,0,,0,,7,905057,477151,52.72,52.72,57.97,true,president_2024.json
+2024-lines,state_house,2024,state_house_a,State House Seat A,state_house_state_house_a_2024.json,35,35,0,,0,,0,0,819599,,,,true,
+2024-lines,state_house,2024,state_house_b,State House Seat B,state_house_state_house_b_2024.json,35,35,0,,0,,0,0,818725,,,,true,
+2024-lines,state_senate,2024,president,President of the United States,state_senate_president_2024.json,35,35,0,,0,,7,905057,477151,52.72,52.72,57.97,true,president_2024.json
+2024-lines,state_senate,2024,state_senate,State Senate,state_senate_state_senate_2024.json,35,35,0,,0,,0,0,829648,,,,true,
+2026-lines,congressional,2000,president,President of the United States,congressional_president_2000.json,2,2,0,,0,,0,490803,188102,38.33,38.33,47.15,true,president_2000.json
+2026-lines,congressional,2002,governor,Governor,congressional_governor_2002.json,2,2,0,,0,,0,401897,167497,41.68,41.68,51.8,true,governor_2002.json
+2026-lines,congressional,2002,lieutenant_governor,Lieutenant Governor,congressional_lieutenant_governor_2002.json,2,2,0,,0,,0,392662,162616,41.41,41.41,51.8,true,lieutenant_governor_2002.json
+2026-lines,congressional,2002,secretary_of_state,Secretary of State,congressional_secretary_of_state_2002.json,2,2,0,,0,,0,374799,154080,41.11,41.11,51.8,true,secretary_of_state_2002.json
+2026-lines,congressional,2002,us_senate,United States Senator,congressional_us_senate_2002.json,2,2,0,,0,,0,389804,162863,41.78,41.78,51.8,true,us_senate_2002.json
+2026-lines,congressional,2004,president,President of the United States,congressional_president_2004.json,2,2,0,,0,,0,598376,257418,43.02,43.02,52.74,true,president_2004.json
+2026-lines,congressional,2004,us_senate,United States Senator,congressional_us_senate_2004.json,2,2,0,,0,,0,503932,217326,43.13,43.13,52.74,true,us_senate_2004.json
+2026-lines,congressional,2006,governor,Governor,congressional_governor_2006.json,2,2,0,,0,,0,441803,179687,40.67,40.67,50.53,true,governor_2006.json
+2026-lines,congressional,2006,lieutenant_governor,Lieutenant Governor,congressional_lieutenant_governor_2006.json,2,2,0,,0,,0,436418,177660,40.71,40.71,50.53,true,lieutenant_governor_2006.json
+2026-lines,congressional,2006,secretary_of_state,Secretary of State,congressional_secretary_of_state_2006.json,2,2,0,,0,,0,358176,145311,40.57,40.57,50.53,true,secretary_of_state_2006.json
+2026-lines,congressional,2006,state_controller,State Controller,congressional_state_controller_2006.json,2,2,0,,0,,0,424838,172236,40.54,40.54,50.53,true,state_controller_2006.json
+2026-lines,congressional,2008,president,President of the United States,congressional_president_2008.json,2,2,0,,0,,0,654110,272505,41.66,41.66,52.94,true,president_2008.json
+2026-lines,congressional,2008,us_senate,United States Senator,congressional_us_senate_2008.json,2,2,0,,0,,0,643854,268987,41.78,41.78,52.94,true,us_senate_2008.json
+2026-lines,congressional,2010,governor,Governor,congressional_governor_2010.json,2,2,0,,0,,0,452535,174905,38.65,38.65,52.97,true,governor_2010.json
+2026-lines,congressional,2010,us_senate,United States Senator,congressional_us_senate_2010.json,2,2,0,,0,,0,449530,173945,38.69,38.69,52.97,true,us_senate_2010.json
+2026-lines,congressional,2012,president,President of the United States,congressional_president_2012.json,2,2,0,,0,,0,652274,413432,63.38,63.38,67.11,true,president_2012.json
+2026-lines,congressional,2014,governor,Governor,congressional_governor_2014.json,2,2,0,,0,,0,439735,293820,66.82,66.82,66.84,true,governor_2014.json
+2026-lines,congressional,2014,us_senate,United States Senator,congressional_us_senate_2014.json,2,2,0,,0,,0,437170,291903,66.77,66.77,66.84,true,us_senate_2014.json
+2026-lines,congressional,2016,president,President of the United States,congressional_president_2016.json,2,2,0,,0,,0,690255,446736,64.72,64.72,68.99,true,president_2016.json
+2026-lines,congressional,2016,us_senate,United States Senator,congressional_us_senate_2016.json,2,2,0,,0,,0,678943,437264,64.4,64.4,68.99,true,us_senate_2016.json
+2026-lines,congressional,2018,attorney_general,Attorney General,congressional_attorney_general_2018.json,2,2,0,,0,,0,588074,416013,70.74,70.74,68.62,true,attorney_general_2018.json
+2026-lines,congressional,2018,governor,Governor,congressional_governor_2018.json,2,2,0,,0,,0,554582,398729,71.9,71.9,68.59,true,governor_2018.json
+2026-lines,congressional,2018,lieutenant_governor,Lieutenant Governor,congressional_lieutenant_governor_2018.json,2,2,0,,0,,0,543640,390013,71.74,71.74,68.49,true,lieutenant_governor_2018.json
+2026-lines,congressional,2018,secretary_of_state,Secretary of State,congressional_secretary_of_state_2018.json,2,2,0,,0,,0,542986,390467,71.91,71.91,68.38,true,secretary_of_state_2018.json
+2026-lines,congressional,2018,state_controller,State Controller,congressional_state_controller_2018.json,2,2,0,,0,,0,399411,277768,69.54,69.54,64.68,true,state_controller_2018.json
+2026-lines,congressional,2018,state_treasurer,State Treasurer,congressional_state_treasurer_2018.json,2,2,0,,0,,0,465119,325825,70.05,70.05,68.62,true,state_treasurer_2018.json
+2026-lines,congressional,2018,superintendent_public_instruction,Superintendent of Public Instruction,congressional_superintendent_public_instruction_2018.json,2,2,0,,0,,0,594475,420914,70.8,70.8,68.62,true,superintendent_public_instruction_2018.json
+2026-lines,congressional,2020,president,President of the United States,congressional_president_2020.json,2,2,0,,0,,0,867281,510449,58.86,58.86,67.8,true,president_2020.json
+2026-lines,congressional,2020,us_senate,United States Senator,congressional_us_senate_2020.json,2,2,0,,0,,0,859827,506284,58.88,58.88,67.8,true,us_senate_2020.json
+2026-lines,congressional,2022,attorney_general,Attorney General,congressional_attorney_general_2022.json,2,2,0,,0,,0,1760952,717608,40.75,40.75,95.59,true,attorney_general_2022.json
+2026-lines,congressional,2022,governor,Governor,congressional_governor_2022.json,2,2,0,,0,,0,1777872,724077,40.73,40.73,95.59,true,governor_2022.json
+2026-lines,congressional,2022,lieutenant_governor,Lieutenant Governor,congressional_lieutenant_governor_2022.json,2,2,0,,0,,0,1753215,711955,40.61,40.61,95.31,true,lieutenant_governor_2022.json
+2026-lines,congressional,2022,secretary_of_state,Secretary of State,congressional_secretary_of_state_2022.json,2,2,0,,0,,0,1742736,707876,40.62,40.62,95.31,true,secretary_of_state_2022.json
+2026-lines,congressional,2022,state_controller,State Controller,congressional_state_controller_2022.json,2,2,0,,0,,0,1747815,712385,40.76,40.76,95.4,true,state_controller_2022.json
+2026-lines,congressional,2022,state_treasurer,State Treasurer,congressional_state_treasurer_2022.json,2,2,0,,0,,0,1740294,709541,40.77,40.77,95.4,true,state_treasurer_2022.json
+2026-lines,congressional,2022,superintendent_public_instruction,Superintendent of Public Instruction,congressional_superintendent_public_instruction_2022.json,2,2,0,,0,,0,1738875,707611,40.69,40.69,95.59,true,superintendent_public_instruction_2022.json
+2026-lines,congressional,2022,us_senate,United States Senator,congressional_us_senate_2022.json,2,2,0,,0,,0,1772670,722140,40.74,40.74,95.5,true,us_senate_2022.json
+2026-lines,congressional,2024,president,President of the United States,congressional_president_2024.json,2,2,0,,0,,0,905057,477151,52.72,52.72,57.97,true,president_2024.json

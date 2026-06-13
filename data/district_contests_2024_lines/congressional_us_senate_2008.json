@@ -1,0 +1,55 @@
+{
+  "year": 2008,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "match_coverage_pct": 52.94,
+    "matched_precinct_keys": 505,
+    "total_precinct_keys": 954,
+    "weighted_vote_coverage_pct": 41.78,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "United States Senator",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 415,
+      "legacy_2008_vtd00_rows": 90,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 45234,
+        "rep_votes": 68924,
+        "other_votes": 7910,
+        "total_votes": 122068,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 23690,
+        "margin_pct": 19.4072,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 39584,
+        "rep_votes": 91204,
+        "other_votes": 16131,
+        "total_votes": 146919,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 51620,
+        "margin_pct": 35.135,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

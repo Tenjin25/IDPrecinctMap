@@ -1,0 +1,55 @@
+{
+  "year": 2020,
+  "scope": "congressional",
+  "contest_type": "president",
+  "meta": {
+    "match_coverage_pct": 67.8,
+    "matched_precinct_keys": 659,
+    "total_precinct_keys": 972,
+    "weighted_vote_coverage_pct": 58.86,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "President of the United States",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 590,
+      "legacy_2008_vtd00_rows": 69,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 67214,
+        "rep_votes": 159983,
+        "other_votes": 6549,
+        "total_votes": 233745,
+        "dem_candidate": "Joseph R. Biden",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 92769,
+        "margin_pct": 39.6881,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 108841,
+        "rep_votes": 158582,
+        "other_votes": 9280,
+        "total_votes": 276704,
+        "dem_candidate": "Joseph R. Biden",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 49741,
+        "margin_pct": 17.9762,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

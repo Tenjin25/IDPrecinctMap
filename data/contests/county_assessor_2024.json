@@ -1,0 +1,24 @@
+{
+  "year": 2024,
+  "contest_type": "county_assessor",
+  "meta": {
+    "office": "County Assessor",
+    "source": "idaho_raw_races_general",
+    "aggregation": "county"
+  },
+  "rows": [
+    {
+      "county": "BONNER",
+      "dem_votes": 0,
+      "rep_votes": 22644,
+      "other_votes": 0,
+      "total_votes": 22644,
+      "dem_candidate": "",
+      "rep_candidate": "Dennis Engelhardt",
+      "margin": 22644,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "color": "#a50f15"
+    }
+  ]
+}

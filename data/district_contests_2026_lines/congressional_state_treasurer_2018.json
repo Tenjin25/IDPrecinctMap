@@ -1,0 +1,55 @@
+{
+  "year": 2018,
+  "scope": "congressional",
+  "contest_type": "state_treasurer",
+  "meta": {
+    "match_coverage_pct": 68.62,
+    "matched_precinct_keys": 667,
+    "total_precinct_keys": 972,
+    "weighted_vote_coverage_pct": 70.05,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "State Treasurer",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 597,
+      "legacy_2008_vtd00_rows": 70,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 157222,
+        "other_votes": 0,
+        "total_votes": 157222,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 157222,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 168603,
+        "other_votes": 0,
+        "total_votes": 168603,
+        "dem_candidate": "",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 168603,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

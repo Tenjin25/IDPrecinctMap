@@ -1,0 +1,52 @@
+{
+  "year": 1994,
+  "scope": "congressional",
+  "contest_type": "superintendent_public_instruction",
+  "meta": {
+    "match_coverage_pct": 36.71,
+    "matched_precinct_keys": 330,
+    "total_precinct_keys": 899,
+    "weighted_vote_coverage_pct": 34.61,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Superintendent of Public Instruction",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 330,
+      "legacy_2008_vtd00_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 31545,
+        "rep_votes": 44162,
+        "other_votes": 0,
+        "total_votes": 75707,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 12617,
+        "margin_pct": 16.6656,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "2": {
+        "dem_votes": 21893,
+        "rep_votes": 40066,
+        "other_votes": 0,
+        "total_votes": 61959,
+        "dem_candidate": "Will E. Sullivan",
+        "rep_candidate": "Anne C. Fox",
+        "margin": 18173,
+        "margin_pct": 29.3307,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      }
+    }
+  }
+}

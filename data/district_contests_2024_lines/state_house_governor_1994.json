@@ -1,0 +1,382 @@
+{
+  "year": 1994,
+  "scope": "state_house",
+  "contest_type": "governor",
+  "meta": {
+    "match_coverage_pct": 36.71,
+    "matched_precinct_keys": 330,
+    "total_precinct_keys": 899,
+    "weighted_vote_coverage_pct": 34.53,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Governor",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 330,
+      "legacy_2008_vtd00_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 1805,
+        "rep_votes": 2300,
+        "other_votes": 103,
+        "total_votes": 4208,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 495,
+        "margin_pct": 11.7633,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "2": {
+        "dem_votes": 6281,
+        "rep_votes": 6638,
+        "other_votes": 456,
+        "total_votes": 13375,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 357,
+        "margin_pct": 2.6692,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        }
+      },
+      "3": {
+        "dem_votes": 13215,
+        "rep_votes": 15512,
+        "other_votes": 1178,
+        "total_votes": 29905,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 2297,
+        "margin_pct": 7.681,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "4": {
+        "dem_votes": 12,
+        "rep_votes": 11,
+        "other_votes": 1,
+        "total_votes": 24,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": -1,
+        "margin_pct": -4.1667,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        }
+      },
+      "5": {
+        "dem_votes": 6230,
+        "rep_votes": 8409,
+        "other_votes": 600,
+        "total_votes": 15239,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 2179,
+        "margin_pct": 14.2988,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "6": {
+        "dem_votes": 13834,
+        "rep_votes": 12134,
+        "other_votes": 494,
+        "total_votes": 26462,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": -1700,
+        "margin_pct": -6.4243,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      },
+      "7": {
+        "dem_votes": 2152,
+        "rep_votes": 3678,
+        "other_votes": 141,
+        "total_votes": 5971,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 1526,
+        "margin_pct": 25.5569,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "8": {
+        "dem_votes": 5774,
+        "rep_votes": 7908,
+        "other_votes": 334,
+        "total_votes": 14016,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 2134,
+        "margin_pct": 15.2255,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "9": {
+        "dem_votes": 3306,
+        "rep_votes": 4711,
+        "other_votes": 168,
+        "total_votes": 8185,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 1405,
+        "margin_pct": 17.1655,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "10": {
+        "dem_votes": 2726,
+        "rep_votes": 4714,
+        "other_votes": 154,
+        "total_votes": 7594,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 1988,
+        "margin_pct": 26.1786,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "11": {
+        "dem_votes": 4196,
+        "rep_votes": 7339,
+        "other_votes": 186,
+        "total_votes": 11720,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 3143,
+        "margin_pct": 26.8174,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "12": {
+        "dem_votes": 4821,
+        "rep_votes": 8871,
+        "other_votes": 228,
+        "total_votes": 13920,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 4050,
+        "margin_pct": 29.0948,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "13": {
+        "dem_votes": 1786,
+        "rep_votes": 3033,
+        "other_votes": 90,
+        "total_votes": 4909,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 1247,
+        "margin_pct": 25.4023,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        }
+      },
+      "23": {
+        "dem_votes": 1799,
+        "rep_votes": 3047,
+        "other_votes": 109,
+        "total_votes": 4955,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 1248,
+        "margin_pct": 25.1867,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "24": {
+        "dem_votes": 1556,
+        "rep_votes": 2500,
+        "other_votes": 108,
+        "total_votes": 4164,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 944,
+        "margin_pct": 22.6705,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "26": {
+        "dem_votes": 3116,
+        "rep_votes": 4231,
+        "other_votes": 184,
+        "total_votes": 7531,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 1115,
+        "margin_pct": 14.8055,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "27": {
+        "dem_votes": 6919,
+        "rep_votes": 10407,
+        "other_votes": 326,
+        "total_votes": 17652,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 3488,
+        "margin_pct": 19.7598,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "28": {
+        "dem_votes": 2185,
+        "rep_votes": 4835,
+        "other_votes": 83,
+        "total_votes": 7103,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 2650,
+        "margin_pct": 37.3082,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "30": {
+        "dem_votes": 1236,
+        "rep_votes": 1261,
+        "other_votes": 50,
+        "total_votes": 2547,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 25,
+        "margin_pct": 0.9815,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        }
+      },
+      "31": {
+        "dem_votes": 6630,
+        "rep_votes": 9862,
+        "other_votes": 355,
+        "total_votes": 16847,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 3232,
+        "margin_pct": 19.1844,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "32": {
+        "dem_votes": 8746,
+        "rep_votes": 12370,
+        "other_votes": 326,
+        "total_votes": 21442,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 3624,
+        "margin_pct": 16.9014,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "33": {
+        "dem_votes": 12329,
+        "rep_votes": 14593,
+        "other_votes": 455,
+        "total_votes": 27377,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 2264,
+        "margin_pct": 8.2697,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        }
+      },
+      "35": {
+        "dem_votes": 6700,
+        "rep_votes": 10130,
+        "other_votes": 230,
+        "total_votes": 17060,
+        "dem_candidate": "Larry EchoHawk",
+        "rep_candidate": "Phil Batt",
+        "margin": 3430,
+        "margin_pct": 20.1055,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      }
+    }
+  }
+}

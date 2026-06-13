@@ -1,0 +1,50 @@
+{
+  "year": 2024,
+  "contest_type": "county_coroner",
+  "meta": {
+    "office": "County Coroner",
+    "source": "idaho_raw_races_general",
+    "aggregation": "county"
+  },
+  "rows": [
+    {
+      "county": "CARIBOU",
+      "dem_votes": 0,
+      "rep_votes": 3131,
+      "other_votes": 0,
+      "total_votes": 3131,
+      "dem_candidate": "",
+      "rep_candidate": "Casey Batterton",
+      "margin": 3131,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "color": "#a50f15"
+    },
+    {
+      "county": "PAYETTE",
+      "dem_votes": 0,
+      "rep_votes": 10314,
+      "other_votes": 0,
+      "total_votes": 10314,
+      "dem_candidate": "",
+      "rep_candidate": "Ethan Mittelstadt",
+      "margin": 10314,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "color": "#a50f15"
+    },
+    {
+      "county": "TWIN FALLS",
+      "dem_votes": 0,
+      "rep_votes": 27751,
+      "other_votes": 0,
+      "total_votes": 27751,
+      "dem_candidate": "",
+      "rep_candidate": "Will Carson",
+      "margin": 27751,
+      "margin_pct": 100.0,
+      "winner": "REP",
+      "color": "#a50f15"
+    }
+  ]
+}

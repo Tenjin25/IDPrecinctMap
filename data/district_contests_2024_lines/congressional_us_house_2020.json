@@ -1,0 +1,37 @@
+{
+  "year": 2020,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "meta": {
+    "office": "U.S. House",
+    "source": "20201103__id__general__precinct.csv"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 131380,
+        "rep_votes": 310736,
+        "other_votes": 16453,
+        "total_votes": 458569,
+        "dem_candidate": "Rudy Soto",
+        "rep_candidate": "Russ Fulcher",
+        "margin": 179356,
+        "margin_pct": 39.1121,
+        "winner": "REP",
+        "color": "#a50f15"
+      },
+      "2": {
+        "dem_votes": 124151,
+        "rep_votes": 250669,
+        "other_votes": 16513,
+        "total_votes": 391333,
+        "dem_candidate": "C. Aaron Swisher",
+        "rep_candidate": "Mike Simpson",
+        "margin": 126518,
+        "margin_pct": 32.33,
+        "winner": "REP",
+        "color": "#a50f15"
+      }
+    }
+  }
+}

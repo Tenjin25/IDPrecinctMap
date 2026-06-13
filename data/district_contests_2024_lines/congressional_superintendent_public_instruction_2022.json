@@ -1,0 +1,55 @@
+{
+  "year": 2022,
+  "scope": "congressional",
+  "contest_type": "superintendent_public_instruction",
+  "meta": {
+    "match_coverage_pct": 95.59,
+    "matched_precinct_keys": 998,
+    "total_precinct_keys": 1044,
+    "weighted_vote_coverage_pct": 40.69,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Superintendent of Public Instruction",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 1,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 997
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 106176,
+        "rep_votes": 317627,
+        "other_votes": 0,
+        "total_votes": 423803,
+        "dem_candidate": "Terry L. Gilbert",
+        "rep_candidate": "Debbie Critchfield",
+        "margin": 211451,
+        "margin_pct": 49.8937,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 98208,
+        "rep_votes": 185600,
+        "other_votes": 0,
+        "total_votes": 283808,
+        "dem_candidate": "Terry L. Gilbert",
+        "rep_candidate": "Debbie Critchfield",
+        "margin": 87392,
+        "margin_pct": 30.7926,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

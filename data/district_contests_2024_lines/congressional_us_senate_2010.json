@@ -1,0 +1,55 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "match_coverage_pct": 52.97,
+    "matched_precinct_keys": 509,
+    "total_precinct_keys": 961,
+    "weighted_vote_coverage_pct": 38.69,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "United States Senator",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 418,
+      "legacy_2008_vtd00_rows": 91,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 18418,
+        "rep_votes": 48526,
+        "other_votes": 3310,
+        "total_votes": 70254,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 30108,
+        "margin_pct": 42.8559,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 22298,
+        "rep_votes": 76997,
+        "other_votes": 4396,
+        "total_votes": 103691,
+        "dem_candidate": "P. Tom Sullivan",
+        "rep_candidate": "Mike Crapo",
+        "margin": 54699,
+        "margin_pct": 52.7519,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

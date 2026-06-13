@@ -1,0 +1,37 @@
+{
+  "year": 2018,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "meta": {
+    "office": "U.S. House",
+    "source": "20181106__id__general__precinct.csv"
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 96932,
+        "rep_votes": 197167,
+        "other_votes": 20428,
+        "total_votes": 314527,
+        "dem_candidate": "Cristina McNeil",
+        "rep_candidate": "Russ Fulcher",
+        "margin": 100235,
+        "margin_pct": 31.8685,
+        "winner": "REP",
+        "color": "#a50f15"
+      },
+      "2": {
+        "dem_votes": 110381,
+        "rep_votes": 170274,
+        "other_votes": 0,
+        "total_votes": 280655,
+        "dem_candidate": "Aaron Swisher",
+        "rep_candidate": "Mike Simpson",
+        "margin": 59893,
+        "margin_pct": 21.3404,
+        "winner": "REP",
+        "color": "#de2d26"
+      }
+    }
+  }
+}

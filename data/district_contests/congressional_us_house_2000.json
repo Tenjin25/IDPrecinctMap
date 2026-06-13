@@ -1,0 +1,25 @@
+{
+  "year": 2000,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "meta": {
+    "office": "U.S. House",
+    "source": "20001107__id__general__precinct.csv"
+  },
+  "general": {
+    "results": {
+      "10": {
+        "dem_votes": 80712,
+        "rep_votes": 167042,
+        "other_votes": 9930,
+        "total_votes": 257684,
+        "dem_candidate": "Linda Pall",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 86330,
+        "margin_pct": 33.5023,
+        "winner": "REP",
+        "color": "#a50f15"
+      }
+    }
+  }
+}

@@ -1,0 +1,583 @@
+{
+  "year": 2018,
+  "scope": "state_senate",
+  "contest_type": "state_controller",
+  "meta": {
+    "match_coverage_pct": 64.68,
+    "matched_precinct_keys": 628,
+    "total_precinct_keys": 971,
+    "weighted_vote_coverage_pct": 69.54,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "State Controller",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 558,
+      "legacy_2008_vtd00_rows": 70,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 0,
+        "rep_votes": 11706,
+        "other_votes": 0,
+        "total_votes": 11706,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 11706,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 0,
+        "rep_votes": 21181,
+        "other_votes": 0,
+        "total_votes": 21181,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 21181,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 3137,
+        "other_votes": 0,
+        "total_votes": 3137,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 3137,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 0,
+        "rep_votes": 2082,
+        "other_votes": 0,
+        "total_votes": 2082,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 2082,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 0,
+        "rep_votes": 11890,
+        "other_votes": 0,
+        "total_votes": 11890,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 11890,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 0,
+        "rep_votes": 13397,
+        "other_votes": 0,
+        "total_votes": 13397,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 13397,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 0,
+        "rep_votes": 7329,
+        "other_votes": 0,
+        "total_votes": 7329,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 7329,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 0,
+        "rep_votes": 4558,
+        "other_votes": 0,
+        "total_votes": 4558,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 4558,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 0,
+        "rep_votes": 710,
+        "other_votes": 0,
+        "total_votes": 710,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 710,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 1664,
+        "other_votes": 0,
+        "total_votes": 1664,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 1664,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 2589,
+        "other_votes": 0,
+        "total_votes": 2589,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 2589,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 6394,
+        "other_votes": 0,
+        "total_votes": 6394,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 6394,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "14": {
+        "dem_votes": 0,
+        "rep_votes": 11439,
+        "other_votes": 0,
+        "total_votes": 11439,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 11439,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 11726,
+        "other_votes": 0,
+        "total_votes": 11726,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 11726,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 9836,
+        "other_votes": 0,
+        "total_votes": 9836,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 9836,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 11118,
+        "other_votes": 0,
+        "total_votes": 11118,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 11118,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 11001,
+        "other_votes": 0,
+        "total_votes": 11001,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 11001,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 14332,
+        "other_votes": 0,
+        "total_votes": 14332,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 14332,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 7555,
+        "other_votes": 0,
+        "total_votes": 7555,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 7555,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 7934,
+        "other_votes": 0,
+        "total_votes": 7934,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 7934,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 6250,
+        "other_votes": 0,
+        "total_votes": 6250,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 6250,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "23": {
+        "dem_votes": 0,
+        "rep_votes": 8921,
+        "other_votes": 0,
+        "total_votes": 8921,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 8921,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 0,
+        "rep_votes": 11280,
+        "other_votes": 0,
+        "total_votes": 11280,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 11280,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 0,
+        "rep_votes": 12568,
+        "other_votes": 0,
+        "total_votes": 12568,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 12568,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 0,
+        "rep_votes": 5003,
+        "other_votes": 0,
+        "total_votes": 5003,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 5003,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 0,
+        "rep_votes": 6325,
+        "other_votes": 0,
+        "total_votes": 6325,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 6325,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 0,
+        "rep_votes": 9711,
+        "other_votes": 0,
+        "total_votes": 9711,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 9711,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 0,
+        "rep_votes": 11275,
+        "other_votes": 0,
+        "total_votes": 11275,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 11275,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 0,
+        "rep_votes": 11665,
+        "other_votes": 0,
+        "total_votes": 11665,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 11665,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 0,
+        "rep_votes": 8230,
+        "other_votes": 0,
+        "total_votes": 8230,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 8230,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 0,
+        "rep_votes": 407,
+        "other_votes": 0,
+        "total_votes": 407,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 407,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "34": {
+        "dem_votes": 0,
+        "rep_votes": 7416,
+        "other_votes": 0,
+        "total_votes": 7416,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 7416,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 0,
+        "rep_votes": 7140,
+        "other_votes": 0,
+        "total_votes": 7140,
+        "dem_candidate": "",
+        "rep_candidate": "Brandon D Woolf",
+        "margin": 7140,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

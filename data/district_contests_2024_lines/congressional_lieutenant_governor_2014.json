@@ -1,0 +1,54 @@
+{
+  "year": 2014,
+  "scope": "congressional",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "match_coverage_pct": 38.03,
+    "matched_precinct_keys": 386,
+    "total_precinct_keys": 1015,
+    "weighted_vote_coverage_pct": 7.47,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Lieutenant Governor",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 353,
+      "legacy_2008_vtd00_rows": 33
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 20925,
+        "rep_votes": 54058,
+        "other_votes": 3580,
+        "total_votes": 78563,
+        "dem_candidate": "Bert Marley",
+        "rep_candidate": "Brad Little",
+        "margin": 33133,
+        "margin_pct": 42.1738,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 17168,
+        "rep_votes": 48860,
+        "other_votes": 3446,
+        "total_votes": 69474,
+        "dem_candidate": "Bert Marley",
+        "rep_candidate": "Brad Little",
+        "margin": 31692,
+        "margin_pct": 45.6171,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

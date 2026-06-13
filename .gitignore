@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+scripts/__pycache__/
+node_modules/
+playwright-home.png
+tmp-*.js
+tmp-*.cjs
+tmp-*.py
+data/census/shapefiles/
+data/2022_General_Canvass/
+data/2022_General_Canvass.zip
+data/raw_races_general.csv
+data/crosswalks/tabblock00_*.csv
+data/*.xls
+data/*.xlsx
+data/**/*.xls
+data/**/*.xlsx

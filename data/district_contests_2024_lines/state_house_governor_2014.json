@@ -1,0 +1,583 @@
+{
+  "year": 2014,
+  "scope": "state_house",
+  "contest_type": "governor",
+  "meta": {
+    "match_coverage_pct": 66.84,
+    "matched_precinct_keys": 645,
+    "total_precinct_keys": 965,
+    "weighted_vote_coverage_pct": 66.82,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Governor",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 570,
+      "legacy_2008_vtd00_rows": 75,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 4112,
+        "rep_votes": 6334,
+        "other_votes": 1438,
+        "total_votes": 11884,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2222,
+        "margin_pct": 18.6974,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 2826,
+        "rep_votes": 5136,
+        "other_votes": 1174,
+        "total_votes": 9136,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2310,
+        "margin_pct": 25.2846,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "4": {
+        "dem_votes": 1312,
+        "rep_votes": 1150,
+        "other_votes": 256,
+        "total_votes": 2717,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": -162,
+        "margin_pct": -5.9625,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 455,
+        "rep_votes": 1270,
+        "other_votes": 185,
+        "total_votes": 1910,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 815,
+        "margin_pct": 42.6702,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 6046,
+        "rep_votes": 5763,
+        "other_votes": 1024,
+        "total_votes": 12833,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": -283,
+        "margin_pct": -2.2053,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 4445,
+        "rep_votes": 6942,
+        "other_votes": 1190,
+        "total_votes": 12577,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2497,
+        "margin_pct": 19.8537,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 2507,
+        "rep_votes": 4856,
+        "other_votes": 676,
+        "total_votes": 8039,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2349,
+        "margin_pct": 29.2201,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 810,
+        "rep_votes": 2153,
+        "other_votes": 240,
+        "total_votes": 3203,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 1343,
+        "margin_pct": 41.9294,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 742,
+        "rep_votes": 1782,
+        "other_votes": 190,
+        "total_votes": 2715,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 1040,
+        "margin_pct": 38.3057,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "14": {
+        "dem_votes": 5292,
+        "rep_votes": 10115,
+        "other_votes": 1041,
+        "total_votes": 16447,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 4823,
+        "margin_pct": 29.3245,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 6852,
+        "rep_votes": 6710,
+        "other_votes": 1008,
+        "total_votes": 14570,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": -142,
+        "margin_pct": -0.9746,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "16": {
+        "dem_votes": 8841,
+        "rep_votes": 5432,
+        "other_votes": 934,
+        "total_votes": 15206,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": -3409,
+        "margin_pct": -22.4188,
+        "winner": "DEM",
+        "color": "#08519c",
+        "competitiveness": {
+          "color": "#08519c"
+        },
+        "no_data": false
+      },
+      "17": {
+        "dem_votes": 8644,
+        "rep_votes": 4993,
+        "other_votes": 931,
+        "total_votes": 14568,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": -3651,
+        "margin_pct": -25.0618,
+        "winner": "DEM",
+        "color": "#08519c",
+        "competitiveness": {
+          "color": "#08519c"
+        },
+        "no_data": false
+      },
+      "18": {
+        "dem_votes": 9266,
+        "rep_votes": 4908,
+        "other_votes": 766,
+        "total_votes": 14940,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": -4358,
+        "margin_pct": -29.17,
+        "winner": "DEM",
+        "color": "#08519c",
+        "competitiveness": {
+          "color": "#08519c"
+        },
+        "no_data": false
+      },
+      "19": {
+        "dem_votes": 13049,
+        "rep_votes": 4564,
+        "other_votes": 792,
+        "total_votes": 18406,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": -8485,
+        "margin_pct": -46.0991,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "20": {
+        "dem_votes": 3933,
+        "rep_votes": 5639,
+        "other_votes": 638,
+        "total_votes": 10211,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 1706,
+        "margin_pct": 16.7075,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "21": {
+        "dem_votes": 4812,
+        "rep_votes": 7076,
+        "other_votes": 940,
+        "total_votes": 12828,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2264,
+        "margin_pct": 17.6489,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "22": {
+        "dem_votes": 4937,
+        "rep_votes": 5991,
+        "other_votes": 797,
+        "total_votes": 11725,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 1054,
+        "margin_pct": 8.9893,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "23": {
+        "dem_votes": 1947,
+        "rep_votes": 4242,
+        "other_votes": 603,
+        "total_votes": 6792,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2295,
+        "margin_pct": 33.7898,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 3530,
+        "rep_votes": 6219,
+        "other_votes": 700,
+        "total_votes": 10449,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2689,
+        "margin_pct": 25.7345,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 4110,
+        "rep_votes": 7278,
+        "other_votes": 1040,
+        "total_votes": 12428,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 3168,
+        "margin_pct": 25.4908,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 3554,
+        "rep_votes": 3342,
+        "other_votes": 426,
+        "total_votes": 7322,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": -212,
+        "margin_pct": -2.8954,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 1450,
+        "rep_votes": 4172,
+        "other_votes": 545,
+        "total_votes": 6167,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2722,
+        "margin_pct": 44.1382,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 2608,
+        "rep_votes": 5551,
+        "other_votes": 838,
+        "total_votes": 8997,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2943,
+        "margin_pct": 32.7109,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 8272,
+        "rep_votes": 6709,
+        "other_votes": 1279,
+        "total_votes": 16260,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": -1563,
+        "margin_pct": -9.6125,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 2383,
+        "rep_votes": 6001,
+        "other_votes": 910,
+        "total_votes": 9294,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 3618,
+        "margin_pct": 38.9283,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 1570,
+        "rep_votes": 5698,
+        "other_votes": 765,
+        "total_votes": 8033,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 4128,
+        "margin_pct": 51.388,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "33": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "34": {
+        "dem_votes": 1482,
+        "rep_votes": 4671,
+        "other_votes": 663,
+        "total_votes": 6816,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 3189,
+        "margin_pct": 46.787,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 2081,
+        "rep_votes": 4584,
+        "other_votes": 683,
+        "total_votes": 7347,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2503,
+        "margin_pct": 34.0683,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

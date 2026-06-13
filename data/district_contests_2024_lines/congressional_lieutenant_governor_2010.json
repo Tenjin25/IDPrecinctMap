@@ -1,0 +1,54 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "match_coverage_pct": 37.82,
+    "matched_precinct_keys": 382,
+    "total_precinct_keys": 1010,
+    "weighted_vote_coverage_pct": 6.74,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Lieutenant Governor",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 341,
+      "legacy_2008_vtd00_rows": 41
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 15943,
+        "rep_votes": 44772,
+        "other_votes": 3494,
+        "total_votes": 64209,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 28829,
+        "margin_pct": 44.8987,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 16192,
+        "rep_votes": 51103,
+        "other_votes": 3661,
+        "total_votes": 70956,
+        "dem_candidate": "Eldon Wallace",
+        "rep_candidate": "Brad Little",
+        "margin": 34911,
+        "margin_pct": 49.2009,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "files": [
+    {
+      "year": 1994,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_1994.json",
+      "rows": 899,
+      "office": "Attorney General"
+    },
+    {
+      "year": 1994,
+      "contest_type": "governor",
+      "file": "governor_1994.json",
+      "rows": 899,
+      "office": "Governor"
+    },
+    {
+      "year": 1994,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_1994.json",
+      "rows": 899,
+      "office": "Secretary of State"
+    },
+    {
+      "year": 1994,
+      "contest_type": "state_auditor",
+      "file": "state_auditor_1994.json",
+      "rows": 899,
+      "office": "Auditor"
+    },
+    {
+      "year": 1994,
+      "contest_type": "state_treasurer",
+      "file": "state_treasurer_1994.json",
+      "rows": 899,
+      "office": "State Treasurer"
+    },
+    {
+      "year": 1994,
+      "contest_type": "superintendent_public_instruction",
+      "file": "superintendent_public_instruction_1994.json",
+      "rows": 899,
+      "office": "Superintendent of Public Instruction"
+    },
+    {
+      "year": 1996,
+      "contest_type": "president",
+      "file": "president_1996.json",
+      "rows": 918,
+      "office": "President of the United States"
+    },
+    {
+      "year": 1996,
+      "contest_type": "us_senate",
+      "file": "us_senate_1996.json",
+      "rows": 918,
+      "office": "United States Senator"
+    },
+    {
+      "year": 1998,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_1998.json",
+      "rows": 930,
+      "office": "Attorney General"
+    },
+    {
+      "year": 1998,
+      "contest_type": "governor",
+      "file": "governor_1998.json",
+      "rows": 930,
+      "office": "Governor"
+    },
+    {
+      "year": 1998,
+      "contest_type": "lieutenant_governor",
+      "file": "lieutenant_governor_1998.json",
+      "rows": 930,
+      "office": "Lieutenant Governor"
+    },
+    {
+      "year": 1998,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_1998.json",
+      "rows": 930,
+      "office": "Secretary of State"
+    },
+    {
+      "year": 1998,
+      "contest_type": "state_controller",
+      "file": "state_controller_1998.json",
+      "rows": 930,
+      "office": "State Controller"
+    },
+    {
+      "year": 1998,
+      "contest_type": "state_treasurer",
+      "file": "state_treasurer_1998.json",
+      "rows": 930,
+      "office": "State Treasurer"
+    },
+    {
+      "year": 1998,
+      "contest_type": "us_senate",
+      "file": "us_senate_1998.json",
+      "rows": 930,
+      "office": "United States Senator"
+    },
+    {
+      "year": 2000,
+      "contest_type": "president",
+      "file": "president_2000.json",
+      "rows": 929,
+      "office": "President of the United States"
+    },
+    {
+      "year": 2002,
+      "contest_type": "governor",
+      "file": "governor_2002.json",
+      "rows": 942,
+      "office": "Governor"
+    },
+    {
+      "year": 2002,
+      "contest_type": "lieutenant_governor",
+      "file": "lieutenant_governor_2002.json",
+      "rows": 942,
+      "office": "Lieutenant Governor"
+    },
+    {
+      "year": 2002,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2002.json",
+      "rows": 942,
+      "office": "Secretary of State"
+    },
+    {
+      "year": 2002,
+      "contest_type": "us_senate",
+      "file": "us_senate_2002.json",
+      "rows": 942,
+      "office": "United States Senator"
+    },
+    {
+      "year": 2004,
+      "contest_type": "president",
+      "file": "president_2004.json",
+      "rows": 948,
+      "office": "President of the United States"
+    },
+    {
+      "year": 2004,
+      "contest_type": "us_senate",
+      "file": "us_senate_2004.json",
+      "rows": 948,
+      "office": "United States Senator"
+    },
+    {
+      "year": 2006,
+      "contest_type": "governor",
+      "file": "governor_2006.json",
+      "rows": 952,
+      "office": "Governor"
+    },
+    {
+      "year": 2006,
+      "contest_type": "lieutenant_governor",
+      "file": "lieutenant_governor_2006.json",
+      "rows": 952,
+      "office": "Lieutenant Governor"
+    },
+    {
+      "year": 2006,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2006.json",
+      "rows": 952,
+      "office": "Secretary of State"
+    },
+    {
+      "year": 2006,
+      "contest_type": "state_controller",
+      "file": "state_controller_2006.json",
+      "rows": 952,
+      "office": "State Controller"
+    },
+    {
+      "year": 2008,
+      "contest_type": "president",
+      "file": "president_2008.json",
+      "rows": 954,
+      "office": "President of the United States"
+    },
+    {
+      "year": 2008,
+      "contest_type": "us_senate",
+      "file": "us_senate_2008.json",
+      "rows": 954,
+      "office": "United States Senator"
+    },
+    {
+      "year": 2010,
+      "contest_type": "governor",
+      "file": "governor_2010.json",
+      "rows": 961,
+      "office": "Governor"
+    },
+    {
+      "year": 2010,
+      "contest_type": "us_senate",
+      "file": "us_senate_2010.json",
+      "rows": 961,
+      "office": "United States Senator"
+    },
+    {
+      "year": 2012,
+      "contest_type": "president",
+      "file": "president_2012.json",
+      "rows": 967,
+      "office": "President of the United States"
+    },
+    {
+      "year": 2014,
+      "contest_type": "governor",
+      "file": "governor_2014.json",
+      "rows": 965,
+      "office": "Governor"
+    },
+    {
+      "year": 2014,
+      "contest_type": "us_senate",
+      "file": "us_senate_2014.json",
+      "rows": 965,
+      "office": "United States Senator"
+    },
+    {
+      "year": 2016,
+      "contest_type": "president",
+      "file": "president_2016.json",
+      "rows": 961,
+      "office": "President of the United States"
+    },
+    {
+      "year": 2016,
+      "contest_type": "us_senate",
+      "file": "us_senate_2016.json",
+      "rows": 961,
+      "office": "United States Senator"
+    },
+    {
+      "year": 2018,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2018.json",
+      "rows": 972,
+      "office": "Attorney General"
+    },
+    {
+      "year": 2018,
+      "contest_type": "governor",
+      "file": "governor_2018.json",
+      "rows": 971,
+      "office": "Governor"
+    },
+    {
+      "year": 2018,
+      "contest_type": "lieutenant_governor",
+      "file": "lieutenant_governor_2018.json",
+      "rows": 971,
+      "office": "Lieutenant Governor"
+    },
+    {
+      "year": 2018,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2018.json",
+      "rows": 971,
+      "office": "Secretary of State"
+    },
+    {
+      "year": 2018,
+      "contest_type": "state_controller",
+      "file": "state_controller_2018.json",
+      "rows": 971,
+      "office": "State Controller"
+    },
+    {
+      "year": 2018,
+      "contest_type": "state_treasurer",
+      "file": "state_treasurer_2018.json",
+      "rows": 972,
+      "office": "State Treasurer"
+    },
+    {
+      "year": 2018,
+      "contest_type": "superintendent_public_instruction",
+      "file": "superintendent_public_instruction_2018.json",
+      "rows": 972,
+      "office": "Superintendent of Public Instruction"
+    },
+    {
+      "year": 2020,
+      "contest_type": "president",
+      "file": "president_2020.json",
+      "rows": 972,
+      "office": "President of the United States"
+    },
+    {
+      "year": 2020,
+      "contest_type": "us_senate",
+      "file": "us_senate_2020.json",
+      "rows": 972,
+      "office": "United States Senator"
+    },
+    {
+      "year": 2022,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2022.json",
+      "rows": 1044,
+      "office": "Attorney General"
+    },
+    {
+      "year": 2022,
+      "contest_type": "governor",
+      "file": "governor_2022.json",
+      "rows": 1043,
+      "office": "Governor"
+    },
+    {
+      "year": 2022,
+      "contest_type": "lieutenant_governor",
+      "file": "lieutenant_governor_2022.json",
+      "rows": 1044,
+      "office": "Lieutenant Governor"
+    },
+    {
+      "year": 2022,
+      "contest_type": "secretary_of_state",
+      "file": "secretary_of_state_2022.json",
+      "rows": 1044,
+      "office": "Secretary of State"
+    },
+    {
+      "year": 2022,
+      "contest_type": "state_controller",
+      "file": "state_controller_2022.json",
+      "rows": 1044,
+      "office": "State Controller"
+    },
+    {
+      "year": 2022,
+      "contest_type": "state_treasurer",
+      "file": "state_treasurer_2022.json",
+      "rows": 1044,
+      "office": "State Treasurer"
+    },
+    {
+      "year": 2022,
+      "contest_type": "superintendent_public_instruction",
+      "file": "superintendent_public_instruction_2022.json",
+      "rows": 1044,
+      "office": "Superintendent of Public Instruction"
+    },
+    {
+      "year": 2022,
+      "contest_type": "us_senate",
+      "file": "us_senate_2022.json",
+      "rows": 1044,
+      "office": "United States Senator"
+    },
+    {
+      "year": 2024,
+      "contest_type": "president",
+      "file": "president_2024.json",
+      "rows": 985,
+      "office": "President of the United States"
+    }
+  ]
+}

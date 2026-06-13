@@ -1,0 +1,582 @@
+{
+  "year": 2010,
+  "scope": "state_house",
+  "contest_type": "state_controller",
+  "meta": {
+    "match_coverage_pct": 37.82,
+    "matched_precinct_keys": 382,
+    "total_precinct_keys": 1010,
+    "weighted_vote_coverage_pct": 6.77,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "State Controller",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 341,
+      "legacy_2008_vtd00_rows": 41
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 7064,
+        "rep_votes": 3191,
+        "other_votes": 0,
+        "total_votes": 10255,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -3873,
+        "margin_pct": -37.7669,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 6138,
+        "rep_votes": 2264,
+        "other_votes": 0,
+        "total_votes": 8402,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -3874,
+        "margin_pct": -46.1081,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 1776,
+        "rep_votes": 478,
+        "other_votes": 0,
+        "total_votes": 2254,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -1298,
+        "margin_pct": -57.5865,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "4": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "5": {
+        "dem_votes": 348,
+        "rep_votes": 106,
+        "other_votes": 0,
+        "total_votes": 454,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -242,
+        "margin_pct": -53.304,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 3430,
+        "rep_votes": 2673,
+        "other_votes": 0,
+        "total_votes": 6103,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -757,
+        "margin_pct": -12.4037,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 5355,
+        "rep_votes": 2345,
+        "other_votes": 0,
+        "total_votes": 7700,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -3010,
+        "margin_pct": -39.0909,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 6854,
+        "rep_votes": 2404,
+        "other_votes": 0,
+        "total_votes": 9258,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -4450,
+        "margin_pct": -48.0665,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 3054,
+        "rep_votes": 777,
+        "other_votes": 0,
+        "total_votes": 3831,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -2277,
+        "margin_pct": -59.4362,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 1025,
+        "rep_votes": 201,
+        "other_votes": 0,
+        "total_votes": 1225,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -824,
+        "margin_pct": -67.2653,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 5990,
+        "rep_votes": 1919,
+        "other_votes": 0,
+        "total_votes": 7910,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -4071,
+        "margin_pct": -51.4665,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "13": {
+        "dem_votes": 1455,
+        "rep_votes": 377,
+        "other_votes": 0,
+        "total_votes": 1832,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -1078,
+        "margin_pct": -58.8428,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "14": {
+        "dem_votes": 3060,
+        "rep_votes": 734,
+        "other_votes": 0,
+        "total_votes": 3794,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -2326,
+        "margin_pct": -61.3073,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "23": {
+        "dem_votes": 3607,
+        "rep_votes": 832,
+        "other_votes": 0,
+        "total_votes": 4439,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -2775,
+        "margin_pct": -62.5141,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 3268,
+        "rep_votes": 897,
+        "other_votes": 0,
+        "total_votes": 4165,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -2371,
+        "margin_pct": -56.9268,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 659,
+        "rep_votes": 226,
+        "other_votes": 0,
+        "total_votes": 885,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -433,
+        "margin_pct": -48.9266,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 4154,
+        "rep_votes": 1193,
+        "other_votes": 0,
+        "total_votes": 5347,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -2961,
+        "margin_pct": -55.3768,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 5086,
+        "rep_votes": 1049,
+        "other_votes": 0,
+        "total_votes": 6135,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -4037,
+        "margin_pct": -65.8028,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 3010,
+        "rep_votes": 426,
+        "other_votes": 0,
+        "total_votes": 3436,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -2584,
+        "margin_pct": -75.2037,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 2109,
+        "rep_votes": 1594,
+        "other_votes": 0,
+        "total_votes": 3703,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -515,
+        "margin_pct": -13.9076,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 9680,
+        "rep_votes": 2910,
+        "other_votes": 0,
+        "total_votes": 12590,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -6770,
+        "margin_pct": -53.7728,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 8187,
+        "rep_votes": 1655,
+        "other_votes": 0,
+        "total_votes": 9842,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -6532,
+        "margin_pct": -66.3686,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 1,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 5762,
+        "rep_votes": 2434,
+        "other_votes": 0,
+        "total_votes": 8195,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -3328,
+        "margin_pct": -40.6101,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "34": {
+        "dem_votes": 6317,
+        "rep_votes": 980,
+        "other_votes": 0,
+        "total_votes": 7297,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -5337,
+        "margin_pct": -73.1396,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 2850,
+        "rep_votes": 1135,
+        "other_votes": 0,
+        "total_votes": 3985,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -1715,
+        "margin_pct": -43.0364,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

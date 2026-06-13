@@ -1,0 +1,583 @@
+{
+  "year": 2014,
+  "scope": "state_house",
+  "contest_type": "us_senate",
+  "meta": {
+    "match_coverage_pct": 66.84,
+    "matched_precinct_keys": 645,
+    "total_precinct_keys": 965,
+    "weighted_vote_coverage_pct": 66.77,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "United States Senator",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 570,
+      "legacy_2008_vtd00_rows": 75,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 3922,
+        "rep_votes": 7828,
+        "other_votes": 0,
+        "total_votes": 11750,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 3906,
+        "margin_pct": 33.2426,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 2720,
+        "rep_votes": 6276,
+        "other_votes": 0,
+        "total_votes": 8996,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 3556,
+        "margin_pct": 39.5287,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "4": {
+        "dem_votes": 1274,
+        "rep_votes": 1427,
+        "other_votes": 0,
+        "total_votes": 2700,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 153,
+        "margin_pct": 5.6667,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 444,
+        "rep_votes": 1456,
+        "other_votes": 0,
+        "total_votes": 1899,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 1012,
+        "margin_pct": 53.2912,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 5308,
+        "rep_votes": 7410,
+        "other_votes": 0,
+        "total_votes": 12718,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 2102,
+        "margin_pct": 16.5278,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 3698,
+        "rep_votes": 8786,
+        "other_votes": 0,
+        "total_votes": 12484,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 5088,
+        "margin_pct": 40.7562,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 2306,
+        "rep_votes": 5675,
+        "other_votes": 0,
+        "total_votes": 7981,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 3369,
+        "margin_pct": 42.2128,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 781,
+        "rep_votes": 2421,
+        "other_votes": 0,
+        "total_votes": 3202,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 1640,
+        "margin_pct": 51.218,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 659,
+        "rep_votes": 2051,
+        "other_votes": 0,
+        "total_votes": 2710,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 1392,
+        "margin_pct": 51.3653,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "14": {
+        "dem_votes": 4684,
+        "rep_votes": 11682,
+        "other_votes": 0,
+        "total_votes": 16366,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 6998,
+        "margin_pct": 42.7594,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 6016,
+        "rep_votes": 8444,
+        "other_votes": 0,
+        "total_votes": 14460,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 2428,
+        "margin_pct": 16.7911,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "16": {
+        "dem_votes": 8320,
+        "rep_votes": 6805,
+        "other_votes": 0,
+        "total_votes": 15125,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": -1515,
+        "margin_pct": -10.0165,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "17": {
+        "dem_votes": 7864,
+        "rep_votes": 6584,
+        "other_votes": 0,
+        "total_votes": 14448,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": -1280,
+        "margin_pct": -8.8594,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        },
+        "no_data": false
+      },
+      "18": {
+        "dem_votes": 8371,
+        "rep_votes": 6417,
+        "other_votes": 0,
+        "total_votes": 14788,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": -1954,
+        "margin_pct": -13.2134,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "19": {
+        "dem_votes": 12275,
+        "rep_votes": 5973,
+        "other_votes": 0,
+        "total_votes": 18248,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": -6302,
+        "margin_pct": -34.5353,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "20": {
+        "dem_votes": 3214,
+        "rep_votes": 6965,
+        "other_votes": 0,
+        "total_votes": 10179,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 3751,
+        "margin_pct": 36.8504,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "21": {
+        "dem_votes": 4219,
+        "rep_votes": 8575,
+        "other_votes": 0,
+        "total_votes": 12794,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 4356,
+        "margin_pct": 34.0472,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "22": {
+        "dem_votes": 4094,
+        "rep_votes": 7565,
+        "other_votes": 0,
+        "total_votes": 11660,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 3471,
+        "margin_pct": 29.7684,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "23": {
+        "dem_votes": 1673,
+        "rep_votes": 5087,
+        "other_votes": 0,
+        "total_votes": 6761,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 3414,
+        "margin_pct": 50.4955,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 3067,
+        "rep_votes": 7322,
+        "other_votes": 0,
+        "total_votes": 10388,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 4255,
+        "margin_pct": 40.9607,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 3443,
+        "rep_votes": 8899,
+        "other_votes": 0,
+        "total_votes": 12343,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 5456,
+        "margin_pct": 44.2032,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 3342,
+        "rep_votes": 3941,
+        "other_votes": 0,
+        "total_votes": 7283,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 599,
+        "margin_pct": 8.2246,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 1145,
+        "rep_votes": 5006,
+        "other_votes": 0,
+        "total_votes": 6151,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 3861,
+        "margin_pct": 62.7703,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 2195,
+        "rep_votes": 6733,
+        "other_votes": 0,
+        "total_votes": 8928,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 4538,
+        "margin_pct": 50.8289,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 7556,
+        "rep_votes": 8614,
+        "other_votes": 0,
+        "total_votes": 16170,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 1058,
+        "margin_pct": 6.543,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 2080,
+        "rep_votes": 7162,
+        "other_votes": 0,
+        "total_votes": 9242,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 5082,
+        "margin_pct": 54.9881,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 1326,
+        "rep_votes": 6698,
+        "other_votes": 0,
+        "total_votes": 8024,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 5372,
+        "margin_pct": 66.9492,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "33": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "34": {
+        "dem_votes": 886,
+        "rep_votes": 5902,
+        "other_votes": 0,
+        "total_votes": 6788,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 5016,
+        "margin_pct": 73.8951,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 1819,
+        "rep_votes": 5499,
+        "other_votes": 0,
+        "total_votes": 7318,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 3680,
+        "margin_pct": 50.287,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

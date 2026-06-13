@@ -1,0 +1,55 @@
+{
+  "year": 2022,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "match_coverage_pct": 95.5,
+    "matched_precinct_keys": 997,
+    "total_precinct_keys": 1044,
+    "weighted_vote_coverage_pct": 40.74,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "United States Senator",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 1,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 996
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 101759,
+        "rep_votes": 278947,
+        "other_votes": 53111,
+        "total_votes": 433817,
+        "dem_candidate": "David Roth",
+        "rep_candidate": "Mike Crapo",
+        "margin": 177188,
+        "margin_pct": 40.844,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 95876,
+        "rep_votes": 166468,
+        "other_votes": 25979,
+        "total_votes": 288323,
+        "dem_candidate": "David Roth",
+        "rep_candidate": "Mike Crapo",
+        "margin": 70592,
+        "margin_pct": 24.4837,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

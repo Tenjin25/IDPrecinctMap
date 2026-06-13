@@ -1,0 +1,55 @@
+{
+  "year": 2006,
+  "scope": "congressional",
+  "contest_type": "state_controller",
+  "meta": {
+    "match_coverage_pct": 50.53,
+    "matched_precinct_keys": 481,
+    "total_precinct_keys": 952,
+    "weighted_vote_coverage_pct": 40.54,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "State Controller",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 402,
+      "legacy_2008_vtd00_rows": 79,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 29143,
+        "rep_votes": 38537,
+        "other_votes": 0,
+        "total_votes": 67680,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 9394,
+        "margin_pct": 13.88,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 37528,
+        "rep_votes": 67028,
+        "other_votes": 0,
+        "total_votes": 104556,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 29500,
+        "margin_pct": 28.2145,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

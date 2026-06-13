@@ -1,0 +1,54 @@
+{
+  "year": 2014,
+  "scope": "congressional",
+  "contest_type": "state_treasurer",
+  "meta": {
+    "match_coverage_pct": 38.03,
+    "matched_precinct_keys": 386,
+    "total_precinct_keys": 1015,
+    "weighted_vote_coverage_pct": 7.48,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "State Treasurer",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 353,
+      "legacy_2008_vtd00_rows": 33
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 25445,
+        "rep_votes": 52162,
+        "other_votes": 0,
+        "total_votes": 77606,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 26717,
+        "margin_pct": 34.4265,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 21538,
+        "rep_votes": 47073,
+        "other_votes": 0,
+        "total_votes": 68612,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Ron Crane",
+        "margin": 25535,
+        "margin_pct": 37.2165,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

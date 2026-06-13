@@ -1,0 +1,25 @@
+{
+  "year": 1998,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "meta": {
+    "office": "U.S. House",
+    "source": "19981103__id__general__precinct.csv"
+  },
+  "general": {
+    "results": {
+      "20": {
+        "dem_votes": 77736,
+        "rep_votes": 91337,
+        "other_votes": 4872,
+        "total_votes": 173945,
+        "dem_candidate": "Richard H. Stallings",
+        "rep_candidate": "Mike Simpson",
+        "margin": 13601,
+        "margin_pct": 7.8191,
+        "winner": "REP",
+        "color": "#fcae91"
+      }
+    }
+  }
+}

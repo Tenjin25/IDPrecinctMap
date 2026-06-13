@@ -1,0 +1,25 @@
+{
+  "year": 1996,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "meta": {
+    "office": "U.S. House",
+    "source": "19961105__id__general__precinct.csv"
+  },
+  "general": {
+    "results": {
+      "20": {
+        "dem_votes": 67625,
+        "rep_votes": 157646,
+        "other_votes": 3977,
+        "total_votes": 229248,
+        "dem_candidate": "John D. Seidl",
+        "rep_candidate": "Mike Crapo",
+        "margin": 90021,
+        "margin_pct": 39.268,
+        "winner": "REP",
+        "color": "#a50f15"
+      }
+    }
+  }
+}

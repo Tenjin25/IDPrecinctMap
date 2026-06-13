@@ -1,0 +1,55 @@
+{
+  "year": 2002,
+  "scope": "congressional",
+  "contest_type": "governor",
+  "meta": {
+    "match_coverage_pct": 51.8,
+    "matched_precinct_keys": 488,
+    "total_precinct_keys": 942,
+    "weighted_vote_coverage_pct": 41.68,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Governor",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 402,
+      "legacy_2008_vtd00_rows": 86,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 31832,
+        "rep_votes": 38065,
+        "other_votes": 1626,
+        "total_votes": 71523,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 6233,
+        "margin_pct": 8.7147,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 37544,
+        "rep_votes": 56543,
+        "other_votes": 1887,
+        "total_votes": 95974,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 18999,
+        "margin_pct": 19.796,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

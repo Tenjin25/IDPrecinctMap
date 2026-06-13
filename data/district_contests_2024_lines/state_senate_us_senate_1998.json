@@ -1,0 +1,337 @@
+{
+  "year": 1998,
+  "scope": "state_senate",
+  "contest_type": "us_senate",
+  "meta": {
+    "match_coverage_pct": 25.48,
+    "matched_precinct_keys": 237,
+    "total_precinct_keys": 930,
+    "weighted_vote_coverage_pct": 26.51,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "United States Senator",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 237,
+      "legacy_2008_vtd00_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "2": {
+        "dem_votes": 660,
+        "rep_votes": 1499,
+        "other_votes": 75,
+        "total_votes": 2234,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 839,
+        "margin_pct": 37.556,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "3": {
+        "dem_votes": 2743,
+        "rep_votes": 7177,
+        "other_votes": 255,
+        "total_votes": 10175,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 4434,
+        "margin_pct": 43.5774,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "4": {
+        "dem_votes": 1271,
+        "rep_votes": 2608,
+        "other_votes": 93,
+        "total_votes": 3972,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 1337,
+        "margin_pct": 33.6606,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "5": {
+        "dem_votes": 2339,
+        "rep_votes": 5546,
+        "other_votes": 190,
+        "total_votes": 8075,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 3207,
+        "margin_pct": 39.7152,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "6": {
+        "dem_votes": 265,
+        "rep_votes": 591,
+        "other_votes": 23,
+        "total_votes": 879,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 326,
+        "margin_pct": 37.0876,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "8": {
+        "dem_votes": 837,
+        "rep_votes": 1989,
+        "other_votes": 66,
+        "total_votes": 2892,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 1152,
+        "margin_pct": 39.834,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "9": {
+        "dem_votes": 1102,
+        "rep_votes": 2616,
+        "other_votes": 101,
+        "total_votes": 3819,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 1514,
+        "margin_pct": 39.6439,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "10": {
+        "dem_votes": 1115,
+        "rep_votes": 3115,
+        "other_votes": 101,
+        "total_votes": 4331,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 2000,
+        "margin_pct": 46.1787,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "11": {
+        "dem_votes": 1690,
+        "rep_votes": 4468,
+        "other_votes": 132,
+        "total_votes": 6290,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 2778,
+        "margin_pct": 44.1653,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "12": {
+        "dem_votes": 1669,
+        "rep_votes": 5333,
+        "other_votes": 107,
+        "total_votes": 7108,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 3664,
+        "margin_pct": 51.5476,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "13": {
+        "dem_votes": 520,
+        "rep_votes": 1632,
+        "other_votes": 51,
+        "total_votes": 2203,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 1112,
+        "margin_pct": 50.4766,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "14": {
+        "dem_votes": 1049,
+        "rep_votes": 2822,
+        "other_votes": 93,
+        "total_votes": 3964,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 1773,
+        "margin_pct": 44.7275,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "23": {
+        "dem_votes": 579,
+        "rep_votes": 1619,
+        "other_votes": 51,
+        "total_votes": 2249,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 1040,
+        "margin_pct": 46.2428,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "26": {
+        "dem_votes": 681,
+        "rep_votes": 2585,
+        "other_votes": 73,
+        "total_votes": 3339,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 1904,
+        "margin_pct": 57.0231,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "27": {
+        "dem_votes": 243,
+        "rep_votes": 965,
+        "other_votes": 26,
+        "total_votes": 1234,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 722,
+        "margin_pct": 58.5089,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "28": {
+        "dem_votes": 365,
+        "rep_votes": 2690,
+        "other_votes": 57,
+        "total_votes": 3112,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 2325,
+        "margin_pct": 74.7108,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "30": {
+        "dem_votes": 344,
+        "rep_votes": 808,
+        "other_votes": 30,
+        "total_votes": 1182,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 464,
+        "margin_pct": 39.2555,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "31": {
+        "dem_votes": 545,
+        "rep_votes": 2216,
+        "other_votes": 71,
+        "total_votes": 2832,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 1671,
+        "margin_pct": 59.0042,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "32": {
+        "dem_votes": 1752,
+        "rep_votes": 8386,
+        "other_votes": 143,
+        "total_votes": 10281,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 6634,
+        "margin_pct": 64.5268,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "33": {
+        "dem_votes": 2581,
+        "rep_votes": 8385,
+        "other_votes": 172,
+        "total_votes": 11138,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 5804,
+        "margin_pct": 52.1099,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "35": {
+        "dem_votes": 1317,
+        "rep_votes": 5999,
+        "other_votes": 159,
+        "total_votes": 7475,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 4682,
+        "margin_pct": 62.6355,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      }
+    }
+  }
+}

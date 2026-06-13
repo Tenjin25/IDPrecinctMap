@@ -1,0 +1,583 @@
+{
+  "year": 2006,
+  "scope": "state_senate",
+  "contest_type": "state_controller",
+  "meta": {
+    "match_coverage_pct": 50.53,
+    "matched_precinct_keys": 481,
+    "total_precinct_keys": 952,
+    "weighted_vote_coverage_pct": 40.54,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "State Controller",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 402,
+      "legacy_2008_vtd00_rows": 79,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 4646,
+        "rep_votes": 5451,
+        "other_votes": 0,
+        "total_votes": 10097,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 805,
+        "margin_pct": 7.9727,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 3689,
+        "rep_votes": 4340,
+        "other_votes": 0,
+        "total_votes": 8029,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 651,
+        "margin_pct": 8.1081,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "4": {
+        "dem_votes": 1679,
+        "rep_votes": 1398,
+        "other_votes": 0,
+        "total_votes": 3077,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": -281,
+        "margin_pct": -9.1323,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 727,
+        "rep_votes": 1323,
+        "other_votes": 0,
+        "total_votes": 2050,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 596,
+        "margin_pct": 29.0732,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 7465,
+        "rep_votes": 7322,
+        "other_votes": 0,
+        "total_votes": 14787,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": -143,
+        "margin_pct": -0.9671,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 5830,
+        "rep_votes": 8342,
+        "other_votes": 0,
+        "total_votes": 14172,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 2512,
+        "margin_pct": 17.7251,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 3056,
+        "rep_votes": 5367,
+        "other_votes": 0,
+        "total_votes": 8423,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 2311,
+        "margin_pct": 27.4368,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 1018,
+        "rep_votes": 2292,
+        "other_votes": 0,
+        "total_votes": 3310,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 1274,
+        "margin_pct": 38.4894,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 309,
+        "rep_votes": 609,
+        "other_votes": 0,
+        "total_votes": 918,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 300,
+        "margin_pct": 32.6797,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "14": {
+        "dem_votes": 2177,
+        "rep_votes": 4024,
+        "other_votes": 0,
+        "total_votes": 6201,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 1847,
+        "margin_pct": 29.7855,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "19": {
+        "dem_votes": 221,
+        "rep_votes": 310,
+        "other_votes": 0,
+        "total_votes": 531,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 89,
+        "margin_pct": 16.7608,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "23": {
+        "dem_votes": 702,
+        "rep_votes": 1930,
+        "other_votes": 0,
+        "total_votes": 2632,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 1228,
+        "margin_pct": 46.6565,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 2123,
+        "rep_votes": 4927,
+        "other_votes": 0,
+        "total_votes": 7050,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 2804,
+        "margin_pct": 39.773,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 4800,
+        "rep_votes": 9250,
+        "other_votes": 0,
+        "total_votes": 14050,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 4450,
+        "margin_pct": 31.6726,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 2645,
+        "rep_votes": 3688,
+        "other_votes": 0,
+        "total_votes": 6333,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 1043,
+        "margin_pct": 16.4693,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 2247,
+        "rep_votes": 5592,
+        "other_votes": 0,
+        "total_votes": 7839,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 3345,
+        "margin_pct": 42.6713,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 4440,
+        "rep_votes": 8682,
+        "other_votes": 0,
+        "total_votes": 13123,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 4242,
+        "margin_pct": 32.3249,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 8984,
+        "rep_votes": 8422,
+        "other_votes": 0,
+        "total_votes": 17406,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": -562,
+        "margin_pct": -3.2288,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 2116,
+        "rep_votes": 3605,
+        "other_votes": 0,
+        "total_votes": 5721,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 1489,
+        "margin_pct": 26.0269,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 2246,
+        "rep_votes": 5458,
+        "other_votes": 0,
+        "total_votes": 7704,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 3212,
+        "margin_pct": 41.6926,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 404,
+        "rep_votes": 556,
+        "other_votes": 0,
+        "total_votes": 960,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 152,
+        "margin_pct": 15.8333,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "34": {
+        "dem_votes": 1878,
+        "rep_votes": 5801,
+        "other_votes": 0,
+        "total_votes": 7679,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 3923,
+        "margin_pct": 51.0874,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 3270,
+        "rep_votes": 6875,
+        "other_votes": 0,
+        "total_votes": 10145,
+        "dem_candidate": "Jackie Groves Twilegar",
+        "rep_candidate": "Donna M. Jones",
+        "margin": 3605,
+        "margin_pct": 35.5347,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

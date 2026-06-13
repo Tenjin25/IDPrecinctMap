@@ -1,0 +1,52 @@
+{
+  "year": 1996,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "match_coverage_pct": 35.51,
+    "matched_precinct_keys": 326,
+    "total_precinct_keys": 918,
+    "weighted_vote_coverage_pct": 32.88,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "United States Senator",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 326,
+      "legacy_2008_vtd00_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 38297,
+        "rep_votes": 51969,
+        "other_votes": 2297,
+        "total_votes": 92563,
+        "dem_candidate": "Walt Minnick",
+        "rep_candidate": "Larry Craig",
+        "margin": 13672,
+        "margin_pct": 14.7705,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        }
+      },
+      "2": {
+        "dem_votes": 19563,
+        "rep_votes": 48074,
+        "other_votes": 2741,
+        "total_votes": 70378,
+        "dem_candidate": "Walt Minnick",
+        "rep_candidate": "Larry Craig",
+        "margin": 28511,
+        "margin_pct": 40.5112,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      }
+    }
+  }
+}

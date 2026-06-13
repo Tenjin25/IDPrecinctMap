@@ -1,0 +1,54 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "superintendent_public_instruction",
+  "meta": {
+    "match_coverage_pct": 37.82,
+    "matched_precinct_keys": 382,
+    "total_precinct_keys": 1010,
+    "weighted_vote_coverage_pct": 6.74,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Superintendent of Public Instruction",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 341,
+      "legacy_2008_vtd00_rows": 41
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 41888,
+        "rep_votes": 22267,
+        "other_votes": 0,
+        "total_votes": 64155,
+        "dem_candidate": "Tom Luna",
+        "rep_candidate": "Stan Olson",
+        "margin": -19621,
+        "margin_pct": -30.5837,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 43749,
+        "rep_votes": 27998,
+        "other_votes": 0,
+        "total_votes": 71747,
+        "dem_candidate": "Tom Luna",
+        "rep_candidate": "Stan Olson",
+        "margin": -15751,
+        "margin_pct": -21.9535,
+        "winner": "DEM",
+        "color": "#08519c",
+        "competitiveness": {
+          "color": "#08519c"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

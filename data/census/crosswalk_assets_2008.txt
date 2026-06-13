@@ -1,0 +1,8 @@
+2008 Idaho crosswalk assets downloaded from the U.S. Census Bureau TIGER/Line archive.
+Files prepared for crosswalk work:
+- tl_2008_16_tabblock.zip and extracted shapefile directory
+- tl_2008_16_tabblock00.zip and extracted shapefile directory
+- county-by-county tl_2008_<geoid>_vtd00.zip extracts
+- tl_2008_16_cd110.zip extract
+- tl_2008_16_sldl.zip extract
+- tl_2008_16_sldu.zip extract

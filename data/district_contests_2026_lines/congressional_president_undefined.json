@@ -1,0 +1,37 @@
+{
+  "year": null,
+  "scope": "congressional",
+  "contest_type": "",
+  "meta": {
+    "match_coverage_pct": 0.61,
+    "matched_precinct_keys": 6,
+    "total_precinct_keys": 985,
+    "weighted_vote_coverage_pct": 1.17,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 0,
+      "legacy_2008_vtd00_rows": 6
+    }
+  },
+  "general": {
+    "results": {
+      "2": {
+        "dem_votes": 1936,
+        "rep_votes": 8472,
+        "other_votes": 205,
+        "total_votes": 10613,
+        "dem_candidate": "Kamala D. Harris",
+        "rep_candidate": "Donald J. Trump",
+        "margin": 6536,
+        "margin_pct": 61.5848,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      }
+    }
+  }
+}

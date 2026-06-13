@@ -1,0 +1,37 @@
+{
+  "year": 2006,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "meta": {
+    "office": "U.S. House",
+    "source": "20061107__id__general__precinct.csv"
+  },
+  "general": {
+    "results": {
+      "10": {
+        "dem_votes": 99628,
+        "rep_votes": 111574,
+        "other_votes": 11828,
+        "total_votes": 223030,
+        "dem_candidate": "Larry Grant",
+        "rep_candidate": "Bill Sali",
+        "margin": 11946,
+        "margin_pct": 5.3562,
+        "winner": "REP",
+        "color": "#fcae91"
+      },
+      "20": {
+        "dem_votes": 73441,
+        "rep_votes": 132262,
+        "other_votes": 7629,
+        "total_votes": 213332,
+        "dem_candidate": "Jim Hansen",
+        "rep_candidate": "Mike Simpson",
+        "margin": 58821,
+        "margin_pct": 27.5725,
+        "winner": "REP",
+        "color": "#de2d26"
+      }
+    }
+  }
+}

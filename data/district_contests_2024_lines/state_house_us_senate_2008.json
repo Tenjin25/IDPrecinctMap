@@ -1,0 +1,583 @@
+{
+  "year": 2008,
+  "scope": "state_house",
+  "contest_type": "us_senate",
+  "meta": {
+    "match_coverage_pct": 52.94,
+    "matched_precinct_keys": 505,
+    "total_precinct_keys": 954,
+    "weighted_vote_coverage_pct": 41.78,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "United States Senator",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 415,
+      "legacy_2008_vtd00_rows": 90,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 5625,
+        "rep_votes": 8279,
+        "other_votes": 865,
+        "total_votes": 14769,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 2654,
+        "margin_pct": 17.9701,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 10192,
+        "rep_votes": 14808,
+        "other_votes": 1551,
+        "total_votes": 26551,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 4616,
+        "margin_pct": 17.3854,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 2247,
+        "rep_votes": 3828,
+        "other_votes": 467,
+        "total_votes": 6542,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 1581,
+        "margin_pct": 24.1669,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "4": {
+        "dem_votes": 1975,
+        "rep_votes": 1984,
+        "other_votes": 339,
+        "total_votes": 4298,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 9,
+        "margin_pct": 0.2094,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 747,
+        "rep_votes": 1631,
+        "other_votes": 134,
+        "total_votes": 2512,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 884,
+        "margin_pct": 35.1911,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 9919,
+        "rep_votes": 10600,
+        "other_votes": 1155,
+        "total_votes": 21674,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 681,
+        "margin_pct": 3.142,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 7813,
+        "rep_votes": 12501,
+        "other_votes": 1322,
+        "total_votes": 21636,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 4688,
+        "margin_pct": 21.6676,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 4094,
+        "rep_votes": 7797,
+        "other_votes": 937,
+        "total_votes": 12828,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 3703,
+        "margin_pct": 28.8665,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 1622,
+        "rep_votes": 3549,
+        "other_votes": 503,
+        "total_votes": 5674,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 1927,
+        "margin_pct": 33.9619,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 381,
+        "rep_votes": 876,
+        "other_votes": 79,
+        "total_votes": 1336,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 495,
+        "margin_pct": 37.0509,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 71,
+        "rep_votes": 195,
+        "other_votes": 26,
+        "total_votes": 292,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 124,
+        "margin_pct": 42.4658,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "14": {
+        "dem_votes": 2946,
+        "rep_votes": 6506,
+        "other_votes": 923,
+        "total_votes": 10375,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 3560,
+        "margin_pct": 34.3133,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "19": {
+        "dem_votes": 328,
+        "rep_votes": 470,
+        "other_votes": 61,
+        "total_votes": 859,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 142,
+        "margin_pct": 16.5308,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "23": {
+        "dem_votes": 816,
+        "rep_votes": 2417,
+        "other_votes": 319,
+        "total_votes": 3552,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 1601,
+        "margin_pct": 45.0732,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 3899,
+        "rep_votes": 8234,
+        "other_votes": 1314,
+        "total_votes": 13447,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 4335,
+        "margin_pct": 32.2377,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 6032,
+        "rep_votes": 12131,
+        "other_votes": 2073,
+        "total_votes": 20236,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 6099,
+        "margin_pct": 30.1394,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 4941,
+        "rep_votes": 5184,
+        "other_votes": 687,
+        "total_votes": 10812,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 243,
+        "margin_pct": 2.2475,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 1762,
+        "rep_votes": 5964,
+        "other_votes": 942,
+        "total_votes": 8668,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 4202,
+        "margin_pct": 48.4772,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 3324,
+        "rep_votes": 9265,
+        "other_votes": 1143,
+        "total_votes": 13733,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 5941,
+        "margin_pct": 43.2608,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 6428,
+        "rep_votes": 9305,
+        "other_votes": 1579,
+        "total_votes": 17312,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 2877,
+        "margin_pct": 16.6185,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 4295,
+        "rep_votes": 10887,
+        "other_votes": 2682,
+        "total_votes": 17864,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 6592,
+        "margin_pct": 36.901,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 1415,
+        "rep_votes": 6599,
+        "other_votes": 1573,
+        "total_votes": 9587,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 5184,
+        "margin_pct": 54.0732,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 262,
+        "rep_votes": 626,
+        "other_votes": 86,
+        "total_votes": 974,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 364,
+        "margin_pct": 37.3717,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "34": {
+        "dem_votes": 1282,
+        "rep_votes": 9552,
+        "other_votes": 2037,
+        "total_votes": 12871,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 8270,
+        "margin_pct": 64.253,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 2402,
+        "rep_votes": 6940,
+        "other_votes": 1245,
+        "total_votes": 10587,
+        "dem_candidate": "Larry LaRocco",
+        "rep_candidate": "Jim Risch",
+        "margin": 4538,
+        "margin_pct": 42.8639,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

@@ -1,0 +1,583 @@
+{
+  "year": 2018,
+  "scope": "state_senate",
+  "contest_type": "superintendent_public_instruction",
+  "meta": {
+    "match_coverage_pct": 68.62,
+    "matched_precinct_keys": 667,
+    "total_precinct_keys": 972,
+    "weighted_vote_coverage_pct": 70.8,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Superintendent of Public Instruction",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 597,
+      "legacy_2008_vtd00_rows": 70,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 5668,
+        "rep_votes": 9668,
+        "other_votes": 0,
+        "total_votes": 15337,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 4000,
+        "margin_pct": 26.0807,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 9983,
+        "rep_votes": 16955,
+        "other_votes": 0,
+        "total_votes": 26937,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 6972,
+        "margin_pct": 25.8826,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "4": {
+        "dem_votes": 2099,
+        "rep_votes": 2097,
+        "other_votes": 0,
+        "total_votes": 4195,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": -2,
+        "margin_pct": -0.0477,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 687,
+        "rep_votes": 1787,
+        "other_votes": 0,
+        "total_votes": 2474,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 1100,
+        "margin_pct": 44.4624,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 7865,
+        "rep_votes": 7435,
+        "other_votes": 0,
+        "total_votes": 15300,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": -430,
+        "margin_pct": -2.8105,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 5831,
+        "rep_votes": 10113,
+        "other_votes": 0,
+        "total_votes": 15944,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 4282,
+        "margin_pct": 26.8565,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 3165,
+        "rep_votes": 5353,
+        "other_votes": 0,
+        "total_votes": 8518,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 2188,
+        "margin_pct": 25.6868,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 1905,
+        "rep_votes": 3454,
+        "other_votes": 0,
+        "total_votes": 5359,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 1549,
+        "margin_pct": 28.9046,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 2906,
+        "rep_votes": 4526,
+        "other_votes": 0,
+        "total_votes": 7433,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 1620,
+        "margin_pct": 21.7947,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 1382,
+        "rep_votes": 1481,
+        "other_votes": 0,
+        "total_votes": 2864,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 99,
+        "margin_pct": 3.4567,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 2091,
+        "rep_votes": 2660,
+        "other_votes": 0,
+        "total_votes": 4752,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 569,
+        "margin_pct": 11.9739,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "13": {
+        "dem_votes": 5533,
+        "rep_votes": 6129,
+        "other_votes": 0,
+        "total_votes": 11662,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 596,
+        "margin_pct": 5.1106,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "14": {
+        "dem_votes": 9498,
+        "rep_votes": 14020,
+        "other_votes": 0,
+        "total_votes": 23518,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 4522,
+        "margin_pct": 19.2278,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 11095,
+        "rep_votes": 8032,
+        "other_votes": 0,
+        "total_votes": 19126,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": -3063,
+        "margin_pct": -16.0148,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "16": {
+        "dem_votes": 14230,
+        "rep_votes": 6534,
+        "other_votes": 0,
+        "total_votes": 20764,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": -7696,
+        "margin_pct": -37.0641,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "17": {
+        "dem_votes": 13681,
+        "rep_votes": 6497,
+        "other_votes": 0,
+        "total_votes": 20178,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": -7184,
+        "margin_pct": -35.6031,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "18": {
+        "dem_votes": 14781,
+        "rep_votes": 6520,
+        "other_votes": 0,
+        "total_votes": 21301,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": -8261,
+        "margin_pct": -38.7822,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "19": {
+        "dem_votes": 19266,
+        "rep_votes": 6090,
+        "other_votes": 0,
+        "total_votes": 25356,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": -13176,
+        "margin_pct": -51.964,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "20": {
+        "dem_votes": 6504,
+        "rep_votes": 6981,
+        "other_votes": 0,
+        "total_votes": 13485,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 477,
+        "margin_pct": 3.5373,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "21": {
+        "dem_votes": 8001,
+        "rep_votes": 8937,
+        "other_votes": 0,
+        "total_votes": 16938,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 936,
+        "margin_pct": 5.526,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "22": {
+        "dem_votes": 8604,
+        "rep_votes": 8544,
+        "other_votes": 0,
+        "total_votes": 17148,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": -60,
+        "margin_pct": -0.3499,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "23": {
+        "dem_votes": 3973,
+        "rep_votes": 6624,
+        "other_votes": 0,
+        "total_votes": 10597,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 2651,
+        "margin_pct": 25.0165,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 5378,
+        "rep_votes": 8182,
+        "other_votes": 0,
+        "total_votes": 13561,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 2804,
+        "margin_pct": 20.6769,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 6471,
+        "rep_votes": 8307,
+        "other_votes": 0,
+        "total_votes": 14777,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 1836,
+        "margin_pct": 12.4247,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 7066,
+        "rep_votes": 4029,
+        "other_votes": 0,
+        "total_votes": 11095,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": -3037,
+        "margin_pct": -27.3727,
+        "winner": "DEM",
+        "color": "#08519c",
+        "competitiveness": {
+          "color": "#08519c"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 2328,
+        "rep_votes": 4559,
+        "other_votes": 0,
+        "total_votes": 6887,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 2231,
+        "margin_pct": 32.3944,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 5542,
+        "rep_votes": 5383,
+        "other_votes": 0,
+        "total_votes": 10926,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": -159,
+        "margin_pct": -1.4552,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 8499,
+        "rep_votes": 5327,
+        "other_votes": 0,
+        "total_votes": 13826,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": -3172,
+        "margin_pct": -22.9423,
+        "winner": "DEM",
+        "color": "#08519c",
+        "competitiveness": {
+          "color": "#08519c"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 6667,
+        "rep_votes": 7371,
+        "other_votes": 0,
+        "total_votes": 14038,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 704,
+        "margin_pct": 5.015,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 3625,
+        "rep_votes": 5447,
+        "other_votes": 0,
+        "total_votes": 9072,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 1822,
+        "margin_pct": 20.0838,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 251,
+        "rep_votes": 236,
+        "other_votes": 0,
+        "total_votes": 487,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": -15,
+        "margin_pct": -3.0801,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "34": {
+        "dem_votes": 3457,
+        "rep_votes": 4962,
+        "other_votes": 0,
+        "total_votes": 8419,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 1505,
+        "margin_pct": 17.8762,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 3893,
+        "rep_votes": 4748,
+        "other_votes": 0,
+        "total_votes": 8641,
+        "dem_candidate": "Cindy Wilson",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 855,
+        "margin_pct": 9.8947,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

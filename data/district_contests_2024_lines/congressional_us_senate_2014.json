@@ -1,0 +1,55 @@
+{
+  "year": 2014,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "match_coverage_pct": 66.84,
+    "matched_precinct_keys": 645,
+    "total_precinct_keys": 965,
+    "weighted_vote_coverage_pct": 66.77,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "United States Senator",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 570,
+      "legacy_2008_vtd00_rows": 75,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 37098,
+        "rep_votes": 78806,
+        "other_votes": 0,
+        "total_votes": 115904,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 41708,
+        "margin_pct": 35.985,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 71602,
+        "rep_votes": 104397,
+        "other_votes": 0,
+        "total_votes": 175999,
+        "dem_candidate": "Nels Mitchell",
+        "rep_candidate": "Jim Risch",
+        "margin": 32795,
+        "margin_pct": 18.6336,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

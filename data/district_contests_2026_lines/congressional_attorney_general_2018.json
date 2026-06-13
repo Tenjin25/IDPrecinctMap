@@ -1,0 +1,55 @@
+{
+  "year": 2018,
+  "scope": "congressional",
+  "contest_type": "attorney_general",
+  "meta": {
+    "match_coverage_pct": 68.62,
+    "matched_precinct_keys": 667,
+    "total_precinct_keys": 972,
+    "weighted_vote_coverage_pct": 70.74,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Attorney General",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 597,
+      "legacy_2008_vtd00_rows": 70,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 61169,
+        "rep_votes": 133450,
+        "other_votes": 0,
+        "total_votes": 194619,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 72281,
+        "margin_pct": 37.1397,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 89434,
+        "rep_votes": 131960,
+        "other_votes": 0,
+        "total_votes": 221394,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 42526,
+        "margin_pct": 19.2083,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

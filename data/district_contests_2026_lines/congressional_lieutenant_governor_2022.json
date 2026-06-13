@@ -1,0 +1,55 @@
+{
+  "year": 2022,
+  "scope": "congressional",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "match_coverage_pct": 95.31,
+    "matched_precinct_keys": 995,
+    "total_precinct_keys": 1044,
+    "weighted_vote_coverage_pct": 40.61,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Lieutenant Governor",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 1,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 994
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 106725,
+        "rep_votes": 292782,
+        "other_votes": 27315,
+        "total_votes": 426822,
+        "dem_candidate": "Terri Pickens Manweiler",
+        "rep_candidate": "Scott Bedke",
+        "margin": 186057,
+        "margin_pct": 43.5912,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 99986,
+        "rep_votes": 174256,
+        "other_votes": 10891,
+        "total_votes": 285133,
+        "dem_candidate": "Terri Pickens Manweiler",
+        "rep_candidate": "Scott Bedke",
+        "margin": 74270,
+        "margin_pct": 26.0475,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

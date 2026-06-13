@@ -1,0 +1,55 @@
+{
+  "year": 2014,
+  "scope": "congressional",
+  "contest_type": "governor",
+  "meta": {
+    "match_coverage_pct": 66.84,
+    "matched_precinct_keys": 645,
+    "total_precinct_keys": 965,
+    "weighted_vote_coverage_pct": 66.82,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Governor",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 570,
+      "legacy_2008_vtd00_rows": 75,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 42089,
+        "rep_votes": 64675,
+        "other_votes": 9921,
+        "total_votes": 116685,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 22586,
+        "margin_pct": 19.3564,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 79778,
+        "rep_votes": 84606,
+        "other_votes": 12751,
+        "total_votes": 177135,
+        "dem_candidate": "A.J. Balukoff",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 4828,
+        "margin_pct": 2.7256,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

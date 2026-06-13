@@ -1,0 +1,54 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "state_controller",
+  "meta": {
+    "match_coverage_pct": 37.82,
+    "matched_precinct_keys": 382,
+    "total_precinct_keys": 1010,
+    "weighted_vote_coverage_pct": 6.77,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "State Controller",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 341,
+      "legacy_2008_vtd00_rows": 41
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 45623,
+        "rep_votes": 17303,
+        "other_votes": 0,
+        "total_votes": 62926,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -28320,
+        "margin_pct": -45.0052,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 54615,
+        "rep_votes": 15497,
+        "other_votes": 0,
+        "total_votes": 70112,
+        "dem_candidate": "Donna M Jones",
+        "rep_candidate": "Bruce Robinett",
+        "margin": -39118,
+        "margin_pct": -55.7936,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

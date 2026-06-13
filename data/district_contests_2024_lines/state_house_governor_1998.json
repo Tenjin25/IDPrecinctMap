@@ -1,0 +1,337 @@
+{
+  "year": 1998,
+  "scope": "state_house",
+  "contest_type": "governor",
+  "meta": {
+    "match_coverage_pct": 25.48,
+    "matched_precinct_keys": 237,
+    "total_precinct_keys": 930,
+    "weighted_vote_coverage_pct": 26.5,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Governor",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 237,
+      "legacy_2008_vtd00_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "2": {
+        "dem_votes": 686,
+        "rep_votes": 1448,
+        "other_votes": 107,
+        "total_votes": 2241,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 762,
+        "margin_pct": 34.0027,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "3": {
+        "dem_votes": 2743,
+        "rep_votes": 7138,
+        "other_votes": 304,
+        "total_votes": 10185,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 4395,
+        "margin_pct": 43.1517,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "4": {
+        "dem_votes": 1273,
+        "rep_votes": 2600,
+        "other_votes": 120,
+        "total_votes": 3993,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 1327,
+        "margin_pct": 33.2332,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "5": {
+        "dem_votes": 2334,
+        "rep_votes": 5495,
+        "other_votes": 254,
+        "total_votes": 8083,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 3161,
+        "margin_pct": 39.1068,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "6": {
+        "dem_votes": 227,
+        "rep_votes": 651,
+        "other_votes": 23,
+        "total_votes": 901,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 424,
+        "margin_pct": 47.0588,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "8": {
+        "dem_votes": 861,
+        "rep_votes": 1947,
+        "other_votes": 89,
+        "total_votes": 2897,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 1086,
+        "margin_pct": 37.4871,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "9": {
+        "dem_votes": 1054,
+        "rep_votes": 2691,
+        "other_votes": 114,
+        "total_votes": 3859,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 1637,
+        "margin_pct": 42.4203,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "10": {
+        "dem_votes": 1064,
+        "rep_votes": 3223,
+        "other_votes": 110,
+        "total_votes": 4397,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 2159,
+        "margin_pct": 49.1017,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "11": {
+        "dem_votes": 1589,
+        "rep_votes": 4680,
+        "other_votes": 144,
+        "total_votes": 6414,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 3091,
+        "margin_pct": 48.1915,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "12": {
+        "dem_votes": 1615,
+        "rep_votes": 5421,
+        "other_votes": 155,
+        "total_votes": 7191,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 3806,
+        "margin_pct": 52.9273,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "13": {
+        "dem_votes": 513,
+        "rep_votes": 1652,
+        "other_votes": 58,
+        "total_votes": 2223,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 1139,
+        "margin_pct": 51.2371,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "14": {
+        "dem_votes": 1054,
+        "rep_votes": 2810,
+        "other_votes": 105,
+        "total_votes": 3969,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 1756,
+        "margin_pct": 44.2429,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "23": {
+        "dem_votes": 593,
+        "rep_votes": 1613,
+        "other_votes": 62,
+        "total_votes": 2268,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 1020,
+        "margin_pct": 44.9735,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "26": {
+        "dem_votes": 748,
+        "rep_votes": 2378,
+        "other_votes": 273,
+        "total_votes": 3399,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 1630,
+        "margin_pct": 47.9553,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "27": {
+        "dem_votes": 257,
+        "rep_votes": 957,
+        "other_votes": 26,
+        "total_votes": 1240,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 700,
+        "margin_pct": 56.4516,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "28": {
+        "dem_votes": 471,
+        "rep_votes": 2625,
+        "other_votes": 73,
+        "total_votes": 3169,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 2154,
+        "margin_pct": 67.971,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "30": {
+        "dem_votes": 416,
+        "rep_votes": 761,
+        "other_votes": 26,
+        "total_votes": 1203,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 345,
+        "margin_pct": 28.6783,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "31": {
+        "dem_votes": 580,
+        "rep_votes": 2184,
+        "other_votes": 77,
+        "total_votes": 2841,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 1604,
+        "margin_pct": 56.459,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "32": {
+        "dem_votes": 2107,
+        "rep_votes": 8003,
+        "other_votes": 203,
+        "total_votes": 10313,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 5896,
+        "margin_pct": 57.1706,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "33": {
+        "dem_votes": 3005,
+        "rep_votes": 8015,
+        "other_votes": 199,
+        "total_votes": 11219,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 5010,
+        "margin_pct": 44.6564,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "35": {
+        "dem_votes": 1520,
+        "rep_votes": 5834,
+        "other_votes": 172,
+        "total_votes": 7526,
+        "dem_candidate": "Robert C. Huntley",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 4314,
+        "margin_pct": 57.3213,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      }
+    }
+  }
+}

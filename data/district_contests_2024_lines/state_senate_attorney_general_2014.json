@@ -1,0 +1,582 @@
+{
+  "year": 2014,
+  "scope": "state_senate",
+  "contest_type": "attorney_general",
+  "meta": {
+    "match_coverage_pct": 38.03,
+    "matched_precinct_keys": 386,
+    "total_precinct_keys": 1015,
+    "weighted_vote_coverage_pct": 7.47,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Attorney General",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 353,
+      "legacy_2008_vtd00_rows": 33
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 1621,
+        "rep_votes": 3582,
+        "other_votes": 0,
+        "total_votes": 5203,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 1961,
+        "margin_pct": 37.6898,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 2483,
+        "rep_votes": 5205,
+        "other_votes": 0,
+        "total_votes": 7688,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 2722,
+        "margin_pct": 35.4058,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 1776,
+        "rep_votes": 6131,
+        "other_votes": 0,
+        "total_votes": 7907,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 4355,
+        "margin_pct": 55.0778,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "4": {
+        "dem_votes": 3,
+        "rep_votes": 7,
+        "other_votes": 0,
+        "total_votes": 10,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 4,
+        "margin_pct": 40,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 436,
+        "rep_votes": 1303,
+        "other_votes": 0,
+        "total_votes": 1739,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 867,
+        "margin_pct": 49.8562,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 945,
+        "rep_votes": 1700,
+        "other_votes": 0,
+        "total_votes": 2645,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 755,
+        "margin_pct": 28.5444,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 2461,
+        "rep_votes": 4798,
+        "other_votes": 0,
+        "total_votes": 7259,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 2337,
+        "margin_pct": 32.1945,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 2345,
+        "rep_votes": 5979,
+        "other_votes": 0,
+        "total_votes": 8324,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 3634,
+        "margin_pct": 43.6569,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 1030,
+        "rep_votes": 3956,
+        "other_votes": 0,
+        "total_votes": 4987,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 2926,
+        "margin_pct": 58.6725,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 971,
+        "rep_votes": 3666,
+        "other_votes": 0,
+        "total_votes": 4637,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 2695,
+        "margin_pct": 58.1195,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 2393,
+        "rep_votes": 5212,
+        "other_votes": 0,
+        "total_votes": 7605,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 2819,
+        "margin_pct": 37.0677,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 35,
+        "rep_votes": 114,
+        "other_votes": 0,
+        "total_votes": 149,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 79,
+        "margin_pct": 53.0201,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "13": {
+        "dem_votes": 223,
+        "rep_votes": 980,
+        "other_votes": 0,
+        "total_votes": 1203,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 757,
+        "margin_pct": 62.926,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "14": {
+        "dem_votes": 3224,
+        "rep_votes": 9376,
+        "other_votes": 0,
+        "total_votes": 12600,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 6152,
+        "margin_pct": 48.8254,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 2794,
+        "rep_votes": 5361,
+        "other_votes": 0,
+        "total_votes": 8155,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 2567,
+        "margin_pct": 31.4776,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "19": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "20": {
+        "dem_votes": 445,
+        "rep_votes": 1283,
+        "other_votes": 0,
+        "total_votes": 1728,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 838,
+        "margin_pct": 48.4954,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "21": {
+        "dem_votes": 711,
+        "rep_votes": 1914,
+        "other_votes": 0,
+        "total_votes": 2625,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 1203,
+        "margin_pct": 45.8286,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "23": {
+        "dem_votes": 1015,
+        "rep_votes": 4671,
+        "other_votes": 0,
+        "total_votes": 5685,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 3656,
+        "margin_pct": 64.3096,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 1335,
+        "rep_votes": 4377,
+        "other_votes": 0,
+        "total_votes": 5712,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 3042,
+        "margin_pct": 53.2563,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 791,
+        "rep_votes": 3045,
+        "other_votes": 0,
+        "total_votes": 3836,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 2254,
+        "margin_pct": 58.7591,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 1025,
+        "rep_votes": 3597,
+        "other_votes": 0,
+        "total_votes": 4622,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 2572,
+        "margin_pct": 55.6469,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 2003,
+        "rep_votes": 8994,
+        "other_votes": 0,
+        "total_votes": 10997,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 6991,
+        "margin_pct": 63.5719,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 291,
+        "rep_votes": 2118,
+        "other_votes": 0,
+        "total_votes": 2409,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 1827,
+        "margin_pct": 75.8406,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 701,
+        "rep_votes": 767,
+        "other_votes": 0,
+        "total_votes": 1468,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 66,
+        "margin_pct": 4.4959,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 1555,
+        "rep_votes": 5900,
+        "other_votes": 0,
+        "total_votes": 7455,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 4345,
+        "margin_pct": 58.283,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 785,
+        "rep_votes": 4195,
+        "other_votes": 0,
+        "total_votes": 4980,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 3410,
+        "margin_pct": 68.4739,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 648,
+        "rep_votes": 2287,
+        "other_votes": 0,
+        "total_votes": 2935,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 1639,
+        "margin_pct": 55.8433,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 2630,
+        "rep_votes": 5805,
+        "other_votes": 0,
+        "total_votes": 8435,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 3175,
+        "margin_pct": 37.6408,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "34": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "35": {
+        "dem_votes": 736,
+        "rep_votes": 2135,
+        "other_votes": 0,
+        "total_votes": 2871,
+        "dem_candidate": "Bruce S. Bistline",
+        "rep_candidate": "Lawrence Wasden",
+        "margin": 1399,
+        "margin_pct": 48.7287,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "year": 1998,
+  "scope": "state_house",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "match_coverage_pct": 25.48,
+    "matched_precinct_keys": 237,
+    "total_precinct_keys": 930,
+    "weighted_vote_coverage_pct": 26.53,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Lieutenant Governor",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 237,
+      "legacy_2008_vtd00_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "2": {
+        "dem_votes": 772,
+        "rep_votes": 1239,
+        "other_votes": 188,
+        "total_votes": 2199,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 467,
+        "margin_pct": 21.2369,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "3": {
+        "dem_votes": 3024,
+        "rep_votes": 6293,
+        "other_votes": 675,
+        "total_votes": 9993,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 3269,
+        "margin_pct": 32.7129,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "4": {
+        "dem_votes": 1465,
+        "rep_votes": 2253,
+        "other_votes": 199,
+        "total_votes": 3916,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 788,
+        "margin_pct": 20.1226,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "5": {
+        "dem_votes": 2620,
+        "rep_votes": 4833,
+        "other_votes": 473,
+        "total_votes": 7926,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 2213,
+        "margin_pct": 27.9208,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "6": {
+        "dem_votes": 256,
+        "rep_votes": 581,
+        "other_votes": 38,
+        "total_votes": 875,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 325,
+        "margin_pct": 37.1429,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "8": {
+        "dem_votes": 982,
+        "rep_votes": 1767,
+        "other_votes": 111,
+        "total_votes": 2860,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 785,
+        "margin_pct": 27.4476,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "9": {
+        "dem_votes": 1335,
+        "rep_votes": 2307,
+        "other_votes": 184,
+        "total_votes": 3827,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 972,
+        "margin_pct": 25.3985,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "10": {
+        "dem_votes": 1385,
+        "rep_votes": 2763,
+        "other_votes": 213,
+        "total_votes": 4361,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 1378,
+        "margin_pct": 31.5983,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "11": {
+        "dem_votes": 2186,
+        "rep_votes": 3924,
+        "other_votes": 230,
+        "total_votes": 6341,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 1738,
+        "margin_pct": 27.4089,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "12": {
+        "dem_votes": 2220,
+        "rep_votes": 4622,
+        "other_votes": 282,
+        "total_votes": 7124,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 2402,
+        "margin_pct": 33.717,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "13": {
+        "dem_votes": 683,
+        "rep_votes": 1434,
+        "other_votes": 95,
+        "total_votes": 2212,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 751,
+        "margin_pct": 33.9512,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "14": {
+        "dem_votes": 1280,
+        "rep_votes": 2509,
+        "other_votes": 140,
+        "total_votes": 3929,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 1229,
+        "margin_pct": 31.2802,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "23": {
+        "dem_votes": 744,
+        "rep_votes": 1410,
+        "other_votes": 90,
+        "total_votes": 2245,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 666,
+        "margin_pct": 29.6659,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "26": {
+        "dem_votes": 862,
+        "rep_votes": 2306,
+        "other_votes": 167,
+        "total_votes": 3335,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 1444,
+        "margin_pct": 43.2984,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "27": {
+        "dem_votes": 301,
+        "rep_votes": 888,
+        "other_votes": 38,
+        "total_votes": 1227,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 587,
+        "margin_pct": 47.8403,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "28": {
+        "dem_votes": 599,
+        "rep_votes": 2388,
+        "other_votes": 98,
+        "total_votes": 3085,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 1789,
+        "margin_pct": 57.9903,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "30": {
+        "dem_votes": 394,
+        "rep_votes": 731,
+        "other_votes": 53,
+        "total_votes": 1178,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 337,
+        "margin_pct": 28.6078,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "31": {
+        "dem_votes": 685,
+        "rep_votes": 1951,
+        "other_votes": 150,
+        "total_votes": 2786,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 1266,
+        "margin_pct": 45.4415,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "32": {
+        "dem_votes": 2653,
+        "rep_votes": 7163,
+        "other_votes": 353,
+        "total_votes": 10169,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 4510,
+        "margin_pct": 44.3505,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "33": {
+        "dem_votes": 3750,
+        "rep_votes": 6943,
+        "other_votes": 341,
+        "total_votes": 11034,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 3193,
+        "margin_pct": 28.9378,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        }
+      },
+      "35": {
+        "dem_votes": 1831,
+        "rep_votes": 5331,
+        "other_votes": 255,
+        "total_votes": 7416,
+        "dem_candidate": "Sue Reents",
+        "rep_candidate": "C.L. 'Butch' Otter",
+        "margin": 3500,
+        "margin_pct": 47.1953,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      }
+    }
+  }
+}

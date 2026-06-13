@@ -1,0 +1,583 @@
+{
+  "year": 2010,
+  "scope": "state_house",
+  "contest_type": "governor",
+  "meta": {
+    "match_coverage_pct": 52.97,
+    "matched_precinct_keys": 509,
+    "total_precinct_keys": 961,
+    "weighted_vote_coverage_pct": 38.65,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Governor",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 418,
+      "legacy_2008_vtd00_rows": 91,
+      "direct_2022_districtcoded_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 3273,
+        "rep_votes": 6925,
+        "other_votes": 791,
+        "total_votes": 10990,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 3652,
+        "margin_pct": 33.2302,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 2256,
+        "rep_votes": 5068,
+        "other_votes": 687,
+        "total_votes": 8011,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2812,
+        "margin_pct": 35.1017,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "4": {
+        "dem_votes": 1259,
+        "rep_votes": 1575,
+        "other_votes": 227,
+        "total_votes": 3061,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 316,
+        "margin_pct": 10.3234,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 460,
+        "rep_votes": 1469,
+        "other_votes": 117,
+        "total_votes": 2045,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 1009,
+        "margin_pct": 49.3399,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 6251,
+        "rep_votes": 7801,
+        "other_votes": 1142,
+        "total_votes": 15194,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 1550,
+        "margin_pct": 10.2014,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 4027,
+        "rep_votes": 8698,
+        "other_votes": 1249,
+        "total_votes": 13974,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 4671,
+        "margin_pct": 33.4264,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 2228,
+        "rep_votes": 5904,
+        "other_votes": 895,
+        "total_votes": 9027,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 3676,
+        "margin_pct": 40.7223,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 916,
+        "rep_votes": 3196,
+        "other_votes": 383,
+        "total_votes": 4495,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2280,
+        "margin_pct": 50.723,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 251,
+        "rep_votes": 581,
+        "other_votes": 105,
+        "total_votes": 937,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 330,
+        "margin_pct": 35.2188,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 40,
+        "rep_votes": 163,
+        "other_votes": 23,
+        "total_votes": 226,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 123,
+        "margin_pct": 54.4248,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "13": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "14": {
+        "dem_votes": 1344,
+        "rep_votes": 4847,
+        "other_votes": 654,
+        "total_votes": 6845,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 3503,
+        "margin_pct": 51.176,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "16": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "17": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "18": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "19": {
+        "dem_votes": 221,
+        "rep_votes": 320,
+        "other_votes": 48,
+        "total_votes": 589,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 99,
+        "margin_pct": 16.8081,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "20": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "21": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "22": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "23": {
+        "dem_votes": 427,
+        "rep_votes": 1941,
+        "other_votes": 268,
+        "total_votes": 2636,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 1514,
+        "margin_pct": 57.4355,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 1742,
+        "rep_votes": 4458,
+        "other_votes": 638,
+        "total_votes": 6838,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2716,
+        "margin_pct": 39.7192,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 3944,
+        "rep_votes": 7610,
+        "other_votes": 1222,
+        "total_votes": 12776,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 3666,
+        "margin_pct": 28.6944,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 2466,
+        "rep_votes": 3520,
+        "other_votes": 452,
+        "total_votes": 6438,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 1054,
+        "margin_pct": 16.3715,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 1310,
+        "rep_votes": 4799,
+        "other_votes": 519,
+        "total_votes": 6628,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 3489,
+        "margin_pct": 52.6403,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 3600,
+        "rep_votes": 6179,
+        "other_votes": 679,
+        "total_votes": 10458,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2579,
+        "margin_pct": 24.6605,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 7361,
+        "rep_votes": 7286,
+        "other_votes": 1105,
+        "total_votes": 15751,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": -75,
+        "margin_pct": -0.4762,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 4402,
+        "rep_votes": 7131,
+        "other_votes": 982,
+        "total_votes": 12515,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2729,
+        "margin_pct": 21.8058,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 2154,
+        "rep_votes": 5365,
+        "other_votes": 630,
+        "total_votes": 8149,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 3211,
+        "margin_pct": 39.4036,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 384,
+        "rep_votes": 472,
+        "other_votes": 23,
+        "total_votes": 879,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 88,
+        "margin_pct": 10.0114,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 0,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 0,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 0,
+        "margin_pct": 0,
+        "winner": "TIE",
+        "color": "#9ca3af",
+        "competitiveness": {
+          "color": "#9ca3af"
+        },
+        "no_data": true
+      },
+      "34": {
+        "dem_votes": 2594,
+        "rep_votes": 4739,
+        "other_votes": 380,
+        "total_votes": 7713,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2145,
+        "margin_pct": 27.8102,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 2969,
+        "rep_votes": 5212,
+        "other_votes": 548,
+        "total_votes": 8729,
+        "dem_candidate": "Keith Allred",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2243,
+        "margin_pct": 25.696,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

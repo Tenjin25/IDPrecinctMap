@@ -1,0 +1,37 @@
+{
+  "year": 2010,
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "meta": {
+    "office": "U.S. House",
+    "source": "20101102__id__general__precinct.csv"
+  },
+  "general": {
+    "results": {
+      "10": {
+        "dem_votes": 102135,
+        "rep_votes": 126231,
+        "other_votes": 19061,
+        "total_votes": 247427,
+        "dem_candidate": "Walt Minnick",
+        "rep_candidate": "Raul R. Labrador",
+        "margin": 24096,
+        "margin_pct": 9.7386,
+        "winner": "REP",
+        "color": "#fcae91"
+      },
+      "20": {
+        "dem_votes": 48749,
+        "rep_votes": 137468,
+        "other_votes": 13500,
+        "total_votes": 199717,
+        "dem_candidate": "Mike Crawford",
+        "rep_candidate": "Mike Simpson",
+        "margin": 88719,
+        "margin_pct": 44.4224,
+        "winner": "REP",
+        "color": "#a50f15"
+      }
+    }
+  }
+}

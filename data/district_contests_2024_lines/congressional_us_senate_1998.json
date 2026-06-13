@@ -1,0 +1,52 @@
+{
+  "year": 1998,
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "meta": {
+    "match_coverage_pct": 25.48,
+    "matched_precinct_keys": 237,
+    "total_precinct_keys": 930,
+    "weighted_vote_coverage_pct": 26.51,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "United States Senator",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 237,
+      "legacy_2008_vtd00_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 15578,
+        "rep_votes": 40348,
+        "other_votes": 1306,
+        "total_votes": 57232,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 24770,
+        "margin_pct": 43.28,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      },
+      "2": {
+        "dem_votes": 8090,
+        "rep_votes": 32700,
+        "other_votes": 761,
+        "total_votes": 41551,
+        "dem_candidate": "Bill Mauk",
+        "rep_candidate": "Mike Crapo",
+        "margin": 24610,
+        "margin_pct": 59.2284,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        }
+      }
+    }
+  }
+}

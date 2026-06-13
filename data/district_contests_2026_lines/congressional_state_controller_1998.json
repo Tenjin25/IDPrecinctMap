@@ -1,0 +1,52 @@
+{
+  "year": 1998,
+  "scope": "congressional",
+  "contest_type": "state_controller",
+  "meta": {
+    "match_coverage_pct": 25.48,
+    "matched_precinct_keys": 237,
+    "total_precinct_keys": 930,
+    "weighted_vote_coverage_pct": 26.56,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "State Controller",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 237,
+      "legacy_2008_vtd00_rows": 0
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 28996,
+        "rep_votes": 27274,
+        "other_votes": 0,
+        "total_votes": 56270,
+        "dem_candidate": "J.D. Williams",
+        "rep_candidate": "Ron Pollock",
+        "margin": -1722,
+        "margin_pct": -3.0602,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        }
+      },
+      "2": {
+        "dem_votes": 22258,
+        "rep_votes": 18766,
+        "other_votes": 0,
+        "total_votes": 41024,
+        "dem_candidate": "J.D. Williams",
+        "rep_candidate": "Ron Pollock",
+        "margin": -3492,
+        "margin_pct": -8.5121,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        }
+      }
+    }
+  }
+}
