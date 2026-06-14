@@ -15,8 +15,8 @@ const MANIFEST_SPECS = [
     kind: 'district',
   },
   {
-    manifestPath: path.join(ROOT, 'data', 'district_contests_2024_lines', 'manifest.json'),
-    baseDir: path.join(ROOT, 'data', 'district_contests_2024_lines'),
+    manifestPath: path.join(ROOT, 'data', 'district_contests_2022_lines', 'manifest.json'),
+    baseDir: path.join(ROOT, 'data', 'district_contests_2022_lines'),
     kind: 'district',
   },
   {

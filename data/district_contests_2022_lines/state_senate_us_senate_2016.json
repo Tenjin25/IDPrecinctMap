@@ -1,0 +1,584 @@
+{
+  "year": 2016,
+  "scope": "state_senate",
+  "contest_type": "us_senate",
+  "meta": {
+    "match_coverage_pct": 98.44,
+    "matched_precinct_keys": 946,
+    "total_precinct_keys": 961,
+    "weighted_vote_coverage_pct": 94.72,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "United States Senator",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 3,
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 155,
+      "legacy_2008_vtd00_rows": 135,
+      "direct_2022_districtcoded_rows": 656
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 6155,
+        "rep_votes": 15691,
+        "other_votes": 1108,
+        "total_votes": 22955,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 9536,
+        "margin_pct": 41.5421,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 4704,
+        "rep_votes": 16453,
+        "other_votes": 1156,
+        "total_votes": 22313,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 11749,
+        "margin_pct": 52.6554,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 1538,
+        "rep_votes": 7704,
+        "other_votes": 519,
+        "total_votes": 9762,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 6166,
+        "margin_pct": 63.1633,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "4": {
+        "dem_votes": 4066,
+        "rep_votes": 11672,
+        "other_votes": 744,
+        "total_votes": 16482,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 7606,
+        "margin_pct": 46.1473,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 2280,
+        "rep_votes": 9184,
+        "other_votes": 503,
+        "total_votes": 11966,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 6904,
+        "margin_pct": 57.6968,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 9040,
+        "rep_votes": 13201,
+        "other_votes": 843,
+        "total_votes": 23084,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 4161,
+        "margin_pct": 18.0255,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 3750,
+        "rep_votes": 14134,
+        "other_votes": 1076,
+        "total_votes": 18960,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 10384,
+        "margin_pct": 54.7679,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 4924,
+        "rep_votes": 13451,
+        "other_votes": 1494,
+        "total_votes": 19869,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 8527,
+        "margin_pct": 42.9161,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 2391,
+        "rep_votes": 9698,
+        "other_votes": 931,
+        "total_votes": 13020,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 7307,
+        "margin_pct": 56.1214,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 2361,
+        "rep_votes": 5773,
+        "other_votes": 588,
+        "total_votes": 8722,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 3412,
+        "margin_pct": 39.1195,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 3572,
+        "rep_votes": 14764,
+        "other_votes": 1606,
+        "total_votes": 19942,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 11192,
+        "margin_pct": 56.1228,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 4173,
+        "rep_votes": 11132,
+        "other_votes": 1186,
+        "total_votes": 16491,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 6959,
+        "margin_pct": 42.1988,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "13": {
+        "dem_votes": 4659,
+        "rep_votes": 12249,
+        "other_votes": 1174,
+        "total_votes": 18082,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 7590,
+        "margin_pct": 41.9754,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "14": {
+        "dem_votes": 7950,
+        "rep_votes": 24410,
+        "other_votes": 2060,
+        "total_votes": 34420,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 16460,
+        "margin_pct": 47.821,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 6843,
+        "rep_votes": 10648,
+        "other_votes": 1080,
+        "total_votes": 18571,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 3805,
+        "margin_pct": 20.4889,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "16": {
+        "dem_votes": 9543,
+        "rep_votes": 9099,
+        "other_votes": 993,
+        "total_votes": 19635,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": -444,
+        "margin_pct": -2.2613,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "17": {
+        "dem_votes": 8593,
+        "rep_votes": 7315,
+        "other_votes": 833,
+        "total_votes": 16741,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": -1278,
+        "margin_pct": -7.634,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        },
+        "no_data": false
+      },
+      "18": {
+        "dem_votes": 10566,
+        "rep_votes": 10812,
+        "other_votes": 948,
+        "total_votes": 22326,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 246,
+        "margin_pct": 1.1019,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "19": {
+        "dem_votes": 14912,
+        "rep_votes": 8678,
+        "other_votes": 732,
+        "total_votes": 24322,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": -6234,
+        "margin_pct": -25.6311,
+        "winner": "DEM",
+        "color": "#08519c",
+        "competitiveness": {
+          "color": "#08519c"
+        },
+        "no_data": false
+      },
+      "20": {
+        "dem_votes": 5561,
+        "rep_votes": 13278,
+        "other_votes": 1189,
+        "total_votes": 20028,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 7717,
+        "margin_pct": 38.5311,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "21": {
+        "dem_votes": 6498,
+        "rep_votes": 14558,
+        "other_votes": 1241,
+        "total_votes": 22297,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 8060,
+        "margin_pct": 36.1484,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "22": {
+        "dem_votes": 3759,
+        "rep_votes": 11631,
+        "other_votes": 1264,
+        "total_votes": 16654,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 7872,
+        "margin_pct": 47.2679,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "23": {
+        "dem_votes": 581,
+        "rep_votes": 2909,
+        "other_votes": 344,
+        "total_votes": 3834,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 2328,
+        "margin_pct": 60.7199,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 4124,
+        "rep_votes": 12483,
+        "other_votes": 1475,
+        "total_votes": 18081,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 8359,
+        "margin_pct": 46.2309,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 3519,
+        "rep_votes": 12466,
+        "other_votes": 1412,
+        "total_votes": 17398,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 8947,
+        "margin_pct": 51.4255,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 7568,
+        "rep_votes": 10756,
+        "other_votes": 923,
+        "total_votes": 19247,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 3188,
+        "margin_pct": 16.5636,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 2325,
+        "rep_votes": 13204,
+        "other_votes": 1445,
+        "total_votes": 16974,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 10879,
+        "margin_pct": 64.0921,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 5002,
+        "rep_votes": 15011,
+        "other_votes": 1340,
+        "total_votes": 21352,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 10009,
+        "margin_pct": 46.8762,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 7216,
+        "rep_votes": 10105,
+        "other_votes": 1226,
+        "total_votes": 18547,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 2889,
+        "margin_pct": 15.5766,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 4483,
+        "rep_votes": 16441,
+        "other_votes": 1866,
+        "total_votes": 22790,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 11958,
+        "margin_pct": 52.4704,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 2643,
+        "rep_votes": 16879,
+        "other_votes": 1897,
+        "total_votes": 21420,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 14236,
+        "margin_pct": 66.4613,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 1474,
+        "rep_votes": 7214,
+        "other_votes": 728,
+        "total_votes": 9415,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 5740,
+        "margin_pct": 60.9665,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 5424,
+        "rep_votes": 14527,
+        "other_votes": 1560,
+        "total_votes": 21511,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 9103,
+        "margin_pct": 42.3179,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "34": {
+        "dem_votes": 1623,
+        "rep_votes": 13351,
+        "other_votes": 1169,
+        "total_votes": 16143,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 11728,
+        "margin_pct": 72.6507,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 4101,
+        "rep_votes": 14364,
+        "other_votes": 1278,
+        "total_votes": 19743,
+        "dem_candidate": "Jerry Sturgill",
+        "rep_candidate": "Mike Crapo",
+        "margin": 10263,
+        "margin_pct": 51.983,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

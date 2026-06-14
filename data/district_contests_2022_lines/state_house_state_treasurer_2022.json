@@ -1,0 +1,584 @@
+{
+  "year": 2022,
+  "scope": "state_house",
+  "contest_type": "state_treasurer",
+  "meta": {
+    "match_coverage_pct": 98.9,
+    "matched_precinct_keys": 988,
+    "total_precinct_keys": 999,
+    "weighted_vote_coverage_pct": 99.18,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "State Treasurer",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 2,
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 97,
+      "legacy_2008_vtd00_rows": 111,
+      "direct_2022_districtcoded_rows": 780
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 5316,
+        "rep_votes": 15858,
+        "other_votes": 0,
+        "total_votes": 21174,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 10542,
+        "margin_pct": 49.7875,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 3452,
+        "rep_votes": 15891,
+        "other_votes": 0,
+        "total_votes": 19343,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 12439,
+        "margin_pct": 64.3075,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 3687,
+        "rep_votes": 17120,
+        "other_votes": 0,
+        "total_votes": 20807,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 13433,
+        "margin_pct": 64.56,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "4": {
+        "dem_votes": 5449,
+        "rep_votes": 11219,
+        "other_votes": 0,
+        "total_votes": 16668,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 5770,
+        "margin_pct": 34.6172,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 3263,
+        "rep_votes": 13915,
+        "other_votes": 0,
+        "total_votes": 17178,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 10652,
+        "margin_pct": 62.0095,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 7230,
+        "rep_votes": 10446,
+        "other_votes": 0,
+        "total_votes": 17676,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 3216,
+        "margin_pct": 18.1942,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 4976,
+        "rep_votes": 16014,
+        "other_votes": 0,
+        "total_votes": 20990,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 11038,
+        "margin_pct": 52.5869,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 4414,
+        "rep_votes": 12553,
+        "other_votes": 0,
+        "total_votes": 16967,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 8139,
+        "margin_pct": 47.9696,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 2307,
+        "rep_votes": 14223,
+        "other_votes": 0,
+        "total_votes": 16530,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 11916,
+        "margin_pct": 72.0871,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 3442,
+        "rep_votes": 16390,
+        "other_votes": 0,
+        "total_votes": 19832,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 12948,
+        "margin_pct": 65.2884,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 2981,
+        "rep_votes": 6673,
+        "other_votes": 0,
+        "total_votes": 9654,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 3692,
+        "margin_pct": 38.2432,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 3037,
+        "rep_votes": 9277,
+        "other_votes": 0,
+        "total_votes": 12314,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 6240,
+        "margin_pct": 50.674,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "13": {
+        "dem_votes": 3103,
+        "rep_votes": 9341,
+        "other_votes": 0,
+        "total_votes": 12444,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 6238,
+        "margin_pct": 50.1286,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "14": {
+        "dem_votes": 5052,
+        "rep_votes": 19289,
+        "other_votes": 0,
+        "total_votes": 24341,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 14237,
+        "margin_pct": 58.4898,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 7543,
+        "rep_votes": 10578,
+        "other_votes": 0,
+        "total_votes": 18121,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 3035,
+        "margin_pct": 16.7485,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "16": {
+        "dem_votes": 9385,
+        "rep_votes": 8063,
+        "other_votes": 0,
+        "total_votes": 17448,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": -1322,
+        "margin_pct": -7.5768,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        },
+        "no_data": false
+      },
+      "17": {
+        "dem_votes": 8820,
+        "rep_votes": 7939,
+        "other_votes": 0,
+        "total_votes": 16759,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": -881,
+        "margin_pct": -5.2569,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        },
+        "no_data": false
+      },
+      "18": {
+        "dem_votes": 9645,
+        "rep_votes": 8322,
+        "other_votes": 0,
+        "total_votes": 17967,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": -1323,
+        "margin_pct": -7.3635,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        },
+        "no_data": false
+      },
+      "19": {
+        "dem_votes": 14490,
+        "rep_votes": 9865,
+        "other_votes": 0,
+        "total_votes": 24355,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": -4625,
+        "margin_pct": -18.9899,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "20": {
+        "dem_votes": 4897,
+        "rep_votes": 12955,
+        "other_votes": 0,
+        "total_votes": 17852,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 8058,
+        "margin_pct": 45.1378,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "21": {
+        "dem_votes": 5059,
+        "rep_votes": 12329,
+        "other_votes": 0,
+        "total_votes": 17388,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 7270,
+        "margin_pct": 41.8104,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "22": {
+        "dem_votes": 5851,
+        "rep_votes": 13443,
+        "other_votes": 0,
+        "total_votes": 19294,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 7592,
+        "margin_pct": 39.349,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "23": {
+        "dem_votes": 2792,
+        "rep_votes": 12929,
+        "other_votes": 0,
+        "total_votes": 15721,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 10137,
+        "margin_pct": 64.4806,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 3655,
+        "rep_votes": 10714,
+        "other_votes": 0,
+        "total_votes": 14368,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 7059,
+        "margin_pct": 49.13,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 2587,
+        "rep_votes": 10041,
+        "other_votes": 0,
+        "total_votes": 12629,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 7454,
+        "margin_pct": 59.0229,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 7351,
+        "rep_votes": 8418,
+        "other_votes": 0,
+        "total_votes": 15769,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 1067,
+        "margin_pct": 6.7664,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 1387,
+        "rep_votes": 10575,
+        "other_votes": 0,
+        "total_votes": 11962,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 9188,
+        "margin_pct": 76.8099,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 3157,
+        "rep_votes": 11081,
+        "other_votes": 0,
+        "total_votes": 14238,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 7924,
+        "margin_pct": 55.6539,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 6308,
+        "rep_votes": 7829,
+        "other_votes": 0,
+        "total_votes": 14137,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 1521,
+        "margin_pct": 10.759,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 1974,
+        "rep_votes": 11093,
+        "other_votes": 0,
+        "total_votes": 13067,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 9119,
+        "margin_pct": 69.7865,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 2070,
+        "rep_votes": 14935,
+        "other_votes": 0,
+        "total_votes": 17005,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 12865,
+        "margin_pct": 75.6542,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 1532,
+        "rep_votes": 6686,
+        "other_votes": 0,
+        "total_votes": 8219,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 5154,
+        "margin_pct": 62.7084,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 5209,
+        "rep_votes": 12826,
+        "other_votes": 0,
+        "total_votes": 18035,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 7617,
+        "margin_pct": 42.2345,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "34": {
+        "dem_votes": 1001,
+        "rep_votes": 7167,
+        "other_votes": 0,
+        "total_votes": 8168,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 6166,
+        "margin_pct": 75.4897,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 3893,
+        "rep_votes": 13011,
+        "other_votes": 0,
+        "total_votes": 16904,
+        "dem_candidate": "Deborah Silver",
+        "rep_candidate": "Julie A. Ellsworth",
+        "margin": 9118,
+        "margin_pct": 53.9399,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

@@ -1,0 +1,584 @@
+{
+  "year": 2020,
+  "scope": "state_senate",
+  "contest_type": "us_senate",
+  "meta": {
+    "match_coverage_pct": 98.66,
+    "matched_precinct_keys": 959,
+    "total_precinct_keys": 972,
+    "weighted_vote_coverage_pct": 97.11,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "United States Senator",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 4,
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 148,
+      "legacy_2008_vtd00_rows": 134,
+      "direct_2022_districtcoded_rows": 677
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 8003,
+        "rep_votes": 19045,
+        "other_votes": 1023,
+        "total_votes": 28070,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 11042,
+        "margin_pct": 39.3374,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 7563,
+        "rep_votes": 22854,
+        "other_votes": 1264,
+        "total_votes": 31681,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 15291,
+        "margin_pct": 48.2655,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 3604,
+        "rep_votes": 14380,
+        "other_votes": 845,
+        "total_votes": 18830,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 10776,
+        "margin_pct": 57.2278,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "4": {
+        "dem_votes": 10043,
+        "rep_votes": 20846,
+        "other_votes": 1412,
+        "total_votes": 32301,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 10803,
+        "margin_pct": 33.4448,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 5934,
+        "rep_votes": 16668,
+        "other_votes": 960,
+        "total_votes": 23562,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 10734,
+        "margin_pct": 45.5564,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 11408,
+        "rep_votes": 12635,
+        "other_votes": 865,
+        "total_votes": 24908,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 1227,
+        "margin_pct": 4.9261,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 3242,
+        "rep_votes": 14351,
+        "other_votes": 747,
+        "total_votes": 18340,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 11109,
+        "margin_pct": 60.5725,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 7648,
+        "rep_votes": 15960,
+        "other_votes": 1046,
+        "total_votes": 24654,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 8312,
+        "margin_pct": 33.7146,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 3455,
+        "rep_votes": 12538,
+        "other_votes": 591,
+        "total_votes": 16584,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 9083,
+        "margin_pct": 54.7697,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 3844,
+        "rep_votes": 6847,
+        "other_votes": 464,
+        "total_votes": 11155,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 3003,
+        "margin_pct": 26.9207,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 5250,
+        "rep_votes": 18166,
+        "other_votes": 891,
+        "total_votes": 24307,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 12916,
+        "margin_pct": 53.137,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 6949,
+        "rep_votes": 13305,
+        "other_votes": 1027,
+        "total_votes": 21281,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 6356,
+        "margin_pct": 29.867,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "13": {
+        "dem_votes": 7141,
+        "rep_votes": 13891,
+        "other_votes": 1050,
+        "total_votes": 22082,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 6750,
+        "margin_pct": 30.5679,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "14": {
+        "dem_votes": 14122,
+        "rep_votes": 36006,
+        "other_votes": 1671,
+        "total_votes": 51799,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 21884,
+        "margin_pct": 42.2479,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 10692,
+        "rep_votes": 11724,
+        "other_votes": 873,
+        "total_votes": 23289,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 1032,
+        "margin_pct": 4.4313,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "16": {
+        "dem_votes": 14736,
+        "rep_votes": 9500,
+        "other_votes": 919,
+        "total_votes": 25155,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": -5236,
+        "margin_pct": -20.8149,
+        "winner": "DEM",
+        "color": "#08519c",
+        "competitiveness": {
+          "color": "#08519c"
+        },
+        "no_data": false
+      },
+      "17": {
+        "dem_votes": 13380,
+        "rep_votes": 7234,
+        "other_votes": 811,
+        "total_votes": 21425,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": -6146,
+        "margin_pct": -28.6861,
+        "winner": "DEM",
+        "color": "#08519c",
+        "competitiveness": {
+          "color": "#08519c"
+        },
+        "no_data": false
+      },
+      "18": {
+        "dem_votes": 17235,
+        "rep_votes": 11573,
+        "other_votes": 838,
+        "total_votes": 29646,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": -5662,
+        "margin_pct": -19.0987,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "19": {
+        "dem_votes": 21054,
+        "rep_votes": 10020,
+        "other_votes": 828,
+        "total_votes": 31902,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": -11034,
+        "margin_pct": -34.5872,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "20": {
+        "dem_votes": 10287,
+        "rep_votes": 16363,
+        "other_votes": 1058,
+        "total_votes": 27708,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 6076,
+        "margin_pct": 21.9287,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "21": {
+        "dem_votes": 11965,
+        "rep_votes": 18860,
+        "other_votes": 1249,
+        "total_votes": 32074,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 6895,
+        "margin_pct": 21.4972,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "22": {
+        "dem_votes": 7204,
+        "rep_votes": 16712,
+        "other_votes": 1012,
+        "total_votes": 24928,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 9508,
+        "margin_pct": 38.1418,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "23": {
+        "dem_votes": 910,
+        "rep_votes": 3643,
+        "other_votes": 188,
+        "total_votes": 4741,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 2733,
+        "margin_pct": 57.6461,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 8158,
+        "rep_votes": 18622,
+        "other_votes": 1210,
+        "total_votes": 27991,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 10464,
+        "margin_pct": 37.3834,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 3109,
+        "rep_votes": 10663,
+        "other_votes": 992,
+        "total_votes": 14763,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 7554,
+        "margin_pct": 51.1685,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 11187,
+        "rep_votes": 11047,
+        "other_votes": 792,
+        "total_votes": 23026,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": -140,
+        "margin_pct": -0.608,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 3348,
+        "rep_votes": 15533,
+        "other_votes": 1042,
+        "total_votes": 19923,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 12185,
+        "margin_pct": 61.1605,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 7413,
+        "rep_votes": 18415,
+        "other_votes": 1220,
+        "total_votes": 27047,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 11002,
+        "margin_pct": 40.6773,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 9315,
+        "rep_votes": 10241,
+        "other_votes": 1083,
+        "total_votes": 20638,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 926,
+        "margin_pct": 4.4869,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 8748,
+        "rep_votes": 24849,
+        "other_votes": 1462,
+        "total_votes": 35059,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 16101,
+        "margin_pct": 45.9254,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 3710,
+        "rep_votes": 20844,
+        "other_votes": 1231,
+        "total_votes": 25785,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 17134,
+        "margin_pct": 66.4495,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 1419,
+        "rep_votes": 6926,
+        "other_votes": 472,
+        "total_votes": 8818,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 5507,
+        "margin_pct": 62.4518,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 7352,
+        "rep_votes": 14313,
+        "other_votes": 1286,
+        "total_votes": 22952,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 6961,
+        "margin_pct": 30.3285,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "34": {
+        "dem_votes": 2641,
+        "rep_votes": 14956,
+        "other_votes": 1218,
+        "total_votes": 18815,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 12315,
+        "margin_pct": 65.4531,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 4829,
+        "rep_votes": 14081,
+        "other_votes": 864,
+        "total_votes": 19774,
+        "dem_candidate": "Paulette Jordan",
+        "rep_candidate": "Jim Risch",
+        "margin": 9252,
+        "margin_pct": 46.7887,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

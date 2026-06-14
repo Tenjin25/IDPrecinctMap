@@ -8,9 +8,9 @@ const REPORTS_DIR = path.join(DATA_DIR, 'reports');
 
 const SOURCES = [
   {
-    label: '2024-lines',
-    dir: path.join(DATA_DIR, 'district_contests_2024_lines'),
-    manifest: path.join(DATA_DIR, 'district_contests_2024_lines', 'manifest.json'),
+    label: '2022-lines',
+    dir: path.join(DATA_DIR, 'district_contests_2022_lines'),
+    manifest: path.join(DATA_DIR, 'district_contests_2022_lines', 'manifest.json'),
   },
   {
     label: '2026-lines',
