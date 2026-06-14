@@ -987,6 +987,9 @@ function aggregateContestToScope(
       weighted_vote_coverage_pct: voteCoveragePct,
       source: 'idaho_hybrid_precinct_crosswalk_population_weighted',
       office: clean(payload?.meta?.office) || clean(manifestEntry?.office) || contestType,
+      office_group: clean(payload?.meta?.office_group) || null,
+      seat_label: clean(payload?.meta?.seat_label) || null,
+      seat_key: clean(payload?.meta?.seat_key) || null,
       nongeo_allocation_mode: 'precinct_population_weighted',
         candidate_count: Number(payload?.meta?.candidate_count) || null,
         precinct_basis_breakdown: {

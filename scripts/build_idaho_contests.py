@@ -590,29 +590,34 @@ def add_2022_district_payloads(
         congressional_results[district_num] = summarize_votes(sheet_df)
 
     payload_specs = [
-        ("congressional", "us_house", "U.S. House", congressional_results, "congressional_us_house_2022.json"),
-        ("state_house", "state_house_a", "State House Seat A", house_a_results, "state_house_state_house_a_2022.json"),
-        ("state_house", "state_house_b", "State House Seat B", house_b_results, "state_house_state_house_b_2022.json"),
-        ("state_senate", "state_senate", "State Senate", senate_results, "state_senate_state_senate_2022.json"),
+        ("congressional", "us_house", "U.S. House", congressional_results, "congressional_us_house_2022.json", None),
+        ("state_house", "state_house_a", "State House Seat A", house_a_results, "state_house_state_house_a_2022.json", "A"),
+        ("state_house", "state_house_b", "State House Seat B", house_b_results, "state_house_state_house_b_2022.json", "B"),
+        ("state_senate", "state_senate", "State Senate", senate_results, "state_senate_state_senate_2022.json", None),
     ]
 
-    for scope, contest_type, office_label, results, file_name in payload_specs:
+    for scope, contest_type, office_label, results, file_name, seat_label in payload_specs:
         if not results:
             continue
+        meta = {
+            "office": office_label,
+            "source": "2022_General_Canvass.zip",
+            "candidate_count": max(
+                count_real_candidates(senate_df) if contest_type == "state_senate" else 0,
+                count_real_candidates(house_a_df) if contest_type == "state_house_a" else 0,
+                count_real_candidates(house_b_df) if contest_type == "state_house_b" else 0,
+                count_real_candidates(sheet_df) if contest_type == "us_house" else 0,
+            ),
+        }
+        if scope == "state_house" and seat_label:
+            meta["office_group"] = "state_house"
+            meta["seat_label"] = f"Seat {seat_label}"
+            meta["seat_key"] = seat_label.lower()
         payload = {
             "year": 2022,
             "scope": scope,
             "contest_type": contest_type,
-            "meta": {
-                "office": office_label,
-                "source": "2022_General_Canvass.zip",
-                "candidate_count": max(
-                    count_real_candidates(senate_df) if contest_type == "state_senate" else 0,
-                    count_real_candidates(house_a_df) if contest_type == "state_house_a" else 0,
-                    count_real_candidates(house_b_df) if contest_type == "state_house_b" else 0,
-                    count_real_candidates(sheet_df) if contest_type == "us_house" else 0,
-                ),
-            },
+            "meta": meta,
             "general": {
                 "results": results,
             },

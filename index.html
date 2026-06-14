@@ -18991,6 +18991,15 @@ document.addEventListener('DOMContentLoaded', function() {
 	      return nameMap[contestKey] || contestType.toUpperCase();
 	    }
 
+    function formatGroupedContestOptionLabel(contestType, year) {
+      const key = String(contestType || '').trim().toLowerCase();
+      if (key === 'state_house_a') return `Seat A (${year})`;
+      if (key === 'state_house_b') return `Seat B (${year})`;
+      if (key === 'us_house_d1') return `District 1 (${year})`;
+      if (key === 'us_house_d2') return `District 2 (${year})`;
+      return `${formatContestName(contestType, year)} (${year})`;
+    }
+
     function formatContestLabel(contestType, year) {
       const modeledDef = getModeledContestDefinition(contestType, year) || getModeledContestDefinitionByType(contestType);
       const modeledOptionLabel = String(modeledDef?.optionLabel || '').trim();
@@ -19340,8 +19349,9 @@ document.addEventListener('DOMContentLoaded', function() {
             const modeledOptionLabel = String(modeledDef?.optionLabel || '').trim();
             if (modeledOptionLabel) {
               opt.textContent = modeledOptionLabel;
-            } else
-	          if (isJudicial || modeledDef) {
+            } else if (contestType === 'state_house_a' || contestType === 'state_house_b' || contestType === 'us_house_d1' || contestType === 'us_house_d2') {
+              opt.textContent = formatGroupedContestOptionLabel(item.contestType, item.year);
+            } else if (isJudicial || modeledDef) {
               opt.textContent = `${formatContestName(item.contestType, item.year)} (${item.year})`;
 	          } else {
               opt.textContent = `${label} (${item.year})`;
@@ -31260,13 +31270,15 @@ document.addEventListener('DOMContentLoaded', function() {
           const totalVotes = Number(row.total_votes || 0) || (Number(row.dem_votes || 0) + Number(row.rep_votes || 0) + Number(row.other_votes || 0));
           if (totalVotes <= 0) continue;
           const fallbackCandidates = await resolveDistrictFallbackCandidates(contestType, year, row);
-          entries.push({ contestType, row, fallbackCandidates });
+          entries.push({ contestType, row, fallbackCandidates, payloadMeta: payload?.meta || {} });
         } catch (_) {}
       }
       return entries;
     }
 
-    function getStateHouseSeatLabel(contestType) {
+    function getStateHouseSeatLabel(contestType, payloadMeta = null) {
+      const metaSeatLabel = (payloadMeta?.seat_label || '').toString().trim();
+      if (metaSeatLabel) return metaSeatLabel;
       const key = String(contestType || '').trim().toLowerCase();
       if (key === 'state_house_a') return 'Seat A';
       if (key === 'state_house_b') return 'Seat B';
@@ -31300,7 +31312,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const marginCall = winnerMarginCall(repVotes, demVotes, totalVotes, repCandidate, demCandidate, signedMarginPct);
       return {
         contestType,
-        seatLabel: getStateHouseSeatLabel(contestType),
+        seatLabel: getStateHouseSeatLabel(contestType, entry?.payloadMeta || null),
         demCandidate,
         repCandidate,
         demVotes,
