@@ -10255,8 +10255,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-05-25-11';
-    const APP_BUILD_ID = '2026-05-25-11';
+    const DATA_CACHE_BUSTER = '2026-06-14-01';
+    const APP_BUILD_ID = '2026-06-14-01';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -10324,6 +10324,7 @@ document.addEventListener('DOMContentLoaded', function() {
         election: withBase('./data/id_elections_aggregated.json'),
         district_election: withBase('./data/id_district_results.json'),
         district_contests_dir: withBase('./data/district_contests'),
+        district_contests_2022_lines_dir: withBase('./data/district_contests_2022_lines'),
         district_contests_2020_2024_dir: withBase('./data/district_contests_2020_2024'),
         district_contests_dirs: {
           '2022': withBase('./data/district_contests'),
@@ -11651,16 +11652,28 @@ document.addEventListener('DOMContentLoaded', function() {
       const calibrated2020Dir = (CONFIG.paths?.district_contests_2020_2024_dir || '').toString().trim();
       const baseDir = (getActiveDistrictContestsDir(linesYear, scope) || '').toString().trim();
       const legacy2022Dir = ly === 2022
-        ? ((CONFIG.paths?.district_contests_dirs?.['2022'] || CONFIG.paths.district_contests_dir || '').toString().trim())
+        ? (((CONFIG.paths?.district_contests_dirs?.['2022'] || CONFIG.paths.district_contests_dir || '').toString().trim()))
         : '';
+      const contestKey = canonicalizeContestType(contestType);
+      const isDirectDistrictOfficeContest = (
+        contestKey === 'us_house'
+        || contestKey === 'state_house_a'
+        || contestKey === 'state_house_b'
+        || contestKey === 'state_senate'
+      );
 
       // Prefer calibrated slices only for congressional scope on 2022 lines.
       // Legislative scopes continue to use the primary district_contests data.
-      if (ly === 2022 && scope === 'congressional' && Number.isFinite(y) && y >= 2020 && calibrated2020Dir) {
+      if (ly === 2022 && scope === 'congressional' && !isDirectDistrictOfficeContest && Number.isFinite(y) && y >= 2020 && calibrated2020Dir) {
         out.push(`${calibrated2020Dir}/${key}.json`);
       }
-      if (baseDir) out.push(`${baseDir}/${key}.json`);
-      if (legacy2022Dir) out.push(`${legacy2022Dir}/${key}.json`);
+      if (ly === 2022 && isDirectDistrictOfficeContest) {
+        if (legacy2022Dir) out.push(`${legacy2022Dir}/${key}.json`);
+        if (baseDir) out.push(`${baseDir}/${key}.json`);
+      } else {
+        if (baseDir) out.push(`${baseDir}/${key}.json`);
+        if (legacy2022Dir) out.push(`${legacy2022Dir}/${key}.json`);
+      }
 
       return Array.from(new Set(out));
     }
@@ -18380,6 +18393,25 @@ document.addEventListener('DOMContentLoaded', function() {
         };
       }
 
+    function canonicalizeContestType(contestType) {
+      const key = String(contestType || '').trim().toLowerCase();
+      if (key === 'treasurer') return 'state_treasurer';
+      if (key === 'controller') return 'state_controller';
+      if (key === 'auditor') return 'state_auditor';
+      if (key === 'superintendent') return 'superintendent_public_instruction';
+      return key;
+    }
+
+    function getContestTypeVariants(contestType) {
+      const canonical = canonicalizeContestType(contestType);
+      const variants = new Set([canonical]);
+      if (canonical === 'state_treasurer') variants.add('treasurer');
+      if (canonical === 'state_controller') variants.add('controller');
+      if (canonical === 'state_auditor') variants.add('auditor');
+      if (canonical === 'superintendent_public_instruction') variants.add('superintendent');
+      return Array.from(variants);
+    }
+
 	    async function loadContestSlice(contestType, year) {
         const modeledDef = getModeledContestDefinition(contestType, year);
         if (modeledDef) {
@@ -18399,21 +18431,23 @@ document.addEventListener('DOMContentLoaded', function() {
           }
         }
 
-	      const key = `${contestType}_${year}`;
+        const contestTypeKey = canonicalizeContestType(contestType);
+	      const key = `${contestTypeKey}_${year}`;
 	      if (contestSliceCache.has(key)) return contestSliceCache.get(key);
         if (contestSliceInflight.has(key)) return contestSliceInflight.get(key);
 
         const p = atlasPerf(`slice.contest:${key}`, async () => {
 
           const manifestHasEntries = Array.isArray(contestManifest) && contestManifest.length > 0;
+          const contestTypeVariants = getContestTypeVariants(contestType);
           const manifestEntry = manifestHasEntries
-            ? (contestManifest.find(e => e && e.contest_type === contestType && Number(e.year) === Number(year) && !e.scope) || null)
+            ? (contestManifest.find(e => e && contestTypeVariants.includes(canonicalizeContestType(e.contest_type)) && Number(e.year) === Number(year) && !e.scope) || null)
             : null;
           const manifestFile = (manifestEntry?.file || '').toString().trim();
 
           // Fall back to OpenElections CSV for older presidential cycles only when the manifest
           // does not index a prebuilt contest slice for that year.
-          if (contestType === 'president' && PRESIDENT_OPEN_ELECTIONS_CSV[Number(year)] && !manifestEntry) {
+          if (contestTypeKey === 'president' && PRESIDENT_OPEN_ELECTIONS_CSV[Number(year)] && !manifestEntry) {
             try {
               const rows = await loadPresidentSliceFromOpenElectionsCSV(Number(year));
               contestSliceCache.set(key, rows);
@@ -18435,20 +18469,31 @@ document.addEventListener('DOMContentLoaded', function() {
               ? `${CONFIG.paths.contests_dir}/${manifestFile}`
               : `${CONFIG.paths.contests_dir}/${key}.json`;
 	          const payload = await loadJSON(payloadPath);
-	          const rows = (payload.rows || []).map(r => ({
-	            year: Number(year),
-	            county: r.county,
-              [`${contestType}_dem`]: Number(r.dem_votes) || 0,
-              [`${contestType}_rep`]: Number(r.rep_votes) || 0,
-              [`${contestType}_other`]: Number(r.other_votes) || 0,
-              [`${contestType}_total`]: Number(r.total_votes) || 0,
-              [`${contestType}_dem_candidate`]: r.dem_candidate || '',
-              [`${contestType}_rep_candidate`]: r.rep_candidate || '',
-              [`${contestType}_margin`]: Number(r.margin) || 0,
-              [`${contestType}_margin_pct`]: Number(r.margin_pct) || 0,
-              [`${contestType}_winner`]: r.winner || '',
-              [`${contestType}_color`]: r.color || ''
-            }));
+            const outputTypes = new Set([
+              canonicalizeContestType(contestType),
+              ...getContestTypeVariants(contestType),
+              ...getContestTypeVariants(manifestEntry?.contest_type || contestType)
+            ]);
+	          const rows = (payload.rows || []).map(r => {
+              const rowOut = {
+                year: Number(year),
+                county: r.county
+              };
+              outputTypes.forEach((typeKey) => {
+                if (!typeKey) return;
+                rowOut[`${typeKey}_dem`] = Number(r.dem_votes) || 0;
+                rowOut[`${typeKey}_rep`] = Number(r.rep_votes) || 0;
+                rowOut[`${typeKey}_other`] = Number(r.other_votes) || 0;
+                rowOut[`${typeKey}_total`] = Number(r.total_votes) || 0;
+                rowOut[`${typeKey}_dem_candidate`] = r.dem_candidate || '';
+                rowOut[`${typeKey}_rep_candidate`] = r.rep_candidate || '';
+                rowOut[`${typeKey}_margin`] = Number(r.margin) || 0;
+                rowOut[`${typeKey}_margin_pct`] = Number(r.margin_pct) || 0;
+                rowOut[`${typeKey}_winner`] = r.winner || '';
+                rowOut[`${typeKey}_color`] = r.color || '';
+              });
+              return rowOut;
+            });
 	          contestSliceCache.set(key, rows);
 	          return rows;
 	        } catch (_) {
@@ -18877,7 +18922,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	      if (modeledDef?.displayName) {
 	        return modeledDef.displayName;
 	      }
-	      const contestKey = String(contestType || '').trim().toLowerCase();
+	      const contestKey = canonicalizeContestType(contestType);
 	      if (contestKey === 'state_house_a') return 'State House Seat A';
 	      if (contestKey === 'state_house_b') return 'State House Seat B';
 	      const nameMap = {
@@ -19193,7 +19238,7 @@ document.addEventListener('DOMContentLoaded', function() {
           return true;
         }
 	      (manifestEntries || []).forEach(entry => {
-	        const contestType = entry.contest_type;
+	        const contestType = canonicalizeContestType(entry.contest_type);
 	        const year = Number(entry.year);
 	        const rows = Number(entry.rows || entry.districts || 0) || 0;
 	        if (!contestType || rows <= 0) return;
@@ -26526,16 +26571,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const pinnedShell = !!(tooltipPinned || (forceTooltip && isTouchInteractionMode()));
         const copyText = `${districtLabel} ${districtNum} (Lines ${currentDistrictLinesYear})`;
-        const seatsHtml = renderDistrictElectionSectionsHTML(seatEntries, Number(year));
+        const seatsHtml = renderStateHouseVotehubTooltipHTML(seatEntries, Number(year), districtNum, contestType);
         showHoverTooltip(
           e.point.x,
           e.point.y,
           buildTooltipShell(
-            `${districtLabel} ${districtNum}`,
-            `${_demoHTML}<div style="margin-top:10px;">${seatsHtml}</div>`,
-            { pinned: pinnedShell, copyText }
+            '',
+            `${seatsHtml}<div style="margin-top:10px;">${_demoHTML}</div>`,
+            { pinned: pinnedShell, showClose: pinnedShell, copyText }
           ),
-          { force: !!forceTooltip, pinned: pinnedShell, context: pinnedShell ? 'pinned' : 'detail', copyText }
+          { force: !!forceTooltip, pinned: pinnedShell, context: 'votehub-results', copyText }
         );
         wireTooltipButtons();
         return;
@@ -31219,6 +31264,100 @@ document.addEventListener('DOMContentLoaded', function() {
         } catch (_) {}
       }
       return entries;
+    }
+
+    function getStateHouseSeatLabel(contestType) {
+      const key = String(contestType || '').trim().toLowerCase();
+      if (key === 'state_house_a') return 'Seat A';
+      if (key === 'state_house_b') return 'Seat B';
+      return formatContestName(contestType, '').replace(/^State House\s*/i, '').trim() || 'Seat';
+    }
+
+    function summarizeStateHouseSeatEntry(entry, year) {
+      const row = entry?.row || {};
+      const contestType = String(entry?.contestType || '').trim().toLowerCase();
+      let demCandidate = (row.dem_candidate || '').toString().trim();
+      let repCandidate = (row.rep_candidate || '').toString().trim();
+      if (!demCandidate) demCandidate = (entry?.fallbackCandidates?.dem || '').toString().trim();
+      if (!repCandidate) repCandidate = (entry?.fallbackCandidates?.rep || '').toString().trim();
+      if (!demCandidate) demCandidate = getCandidateName(year, formatContestName(contestType, year), 'Democrat');
+      if (!repCandidate) repCandidate = getCandidateName(year, formatContestName(contestType, year), 'Republican');
+
+      const demVotes = Number(row.dem_votes || 0);
+      const repVotes = Number(row.rep_votes || 0);
+      const otherVotes = Number(row.other_votes || 0);
+      const totalVotesRaw = Number(row.total_votes);
+      const totalVotes = Number.isFinite(totalVotesRaw) && totalVotesRaw > 0
+        ? totalVotesRaw
+        : (demVotes + repVotes + otherVotes);
+      const signedMarginPct = Number.isFinite(Number(row.margin_pct))
+        ? Number(row.margin_pct)
+        : signedMarginPctFromVotes(demVotes, repVotes, totalVotes);
+      const winnerTone = signedMarginPct > 0 ? 'rep' : (signedMarginPct < 0 ? 'dem' : 'tie');
+      const winnerName = winnerTone === 'rep'
+        ? fullCandidateLabel(repCandidate, 'Republican')
+        : (winnerTone === 'dem' ? fullCandidateLabel(demCandidate, 'Democratic') : 'Tie');
+      const marginCall = winnerMarginCall(repVotes, demVotes, totalVotes, repCandidate, demCandidate, signedMarginPct);
+      return {
+        contestType,
+        seatLabel: getStateHouseSeatLabel(contestType),
+        demCandidate,
+        repCandidate,
+        demVotes,
+        repVotes,
+        otherVotes,
+        totalVotes,
+        signedMarginPct,
+        winnerTone,
+        winnerName,
+        marginCall
+      };
+    }
+
+    function renderStateHouseVotehubTooltipHTML(entries, year, districtNum, selectedContestType) {
+      if (!Array.isArray(entries) || !entries.length) {
+        return '<div style="color:#94a3b8;">No seat results for this district.</div>';
+      }
+      const selectedKey = String(selectedContestType || '').trim().toLowerCase();
+      const districtCodeLabel = formatDistrictCodeLabel('state_house', districtNum);
+      const subtitle = `State House District ${districtNum}`;
+      const kicker = getDistrictHoverKicker('state_house');
+      const summaries = entries
+        .map(entry => summarizeStateHouseSeatEntry(entry, year))
+        .sort((a, b) => {
+          const aSelected = a.contestType === selectedKey ? 1 : 0;
+          const bSelected = b.contestType === selectedKey ? 1 : 0;
+          if (aSelected !== bSelected) return bSelected - aSelected;
+          return a.seatLabel.localeCompare(b.seatLabel);
+        });
+
+      return summaries.map((summary, idx) => buildVotehubResultsTooltip({
+        title: districtCodeLabel,
+        subtitle,
+        kicker,
+        metaChips: [
+          summary.seatLabel,
+          String(year),
+          `Lines ${currentDistrictLinesYear}`,
+          ...(idx === 0 && summary.contestType === selectedKey ? ['Selected'] : [])
+        ],
+        variant: 'state-house',
+        demName: summary.demCandidate,
+        repName: summary.repCandidate,
+        otherName: 'Other',
+        demVotes: summary.demVotes,
+        repVotes: summary.repVotes,
+        otherVotes: summary.otherVotes,
+        totalVotes: summary.totalVotes,
+        winnerName: summary.winnerName,
+        winnerParty: summary.winnerTone,
+        marginPct: Math.abs(summary.signedMarginPct),
+        winnerLineText: summary.marginCall?.text || '',
+        winnerRawLeadText: `${Math.abs(summary.repVotes - summary.demVotes).toLocaleString()} votes`,
+        districtType: subtitle,
+        showWinnerLine: true,
+        showShiftLine: false
+      })).join('<div style="height:8px;"></div>');
     }
 
     function renderDistrictElectionSectionsHTML(entries, year) {
