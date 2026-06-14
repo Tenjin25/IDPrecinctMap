@@ -11636,12 +11636,12 @@ document.addEventListener('DOMContentLoaded', function() {
       const dirs = CONFIG.paths?.district_contests_dirs || {};
       const scopeKey = (scope || '').toString().trim();
       if (y === 2026 && scopeKey && scopeKey !== 'congressional') {
-        return dirs['2024'] || dirs['2022'] || dirs[String(y)] || CONFIG.paths.district_contests_dir;
+        return dirs['2022'] || dirs[String(y)] || CONFIG.paths.district_contests_dir;
       }
       if (y === 2022) {
-        return dirs['2024'] || dirs['2022'] || CONFIG.paths.district_contests_dir;
+        return dirs['2022'] || CONFIG.paths.district_contests_dir;
       }
-      return dirs[String(y)] || dirs['2024'] || CONFIG.paths.district_contests_dir;
+      return dirs[String(y)] || dirs['2022'] || CONFIG.paths.district_contests_dir;
     }
 
     function getPreferredDistrictSlicePaths(scope, contestType, year, linesYear = currentDistrictLinesYear) {
