@@ -10323,8 +10323,8 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         election: withBase('./data/id_elections_aggregated.json'),
         district_election: withBase('./data/id_district_results.json'),
-        district_contests_dir: withBase('./data/district_contests_2022_lines'),
-        district_contests_legacy_2022_dir: withBase('./data/district_contests'),
+        district_contests_dir: withBase('./data/district_contests'),
+        district_contests_2022_lines_dir: withBase('./data/district_contests_2022_lines'),
         district_contests_2020_2024_dir: withBase('./data/district_contests_2020_2024'),
         district_contests_dirs: {
           '2022': withBase('./data/district_contests'),
@@ -11652,16 +11652,28 @@ document.addEventListener('DOMContentLoaded', function() {
       const calibrated2020Dir = (CONFIG.paths?.district_contests_2020_2024_dir || '').toString().trim();
       const baseDir = (getActiveDistrictContestsDir(linesYear, scope) || '').toString().trim();
       const legacy2022Dir = ly === 2022
-        ? ((CONFIG.paths?.district_contests_legacy_2022_dir || '').toString().trim())
+        ? (((CONFIG.paths?.district_contests_dirs?.['2022'] || CONFIG.paths.district_contests_dir || '').toString().trim()))
         : '';
+      const contestKey = canonicalizeContestType(contestType);
+      const isDirectDistrictOfficeContest = (
+        contestKey === 'us_house'
+        || contestKey === 'state_house_a'
+        || contestKey === 'state_house_b'
+        || contestKey === 'state_senate'
+      );
 
       // Prefer calibrated slices only for congressional scope on 2022 lines.
       // Legislative scopes continue to use the primary district_contests data.
-      if (ly === 2022 && scope === 'congressional' && Number.isFinite(y) && y >= 2020 && calibrated2020Dir) {
+      if (ly === 2022 && scope === 'congressional' && !isDirectDistrictOfficeContest && Number.isFinite(y) && y >= 2020 && calibrated2020Dir) {
         out.push(`${calibrated2020Dir}/${key}.json`);
       }
-      if (baseDir) out.push(`${baseDir}/${key}.json`);
-      if (legacy2022Dir) out.push(`${legacy2022Dir}/${key}.json`);
+      if (ly === 2022 && isDirectDistrictOfficeContest) {
+        if (legacy2022Dir) out.push(`${legacy2022Dir}/${key}.json`);
+        if (baseDir) out.push(`${baseDir}/${key}.json`);
+      } else {
+        if (baseDir) out.push(`${baseDir}/${key}.json`);
+        if (legacy2022Dir) out.push(`${legacy2022Dir}/${key}.json`);
+      }
 
       return Array.from(new Set(out));
     }
@@ -26559,16 +26571,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const pinnedShell = !!(tooltipPinned || (forceTooltip && isTouchInteractionMode()));
         const copyText = `${districtLabel} ${districtNum} (Lines ${currentDistrictLinesYear})`;
-        const seatsHtml = renderDistrictElectionSectionsHTML(seatEntries, Number(year));
+        const seatsHtml = renderStateHouseVotehubTooltipHTML(seatEntries, Number(year), districtNum, contestType);
         showHoverTooltip(
           e.point.x,
           e.point.y,
           buildTooltipShell(
-            `${districtLabel} ${districtNum}`,
-            `${_demoHTML}<div style="margin-top:10px;">${seatsHtml}</div>`,
-            { pinned: pinnedShell, copyText }
+            '',
+            `${seatsHtml}<div style="margin-top:10px;">${_demoHTML}</div>`,
+            { pinned: pinnedShell, showClose: pinnedShell, copyText }
           ),
-          { force: !!forceTooltip, pinned: pinnedShell, context: pinnedShell ? 'pinned' : 'detail', copyText }
+          { force: !!forceTooltip, pinned: pinnedShell, context: 'votehub-results', copyText }
         );
         wireTooltipButtons();
         return;
@@ -31252,6 +31264,100 @@ document.addEventListener('DOMContentLoaded', function() {
         } catch (_) {}
       }
       return entries;
+    }
+
+    function getStateHouseSeatLabel(contestType) {
+      const key = String(contestType || '').trim().toLowerCase();
+      if (key === 'state_house_a') return 'Seat A';
+      if (key === 'state_house_b') return 'Seat B';
+      return formatContestName(contestType, '').replace(/^State House\s*/i, '').trim() || 'Seat';
+    }
+
+    function summarizeStateHouseSeatEntry(entry, year) {
+      const row = entry?.row || {};
+      const contestType = String(entry?.contestType || '').trim().toLowerCase();
+      let demCandidate = (row.dem_candidate || '').toString().trim();
+      let repCandidate = (row.rep_candidate || '').toString().trim();
+      if (!demCandidate) demCandidate = (entry?.fallbackCandidates?.dem || '').toString().trim();
+      if (!repCandidate) repCandidate = (entry?.fallbackCandidates?.rep || '').toString().trim();
+      if (!demCandidate) demCandidate = getCandidateName(year, formatContestName(contestType, year), 'Democrat');
+      if (!repCandidate) repCandidate = getCandidateName(year, formatContestName(contestType, year), 'Republican');
+
+      const demVotes = Number(row.dem_votes || 0);
+      const repVotes = Number(row.rep_votes || 0);
+      const otherVotes = Number(row.other_votes || 0);
+      const totalVotesRaw = Number(row.total_votes);
+      const totalVotes = Number.isFinite(totalVotesRaw) && totalVotesRaw > 0
+        ? totalVotesRaw
+        : (demVotes + repVotes + otherVotes);
+      const signedMarginPct = Number.isFinite(Number(row.margin_pct))
+        ? Number(row.margin_pct)
+        : signedMarginPctFromVotes(demVotes, repVotes, totalVotes);
+      const winnerTone = signedMarginPct > 0 ? 'rep' : (signedMarginPct < 0 ? 'dem' : 'tie');
+      const winnerName = winnerTone === 'rep'
+        ? fullCandidateLabel(repCandidate, 'Republican')
+        : (winnerTone === 'dem' ? fullCandidateLabel(demCandidate, 'Democratic') : 'Tie');
+      const marginCall = winnerMarginCall(repVotes, demVotes, totalVotes, repCandidate, demCandidate, signedMarginPct);
+      return {
+        contestType,
+        seatLabel: getStateHouseSeatLabel(contestType),
+        demCandidate,
+        repCandidate,
+        demVotes,
+        repVotes,
+        otherVotes,
+        totalVotes,
+        signedMarginPct,
+        winnerTone,
+        winnerName,
+        marginCall
+      };
+    }
+
+    function renderStateHouseVotehubTooltipHTML(entries, year, districtNum, selectedContestType) {
+      if (!Array.isArray(entries) || !entries.length) {
+        return '<div style="color:#94a3b8;">No seat results for this district.</div>';
+      }
+      const selectedKey = String(selectedContestType || '').trim().toLowerCase();
+      const districtCodeLabel = formatDistrictCodeLabel('state_house', districtNum);
+      const subtitle = `State House District ${districtNum}`;
+      const kicker = getDistrictHoverKicker('state_house');
+      const summaries = entries
+        .map(entry => summarizeStateHouseSeatEntry(entry, year))
+        .sort((a, b) => {
+          const aSelected = a.contestType === selectedKey ? 1 : 0;
+          const bSelected = b.contestType === selectedKey ? 1 : 0;
+          if (aSelected !== bSelected) return bSelected - aSelected;
+          return a.seatLabel.localeCompare(b.seatLabel);
+        });
+
+      return summaries.map((summary, idx) => buildVotehubResultsTooltip({
+        title: districtCodeLabel,
+        subtitle,
+        kicker,
+        metaChips: [
+          summary.seatLabel,
+          String(year),
+          `Lines ${currentDistrictLinesYear}`,
+          ...(idx === 0 && summary.contestType === selectedKey ? ['Selected'] : [])
+        ],
+        variant: 'state-house',
+        demName: summary.demCandidate,
+        repName: summary.repCandidate,
+        otherName: 'Other',
+        demVotes: summary.demVotes,
+        repVotes: summary.repVotes,
+        otherVotes: summary.otherVotes,
+        totalVotes: summary.totalVotes,
+        winnerName: summary.winnerName,
+        winnerParty: summary.winnerTone,
+        marginPct: Math.abs(summary.signedMarginPct),
+        winnerLineText: summary.marginCall?.text || '',
+        winnerRawLeadText: `${Math.abs(summary.repVotes - summary.demVotes).toLocaleString()} votes`,
+        districtType: subtitle,
+        showWinnerLine: true,
+        showShiftLine: false
+      })).join('<div style="height:8px;"></div>');
     }
 
     function renderDistrictElectionSectionsHTML(entries, year) {
