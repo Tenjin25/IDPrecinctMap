@@ -26947,17 +26947,11 @@ document.addEventListener('DOMContentLoaded', function() {
       const pinnedShell = !!(tooltipPinned || (forceTooltip && isTouchInteractionMode()));
       const districtCodeLabel = formatDistrictCodeLabel(scope, districtNum);
       const subtitleByScope = scope === 'congressional'
-        ? `Congressional District ${districtNum}`
-        : (scope === 'state_senate' ? `State Senate District ${districtNum}` : `State House District ${districtNum}`);
-      const districtTitle = districtCodeLabel;
-      const districtVariant = scope === 'congressional'
-        ? 'congressional'
-        : (scope === 'state_senate' ? 'state-senate' : 'state-house');
-      const districtMetaChips = [
-        String(year),
-        formatContestName(contestType, year),
-        `Lines ${currentDistrictLinesYear}`
-      ];
+        ? 'Congressional District'
+        : (scope === 'state_senate' ? 'State Senate' : 'State House');
+      const districtTitle = scope === 'congressional'
+        ? districtCodeLabel
+        : `${districtLabel} ${districtNum}`;
       const winnerName = signedMarginPct > 0
         ? shortCandidateLabel(repCandidate, 'Republican')
         : (signedMarginPct < 0 ? shortCandidateLabel(demCandidate, 'Democratic') : 'Tie');
@@ -26972,9 +26966,6 @@ document.addEventListener('DOMContentLoaded', function() {
       const inner = buildVotehubResultsTooltip({
         title: districtTitle,
         subtitle: subtitleByScope,
-        kicker: getDistrictHoverKicker(scope),
-        metaChips: districtMetaChips,
-        variant: districtVariant,
         demName: demCandidate,
         repName: repCandidate,
         otherName: 'Other',
