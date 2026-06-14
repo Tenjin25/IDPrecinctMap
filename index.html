@@ -1000,6 +1000,107 @@ body.focus-active.hover-preview-active .vote-counter {
   color: #cbd5e1;
 }
 
+.hover-tooltip .district-tooltip-stack {
+  display: grid;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.hover-tooltip .district-tooltip-card {
+  padding: 12px 12px 11px;
+  border-radius: 12px;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  background: rgba(15, 23, 42, 0.28);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.hover-tooltip .district-tooltip-card.state-house {
+  border-color: rgba(217, 180, 74, 0.24);
+  background: linear-gradient(180deg, rgba(39, 31, 17, 0.5) 0%, rgba(15, 23, 42, 0.3) 100%);
+}
+
+.hover-tooltip .district-tooltip-card.state-senate {
+  border-color: rgba(120, 169, 199, 0.24);
+}
+
+.hover-tooltip .district-tooltip-card.congressional {
+  border-color: rgba(180, 87, 58, 0.24);
+}
+
+.hover-tooltip .district-tooltip-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.hover-tooltip .district-tooltip-seat {
+  display: inline-flex;
+  align-items: center;
+  min-height: 22px;
+  padding: 0 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(217, 180, 74, 0.24);
+  background: rgba(217, 180, 74, 0.12);
+  color: #f6deb1;
+  font-size: 9.5px;
+  font-weight: 900;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.hover-tooltip .district-tooltip-contest {
+  font-size: 13px;
+  font-weight: 900;
+  color: #f8fafc;
+  letter-spacing: 0.01em;
+}
+
+.hover-tooltip .district-tooltip-winner {
+  font-size: 12.5px;
+  font-weight: 900;
+  margin-bottom: 4px;
+}
+
+.hover-tooltip .district-tooltip-winner.rep,
+.hover-tooltip .district-tooltip-competitiveness.rep {
+  color: #fca5a5;
+}
+
+.hover-tooltip .district-tooltip-winner.dem,
+.hover-tooltip .district-tooltip-competitiveness.dem {
+  color: #93c5fd;
+}
+
+.hover-tooltip .district-tooltip-winner.tie,
+.hover-tooltip .district-tooltip-competitiveness.tie {
+  color: #cbd5e1;
+}
+
+.hover-tooltip .district-tooltip-margin {
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 750;
+  color: #e2e8f0;
+}
+
+.hover-tooltip .district-tooltip-total {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(148, 163, 184, 0.18);
+  font-size: 11.5px;
+  color: #cbd5e1;
+  font-weight: 700;
+}
+
+.hover-tooltip .district-tooltip-competitiveness {
+  margin-top: 8px;
+  font-size: 11.5px;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+}
+
 body.focus-active #hover-tooltip[data-context="preview"] {
   opacity: 0.82;
 }
@@ -8920,23 +9021,28 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 
   /* Ribbon + UI aesthetic polish */
   :root {
-    --state-ribbon: linear-gradient(92deg, #24537e 0%, #3e7eaf 24%, #f4efe4 50%, #6a8c57 74%, #b4573a 100%);
-    --state-accent-gradient: linear-gradient(136deg, #2d5b88 0%, #4c7a45 58%, #b4573a 100%);
-    --ui-bg: rgba(255, 255, 255, 0.95);
-    --ui-border: rgba(18, 33, 52, 0.15);
-    --ui-shadow: 0 18px 42px rgba(16, 30, 49, 0.2);
-    --ui-text: #122236;
-    --ui-muted: #54665c;
-    --ui-accent: #4c7a45;
-    --ui-accent-2: #24537e;
+    --state-ribbon: linear-gradient(90deg, #153a6b 0%, #2b6ea8 24%, #e0b24c 49%, #b98135 71%, #9a3f3b 100%);
+    --state-accent-gradient: linear-gradient(135deg, #173d70 0%, #2f6da4 38%, #d6a23a 72%, #a4473f 100%);
+    --state-deep-blue: #153a6b;
+    --state-sky-blue: #5d8fbe;
+    --state-gold: #d6a23a;
+    --state-red-earth: #a4473f;
+    --state-paper: #f7f1e2;
+    --ui-bg: rgba(248, 243, 231, 0.96);
+    --ui-border: rgba(21, 58, 107, 0.16);
+    --ui-shadow: 0 22px 48px rgba(18, 42, 72, 0.18);
+    --ui-text: #132d4c;
+    --ui-muted: #665d4c;
+    --ui-accent: #d6a23a;
+    --ui-accent-2: #2f6da4;
   }
 
   body {
     background:
-      radial-gradient(circle at 16% 10%, rgba(47, 109, 163, 0.16) 0%, rgba(47, 109, 163, 0) 44%),
-      radial-gradient(circle at 86% 9%, rgba(76, 122, 69, 0.14) 0%, rgba(76, 122, 69, 0) 40%),
-      radial-gradient(circle at 52% 104%, rgba(180, 87, 58, 0.12) 0%, rgba(180, 87, 58, 0) 36%),
-      #f3f6fb;
+      radial-gradient(circle at 12% 10%, rgba(47, 109, 164, 0.22) 0%, rgba(47, 109, 164, 0) 36%),
+      radial-gradient(circle at 86% 12%, rgba(214, 162, 58, 0.18) 0%, rgba(214, 162, 58, 0) 34%),
+      radial-gradient(circle at 52% 102%, rgba(164, 71, 63, 0.14) 0%, rgba(164, 71, 63, 0) 32%),
+      linear-gradient(180deg, #f9f4e7 0%, #eef3f8 48%, #f5eee6 100%);
   }
 
   @media (min-width: 769px) {
@@ -8944,11 +9050,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
       position: relative;
       overflow: hidden;
       background:
-        radial-gradient(circle at 14% 12%, rgba(120, 164, 216, 0.22) 0%, rgba(120, 164, 216, 0) 50%),
-        radial-gradient(circle at 88% 18%, rgba(143, 186, 115, 0.16) 0%, rgba(143, 186, 115, 0) 34%),
-        linear-gradient(145deg, rgba(13, 31, 52, 0.95) 0%, rgba(35, 76, 121, 0.84) 52%, rgba(70, 105, 61, 0.78) 78%, rgba(142, 72, 43, 0.76) 100%);
-      border: 1px solid rgba(199, 217, 241, 0.3);
-      box-shadow: 0 20px 52px rgba(15, 26, 41, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.18);
+        radial-gradient(circle at 12% 16%, rgba(113, 162, 209, 0.26) 0%, rgba(113, 162, 209, 0) 42%),
+        radial-gradient(circle at 84% 16%, rgba(226, 187, 95, 0.22) 0%, rgba(226, 187, 95, 0) 34%),
+        linear-gradient(145deg, rgba(11, 30, 56, 0.97) 0%, rgba(21, 58, 107, 0.94) 46%, rgba(44, 89, 142, 0.9) 70%, rgba(135, 67, 54, 0.82) 100%);
+      border: 1px solid rgba(214, 225, 241, 0.34);
+      box-shadow: 0 22px 56px rgba(15, 26, 41, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.2);
     }
 
     .map-topbar::before {
@@ -8965,15 +9071,15 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     }
 
     .map-topbar-badge {
-      border: 1px solid rgba(206, 226, 247, 0.32);
+      border: 1px solid rgba(233, 214, 171, 0.34);
       box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 8px 18px rgba(15, 23, 42, 0.24);
-      background: linear-gradient(130deg, rgba(180, 87, 58, 0.3) 0%, rgba(59, 103, 166, 0.24) 56%, rgba(76, 122, 69, 0.24) 100%);
+      background: linear-gradient(132deg, rgba(164, 71, 63, 0.34) 0%, rgba(214, 162, 58, 0.22) 34%, rgba(53, 104, 160, 0.24) 100%);
     }
 
     .fly-search-submit {
-      border: 1px solid rgba(213, 174, 128, 0.34);
+      border: 1px solid rgba(231, 207, 155, 0.42);
       background: var(--state-accent-gradient);
-      box-shadow: 0 10px 22px rgba(32, 70, 114, 0.3), 0 8px 18px rgba(122, 41, 54, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+      box-shadow: 0 12px 24px rgba(20, 58, 101, 0.28), 0 8px 18px rgba(122, 60, 45, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.22);
       text-shadow: 0 1px 0 rgba(15, 23, 42, 0.28);
     }
 
@@ -8983,74 +9089,48 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 
     .fly-search-chip,
     .mobile-topbar-toggle {
-      background: rgba(255, 255, 255, 0.13);
-      border-color: rgba(206, 226, 247, 0.32);
-      color: #e6edf7;
+      background: rgba(248, 237, 212, 0.12);
+      border-color: rgba(233, 214, 171, 0.28);
+      color: #f5f1e6;
     }
 
     .context-banner-item {
-      border: 1px solid rgba(206, 226, 247, 0.24);
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.11) 0%, rgba(255, 255, 255, 0.07) 100%);
+      border: 1px solid rgba(221, 209, 183, 0.22);
+      background: linear-gradient(180deg, rgba(255, 250, 239, 0.12) 0%, rgba(255, 255, 255, 0.06) 100%);
       box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
     }
 
-    .main-controls,
-    .legend,
-    .vote-counter,
-    #status-panel {
-      background: linear-gradient(180deg, rgba(249, 246, 238, 0.98) 0%, rgba(244, 239, 226, 0.95) 100%);
-      border-color: rgba(23, 55, 94, 0.18);
-      box-shadow: 0 18px 40px rgba(16, 39, 67, 0.18);
+    .map-topbar-quick-stats,
+    .recount-radar-badge {
+      border-color: rgba(233, 214, 171, 0.26);
+      background: linear-gradient(180deg, rgba(255, 247, 229, 0.14) 0%, rgba(255, 255, 255, 0.06) 100%);
+      color: #f7f0df;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
     }
 
-    .main-controls .control-group {
-      border-color: rgba(23, 55, 94, 0.14);
-      background: linear-gradient(180deg, rgba(255, 251, 243, 0.94) 0%, rgba(246, 241, 230, 0.9) 100%);
+    .map-topbar-copy strong {
+      color: #fff6de;
+      letter-spacing: 0.01em;
     }
 
-    .controls-title-pill,
-    .legend-badge {
-      background: linear-gradient(125deg, #8f2433 0%, #305f98 100%);
-      border-color: rgba(234, 220, 197, 0.62);
-      color: #f8fafc;
-      box-shadow: 0 10px 22px rgba(23, 45, 70, 0.28);
-      text-shadow: 0 1px 0 rgba(15, 23, 42, 0.24);
+    .map-topbar-copy span,
+    .context-banner-label {
+      color: rgba(244, 236, 219, 0.84);
     }
 
-    .view-toggle-btn.active,
-    .viz-mode-btn.active,
-    .mode-toggle.active {
-      background: linear-gradient(180deg, var(--ui-header-end) 0%, var(--ui-header-start) 100%);
-      border-color: rgba(217, 180, 74, 0.72);
-      color: #ffffff;
-      box-shadow: 0 10px 22px rgba(23, 55, 94, 0.24);
+    .context-banner-value {
+      color: #f8f4ea;
     }
 
-    .view-toggle-btn:not(.active),
-    .viz-mode-btn:not(.active),
-    .region-jump-btn {
-      border-color: rgba(23, 55, 94, 0.2);
-      background: rgba(255, 251, 243, 0.92);
-      color: var(--ui-text-strong);
+    .fly-search-field {
+      border-color: rgba(233, 214, 171, 0.24);
+      background: linear-gradient(180deg, rgba(250, 241, 220, 0.12) 0%, rgba(255, 255, 255, 0.08) 100%);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12);
     }
 
-    #contestSearch,
-    #contestSelect,
-    #scenario-scope,
-    #overlay-opacity-preset {
-      border-color: rgba(47, 109, 164, 0.34) !important;
-      background: linear-gradient(180deg, rgba(255, 251, 243, 0.98) 0%, rgba(244, 239, 226, 0.98) 100%) !important;
-      color: var(--ui-text-strong) !important;
-      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.84), 0 1px 2px rgba(16, 39, 67, 0.05);
-    }
-
-    #contestSearch:focus,
-    #contestSelect:focus,
-    #scenario-scope:focus,
-    #overlay-opacity-preset:focus {
-      border-color: rgba(47, 109, 164, 0.72) !important;
-      box-shadow: 0 0 0 3px rgba(120, 169, 199, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.9) !important;
-      outline: none;
+    .fly-search-field:focus-within {
+      border-color: rgba(214, 162, 58, 0.66);
+      box-shadow: 0 0 0 3px rgba(214, 162, 58, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.14);
     }
   }
 
@@ -9090,32 +9170,229 @@ body.focus-active #hover-tooltip[data-context="preview"] {
       gap: 12px;
     }
 
+    .main-controls {
+      background: linear-gradient(180deg, rgba(250, 246, 238, 0.98) 0%, rgba(244, 237, 223, 0.96) 100%);
+      border: 1px solid rgba(21, 58, 107, 0.16);
+      box-shadow: 0 22px 46px rgba(18, 42, 72, 0.16);
+    }
+
     .main-controls .control-group {
-      padding: 12px 13px;
-      border-radius: 16px;
-      border-color: rgba(23, 55, 94, 0.12);
+      border-color: rgba(21, 58, 107, 0.12);
+      background: linear-gradient(180deg, rgba(255, 251, 244, 0.96) 0%, rgba(247, 240, 227, 0.92) 100%);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.82);
     }
 
-    .main-controls .control-group label {
-      font-size: 11px;
-      font-weight: 900;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--ui-muted);
-      margin-bottom: 8px;
+    .controls-kicker,
+    .section-kicker,
+    .desktop-statewide-kicker {
+      background: rgba(21, 58, 107, 0.08);
+      color: #21496f;
     }
 
-    .main-controls input[type="search"],
-    .main-controls input[type="text"],
-    .main-controls select {
-      border-radius: 12px;
-      border-color: rgba(47, 109, 164, 0.34) !important;
+    .controls-title-pill {
+      background: linear-gradient(125deg, #173d70 0%, #2f6da4 46%, #a4473f 100%);
+      border-color: rgba(238, 214, 165, 0.72);
+      box-shadow: 0 14px 30px rgba(21, 58, 107, 0.18), 0 8px 22px rgba(164, 71, 63, 0.14), inset 0 1px 0 rgba(255, 255, 255, 0.16);
+      color: #f8fafc !important;
     }
 
-    .main-controls input[type="search"]:focus,
-    .main-controls input[type="text"]:focus,
-    .main-controls select:focus {
-      box-shadow: 0 0 0 3px rgba(120, 169, 199, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.9) !important;
+    .controls-title-pill::before {
+      background: linear-gradient(135deg, #d6a23a 0%, #f2d28b 100%);
+      box-shadow: 0 0 0 4px rgba(248, 250, 252, 0.14);
+    }
+
+    .controls-subtitle,
+    .controls-panel-note,
+    .controls-disclosure-hint,
+    .desktop-statewide-sub,
+    .desktop-statewide-placeholder {
+      color: #665d4c;
+    }
+
+    .control-summary {
+      background: linear-gradient(145deg, rgba(14, 36, 64, 0.98) 0%, rgba(24, 61, 107, 0.94) 54%, rgba(110, 60, 49, 0.9) 100%);
+      box-shadow: 0 18px 38px rgba(18, 42, 72, 0.24);
+    }
+
+    .control-summary-kicker,
+    .control-summary-pill {
+      background: rgba(250, 242, 223, 0.12);
+      color: #f8f4ea;
+      border: 1px solid rgba(233, 214, 171, 0.16);
+    }
+
+    .control-summary-mode,
+    .control-summary-pill-scenario {
+      background: rgba(214, 162, 58, 0.18);
+      color: #f9e7bd;
+      border: 1px solid rgba(233, 214, 171, 0.24);
+    }
+
+    .control-summary-pill-muted {
+      background: rgba(93, 143, 190, 0.16);
+      color: #d9e8f6;
+      border: 1px solid rgba(164, 196, 225, 0.2);
+    }
+
+    .desktop-statewide-tag {
+      background: linear-gradient(135deg, rgba(214, 162, 58, 0.16) 0%, rgba(47, 109, 164, 0.16) 100%);
+      color: #21496f;
+      border: 1px solid rgba(21, 58, 107, 0.12);
+    }
+
+    .desktop-statewide-title {
+      color: #173d70;
+    }
+
+    .view-toggle-row {
+      background: rgba(21, 58, 107, 0.05);
+      border-color: rgba(21, 58, 107, 0.12);
+    }
+
+    .view-toggle-btn,
+    .region-jump-btn {
+      border-color: rgba(21, 58, 107, 0.14);
+      background: rgba(255, 251, 243, 0.9);
+      color: #21496f;
+    }
+
+    .view-toggle-btn:hover,
+    .region-jump-btn:hover {
+      background: rgba(93, 143, 190, 0.12);
+      color: #173d70;
+    }
+
+    .view-toggle-btn.active {
+      background: linear-gradient(180deg, #173d70 0%, #0f315d 100%);
+      color: #fff8e4;
+      border-color: rgba(214, 162, 58, 0.62);
+      box-shadow: 0 12px 22px rgba(21, 58, 107, 0.18);
+    }
+
+    .viz-modes,
+    .viz-modes-inline {
+      background: linear-gradient(180deg, rgba(255, 251, 244, 0.96) 0%, rgba(247, 240, 227, 0.92) 100%);
+      border-color: rgba(21, 58, 107, 0.12);
+      box-shadow: 0 14px 28px rgba(18, 42, 72, 0.1);
+    }
+
+    .viz-mode-btn {
+      color: #4a5563;
+    }
+
+    .viz-mode-btn:hover {
+      background: rgba(21, 58, 107, 0.06);
+      color: #173d70;
+    }
+
+    .viz-mode-btn.active {
+      background: linear-gradient(180deg, #173d70 0%, #0f315d 100%);
+      color: #fff8e4;
+      box-shadow: 0 12px 24px rgba(21, 58, 107, 0.18);
+    }
+
+    #contestSearch,
+    #contestSelect,
+    #scenario-scope,
+    #overlay-opacity-preset,
+    #pop-change-metric,
+    #snapshot-variant {
+      border-color: rgba(47, 109, 164, 0.3) !important;
+      background: linear-gradient(180deg, rgba(255, 251, 243, 0.98) 0%, rgba(247, 240, 226, 0.98) 100%) !important;
+      color: #173d70 !important;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.84), 0 1px 2px rgba(18, 42, 72, 0.05);
+    }
+
+    #contestSearch:focus,
+    #contestSelect:focus,
+    #scenario-scope:focus,
+    #overlay-opacity-preset:focus,
+    #pop-change-metric:focus,
+    #snapshot-variant:focus {
+      border-color: rgba(214, 162, 58, 0.76) !important;
+      box-shadow: 0 0 0 3px rgba(214, 162, 58, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.9) !important;
+      outline: none;
+    }
+
+    .tool-chip-btn,
+    .tool-chip-btn.tool-chip-btn-ghost,
+    .tool-chip-btn.tool-chip-btn-muted,
+    #accessibility-toggle,
+    #label-toggle {
+      border-color: rgba(21, 58, 107, 0.14) !important;
+      background: rgba(255, 251, 243, 0.92) !important;
+      color: #173d70 !important;
+      box-shadow: 0 8px 18px rgba(18, 42, 72, 0.08) !important;
+    }
+
+    .tool-chip-btn:hover,
+    .tool-chip-btn.tool-chip-btn-ghost:hover,
+    .tool-chip-btn.tool-chip-btn-muted:hover,
+    #accessibility-toggle:hover,
+    #label-toggle:hover {
+      background: rgba(93, 143, 190, 0.12) !important;
+      color: #173d70 !important;
+    }
+
+    #precinct-toggle {
+      background: linear-gradient(135deg, #173d70 0%, #2f6da4 68%, #d6a23a 100%) !important;
+      color: #fff8e4 !important;
+      border-color: rgba(214, 162, 58, 0.38) !important;
+      box-shadow: 0 12px 22px rgba(21, 58, 107, 0.18) !important;
+    }
+
+    .scenario-toggle {
+      border-color: rgba(21, 58, 107, 0.12);
+      background: rgba(255, 251, 243, 0.76);
+    }
+
+    .scenario-row label,
+    .scenario-toggle {
+      color: #21496f;
+    }
+
+    .legend {
+      background: linear-gradient(180deg, rgba(250, 246, 238, 0.98) 0%, rgba(244, 237, 223, 0.96) 100%);
+      border-color: rgba(21, 58, 107, 0.16);
+      box-shadow: 0 22px 46px rgba(18, 42, 72, 0.14);
+    }
+
+    .legend-header {
+      background: linear-gradient(180deg, rgba(252, 247, 238, 0.96) 0%, rgba(245, 237, 220, 0.94) 100%);
+    }
+
+    .legend-kicker {
+      background: rgba(21, 58, 107, 0.08);
+      color: #21496f;
+    }
+
+    .legend-subtitle {
+      color: #665d4c;
+    }
+
+    .legend-badge {
+      background: linear-gradient(125deg, #173d70 0%, #2f6da4 46%, #a4473f 100%);
+      color: #f8fafc;
+      border: 1px solid rgba(238, 214, 165, 0.72);
+      box-shadow: 0 10px 20px rgba(21, 58, 107, 0.14);
+    }
+
+    .legend-item {
+      background: rgba(255, 251, 243, 0.84);
+      border: 1px solid rgba(21, 58, 107, 0.1);
+    }
+
+    #status-panel {
+      background: linear-gradient(180deg, rgba(250, 246, 238, 0.98) 0%, rgba(244, 237, 223, 0.96) 100%) !important;
+      border: 1px solid rgba(21, 58, 107, 0.16) !important;
+      color: #173d70 !important;
+      box-shadow: 0 18px 40px rgba(18, 42, 72, 0.16) !important;
+    }
+
+    #status-exit {
+      background: rgba(21, 58, 107, 0.08) !important;
+      color: #173d70 !important;
+      border: 1px solid rgba(21, 58, 107, 0.14) !important;
     }
 
     .view-toggle-btn,
@@ -9133,7 +9410,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     .tool-chip-btn:focus-visible,
     .minimize-btn:focus-visible {
       outline: none;
-      box-shadow: 0 0 0 3px rgba(120, 169, 199, 0.22);
+      box-shadow: 0 0 0 3px rgba(214, 162, 58, 0.24);
     }
 
     .vote-counter,
@@ -26527,15 +26804,19 @@ document.addEventListener('DOMContentLoaded', function() {
         const pinnedShell = !!(tooltipPinned || (forceTooltip && isTouchInteractionMode()));
         const copyText = `${districtLabel} ${districtNum} (Lines ${currentDistrictLinesYear})`;
         const seatsHtml = renderDistrictElectionSectionsHTML(seatEntries, Number(year));
+        const inner = buildVotehubStackTooltip({
+          title: formatDistrictCodeLabel(scope, districtNum),
+          subtitle: `State House District ${districtNum}`,
+          kicker: getDistrictHoverKicker(scope),
+          metaChips: [String(year), 'State House', `Lines ${currentDistrictLinesYear}`],
+          variant: 'state-house',
+          bodyHtml: `${_demoHTML}<div style="margin-top:10px;">${seatsHtml}</div>`
+        });
         showHoverTooltip(
           e.point.x,
           e.point.y,
-          buildTooltipShell(
-            `${districtLabel} ${districtNum}`,
-            `${_demoHTML}<div style="margin-top:10px;">${seatsHtml}</div>`,
-            { pinned: pinnedShell, copyText }
-          ),
-          { force: !!forceTooltip, pinned: pinnedShell, context: pinnedShell ? 'pinned' : 'detail', copyText }
+          buildTooltipShell('', inner, { pinned: pinnedShell, showClose: pinnedShell, copyText }),
+          { force: !!forceTooltip, pinned: pinnedShell, context: 'votehub-results', copyText }
         );
         wireTooltipButtons();
         return;
@@ -28718,6 +28999,37 @@ document.addEventListener('DOMContentLoaded', function() {
           ${shiftLine}
           ${rows.join('')}
           <div class="vhr-total">Total votes: ${escapeHtml(formatVotehubVotes(safeTotal))}</div>
+        </div>
+      `.trim();
+    }
+
+    function buildVotehubStackTooltip({
+      title,
+      subtitle,
+      kicker,
+      metaChips,
+      variant,
+      bodyHtml
+    } = {}) {
+      const chips = Array.isArray(metaChips)
+        ? metaChips.map(chip => String(chip || '').trim()).filter(Boolean)
+        : [];
+      const safeVariant = String(variant || '').trim().toLowerCase();
+      const variantClass = safeVariant ? ` ${escapeHtml(safeVariant)}` : '';
+      const headHtml = `
+        <div class="vhr-head">
+          ${kicker ? `<div class="vhr-kicker">${escapeHtml(String(kicker))}</div>` : ''}
+          <div class="vhr-title-row">
+            <div class="vhr-title">${escapeHtml((title || '').toString())}</div>
+            ${chips.length ? `<div class="vhr-chipbar">${chips.map(chip => `<span class="vhr-chip">${escapeHtml(chip)}</span>`).join('')}</div>` : ''}
+          </div>
+          ${subtitle ? `<div class="vhr-subtitle">${escapeHtml(String(subtitle))}</div>` : ''}
+        </div>
+      `.trim();
+      return `
+        <div class="votehub-results-card${variantClass}">
+          ${headHtml}
+          ${bodyHtml || ''}
         </div>
       `.trim();
     }
@@ -31129,25 +31441,33 @@ document.addEventListener('DOMContentLoaded', function() {
       const winName = winnerParty === 'R'
         ? fullCandidateLabel(repCandidate, 'Republican')
         : (winnerParty === 'D' ? fullCandidateLabel(demCandidate, 'Democratic') : 'Tie');
-      const winColor = winnerParty === 'R' ? '#dc2626' : (winnerParty === 'D' ? '#2563eb' : '#6b7280');
+      const winnerClass = winnerParty === 'R' ? 'rep' : (winnerParty === 'D' ? 'dem' : 'tie');
       const marginLineText = winnerCall.uncontested
         ? `Result: ${winnerCall.shortLabel}`
         : `Margin: ${winnerCall.text} <span style="color:#64748b;font-weight:600;">(${Math.abs(repVotes - demVotes).toLocaleString()} votes)</span>`;
+      const contestKey = String(contestType || '').trim().toLowerCase();
+      const cardClass = contestKey.startsWith('state_house')
+        ? 'state-house'
+        : (contestKey === 'state_senate' ? 'state-senate' : 'congressional');
+      const seatLabel = contestKey === 'state_house_a' ? 'Seat A' : (contestKey === 'state_house_b' ? 'Seat B' : '');
 
       return `
-        <div style="margin-bottom: 12px;">
-          <h5 style="margin:0 0 6px 0;">${year} ${formatContestName(contestType, year)}</h5>
-          <div style="font-size:15px;font-weight:800;color:${winColor};">Winner: ${winName} (${winnerParty})</div>
-          <div style="margin-top:4px;font-size:15px;font-weight:800;color:${winColor};">
+        <div class="district-tooltip-card ${cardClass}">
+          <div class="district-tooltip-topline">
+            <div class="district-tooltip-contest">${year} ${formatContestName(contestType, year)}</div>
+            ${seatLabel ? `<span class="district-tooltip-seat">${seatLabel}</span>` : ''}
+          </div>
+          <div class="district-tooltip-winner ${winnerClass}">Winner: ${winName} (${winnerParty})</div>
+          <div class="district-tooltip-margin">
             ${marginLineText}
           </div>
-          <div style="margin-top:8px;font-size:14px;">
+          <div style="font-size:14px;">
             <div class="tooltip-vote-line"><span style="color:#2563eb;font-weight:800;">${fullCandidateLabel(demCandidate, 'Democratic')} (D)</span>: <span class="tooltip-vote-pct">${toFixedForDisplay(demPct, 2)}%</span> (${demVotes.toLocaleString()})</div>
             <div class="tooltip-vote-line"><span style="color:#dc2626;font-weight:800;">${fullCandidateLabel(repCandidate, 'Republican')} (R)</span>: <span class="tooltip-vote-pct">${toFixedForDisplay(repPct, 2)}%</span> (${repVotes.toLocaleString()})</div>
             ${otherVotes > 0 ? `<div class="tooltip-vote-line"><span style="color:#6b7280;font-weight:800;">Other</span>: <span class="tooltip-vote-pct">${toFixedForDisplay(othPct, 2)}%</span> (${otherVotes.toLocaleString()})</div>` : ''}
-            <div style="margin-top:6px;color:#374151;font-weight:700;">Total Votes: ${totalVotes.toLocaleString()}</div>
           </div>
-          <div style="margin-top:8px;font-size:14px;font-weight:800;color:${compColor};">Competitiveness: ${compLabel}</div>
+          <div class="district-tooltip-total">Total Votes: ${totalVotes.toLocaleString()}</div>
+          <div class="district-tooltip-competitiveness ${winnerClass}">Competitiveness: ${compLabel}</div>
         </div>
       `;
     }
@@ -31225,9 +31545,9 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!Array.isArray(entries) || !entries.length) {
         return '<div style="color:#999;">No results for this district/contest.</div>';
       }
-      return entries
+      return `<div class="district-tooltip-stack">${entries
         .map(entry => renderDistrictElectionInfoHTML(entry.contestType, year, entry.row, entry.fallbackCandidates))
-        .join('');
+        .join('')}</div>`;
     }
 
     function renderDistrictTrendSectionsHTML(entries) {
