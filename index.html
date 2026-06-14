@@ -1002,8 +1002,12 @@ body.focus-active.hover-preview-active .vote-counter {
 
 .hover-tooltip .district-tooltip-stack {
   display: grid;
-  gap: 10px;
+  gap: 0;
   margin-top: 10px;
+}
+
+#hover-tooltip[data-context="votehub-results"] .district-tooltip-stack .votehub-results-card + .votehub-results-card {
+  border-top: 1px solid rgba(148,163,184,0.22);
 }
 
 .hover-tooltip .district-tooltip-card {
@@ -26803,19 +26807,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const pinnedShell = !!(tooltipPinned || (forceTooltip && isTouchInteractionMode()));
         const copyText = `${districtLabel} ${districtNum} (Lines ${currentDistrictLinesYear})`;
-        const seatsHtml = renderDistrictElectionSectionsHTML(seatEntries, Number(year));
-        const inner = buildVotehubStackTooltip({
-          title: formatDistrictCodeLabel(scope, districtNum),
-          subtitle: `State House District ${districtNum}`,
-          kicker: getDistrictHoverKicker(scope),
-          metaChips: [String(year), 'State House', `Lines ${currentDistrictLinesYear}`],
-          variant: 'state-house',
-          bodyHtml: `${_demoHTML}<div style="margin-top:10px;">${seatsHtml}</div>`
+        const seatsHtml = renderDistrictElectionSectionsHTML(seatEntries, Number(year), {
+          tooltipStyle: 'votehub',
+          subtitle: `State House District ${districtNum}`
         });
         showHoverTooltip(
           e.point.x,
           e.point.y,
-          buildTooltipShell('', inner, { pinned: pinnedShell, showClose: pinnedShell, copyText }),
+          buildTooltipShell('', seatsHtml, { pinned: pinnedShell, showClose: pinnedShell, copyText }),
           { force: !!forceTooltip, pinned: pinnedShell, context: 'votehub-results', copyText }
         );
         wireTooltipButtons();
@@ -31384,7 +31383,7 @@ document.addEventListener('DOMContentLoaded', function() {
       return results[keyA] || results[keyB] || null;
     }
 
-    function renderDistrictElectionInfoHTML(contestType, year, row, fallbackCandidates) {
+    function renderDistrictElectionInfoHTML(contestType, year, row, fallbackCandidates, options = {}) {
       if (!row) return '<div style="color:#999;">No results for this district/contest.</div>';
       const demVotes = Number(row.dem_votes || 0);
       const repVotes = Number(row.rep_votes || 0);
@@ -31450,6 +31449,26 @@ document.addEventListener('DOMContentLoaded', function() {
         ? 'state-house'
         : (contestKey === 'state_senate' ? 'state-senate' : 'congressional');
       const seatLabel = contestKey === 'state_house_a' ? 'Seat A' : (contestKey === 'state_house_b' ? 'Seat B' : '');
+      if (options?.tooltipStyle === 'votehub') {
+        const title = `${year} ${formatContestName(contestType, year)}${seatLabel ? ` ${seatLabel}` : ''}`;
+        return buildVotehubResultsTooltip({
+          title,
+          subtitle: options?.subtitle || '',
+          demName: demCandidate,
+          repName: repCandidate,
+          otherName: 'Other',
+          demVotes,
+          repVotes,
+          otherVotes,
+          totalVotes,
+          winnerName: winName,
+          winnerParty: winnerClass,
+          marginPct: Math.abs(signedMarginPct),
+          winnerLineText: marginCall?.text || '',
+          districtType: options?.subtitle || '',
+          showWinnerLine: true
+        });
+      }
 
       return `
         <div class="district-tooltip-card ${cardClass}">
@@ -31541,12 +31560,12 @@ document.addEventListener('DOMContentLoaded', function() {
       return entries;
     }
 
-    function renderDistrictElectionSectionsHTML(entries, year) {
+    function renderDistrictElectionSectionsHTML(entries, year, options = {}) {
       if (!Array.isArray(entries) || !entries.length) {
         return '<div style="color:#999;">No results for this district/contest.</div>';
       }
       return `<div class="district-tooltip-stack">${entries
-        .map(entry => renderDistrictElectionInfoHTML(entry.contestType, year, entry.row, entry.fallbackCandidates))
+        .map(entry => renderDistrictElectionInfoHTML(entry.contestType, year, entry.row, entry.fallbackCandidates, options))
         .join('')}</div>`;
     }
 
