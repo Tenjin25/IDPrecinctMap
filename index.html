@@ -10375,11 +10375,12 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         election: withBase('./data/id_elections_aggregated.json'),
         district_election: withBase('./data/id_district_results.json'),
-        district_contests_dir: withBase('./data/district_contests'),
+        district_contests_dir: withBase('./data/district_contests_2022_lines'),
         district_contests_2022_lines_dir: withBase('./data/district_contests_2022_lines'),
+        district_contests_legacy_dir: withBase('./data/district_contests'),
         district_contests_2020_2024_dir: withBase('./data/district_contests_2020_2024'),
         district_contests_dirs: {
-          '2022': withBase('./data/district_contests'),
+          '2022': withBase('./data/district_contests_2022_lines'),
           '2024': withBase('./data/district_contests_2022_lines'),
           '2026': withBase('./data/district_contests_2026_lines')
         },
@@ -11704,7 +11705,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const calibrated2020Dir = (CONFIG.paths?.district_contests_2020_2024_dir || '').toString().trim();
       const baseDir = (getActiveDistrictContestsDir(linesYear, scope) || '').toString().trim();
       const legacy2022Dir = ly === 2022
-        ? (((CONFIG.paths?.district_contests_dirs?.['2022'] || CONFIG.paths.district_contests_dir || '').toString().trim()))
+        ? (((CONFIG.paths?.district_contests_legacy_dir || '').toString().trim()))
         : '';
       const contestKey = canonicalizeContestType(contestType);
       const isDirectDistrictOfficeContest = (
