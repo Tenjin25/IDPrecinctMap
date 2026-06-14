@@ -12,7 +12,7 @@ OPENELECTIONS_DIR = ROOT / "data" / "openelections-data-id"
 CANVASS_2022_DIR = ROOT / "data" / "2022_General_Canvass" / "2022_General_Canvass"
 CONTESTS_DIR = ROOT / "data" / "contests"
 DISTRICT_CONTESTS_2022_DIR = ROOT / "data" / "district_contests"
-DISTRICT_CONTESTS_2024_DIR = ROOT / "data" / "district_contests_2024_lines"
+DISTRICT_CONTESTS_2022_DIR = ROOT / "data" / "district_contests_2022_lines"
 DISTRICT_CONTESTS_2026_DIR = ROOT / "data" / "district_contests_2026_lines"
 
 DISTRICT_YEARS = {2022, 2024}
@@ -633,12 +633,12 @@ def add_2022_district_payloads(
 def main() -> None:
     CONTESTS_DIR.mkdir(parents=True, exist_ok=True)
     DISTRICT_CONTESTS_2022_DIR.mkdir(parents=True, exist_ok=True)
-    DISTRICT_CONTESTS_2024_DIR.mkdir(parents=True, exist_ok=True)
+    DISTRICT_CONTESTS_2022_DIR.mkdir(parents=True, exist_ok=True)
     DISTRICT_CONTESTS_2026_DIR.mkdir(parents=True, exist_ok=True)
 
     contest_manifest_files: list[dict[str, object]] = []
     district_manifest_2022: list[dict[str, object]] = []
-    district_manifest_2024: list[dict[str, object]] = []
+    district_manifest_2022: list[dict[str, object]] = []
 
     add_2022_district_payloads(district_manifest_2022)
 
@@ -651,7 +651,7 @@ def main() -> None:
         for office_name, office_df in df.groupby("office", sort=True):
             if year in STATEWIDE_OTHER_YEARS:
                 parsed_statewide = parse_statewide_office(office_name, str(office_df["district"].iloc[0]))
-                if parsed_statewide and not (parsed_statewide["contest_type"] == "president" and year == 2024):
+                if parsed_statewide:
                     statewide_frames[parsed_statewide["contest_type"]] = (str(parsed_statewide["office"]), office_df.copy())
 
             district_groups: list[pd.DataFrame] = []
@@ -740,8 +740,8 @@ def main() -> None:
                     }
                 )
             elif year == 2024:
-                write_json(DISTRICT_CONTESTS_2024_DIR / file_name, payload)
-                district_manifest_2024.append(
+                write_json(DISTRICT_CONTESTS_2022_DIR / file_name, payload)
+                district_manifest_2022.append(
                     {
                         "year": year,
                         "scope": scope,
@@ -754,7 +754,7 @@ def main() -> None:
     add_existing_contest_manifest_entries(contest_manifest_files)
     write_json(CONTESTS_DIR / "manifest.json", {"files": sorted(contest_manifest_files, key=lambda x: (x["year"], x["contest_type"]))})
     write_json(DISTRICT_CONTESTS_2022_DIR / "manifest.json", {"files": sorted(district_manifest_2022, key=lambda x: (x["year"], x["scope"], x["contest_type"]))})
-    write_json(DISTRICT_CONTESTS_2024_DIR / "manifest.json", {"files": sorted(district_manifest_2024, key=lambda x: (x["year"], x["scope"], x["contest_type"]))})
+    write_json(DISTRICT_CONTESTS_2022_DIR / "manifest.json", {"files": sorted(district_manifest_2022, key=lambda x: (x["year"], x["scope"], x["contest_type"]))})
     write_json(DISTRICT_CONTESTS_2026_DIR / "manifest.json", {"files": []})
 
 

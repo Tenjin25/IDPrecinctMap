@@ -1,0 +1,584 @@
+{
+  "year": 2006,
+  "scope": "state_senate",
+  "contest_type": "governor",
+  "meta": {
+    "match_coverage_pct": 97.16,
+    "matched_precinct_keys": 925,
+    "total_precinct_keys": 952,
+    "weighted_vote_coverage_pct": 97.18,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Governor",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 4,
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 37,
+      "legacy_2008_vtd00_rows": 3,
+      "direct_2022_districtcoded_rows": 885
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 7504,
+        "rep_votes": 8333,
+        "other_votes": 503,
+        "total_votes": 16340,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 829,
+        "margin_pct": 5.0734,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 6664,
+        "rep_votes": 7198,
+        "other_votes": 505,
+        "total_votes": 14367,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 534,
+        "margin_pct": 3.7169,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 2024,
+        "rep_votes": 3086,
+        "other_votes": 177,
+        "total_votes": 5287,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 1062,
+        "margin_pct": 20.087,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "4": {
+        "dem_votes": 4697,
+        "rep_votes": 5476,
+        "other_votes": 294,
+        "total_votes": 10466,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 779,
+        "margin_pct": 7.4431,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 3277,
+        "rep_votes": 4957,
+        "other_votes": 262,
+        "total_votes": 8496,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 1680,
+        "margin_pct": 19.774,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 9144,
+        "rep_votes": 6630,
+        "other_votes": 557,
+        "total_votes": 16331,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": -2514,
+        "margin_pct": -15.394,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 7830,
+        "rep_votes": 9073,
+        "other_votes": 495,
+        "total_votes": 17398,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 1243,
+        "margin_pct": 7.1445,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 5845,
+        "rep_votes": 8025,
+        "other_votes": 444,
+        "total_votes": 14314,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2180,
+        "margin_pct": 15.2298,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 4249,
+        "rep_votes": 8360,
+        "other_votes": 401,
+        "total_votes": 13010,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 4111,
+        "margin_pct": 31.5988,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 3100,
+        "rep_votes": 4891,
+        "other_votes": 280,
+        "total_votes": 8271,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 1791,
+        "margin_pct": 21.654,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 3321,
+        "rep_votes": 4697,
+        "other_votes": 307,
+        "total_votes": 8325,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 1376,
+        "margin_pct": 16.5285,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 3519,
+        "rep_votes": 5659,
+        "other_votes": 332,
+        "total_votes": 9510,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2140,
+        "margin_pct": 22.5026,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "13": {
+        "dem_votes": 3931,
+        "rep_votes": 6377,
+        "other_votes": 376,
+        "total_votes": 10683,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2446,
+        "margin_pct": 22.8962,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "14": {
+        "dem_votes": 4016,
+        "rep_votes": 5248,
+        "other_votes": 326,
+        "total_votes": 9589,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 1232,
+        "margin_pct": 12.8481,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 5760,
+        "rep_votes": 4397,
+        "other_votes": 339,
+        "total_votes": 10496,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": -1363,
+        "margin_pct": -12.9859,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "16": {
+        "dem_votes": 8700,
+        "rep_votes": 8301,
+        "other_votes": 503,
+        "total_votes": 17504,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": -399,
+        "margin_pct": -2.2795,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "17": {
+        "dem_votes": 10516,
+        "rep_votes": 8444,
+        "other_votes": 506,
+        "total_votes": 19466,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": -2072,
+        "margin_pct": -10.6442,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "18": {
+        "dem_votes": 7859,
+        "rep_votes": 8092,
+        "other_votes": 334,
+        "total_votes": 16284,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 233,
+        "margin_pct": 1.4309,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "19": {
+        "dem_votes": 10217,
+        "rep_votes": 10041,
+        "other_votes": 493,
+        "total_votes": 20751,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": -176,
+        "margin_pct": -0.8482,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "20": {
+        "dem_votes": 918,
+        "rep_votes": 1031,
+        "other_votes": 52,
+        "total_votes": 2001,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 113,
+        "margin_pct": 5.6472,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "21": {
+        "dem_votes": 4489,
+        "rep_votes": 3298,
+        "other_votes": 259,
+        "total_votes": 8046,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": -1191,
+        "margin_pct": -14.8024,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "22": {
+        "dem_votes": 3698,
+        "rep_votes": 3865,
+        "other_votes": 233,
+        "total_votes": 7796,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 167,
+        "margin_pct": 2.1421,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "23": {
+        "dem_votes": 3471,
+        "rep_votes": 5805,
+        "other_votes": 326,
+        "total_votes": 9602,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2334,
+        "margin_pct": 24.3074,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 3101,
+        "rep_votes": 4591,
+        "other_votes": 265,
+        "total_votes": 7957,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 1490,
+        "margin_pct": 18.7257,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 6033,
+        "rep_votes": 7776,
+        "other_votes": 488,
+        "total_votes": 14296,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 1743,
+        "margin_pct": 12.1922,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 7571,
+        "rep_votes": 5706,
+        "other_votes": 382,
+        "total_votes": 13659,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": -1865,
+        "margin_pct": -13.654,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 3712,
+        "rep_votes": 8160,
+        "other_votes": 550,
+        "total_votes": 12422,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 4448,
+        "margin_pct": 35.8074,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 5178,
+        "rep_votes": 7730,
+        "other_votes": 544,
+        "total_votes": 13451,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2552,
+        "margin_pct": 18.9726,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 9217,
+        "rep_votes": 6519,
+        "other_votes": 630,
+        "total_votes": 16367,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": -2698,
+        "margin_pct": -16.4844,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 5203,
+        "rep_votes": 8039,
+        "other_votes": 589,
+        "total_votes": 13831,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 2836,
+        "margin_pct": 20.5047,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 4355,
+        "rep_votes": 10385,
+        "other_votes": 572,
+        "total_votes": 15312,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 6030,
+        "margin_pct": 39.3809,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 3328,
+        "rep_votes": 5092,
+        "other_votes": 299,
+        "total_votes": 8720,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 1764,
+        "margin_pct": 20.2294,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 7316,
+        "rep_votes": 7944,
+        "other_votes": 576,
+        "total_votes": 15835,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 628,
+        "margin_pct": 3.9659,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "34": {
+        "dem_votes": 2118,
+        "rep_votes": 5554,
+        "other_votes": 284,
+        "total_votes": 7956,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 3436,
+        "margin_pct": 43.1875,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 5517,
+        "rep_votes": 9042,
+        "other_votes": 622,
+        "total_votes": 15181,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "C.L. \"Butch\" Otter",
+        "margin": 3525,
+        "margin_pct": 23.2198,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

@@ -1,0 +1,584 @@
+{
+  "year": 2002,
+  "scope": "state_senate",
+  "contest_type": "lieutenant_governor",
+  "meta": {
+    "match_coverage_pct": 98.62,
+    "matched_precinct_keys": 929,
+    "total_precinct_keys": 942,
+    "weighted_vote_coverage_pct": 99.13,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Lieutenant Governor",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 3,
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 30,
+      "legacy_2008_vtd00_rows": 15,
+      "direct_2022_districtcoded_rows": 884
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 5149,
+        "rep_votes": 6832,
+        "other_votes": 701,
+        "total_votes": 12682,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 1683,
+        "margin_pct": 13.2708,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 6866,
+        "rep_votes": 6652,
+        "other_votes": 769,
+        "total_votes": 14287,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": -214,
+        "margin_pct": -1.4979,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 1807,
+        "rep_votes": 2538,
+        "other_votes": 265,
+        "total_votes": 4610,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 731,
+        "margin_pct": 15.8568,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "4": {
+        "dem_votes": 4663,
+        "rep_votes": 4800,
+        "other_votes": 490,
+        "total_votes": 9952,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 137,
+        "margin_pct": 1.3766,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 2958,
+        "rep_votes": 3752,
+        "other_votes": 292,
+        "total_votes": 7001,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 794,
+        "margin_pct": 11.3412,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 8042,
+        "rep_votes": 6752,
+        "other_votes": 680,
+        "total_votes": 15474,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": -1290,
+        "margin_pct": -8.3366,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 6799,
+        "rep_votes": 8360,
+        "other_votes": 609,
+        "total_votes": 15768,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 1561,
+        "margin_pct": 9.8998,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 4709,
+        "rep_votes": 7510,
+        "other_votes": 551,
+        "total_votes": 12770,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 2801,
+        "margin_pct": 21.9342,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 3750,
+        "rep_votes": 7905,
+        "other_votes": 402,
+        "total_votes": 12057,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 4155,
+        "margin_pct": 34.4613,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 2222,
+        "rep_votes": 3363,
+        "other_votes": 243,
+        "total_votes": 5828,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 1141,
+        "margin_pct": 19.5779,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 2737,
+        "rep_votes": 4185,
+        "other_votes": 271,
+        "total_votes": 7194,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 1448,
+        "margin_pct": 20.1279,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 2934,
+        "rep_votes": 4927,
+        "other_votes": 258,
+        "total_votes": 8119,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 1993,
+        "margin_pct": 24.5474,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "13": {
+        "dem_votes": 3481,
+        "rep_votes": 6219,
+        "other_votes": 318,
+        "total_votes": 10018,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 2738,
+        "margin_pct": 27.3308,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "14": {
+        "dem_votes": 3597,
+        "rep_votes": 4725,
+        "other_votes": 331,
+        "total_votes": 8653,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 1128,
+        "margin_pct": 13.0359,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 4921,
+        "rep_votes": 3927,
+        "other_votes": 437,
+        "total_votes": 9285,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": -994,
+        "margin_pct": -10.7054,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "16": {
+        "dem_votes": 8292,
+        "rep_votes": 8384,
+        "other_votes": 598,
+        "total_votes": 17274,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 92,
+        "margin_pct": 0.5326,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "17": {
+        "dem_votes": 9292,
+        "rep_votes": 8238,
+        "other_votes": 623,
+        "total_votes": 18153,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": -1054,
+        "margin_pct": -5.8062,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        },
+        "no_data": false
+      },
+      "18": {
+        "dem_votes": 7213,
+        "rep_votes": 7483,
+        "other_votes": 478,
+        "total_votes": 15173,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 270,
+        "margin_pct": 1.7795,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "19": {
+        "dem_votes": 10301,
+        "rep_votes": 9653,
+        "other_votes": 634,
+        "total_votes": 20588,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": -648,
+        "margin_pct": -3.1475,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "20": {
+        "dem_votes": 924,
+        "rep_votes": 1138,
+        "other_votes": 69,
+        "total_votes": 2131,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 214,
+        "margin_pct": 10.0422,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "21": {
+        "dem_votes": 4021,
+        "rep_votes": 3287,
+        "other_votes": 299,
+        "total_votes": 7606,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": -734,
+        "margin_pct": -9.6503,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        },
+        "no_data": false
+      },
+      "22": {
+        "dem_votes": 2830,
+        "rep_votes": 3201,
+        "other_votes": 238,
+        "total_votes": 6269,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 371,
+        "margin_pct": 5.918,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "23": {
+        "dem_votes": 2856,
+        "rep_votes": 5331,
+        "other_votes": 304,
+        "total_votes": 8491,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 2475,
+        "margin_pct": 29.1485,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 3421,
+        "rep_votes": 7591,
+        "other_votes": 404,
+        "total_votes": 11417,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 4170,
+        "margin_pct": 36.5245,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 3041,
+        "rep_votes": 5398,
+        "other_votes": 243,
+        "total_votes": 8681,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 2357,
+        "margin_pct": 27.1512,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 5052,
+        "rep_votes": 6325,
+        "other_votes": 493,
+        "total_votes": 11870,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 1273,
+        "margin_pct": 10.7245,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 3091,
+        "rep_votes": 8875,
+        "other_votes": 422,
+        "total_votes": 12388,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 5784,
+        "margin_pct": 46.6903,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 4126,
+        "rep_votes": 7803,
+        "other_votes": 450,
+        "total_votes": 12380,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 3677,
+        "margin_pct": 29.7011,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 6465,
+        "rep_votes": 6788,
+        "other_votes": 681,
+        "total_votes": 13934,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 323,
+        "margin_pct": 2.3181,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 4090,
+        "rep_votes": 8891,
+        "other_votes": 430,
+        "total_votes": 13411,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 4801,
+        "margin_pct": 35.799,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 2809,
+        "rep_votes": 9241,
+        "other_votes": 514,
+        "total_votes": 12564,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 6432,
+        "margin_pct": 51.1939,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 2144,
+        "rep_votes": 4954,
+        "other_votes": 246,
+        "total_votes": 7345,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 2810,
+        "margin_pct": 38.2573,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 5490,
+        "rep_votes": 9533,
+        "other_votes": 532,
+        "total_votes": 15555,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 4043,
+        "margin_pct": 25.9916,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "34": {
+        "dem_votes": 1229,
+        "rep_votes": 5278,
+        "other_votes": 258,
+        "total_votes": 6765,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 4049,
+        "margin_pct": 59.8522,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 4001,
+        "rep_votes": 9045,
+        "other_votes": 500,
+        "total_votes": 13547,
+        "dem_candidate": "Bruce M. Perry",
+        "rep_candidate": "Jim Risch",
+        "margin": 5044,
+        "margin_pct": 37.2333,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}
