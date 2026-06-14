@@ -1,0 +1,584 @@
+{
+  "year": 2022,
+  "scope": "state_senate",
+  "contest_type": "attorney_general",
+  "meta": {
+    "match_coverage_pct": 98.9,
+    "matched_precinct_keys": 988,
+    "total_precinct_keys": 999,
+    "weighted_vote_coverage_pct": 99.18,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Attorney General",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 2,
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 97,
+      "legacy_2008_vtd00_rows": 111,
+      "direct_2022_districtcoded_rows": 780
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 6145,
+        "rep_votes": 15332,
+        "other_votes": 0,
+        "total_votes": 21477,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 9187,
+        "margin_pct": 42.776,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 3977,
+        "rep_votes": 15577,
+        "other_votes": 0,
+        "total_votes": 19554,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 11600,
+        "margin_pct": 59.3229,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 4468,
+        "rep_votes": 16584,
+        "other_votes": 0,
+        "total_votes": 21052,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 12116,
+        "margin_pct": 57.5527,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "4": {
+        "dem_votes": 6166,
+        "rep_votes": 10715,
+        "other_votes": 0,
+        "total_votes": 16881,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 4549,
+        "margin_pct": 26.9475,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 3783,
+        "rep_votes": 13555,
+        "other_votes": 0,
+        "total_votes": 17338,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 9772,
+        "margin_pct": 56.3617,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 8391,
+        "rep_votes": 9491,
+        "other_votes": 0,
+        "total_votes": 17881,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 1100,
+        "margin_pct": 6.1518,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 6375,
+        "rep_votes": 14854,
+        "other_votes": 0,
+        "total_votes": 21230,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 8479,
+        "margin_pct": 39.9388,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 5918,
+        "rep_votes": 11176,
+        "other_votes": 0,
+        "total_votes": 17094,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 5258,
+        "margin_pct": 30.7593,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 3819,
+        "rep_votes": 12815,
+        "other_votes": 0,
+        "total_votes": 16634,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 8996,
+        "margin_pct": 54.082,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 5030,
+        "rep_votes": 14910,
+        "other_votes": 0,
+        "total_votes": 19940,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 9880,
+        "margin_pct": 49.5486,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 3827,
+        "rep_votes": 5866,
+        "other_votes": 0,
+        "total_votes": 9693,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 2039,
+        "margin_pct": 21.0358,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 4231,
+        "rep_votes": 8122,
+        "other_votes": 0,
+        "total_votes": 12353,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 3891,
+        "margin_pct": 31.4984,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "13": {
+        "dem_votes": 4321,
+        "rep_votes": 8154,
+        "other_votes": 0,
+        "total_votes": 12475,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 3833,
+        "margin_pct": 30.7255,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "14": {
+        "dem_votes": 7804,
+        "rep_votes": 16855,
+        "other_votes": 0,
+        "total_votes": 24659,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 9051,
+        "margin_pct": 36.7047,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 9940,
+        "rep_votes": 8468,
+        "other_votes": 0,
+        "total_votes": 18408,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": -1472,
+        "margin_pct": -7.9965,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        },
+        "no_data": false
+      },
+      "16": {
+        "dem_votes": 11759,
+        "rep_votes": 6023,
+        "other_votes": 0,
+        "total_votes": 17782,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": -5736,
+        "margin_pct": -32.2573,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "17": {
+        "dem_votes": 11083,
+        "rep_votes": 5977,
+        "other_votes": 0,
+        "total_votes": 17060,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": -5106,
+        "margin_pct": -29.9297,
+        "winner": "DEM",
+        "color": "#08519c",
+        "competitiveness": {
+          "color": "#08519c"
+        },
+        "no_data": false
+      },
+      "18": {
+        "dem_votes": 12612,
+        "rep_votes": 5673,
+        "other_votes": 0,
+        "total_votes": 18285,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": -6939,
+        "margin_pct": -37.9491,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "19": {
+        "dem_votes": 18085,
+        "rep_votes": 6817,
+        "other_votes": 0,
+        "total_votes": 24902,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": -11268,
+        "margin_pct": -45.2494,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "20": {
+        "dem_votes": 6888,
+        "rep_votes": 11319,
+        "other_votes": 0,
+        "total_votes": 18207,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 4431,
+        "margin_pct": 24.3368,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "21": {
+        "dem_votes": 7064,
+        "rep_votes": 10537,
+        "other_votes": 0,
+        "total_votes": 17601,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 3473,
+        "margin_pct": 19.7318,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "22": {
+        "dem_votes": 8108,
+        "rep_votes": 11513,
+        "other_votes": 0,
+        "total_votes": 19621,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 3405,
+        "margin_pct": 17.3539,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "23": {
+        "dem_votes": 4285,
+        "rep_votes": 11621,
+        "other_votes": 0,
+        "total_votes": 15906,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 7336,
+        "margin_pct": 46.121,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 5400,
+        "rep_votes": 9052,
+        "other_votes": 0,
+        "total_votes": 14452,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 3652,
+        "margin_pct": 25.2699,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 3676,
+        "rep_votes": 9027,
+        "other_votes": 0,
+        "total_votes": 12703,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 5351,
+        "margin_pct": 42.1239,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 8726,
+        "rep_votes": 7106,
+        "other_votes": 0,
+        "total_votes": 15832,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": -1620,
+        "margin_pct": -10.2324,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 2492,
+        "rep_votes": 9560,
+        "other_votes": 0,
+        "total_votes": 12052,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 7068,
+        "margin_pct": 58.6459,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 4062,
+        "rep_votes": 10331,
+        "other_votes": 0,
+        "total_votes": 14393,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 6269,
+        "margin_pct": 43.5559,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 7218,
+        "rep_votes": 7056,
+        "other_votes": 0,
+        "total_votes": 14274,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": -162,
+        "margin_pct": -1.1349,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 2963,
+        "rep_votes": 10235,
+        "other_votes": 0,
+        "total_votes": 13198,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 7272,
+        "margin_pct": 55.0993,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 3295,
+        "rep_votes": 13765,
+        "other_votes": 0,
+        "total_votes": 17061,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 10470,
+        "margin_pct": 61.368,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 2250,
+        "rep_votes": 6091,
+        "other_votes": 0,
+        "total_votes": 8341,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 3841,
+        "margin_pct": 46.0496,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 7079,
+        "rep_votes": 11384,
+        "other_votes": 0,
+        "total_votes": 18463,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 4305,
+        "margin_pct": 23.3169,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "34": {
+        "dem_votes": 1580,
+        "rep_votes": 6649,
+        "other_votes": 0,
+        "total_votes": 8229,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 5069,
+        "margin_pct": 61.5992,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 5038,
+        "rep_votes": 12079,
+        "other_votes": 0,
+        "total_votes": 17118,
+        "dem_candidate": "Tom Arkoosh",
+        "rep_candidate": "Raul Labrador",
+        "margin": 7041,
+        "margin_pct": 41.1321,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

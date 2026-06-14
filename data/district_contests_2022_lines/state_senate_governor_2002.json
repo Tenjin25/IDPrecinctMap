@@ -1,0 +1,584 @@
+{
+  "year": 2002,
+  "scope": "state_senate",
+  "contest_type": "governor",
+  "meta": {
+    "match_coverage_pct": 98.62,
+    "matched_precinct_keys": 929,
+    "total_precinct_keys": 942,
+    "weighted_vote_coverage_pct": 99.12,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Governor",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 4,
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 30,
+      "legacy_2008_vtd00_rows": 15,
+      "direct_2022_districtcoded_rows": 884
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 5640,
+        "rep_votes": 7294,
+        "other_votes": 321,
+        "total_votes": 13255,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 1654,
+        "margin_pct": 12.4783,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 6670,
+        "rep_votes": 7789,
+        "other_votes": 378,
+        "total_votes": 14837,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 1119,
+        "margin_pct": 7.542,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 1795,
+        "rep_votes": 2867,
+        "other_votes": 98,
+        "total_votes": 4761,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 1072,
+        "margin_pct": 22.5163,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "4": {
+        "dem_votes": 4313,
+        "rep_votes": 5692,
+        "other_votes": 220,
+        "total_votes": 10225,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 1379,
+        "margin_pct": 13.4866,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 2584,
+        "rep_votes": 4480,
+        "other_votes": 109,
+        "total_votes": 7174,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 1896,
+        "margin_pct": 26.4288,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 8540,
+        "rep_votes": 7213,
+        "other_votes": 337,
+        "total_votes": 16090,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": -1327,
+        "margin_pct": -8.2474,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 7283,
+        "rep_votes": 8851,
+        "other_votes": 328,
+        "total_votes": 16462,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 1568,
+        "margin_pct": 9.525,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 5209,
+        "rep_votes": 7576,
+        "other_votes": 293,
+        "total_votes": 13078,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 2367,
+        "margin_pct": 18.0991,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 4111,
+        "rep_votes": 7945,
+        "other_votes": 227,
+        "total_votes": 12283,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 3834,
+        "margin_pct": 31.2139,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 2402,
+        "rep_votes": 3363,
+        "other_votes": 136,
+        "total_votes": 5900,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 961,
+        "margin_pct": 16.2881,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 3034,
+        "rep_votes": 4160,
+        "other_votes": 157,
+        "total_votes": 7352,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 1126,
+        "margin_pct": 15.3156,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 3143,
+        "rep_votes": 4960,
+        "other_votes": 152,
+        "total_votes": 8255,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 1817,
+        "margin_pct": 22.0109,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "13": {
+        "dem_votes": 3757,
+        "rep_votes": 6215,
+        "other_votes": 196,
+        "total_votes": 10167,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 2458,
+        "margin_pct": 24.1763,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "14": {
+        "dem_votes": 4007,
+        "rep_votes": 4602,
+        "other_votes": 183,
+        "total_votes": 8791,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 595,
+        "margin_pct": 6.7683,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 5000,
+        "rep_votes": 4260,
+        "other_votes": 192,
+        "total_votes": 9452,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": -740,
+        "margin_pct": -7.829,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        },
+        "no_data": false
+      },
+      "16": {
+        "dem_votes": 8528,
+        "rep_votes": 8687,
+        "other_votes": 317,
+        "total_votes": 17532,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 159,
+        "margin_pct": 0.9069,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "17": {
+        "dem_votes": 9651,
+        "rep_votes": 8442,
+        "other_votes": 309,
+        "total_votes": 18402,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": -1209,
+        "margin_pct": -6.5699,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        },
+        "no_data": false
+      },
+      "18": {
+        "dem_votes": 7239,
+        "rep_votes": 7915,
+        "other_votes": 244,
+        "total_votes": 15397,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 676,
+        "margin_pct": 4.3905,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "19": {
+        "dem_votes": 10262,
+        "rep_votes": 10297,
+        "other_votes": 331,
+        "total_votes": 20890,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 35,
+        "margin_pct": 0.1675,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "20": {
+        "dem_votes": 966,
+        "rep_votes": 1173,
+        "other_votes": 27,
+        "total_votes": 2166,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 207,
+        "margin_pct": 9.5568,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "21": {
+        "dem_votes": 4088,
+        "rep_votes": 3434,
+        "other_votes": 159,
+        "total_votes": 7682,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": -654,
+        "margin_pct": -8.5134,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        },
+        "no_data": false
+      },
+      "22": {
+        "dem_votes": 2897,
+        "rep_votes": 3336,
+        "other_votes": 120,
+        "total_votes": 6354,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 439,
+        "margin_pct": 6.909,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "23": {
+        "dem_votes": 3009,
+        "rep_votes": 5432,
+        "other_votes": 180,
+        "total_votes": 8621,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 2423,
+        "margin_pct": 28.1058,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 4031,
+        "rep_votes": 7384,
+        "other_votes": 240,
+        "total_votes": 11655,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 3353,
+        "margin_pct": 28.7688,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 3418,
+        "rep_votes": 5326,
+        "other_votes": 126,
+        "total_votes": 8870,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 1908,
+        "margin_pct": 21.5107,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 5338,
+        "rep_votes": 6565,
+        "other_votes": 298,
+        "total_votes": 12201,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 1227,
+        "margin_pct": 10.0566,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 3408,
+        "rep_votes": 8902,
+        "other_votes": 283,
+        "total_votes": 12593,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 5494,
+        "margin_pct": 43.6274,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 4894,
+        "rep_votes": 7567,
+        "other_votes": 208,
+        "total_votes": 12668,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 2673,
+        "margin_pct": 21.1004,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 7765,
+        "rep_votes": 6221,
+        "other_votes": 328,
+        "total_votes": 14314,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": -1544,
+        "margin_pct": -10.7866,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 4858,
+        "rep_votes": 8473,
+        "other_votes": 286,
+        "total_votes": 13617,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 3615,
+        "margin_pct": 26.5477,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 3374,
+        "rep_votes": 9253,
+        "other_votes": 284,
+        "total_votes": 12911,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 5879,
+        "margin_pct": 45.5348,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 2550,
+        "rep_votes": 4813,
+        "other_votes": 128,
+        "total_votes": 7491,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 2263,
+        "margin_pct": 30.2096,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 6463,
+        "rep_votes": 9074,
+        "other_votes": 346,
+        "total_votes": 15882,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 2611,
+        "margin_pct": 16.44,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "34": {
+        "dem_votes": 1771,
+        "rep_votes": 5280,
+        "other_votes": 127,
+        "total_votes": 7178,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 3509,
+        "margin_pct": 48.8855,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 4683,
+        "rep_votes": 8923,
+        "other_votes": 260,
+        "total_votes": 13867,
+        "dem_candidate": "Jerry M. Brady",
+        "rep_candidate": "Dirk Kempthorne",
+        "margin": 4240,
+        "margin_pct": 30.5762,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

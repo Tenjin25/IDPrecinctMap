@@ -1,0 +1,584 @@
+{
+  "year": 2004,
+  "scope": "state_house",
+  "contest_type": "president",
+  "meta": {
+    "match_coverage_pct": 99.79,
+    "matched_precinct_keys": 946,
+    "total_precinct_keys": 948,
+    "weighted_vote_coverage_pct": 99.96,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "President of the United States",
+    "nongeo_allocation_mode": "precinct_population_weighted",
+    "candidate_count": 5,
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 38,
+      "legacy_2008_vtd00_rows": 22,
+      "direct_2022_districtcoded_rows": 886
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 7603,
+        "rep_votes": 13157,
+        "other_votes": 412,
+        "total_votes": 21172,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 5554,
+        "margin_pct": 26.2328,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 8952,
+        "rep_votes": 16931,
+        "other_votes": 430,
+        "total_votes": 26313,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 7979,
+        "margin_pct": 30.3234,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 5083,
+        "rep_votes": 11001,
+        "other_votes": 230,
+        "total_votes": 16314,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 5918,
+        "margin_pct": 36.2756,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "4": {
+        "dem_votes": 5248,
+        "rep_votes": 9575,
+        "other_votes": 272,
+        "total_votes": 15095,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 4327,
+        "margin_pct": 28.6651,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 3132,
+        "rep_votes": 7639,
+        "other_votes": 161,
+        "total_votes": 10933,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 4507,
+        "margin_pct": 41.2238,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 10383,
+        "rep_votes": 12664,
+        "other_votes": 500,
+        "total_votes": 23548,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 2281,
+        "margin_pct": 9.6866,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 7207,
+        "rep_votes": 15875,
+        "other_votes": 466,
+        "total_votes": 23547,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 8668,
+        "margin_pct": 36.8115,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 5331,
+        "rep_votes": 13138,
+        "other_votes": 248,
+        "total_votes": 18717,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 7807,
+        "margin_pct": 41.7107,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 3832,
+        "rep_votes": 13269,
+        "other_votes": 191,
+        "total_votes": 17292,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 9437,
+        "margin_pct": 54.5744,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 2550,
+        "rep_votes": 7360,
+        "other_votes": 118,
+        "total_votes": 10027,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 4810,
+        "margin_pct": 47.9705,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 3145,
+        "rep_votes": 7991,
+        "other_votes": 136,
+        "total_votes": 11273,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 4846,
+        "margin_pct": 42.9877,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 3148,
+        "rep_votes": 9217,
+        "other_votes": 160,
+        "total_votes": 12525,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 6069,
+        "margin_pct": 48.4551,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "13": {
+        "dem_votes": 3520,
+        "rep_votes": 10770,
+        "other_votes": 168,
+        "total_votes": 14457,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 7250,
+        "margin_pct": 50.1487,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "14": {
+        "dem_votes": 3595,
+        "rep_votes": 8443,
+        "other_votes": 159,
+        "total_votes": 12198,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 4848,
+        "margin_pct": 39.7442,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 5367,
+        "rep_votes": 7433,
+        "other_votes": 200,
+        "total_votes": 13000,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 2066,
+        "margin_pct": 15.8923,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "16": {
+        "dem_votes": 9599,
+        "rep_votes": 17221,
+        "other_votes": 329,
+        "total_votes": 27149,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 7622,
+        "margin_pct": 28.0747,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "17": {
+        "dem_votes": 10061,
+        "rep_votes": 14184,
+        "other_votes": 329,
+        "total_votes": 24574,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 4123,
+        "margin_pct": 16.7779,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "18": {
+        "dem_votes": 9104,
+        "rep_votes": 15855,
+        "other_votes": 258,
+        "total_votes": 25217,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 6751,
+        "margin_pct": 26.7716,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "19": {
+        "dem_votes": 12203,
+        "rep_votes": 20346,
+        "other_votes": 333,
+        "total_votes": 32882,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 8143,
+        "margin_pct": 24.7643,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "20": {
+        "dem_votes": 1014,
+        "rep_votes": 1921,
+        "other_votes": 23,
+        "total_votes": 2958,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 907,
+        "margin_pct": 30.6626,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "21": {
+        "dem_votes": 4135,
+        "rep_votes": 5597,
+        "other_votes": 124,
+        "total_votes": 9856,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 1462,
+        "margin_pct": 14.8336,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "22": {
+        "dem_votes": 2983,
+        "rep_votes": 5644,
+        "other_votes": 99,
+        "total_votes": 8727,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 2661,
+        "margin_pct": 30.4916,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "23": {
+        "dem_votes": 2875,
+        "rep_votes": 8793,
+        "other_votes": 153,
+        "total_votes": 11821,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 5918,
+        "margin_pct": 50.0634,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 3331,
+        "rep_votes": 10969,
+        "other_votes": 177,
+        "total_votes": 14477,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 7638,
+        "margin_pct": 52.7595,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 4544,
+        "rep_votes": 13126,
+        "other_votes": 208,
+        "total_votes": 17878,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 8582,
+        "margin_pct": 48.0031,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 7802,
+        "rep_votes": 10599,
+        "other_votes": 200,
+        "total_votes": 18601,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 2797,
+        "margin_pct": 15.0368,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 2788,
+        "rep_votes": 14149,
+        "other_votes": 218,
+        "total_votes": 17155,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 11361,
+        "margin_pct": 66.2256,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 4172,
+        "rep_votes": 13028,
+        "other_votes": 194,
+        "total_votes": 17395,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 8856,
+        "margin_pct": 50.9112,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 9464,
+        "rep_votes": 13787,
+        "other_votes": 328,
+        "total_votes": 23578,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 4323,
+        "margin_pct": 18.3349,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 3926,
+        "rep_votes": 13811,
+        "other_votes": 233,
+        "total_votes": 17970,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 9885,
+        "margin_pct": 55.0083,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 2786,
+        "rep_votes": 16050,
+        "other_votes": 246,
+        "total_votes": 19082,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 13264,
+        "margin_pct": 69.5105,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 2004,
+        "rep_votes": 8823,
+        "other_votes": 130,
+        "total_votes": 10956,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 6819,
+        "margin_pct": 62.2399,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 5392,
+        "rep_votes": 15056,
+        "other_votes": 258,
+        "total_votes": 20706,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 9664,
+        "margin_pct": 46.6725,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "34": {
+        "dem_votes": 826,
+        "rep_votes": 10692,
+        "other_votes": 118,
+        "total_votes": 11636,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 9866,
+        "margin_pct": 84.7886,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 3912,
+        "rep_votes": 14958,
+        "other_votes": 230,
+        "total_votes": 19100,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "margin": 11046,
+        "margin_pct": 57.8325,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}
