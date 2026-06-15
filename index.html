@@ -12585,8 +12585,26 @@ document.addEventListener('DOMContentLoaded', function() {
           }
         }
       } else if (nextContestSelect) {
-        nextContestSelect.value = '';
-        updateContextBanner();
+        const defaultContestValue = getDefaultContestValueForView(currentView);
+        const canApplyDefault = !!(
+          defaultContestValue &&
+          Array.from(nextContestSelect.options || []).some(opt => opt && opt.value === defaultContestValue)
+        );
+        if (canApplyDefault) {
+          nextContestSelect.value = defaultContestValue;
+          if (appReady) {
+            try {
+              await applyContest(defaultContestValue, { force: true });
+            } catch (err) {
+              console.warn('Failed to apply default district contest after district-line switch:', err?.message || err);
+              nextContestSelect.value = '';
+              updateContextBanner();
+            }
+          }
+        } else {
+          nextContestSelect.value = '';
+          updateContextBanner();
+        }
       }
 
       setStatus(`District lines set to ${getDistrictLinesLabel(nextYear)}`);
@@ -19320,8 +19338,10 @@ document.addEventListener('DOMContentLoaded', function() {
           if (modeledDef?.groupLabel) return modeledDef.groupLabel;
 	        if (contestType === 'president') return 'US President';
 	        if (contestType === 'us_senate') return 'US Senate';
+	        if (contestType === 'us_house') return 'US House';
 	        if (contestType === 'us_house_d1' || contestType === 'us_house_d2') return 'US House';
 	        if (contestType === 'state_house_a' || contestType === 'state_house_b') return 'State House';
+	        if (contestType === 'state_senate') return 'State Senate';
 	        if (contestType === 'governor') return 'Governor';
 	        if (contestType === 'lieutenant_governor') return 'Lieutenant Governor';
 	        if (contestType === 'attorney_general') return 'Attorney General';
@@ -19347,6 +19367,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	        'US President',
 	        'US Senate',
 	        'US House',
+	        'State House',
+	        'State Senate',
 	        'Governor',
 	        'Lieutenant Governor',
 	        'Attorney General',
@@ -19362,6 +19384,13 @@ document.addEventListener('DOMContentLoaded', function() {
 	        'Court of Appeals'
 	      ];
 
+	      function getPreferredContestGroupLabelsForView(view = currentView) {
+	        if (view === 'districts') return ['US House'];
+	        if (view === 'state_house') return ['State House'];
+	        if (view === 'state_senate') return ['State Senate'];
+	        return [];
+	      }
+
 	      const grouped = new Map(); // label -> Array<{contestType, year}>
 	      Object.keys(contestYearPairs).forEach(contestType => {
 	        const label = groupLabelForContestType(contestType);
@@ -19372,7 +19401,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	        });
 	      });
 
+	      const preferredLabels = getPreferredContestGroupLabelsForView();
 	      const orderedLabels = [
+	        ...preferredLabels.filter(l => grouped.has(l)),
 	        ...groupOrder.filter(l => grouped.has(l)),
 	        ...Array.from(grouped.keys()).filter(l => !groupOrder.includes(l)).sort((a, b) => a.localeCompare(b))
 	      ];
@@ -19469,6 +19500,41 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Fallback (legacy JSON/CSV mode)
       populateContestSelectFromElectionJSON(electionData);
+    }
+
+    function getDefaultContestValueForView(view = currentView) {
+      const scope = view === 'districts'
+        ? 'congressional'
+        : (view === 'state_house' ? 'state_house' : (view === 'state_senate' ? 'state_senate' : ''));
+      if (!scope) return '';
+
+      const manifestEntries = Array.isArray(getActiveDistrictManifest()) ? getActiveDistrictManifest() : [];
+      const directEntries = manifestEntries
+        .filter(entry => entry && String(entry.scope || '').trim() === scope && Number.isFinite(Number(entry.year)));
+      if (!directEntries.length) return '';
+
+      const priorityByType = {
+        us_house: 0,
+        state_house_a: 0,
+        state_house_b: 1,
+        state_senate: 0
+      };
+
+      directEntries.sort((a, b) => {
+        const ay = Number(a.year);
+        const by = Number(b.year);
+        if (ay !== by) return by - ay;
+        const ap = priorityByType[String(a.contest_type || '').trim()] ?? 99;
+        const bp = priorityByType[String(b.contest_type || '').trim()] ?? 99;
+        if (ap !== bp) return ap - bp;
+        return String(a.contest_type || '').localeCompare(String(b.contest_type || ''));
+      });
+
+      const selected = directEntries[0];
+      const contestType = String(selected?.contest_type || '').trim();
+      const year = Number(selected?.year);
+      if (!contestType || !Number.isFinite(year)) return '';
+      return `${contestType}_${year}`;
     }
 
     function populateContestSelectFromCSV(csvData) {
@@ -20283,8 +20349,24 @@ document.addEventListener('DOMContentLoaded', function() {
           updateContextBanner();
         }
       } else if (nextContestSelect) {
-        nextContestSelect.value = '';
-        updateContextBanner();
+        const defaultContestValue = getDefaultContestValueForView(view);
+        const canApplyDefault = !!(
+          defaultContestValue &&
+          Array.from(nextContestSelect.options || []).some(opt => opt && opt.value === defaultContestValue)
+        );
+        if (canApplyDefault) {
+          nextContestSelect.value = defaultContestValue;
+          try {
+            await applyContest(defaultContestValue, { force: true });
+          } catch (err) {
+            console.warn('Failed to apply default district contest while switching views:', err?.message || err);
+            nextContestSelect.value = '';
+            updateContextBanner();
+          }
+        } else {
+          nextContestSelect.value = '';
+          updateContextBanner();
+        }
       }
 
       reinforceMapLabelHalos();
