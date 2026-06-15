@@ -1063,12 +1063,13 @@ function main() {
         countyFipsByName,
         uniqueCongressionalByLegDistrict
       );
+      aggregated.year = sourceYear;
       if (!Object.keys(aggregated.general.results || {}).length) continue;
 
-      const fileName = `${CROSSWALKS[scope].prefix}_${contestType}_${aggregated.year}.json`;
+      const fileName = `${CROSSWALKS[scope].prefix}_${contestType}_${sourceYear}.json`;
       writeJson(path.join(OUT_2022_DIR, fileName), aggregated);
       new2022Entries.push({
-        year: Number(aggregated.year),
+        year: sourceYear,
         scope,
         contest_type: contestType,
         file: fileName,
@@ -1079,7 +1080,7 @@ function main() {
       if (scope === 'congressional') {
         writeJson(path.join(OUT_2026_DIR, fileName), aggregated);
         new2026Entries.push({
-          year: Number(aggregated.year),
+          year: sourceYear,
           scope,
           contest_type: contestType,
           file: fileName,
