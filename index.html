@@ -26863,11 +26863,6 @@ document.addEventListener('DOMContentLoaded', function() {
       const districtVariant = scope === 'congressional'
         ? 'congressional'
         : (scope === 'state_senate' ? 'state-senate' : 'state-house');
-      const districtMetaChips = [
-        String(year),
-        formatContestName(contestType, year),
-        `Lines ${currentDistrictLinesYear}`
-      ];
       const winnerName = signedMarginPct > 0
         ? shortCandidateLabel(repCandidate, 'Republican')
         : (signedMarginPct < 0 ? shortCandidateLabel(demCandidate, 'Democratic') : 'Tie');
@@ -26882,8 +26877,6 @@ document.addEventListener('DOMContentLoaded', function() {
       const inner = buildVotehubResultsTooltip({
         title: districtTitle,
         subtitle: subtitleByScope,
-        kicker: getDistrictHoverKicker(scope),
-        metaChips: districtMetaChips,
         variant: districtVariant,
         demName: demCandidate,
         repName: repCandidate,
@@ -31468,7 +31461,6 @@ document.addEventListener('DOMContentLoaded', function() {
       const selectedKey = String(selectedContestType || '').trim().toLowerCase();
       const districtCodeLabel = formatDistrictCodeLabel('state_house', districtNum);
       const subtitle = `State House District ${districtNum}`;
-      const kicker = getDistrictHoverKicker('state_house');
       const summaries = entries
         .map(entry => summarizeStateHouseSeatEntry(entry, year))
         .sort((a, b) => {
@@ -31478,16 +31470,9 @@ document.addEventListener('DOMContentLoaded', function() {
           return a.seatLabel.localeCompare(b.seatLabel);
         });
 
-      return summaries.map((summary, idx) => buildVotehubResultsTooltip({
-        title: districtCodeLabel,
+      return summaries.map(summary => buildVotehubResultsTooltip({
+        title: `${districtCodeLabel} ${summary.seatLabel}`.trim(),
         subtitle,
-        kicker,
-        metaChips: [
-          summary.seatLabel,
-          String(year),
-          `Lines ${currentDistrictLinesYear}`,
-          ...(idx === 0 && summary.contestType === selectedKey ? ['Selected'] : [])
-        ],
         variant: 'state-house',
         demName: summary.demCandidate,
         repName: summary.repCandidate,
