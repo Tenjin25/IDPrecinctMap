@@ -12358,6 +12358,33 @@ document.addEventListener('DOMContentLoaded', function() {
       }));
     }
 
+    function getLegacyDistrictManifestFallbackEntries(view = currentView, linesYear = currentDistrictLinesYear) {
+      if (normalizeDistrictLinesYear(linesYear) !== 2022) return [];
+      if (view !== 'state_house') return [];
+      return [
+        {
+          year: 2022,
+          scope: 'state_house',
+          contest_type: 'state_house_a',
+          file: 'state_house_state_house_a_2022.json',
+          districts: 35,
+          office: 'State House A',
+          major_party_contested: true,
+          legacy_fallback: true
+        },
+        {
+          year: 2022,
+          scope: 'state_house',
+          contest_type: 'state_house_b',
+          file: 'state_house_state_house_b_2022.json',
+          districts: 35,
+          office: 'State House B',
+          major_party_contested: true,
+          legacy_fallback: true
+        }
+      ];
+    }
+
     function mergeManifestEntriesWithModeled(entries, view = currentView) {
       const merged = [];
       const seen = new Set();
@@ -12372,6 +12399,7 @@ document.addEventListener('DOMContentLoaded', function() {
         merged.push(entry);
       };
       (Array.isArray(entries) ? entries : []).forEach(addEntry);
+      getLegacyDistrictManifestFallbackEntries(view).forEach(addEntry);
       getModeledContestManifestEntries(view).forEach(addEntry);
       return merged;
     }
@@ -18994,8 +19022,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	        return modeledDef.displayName;
 	      }
 	      const contestKey = canonicalizeContestType(contestType);
-	      if (contestKey === 'state_house_a') return 'State House Seat A';
-	      if (contestKey === 'state_house_b') return 'State House Seat B';
+	      if (contestKey === 'state_house_a') return 'State House A';
+	      if (contestKey === 'state_house_b') return 'State House B';
 	      const nameMap = {
 	        'president': 'President of the United States',
 	        'county_assessor': 'County Assessor',
@@ -19064,8 +19092,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function formatGroupedContestOptionLabel(contestType, year) {
       const key = String(contestType || '').trim().toLowerCase();
-      if (key === 'state_house_a') return `Seat A (${year})`;
-      if (key === 'state_house_b') return `Seat B (${year})`;
+      if (key === 'state_house_a') return `State House A (${year})`;
+      if (key === 'state_house_b') return `State House B (${year})`;
       if (key === 'us_house_d1') return `District 1 (${year})`;
       if (key === 'us_house_d2') return `District 2 (${year})`;
       return `${formatContestName(contestType, year)} (${year})`;
@@ -26857,8 +26885,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const pinnedShell = !!(tooltipPinned || (forceTooltip && isTouchInteractionMode()));
       const districtCodeLabel = formatDistrictCodeLabel(scope, districtNum);
       const subtitleByScope = scope === 'congressional'
-        ? `Congressional District ${districtNum}`
-        : (scope === 'state_senate' ? `State Senate District ${districtNum}` : `State House District ${districtNum}`);
+        ? 'Congressional District'
+        : (scope === 'state_senate' ? 'State Senate' : 'State House');
       const districtTitle = districtCodeLabel;
       const districtVariant = scope === 'congressional'
         ? 'congressional'
@@ -31408,8 +31436,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const metaSeatLabel = (payloadMeta?.seat_label || '').toString().trim();
       if (metaSeatLabel) return metaSeatLabel;
       const key = String(contestType || '').trim().toLowerCase();
-      if (key === 'state_house_a') return 'Seat A';
-      if (key === 'state_house_b') return 'Seat B';
+      if (key === 'state_house_a') return 'A';
+      if (key === 'state_house_b') return 'B';
       return formatContestName(contestType, '').replace(/^State House\s*/i, '').trim() || 'Seat';
     }
 
@@ -31460,7 +31488,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       const selectedKey = String(selectedContestType || '').trim().toLowerCase();
       const districtCodeLabel = formatDistrictCodeLabel('state_house', districtNum);
-      const subtitle = `State House District ${districtNum}`;
+      const subtitle = 'State House';
       const summaries = entries
         .map(entry => summarizeStateHouseSeatEntry(entry, year))
         .sort((a, b) => {

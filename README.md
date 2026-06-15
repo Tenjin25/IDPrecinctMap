@@ -60,6 +60,7 @@ There are three district contest directories in the repo:
 - the primary district contest directory is `data/district_contests_2022_lines`
 - the old `data/district_contests` directory is treated as a legacy fallback
 - 2026-line district views load from `data/district_contests_2026_lines`
+- 2022-line state house seat selectors may also pull `state_house_a` / `state_house_b` from the legacy fallback directory when those seat entries are not present in the renamed 2022-lines manifest
 
 ### Reports
 
@@ -87,6 +88,12 @@ For district views:
 - `index.html` resolves the active district-lines year
 - it selects the appropriate manifest directory from `data/district_contests_2022_lines` or `data/district_contests_2026_lines`
 - it falls back to legacy `data/district_contests` only when needed
+
+District VoteHub tooltips are intentionally compact:
+
+- top line: district code such as `CD-01`, `HD-19`, or `SD-14`
+- second line: chamber label such as `Congressional District`, `State House`, or `State Senate`
+- Idaho state house remains double-stacked for seat A / seat B, but each stacked card uses the same compact header pattern
 
 The frontend also normalizes statewide office keys so older aliases and current payload names resolve consistently:
 
@@ -260,6 +267,7 @@ Check:
 2. `CONFIG.paths.district_contests_dir`
 3. `CONFIG.paths.district_contests_dirs`
 4. the active district-lines year in the UI state
+5. whether the needed legacy 2022 state house seat files exist only in `data/district_contests` rather than `data/district_contests_2022_lines`
 
 ### A historical statewide office is missing
 
@@ -284,4 +292,3 @@ When editing this repo:
 - keep line-vintage naming explicit
 - update `index.html` path hooks when directory names or manifest layout change
 - bump the cache-buster whenever frontend-loaded assets materially change
-
