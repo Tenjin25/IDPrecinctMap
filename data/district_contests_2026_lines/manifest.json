@@ -1,3 +1,284 @@
 {
-  "files": []
+  "files": [
+    {
+      "year": 2000,
+      "scope": "congressional",
+      "contest_type": "president",
+      "file": "congressional_president_2000.json",
+      "districts": 2,
+      "office": "President of the United States"
+    },
+    {
+      "year": 2002,
+      "scope": "congressional",
+      "contest_type": "governor",
+      "file": "congressional_governor_2002.json",
+      "districts": 2,
+      "office": "Governor"
+    },
+    {
+      "year": 2002,
+      "scope": "congressional",
+      "contest_type": "lieutenant_governor",
+      "file": "congressional_lieutenant_governor_2002.json",
+      "districts": 2,
+      "office": "Lieutenant Governor"
+    },
+    {
+      "year": 2002,
+      "scope": "congressional",
+      "contest_type": "secretary_of_state",
+      "file": "congressional_secretary_of_state_2002.json",
+      "districts": 2,
+      "office": "Secretary of State"
+    },
+    {
+      "year": 2002,
+      "scope": "congressional",
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2002.json",
+      "districts": 2,
+      "office": "United States Senator"
+    },
+    {
+      "year": 2004,
+      "scope": "congressional",
+      "contest_type": "president",
+      "file": "congressional_president_2004.json",
+      "districts": 2,
+      "office": "President of the United States"
+    },
+    {
+      "year": 2004,
+      "scope": "congressional",
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2004.json",
+      "districts": 2,
+      "office": "United States Senator"
+    },
+    {
+      "year": 2006,
+      "scope": "congressional",
+      "contest_type": "governor",
+      "file": "congressional_governor_2006.json",
+      "districts": 2,
+      "office": "Governor"
+    },
+    {
+      "year": 2006,
+      "scope": "congressional",
+      "contest_type": "lieutenant_governor",
+      "file": "congressional_lieutenant_governor_2006.json",
+      "districts": 2,
+      "office": "Lieutenant Governor"
+    },
+    {
+      "year": 2006,
+      "scope": "congressional",
+      "contest_type": "state_controller",
+      "file": "congressional_state_controller_2006.json",
+      "districts": 2,
+      "office": "State Controller"
+    },
+    {
+      "year": 2008,
+      "scope": "congressional",
+      "contest_type": "president",
+      "file": "congressional_president_2008.json",
+      "districts": 2,
+      "office": "President of the United States"
+    },
+    {
+      "year": 2008,
+      "scope": "congressional",
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2008.json",
+      "districts": 2,
+      "office": "United States Senator"
+    },
+    {
+      "year": 2010,
+      "scope": "congressional",
+      "contest_type": "governor",
+      "file": "congressional_governor_2010.json",
+      "districts": 2,
+      "office": "Governor"
+    },
+    {
+      "year": 2010,
+      "scope": "congressional",
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2010.json",
+      "districts": 2,
+      "office": "United States Senator"
+    },
+    {
+      "year": 2012,
+      "scope": "congressional",
+      "contest_type": "president",
+      "file": "congressional_president_2012.json",
+      "districts": 2,
+      "office": "President of the United States"
+    },
+    {
+      "year": 2014,
+      "scope": "congressional",
+      "contest_type": "governor",
+      "file": "congressional_governor_2014.json",
+      "districts": 2,
+      "office": "Governor"
+    },
+    {
+      "year": 2014,
+      "scope": "congressional",
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2014.json",
+      "districts": 2,
+      "office": "United States Senator"
+    },
+    {
+      "year": 2016,
+      "scope": "congressional",
+      "contest_type": "president",
+      "file": "congressional_president_2016.json",
+      "districts": 2,
+      "office": "President of the United States"
+    },
+    {
+      "year": 2016,
+      "scope": "congressional",
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2016.json",
+      "districts": 2,
+      "office": "United States Senator"
+    },
+    {
+      "year": 2018,
+      "scope": "congressional",
+      "contest_type": "attorney_general",
+      "file": "congressional_attorney_general_2018.json",
+      "districts": 2,
+      "office": "Attorney General"
+    },
+    {
+      "year": 2018,
+      "scope": "congressional",
+      "contest_type": "governor",
+      "file": "congressional_governor_2018.json",
+      "districts": 2,
+      "office": "Governor"
+    },
+    {
+      "year": 2018,
+      "scope": "congressional",
+      "contest_type": "lieutenant_governor",
+      "file": "congressional_lieutenant_governor_2018.json",
+      "districts": 2,
+      "office": "Lieutenant Governor"
+    },
+    {
+      "year": 2018,
+      "scope": "congressional",
+      "contest_type": "secretary_of_state",
+      "file": "congressional_secretary_of_state_2018.json",
+      "districts": 2,
+      "office": "Secretary of State"
+    },
+    {
+      "year": 2018,
+      "scope": "congressional",
+      "contest_type": "superintendent_public_instruction",
+      "file": "congressional_superintendent_public_instruction_2018.json",
+      "districts": 2,
+      "office": "Superintendent of Public Instruction"
+    },
+    {
+      "year": 2020,
+      "scope": "congressional",
+      "contest_type": "president",
+      "file": "congressional_president_2020.json",
+      "districts": 2,
+      "office": "President of the United States"
+    },
+    {
+      "year": 2020,
+      "scope": "congressional",
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2020.json",
+      "districts": 2,
+      "office": "United States Senator"
+    },
+    {
+      "year": 2022,
+      "scope": "congressional",
+      "contest_type": "attorney_general",
+      "file": "congressional_attorney_general_2022.json",
+      "districts": 2,
+      "office": "Attorney General"
+    },
+    {
+      "year": 2022,
+      "scope": "congressional",
+      "contest_type": "governor",
+      "file": "congressional_governor_2022.json",
+      "districts": 2,
+      "office": "Governor"
+    },
+    {
+      "year": 2022,
+      "scope": "congressional",
+      "contest_type": "lieutenant_governor",
+      "file": "congressional_lieutenant_governor_2022.json",
+      "districts": 2,
+      "office": "Lieutenant Governor"
+    },
+    {
+      "year": 2022,
+      "scope": "congressional",
+      "contest_type": "secretary_of_state",
+      "file": "congressional_secretary_of_state_2022.json",
+      "districts": 2,
+      "office": "Secretary of State"
+    },
+    {
+      "year": 2022,
+      "scope": "congressional",
+      "contest_type": "state_controller",
+      "file": "congressional_state_controller_2022.json",
+      "districts": 2,
+      "office": "State Controller"
+    },
+    {
+      "year": 2022,
+      "scope": "congressional",
+      "contest_type": "state_treasurer",
+      "file": "congressional_state_treasurer_2022.json",
+      "districts": 2,
+      "office": "State Treasurer"
+    },
+    {
+      "year": 2022,
+      "scope": "congressional",
+      "contest_type": "superintendent_public_instruction",
+      "file": "congressional_superintendent_public_instruction_2022.json",
+      "districts": 2,
+      "office": "Superintendent of Public Instruction"
+    },
+    {
+      "year": 2022,
+      "scope": "congressional",
+      "contest_type": "us_senate",
+      "file": "congressional_us_senate_2022.json",
+      "districts": 2,
+      "office": "United States Senator"
+    },
+    {
+      "year": 2024,
+      "scope": "congressional",
+      "contest_type": "president",
+      "file": "congressional_president_2024.json",
+      "districts": 2,
+      "office": "President of the United States"
+    }
+  ]
 }

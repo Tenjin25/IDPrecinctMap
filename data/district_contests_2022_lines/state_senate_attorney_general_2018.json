@@ -9,6 +9,9 @@
     "weighted_vote_coverage_pct": 98.11,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "Attorney General",
+    "office_group": null,
+    "seat_label": null,
+    "seat_key": null,
     "nongeo_allocation_mode": "precinct_population_weighted",
     "candidate_count": 2,
     "precinct_basis_breakdown": {
