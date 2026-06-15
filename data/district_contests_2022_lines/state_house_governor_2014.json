@@ -9,6 +9,9 @@
     "weighted_vote_coverage_pct": 96.77,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "Governor",
+    "office_group": null,
+    "seat_label": null,
+    "seat_key": null,
     "nongeo_allocation_mode": "precinct_population_weighted",
     "candidate_count": 6,
     "precinct_basis_breakdown": {

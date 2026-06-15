@@ -546,6 +546,42 @@ def add_existing_contest_manifest_entries(contest_manifest_files: list[dict[str,
         )
 
 
+def merge_existing_district_manifest_entries(
+    manifest_path: Path,
+    manifest_files: list[dict[str, object]],
+) -> list[dict[str, object]]:
+    merged = list(manifest_files)
+    existing_keys = {
+        (
+            int(entry["year"]),
+            str(entry["scope"]),
+            str(entry["contest_type"]),
+        )
+        for entry in merged
+        if "year" in entry and "scope" in entry and "contest_type" in entry
+    }
+    if not manifest_path.exists():
+        return merged
+    try:
+        payload = json.loads(manifest_path.read_text(encoding="utf-8"))
+    except Exception:
+        return merged
+    for entry in payload.get("files") or []:
+        try:
+            key = (
+                int(entry["year"]),
+                str(entry["scope"]),
+                str(entry["contest_type"]),
+            )
+        except Exception:
+            continue
+        if key in existing_keys:
+            continue
+        merged.append(entry)
+        existing_keys.add(key)
+    return merged
+
+
 def add_2022_district_payloads(
     manifest_rows: list[dict[str, object]],
 ) -> None:
@@ -642,7 +678,6 @@ def main() -> None:
     DISTRICT_CONTESTS_2026_DIR.mkdir(parents=True, exist_ok=True)
 
     contest_manifest_files: list[dict[str, object]] = []
-    district_manifest_2022: list[dict[str, object]] = []
     district_manifest_2022: list[dict[str, object]] = []
 
     add_2022_district_payloads(district_manifest_2022)
@@ -757,10 +792,17 @@ def main() -> None:
                     }
                 )
     add_existing_contest_manifest_entries(contest_manifest_files)
+    district_manifest_2022 = merge_existing_district_manifest_entries(
+        DISTRICT_CONTESTS_2022_DIR / "manifest.json",
+        district_manifest_2022,
+    )
+    district_manifest_2026 = merge_existing_district_manifest_entries(
+        DISTRICT_CONTESTS_2026_DIR / "manifest.json",
+        [],
+    )
     write_json(CONTESTS_DIR / "manifest.json", {"files": sorted(contest_manifest_files, key=lambda x: (x["year"], x["contest_type"]))})
     write_json(DISTRICT_CONTESTS_2022_DIR / "manifest.json", {"files": sorted(district_manifest_2022, key=lambda x: (x["year"], x["scope"], x["contest_type"]))})
-    write_json(DISTRICT_CONTESTS_2022_DIR / "manifest.json", {"files": sorted(district_manifest_2022, key=lambda x: (x["year"], x["scope"], x["contest_type"]))})
-    write_json(DISTRICT_CONTESTS_2026_DIR / "manifest.json", {"files": []})
+    write_json(DISTRICT_CONTESTS_2026_DIR / "manifest.json", {"files": sorted(district_manifest_2026, key=lambda x: (x["year"], x["scope"], x["contest_type"]))})
 
 
 if __name__ == "__main__":
