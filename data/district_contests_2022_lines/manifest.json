@@ -731,6 +731,14 @@
     {
       "year": 2022,
       "scope": "state_house",
+      "contest_type": "state_house",
+      "file": "state_house_state_house_2022.json",
+      "districts": 69,
+      "office": "State House"
+    },
+    {
+      "year": 2022,
+      "scope": "state_house",
       "contest_type": "state_treasurer",
       "file": "state_house_state_treasurer_2022.json",
       "districts": 35,
@@ -819,14 +827,6 @@
     {
       "year": 2024,
       "scope": "congressional",
-      "contest_type": "president",
-      "file": "congressional_president_2024.json",
-      "districts": 2,
-      "office": "President of the United States"
-    },
-    {
-      "year": 2024,
-      "scope": "congressional",
       "contest_type": "us_house",
       "file": "congressional_us_house_2024.json",
       "districts": 2,
@@ -835,34 +835,10 @@
     {
       "year": 2024,
       "scope": "state_house",
-      "contest_type": "president",
-      "file": "state_house_president_2024.json",
-      "districts": 35,
-      "office": "President of the United States"
-    },
-    {
-      "year": 2024,
-      "scope": "state_house",
-      "contest_type": "state_house_a",
-      "file": "state_house_state_house_a_2024.json",
-      "districts": 35,
-      "office": "State House Seat A"
-    },
-    {
-      "year": 2024,
-      "scope": "state_house",
-      "contest_type": "state_house_b",
-      "file": "state_house_state_house_b_2024.json",
-      "districts": 35,
-      "office": "State House Seat B"
-    },
-    {
-      "year": 2024,
-      "scope": "state_senate",
-      "contest_type": "president",
-      "file": "state_senate_president_2024.json",
-      "districts": 35,
-      "office": "President of the United States"
+      "contest_type": "state_house",
+      "file": "state_house_state_house_2024.json",
+      "districts": 70,
+      "office": "State House"
     },
     {
       "year": 2024,

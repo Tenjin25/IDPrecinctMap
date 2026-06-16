@@ -1007,11 +1007,140 @@ function filterExistingEntries(manifest, scopeGuard = null) {
   return files.filter((entry) => {
     const scope = clean(entry.scope);
     const contestType = clean(entry.contest_type);
+    if (
+      scope === 'state_house'
+      && (contestType === 'state_house' || contestType === 'state_house_a' || contestType === 'state_house_b')
+    ) {
+      return false;
+    }
     if (scopeGuard && scope !== scopeGuard) return true;
     if (!MANAGED_SCOPES.has(scope)) return true;
     if (!MANAGED_CONTEST_TYPES.has(contestType)) return true;
     return false;
   });
+}
+
+function firstExistingPath(paths) {
+  for (const filePath of paths || []) {
+    if (filePath && fs.existsSync(filePath)) return filePath;
+  }
+  return '';
+}
+
+function buildUnifiedStateHousePayload(year, payloadA, payloadB) {
+  const seatPayloads = [
+    { seat: 'A', payload: payloadA },
+    { seat: 'B', payload: payloadB },
+  ];
+  const results = {};
+  let matchCoveragePct = null;
+  let weightedVoteCoveragePct = null;
+  const uniqueCandidates = new Set();
+
+  for (const { seat, payload } of seatPayloads) {
+    const sourceResults = payload?.general?.results || {};
+    for (const [districtKeyRaw, row] of Object.entries(sourceResults)) {
+      const districtNum = Number(row?.district_num || districtKeyRaw);
+      if (!Number.isFinite(districtNum) || districtNum <= 0) continue;
+      const districtKey = `${districtNum}${seat}`;
+      results[districtKey] = {
+        district: districtKey,
+        district_num: districtNum,
+        seat,
+        dem_votes: Number(row?.dem_votes) || 0,
+        rep_votes: Number(row?.rep_votes) || 0,
+        other_votes: Number(row?.other_votes) || 0,
+        total_votes: Number(row?.total_votes) || 0,
+        dem_candidate: clean(row?.dem_candidate),
+        rep_candidate: clean(row?.rep_candidate),
+        margin: Number(row?.margin) || 0,
+        margin_pct: Number(row?.margin_pct) || 0,
+        winner: clean(row?.winner),
+        color: clean(row?.color) || '#9ca3af',
+        competitiveness: row?.competitiveness || { color: clean(row?.color) || '#9ca3af' },
+        no_data: !!row?.no_data,
+      };
+      const demCandidate = clean(row?.dem_candidate);
+      const repCandidate = clean(row?.rep_candidate);
+      if (demCandidate) uniqueCandidates.add(demCandidate);
+      if (repCandidate) uniqueCandidates.add(repCandidate);
+    }
+    const payloadMatchCoverage = Number(payload?.meta?.match_coverage_pct);
+    if (Number.isFinite(payloadMatchCoverage)) {
+      matchCoveragePct = matchCoveragePct === null
+        ? payloadMatchCoverage
+        : Math.min(matchCoveragePct, payloadMatchCoverage);
+    }
+    const payloadVoteCoverage = Number(payload?.meta?.weighted_vote_coverage_pct);
+    if (Number.isFinite(payloadVoteCoverage)) {
+      weightedVoteCoveragePct = weightedVoteCoveragePct === null
+        ? payloadVoteCoverage
+        : Math.min(weightedVoteCoveragePct, payloadVoteCoverage);
+    }
+    const payloadCandidateCount = Number(payload?.meta?.candidate_count);
+    if (Number.isFinite(payloadCandidateCount)) {
+      for (let idx = uniqueCandidates.size; idx < payloadCandidateCount; idx += 1) {
+        uniqueCandidates.add(`candidate-${seat}-${idx}`);
+      }
+    }
+  }
+
+  return {
+    scope: 'state_house',
+    contest_type: 'state_house',
+    year: Number(year),
+    state: 'ID',
+    meta: {
+      match_coverage_pct: matchCoveragePct,
+      weighted_vote_coverage_pct: weightedVoteCoveragePct,
+      source: 'idaho_unified_state_house_seat_merge',
+      office: 'State House',
+      office_group: 'State House',
+      district_format: 'number+seat',
+      seat_labels: ['A', 'B'],
+      lines_year: 2022,
+      candidate_count: uniqueCandidates.size || null,
+    },
+    general: { results },
+  };
+}
+
+function synthesizeUnifiedStateHouseEntries(manifest2022, new2022Entries) {
+  const legacyDir = path.join(DATA_DIR, 'district_contests');
+  const years = new Set();
+  const candidateDirs = [OUT_2022_DIR, legacyDir];
+  for (const dir of candidateDirs) {
+    if (!fs.existsSync(dir)) continue;
+    for (const fileName of fs.readdirSync(dir)) {
+      const match = String(fileName).match(/^state_house_state_house_[ab]_(\d{4})\.json$/i);
+      if (match?.[1]) years.add(Number(match[1]));
+    }
+  }
+  for (const year of years) {
+    const payloadAPath = firstExistingPath([
+      path.join(OUT_2022_DIR, `state_house_state_house_a_${year}.json`),
+      path.join(legacyDir, `state_house_state_house_a_${year}.json`),
+    ]);
+    const payloadBPath = firstExistingPath([
+      path.join(OUT_2022_DIR, `state_house_state_house_b_${year}.json`),
+      path.join(legacyDir, `state_house_state_house_b_${year}.json`),
+    ]);
+    if (!payloadAPath || !payloadBPath) continue;
+    const payloadA = readJson(payloadAPath);
+    const payloadB = readJson(payloadBPath);
+    const unified = buildUnifiedStateHousePayload(year, payloadA, payloadB);
+    if (!Object.keys(unified?.general?.results || {}).length) continue;
+    const fileName = `state_house_state_house_${year}.json`;
+    writeJson(path.join(OUT_2022_DIR, fileName), unified);
+    new2022Entries.push({
+      year,
+      scope: 'state_house',
+      contest_type: 'state_house',
+      file: fileName,
+      districts: Object.keys(unified.general.results).length,
+      office: 'State House',
+    });
+  }
 }
 
 function main() {
@@ -1090,6 +1219,8 @@ function main() {
       }
     }
   }
+
+  synthesizeUnifiedStateHouseEntries(manifest2022, new2022Entries);
 
   manifest2022.files = manifest2022.files.concat(new2022Entries).sort((a, b) => {
     const yearDiff = Number(a.year) - Number(b.year);

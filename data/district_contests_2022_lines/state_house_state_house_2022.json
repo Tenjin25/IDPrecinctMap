@@ -1,0 +1,1335 @@
+{
+  "scope": "state_house",
+  "contest_type": "state_house",
+  "year": 2022,
+  "state": "ID",
+  "meta": {
+    "match_coverage_pct": null,
+    "weighted_vote_coverage_pct": null,
+    "source": "idaho_unified_state_house_seat_merge",
+    "office": "State House",
+    "office_group": "State House",
+    "district_format": "number+seat",
+    "seat_labels": [
+      "A",
+      "B"
+    ],
+    "lines_year": 2022,
+    "candidate_count": 69
+  },
+  "general": {
+    "results": {
+      "1A": {
+        "district": "1A",
+        "district_num": 1,
+        "seat": "A",
+        "dem_votes": 0,
+        "rep_votes": 36868,
+        "other_votes": 0,
+        "total_votes": 36868,
+        "dem_candidate": "",
+        "rep_candidate": "Mark Sauter",
+        "margin": 36868,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2A": {
+        "district": "2A",
+        "district_num": 2,
+        "seat": "A",
+        "dem_votes": 0,
+        "rep_votes": 33802,
+        "other_votes": 0,
+        "total_votes": 33802,
+        "dem_candidate": "",
+        "rep_candidate": "Heather Scott",
+        "margin": 33802,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "3A": {
+        "district": "3A",
+        "district_num": 3,
+        "seat": "A",
+        "dem_votes": 0,
+        "rep_votes": 17287,
+        "other_votes": 0,
+        "total_votes": 17287,
+        "dem_candidate": "",
+        "rep_candidate": "Vito Barbieri",
+        "margin": 17287,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "4A": {
+        "district": "4A",
+        "district_num": 4,
+        "seat": "A",
+        "dem_votes": 6048,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 6048,
+        "dem_candidate": "Megan Dardis-Kunz",
+        "rep_candidate": "",
+        "margin": -6048,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "5A": {
+        "district": "5A",
+        "district_num": 5,
+        "seat": "A",
+        "dem_votes": 3696,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 3696,
+        "dem_candidate": "Kristy Reed Johnson",
+        "rep_candidate": "",
+        "margin": -3696,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "6A": {
+        "district": "6A",
+        "district_num": 6,
+        "seat": "A",
+        "dem_votes": 16316,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 16316,
+        "dem_candidate": "Trish Carter-Goodheart",
+        "rep_candidate": "",
+        "margin": -16316,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "7A": {
+        "district": "7A",
+        "district_num": 7,
+        "seat": "A",
+        "dem_votes": 0,
+        "rep_votes": 31018,
+        "other_votes": 0,
+        "total_votes": 31018,
+        "dem_candidate": "",
+        "rep_candidate": "Mike Kingsley",
+        "margin": 31018,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "8A": {
+        "district": "8A",
+        "district_num": 8,
+        "seat": "A",
+        "dem_votes": 0,
+        "rep_votes": 24320,
+        "other_votes": 0,
+        "total_votes": 24320,
+        "dem_candidate": "",
+        "rep_candidate": "Matthew \"Matt\" Bundy",
+        "margin": 24320,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "9A": {
+        "district": "9A",
+        "district_num": 9,
+        "seat": "A",
+        "dem_votes": 0,
+        "rep_votes": 29242,
+        "other_votes": 0,
+        "total_votes": 29242,
+        "dem_candidate": "",
+        "rep_candidate": "Jacyn Gallagher",
+        "margin": 29242,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10A": {
+        "district": "10A",
+        "district_num": 10,
+        "seat": "A",
+        "dem_votes": 0,
+        "rep_votes": 33996,
+        "other_votes": 0,
+        "total_votes": 33996,
+        "dem_candidate": "",
+        "rep_candidate": "Mike Moyle",
+        "margin": 33996,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "11A": {
+        "district": "11A",
+        "district_num": 11,
+        "seat": "A",
+        "dem_votes": 2828,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 2828,
+        "dem_candidate": "Robert Scoville",
+        "rep_candidate": "",
+        "margin": -2828,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "12A": {
+        "district": "12A",
+        "district_num": 12,
+        "seat": "A",
+        "dem_votes": 0,
+        "rep_votes": 10053,
+        "other_votes": 0,
+        "total_votes": 10053,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Cornilles",
+        "margin": 10053,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "13A": {
+        "district": "13A",
+        "district_num": 13,
+        "seat": "A",
+        "dem_votes": 0,
+        "rep_votes": 9476,
+        "other_votes": 0,
+        "total_votes": 9476,
+        "dem_candidate": "",
+        "rep_candidate": "Brent J. Crane",
+        "margin": 9476,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "14A": {
+        "district": "14A",
+        "district_num": 14,
+        "seat": "A",
+        "dem_votes": 11838,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 11838,
+        "dem_candidate": "Crystal Ivie",
+        "rep_candidate": "",
+        "margin": -11838,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "15A": {
+        "district": "15A",
+        "district_num": 15,
+        "seat": "A",
+        "dem_votes": 9739,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 9739,
+        "dem_candidate": "Steve Berch",
+        "rep_candidate": "",
+        "margin": -9739,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "16A": {
+        "district": "16A",
+        "district_num": 16,
+        "seat": "A",
+        "dem_votes": 10118,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 10118,
+        "dem_candidate": "Sonia Galaviz",
+        "rep_candidate": "",
+        "margin": -10118,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "17A": {
+        "district": "17A",
+        "district_num": 17,
+        "seat": "A",
+        "dem_votes": 10341,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 10341,
+        "dem_candidate": "John Gannon",
+        "rep_candidate": "",
+        "margin": -10341,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "18A": {
+        "district": "18A",
+        "district_num": 18,
+        "seat": "A",
+        "dem_votes": 11935,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 11935,
+        "dem_candidate": "Ilana Rubel",
+        "rep_candidate": "",
+        "margin": -11935,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "19A": {
+        "district": "19A",
+        "district_num": 19,
+        "seat": "A",
+        "dem_votes": 16838,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 16838,
+        "dem_candidate": "Lauren Necochea",
+        "rep_candidate": "",
+        "margin": -16838,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "20A": {
+        "district": "20A",
+        "district_num": 20,
+        "seat": "A",
+        "dem_votes": 0,
+        "rep_votes": 13634,
+        "other_votes": 0,
+        "total_votes": 13634,
+        "dem_candidate": "",
+        "rep_candidate": "Joe Palmer",
+        "margin": 13634,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "21A": {
+        "district": "21A",
+        "district_num": 21,
+        "seat": "A",
+        "dem_votes": 5191,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 5191,
+        "dem_candidate": "Josi Christensen",
+        "rep_candidate": "",
+        "margin": -5191,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "22A": {
+        "district": "22A",
+        "district_num": 22,
+        "seat": "A",
+        "dem_votes": 13838,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 13838,
+        "dem_candidate": "Natalie R. MacLachlan",
+        "rep_candidate": "",
+        "margin": -13838,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "23A": {
+        "district": "23A",
+        "district_num": 23,
+        "seat": "A",
+        "dem_votes": 0,
+        "rep_votes": 27232,
+        "other_votes": 0,
+        "total_votes": 27232,
+        "dem_candidate": "",
+        "rep_candidate": "Melissa Durrant",
+        "margin": 27232,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24A": {
+        "district": "24A",
+        "district_num": 24,
+        "seat": "A",
+        "dem_votes": 0,
+        "rep_votes": 26560,
+        "other_votes": 0,
+        "total_votes": 26560,
+        "dem_candidate": "",
+        "rep_candidate": "Chenele Dixon",
+        "margin": 26560,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "25A": {
+        "district": "25A",
+        "district_num": 25,
+        "seat": "A",
+        "dem_votes": 0,
+        "rep_votes": 9314,
+        "other_votes": 0,
+        "total_votes": 9314,
+        "dem_candidate": "",
+        "rep_candidate": "Lance Clow",
+        "margin": 9314,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "26A": {
+        "district": "26A",
+        "district_num": 26,
+        "seat": "A",
+        "dem_votes": 15924,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 15924,
+        "dem_candidate": "Ned Burns",
+        "rep_candidate": "",
+        "margin": -15924,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "27A": {
+        "district": "27A",
+        "district_num": 27,
+        "seat": "A",
+        "dem_votes": 0,
+        "rep_votes": 22450,
+        "other_votes": 0,
+        "total_votes": 22450,
+        "dem_candidate": "",
+        "rep_candidate": "Douglas T Pickett",
+        "margin": 22450,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28A": {
+        "district": "28A",
+        "district_num": 28,
+        "seat": "A",
+        "dem_votes": 0,
+        "rep_votes": 26172,
+        "other_votes": 0,
+        "total_votes": 26172,
+        "dem_candidate": "",
+        "rep_candidate": "Richard \"Rick\" Cheatum",
+        "margin": 26172,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "29A": {
+        "district": "29A",
+        "district_num": 29,
+        "seat": "A",
+        "dem_votes": 6931,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 6931,
+        "dem_candidate": "Mary Shea",
+        "rep_candidate": "",
+        "margin": -6931,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "30A": {
+        "district": "30A",
+        "district_num": 30,
+        "seat": "A",
+        "dem_votes": 0,
+        "rep_votes": 23304,
+        "other_votes": 0,
+        "total_votes": 23304,
+        "dem_candidate": "",
+        "rep_candidate": "David Cannon",
+        "margin": 23304,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "31A": {
+        "district": "31A",
+        "district_num": 31,
+        "seat": "A",
+        "dem_votes": 4698,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 4698,
+        "dem_candidate": "Connie Delaney",
+        "rep_candidate": "",
+        "margin": -4698,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "32A": {
+        "district": "32A",
+        "district_num": 32,
+        "seat": "A",
+        "dem_votes": 0,
+        "rep_votes": 10227,
+        "other_votes": 0,
+        "total_votes": 10227,
+        "dem_candidate": "",
+        "rep_candidate": "Stephanie Jo Mickelsen",
+        "margin": 10227,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "33A": {
+        "district": "33A",
+        "district_num": 33,
+        "seat": "A",
+        "dem_votes": 5200,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 5200,
+        "dem_candidate": "Miranda Marquit",
+        "rep_candidate": "",
+        "margin": -5200,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "34A": {
+        "district": "34A",
+        "district_num": 34,
+        "seat": "A",
+        "dem_votes": 0,
+        "rep_votes": 7224,
+        "other_votes": 0,
+        "total_votes": 7224,
+        "dem_candidate": "",
+        "rep_candidate": "Jon O. Weber",
+        "margin": 7224,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "35A": {
+        "district": "35A",
+        "district_num": 35,
+        "seat": "A",
+        "dem_votes": 0,
+        "rep_votes": 27040,
+        "other_votes": 0,
+        "total_votes": 27040,
+        "dem_candidate": "",
+        "rep_candidate": "Kevin Andrus",
+        "margin": 27040,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "1B": {
+        "district": "1B",
+        "district_num": 1,
+        "seat": "B",
+        "dem_votes": 0,
+        "rep_votes": 35002,
+        "other_votes": 0,
+        "total_votes": 35002,
+        "dem_candidate": "",
+        "rep_candidate": "Sage G. Dixon",
+        "margin": 35002,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "2B": {
+        "district": "2B",
+        "district_num": 2,
+        "seat": "B",
+        "dem_votes": 0,
+        "rep_votes": 31074,
+        "other_votes": 0,
+        "total_votes": 31074,
+        "dem_candidate": "",
+        "rep_candidate": "Dale Hawkins",
+        "margin": 31074,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "3B": {
+        "district": "3B",
+        "district_num": 3,
+        "seat": "B",
+        "dem_votes": 0,
+        "rep_votes": 17464,
+        "other_votes": 0,
+        "total_votes": 17464,
+        "dem_candidate": "",
+        "rep_candidate": "Jordan Redman",
+        "margin": 17464,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "4B": {
+        "district": "4B",
+        "district_num": 4,
+        "seat": "B",
+        "dem_votes": 6493,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 6493,
+        "dem_candidate": "Larry Bieber",
+        "rep_candidate": "",
+        "margin": -6493,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "5B": {
+        "district": "5B",
+        "district_num": 5,
+        "seat": "B",
+        "dem_votes": 3633,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 3633,
+        "dem_candidate": "Teresa Borrenpohl",
+        "rep_candidate": "",
+        "margin": -3633,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "6B": {
+        "district": "6B",
+        "district_num": 6,
+        "seat": "B",
+        "dem_votes": 17908,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 17908,
+        "dem_candidate": "Tim Gresback",
+        "rep_candidate": "",
+        "margin": -17908,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "7B": {
+        "district": "7B",
+        "district_num": 7,
+        "seat": "B",
+        "dem_votes": 0,
+        "rep_votes": 30998,
+        "other_votes": 0,
+        "total_votes": 30998,
+        "dem_candidate": "",
+        "rep_candidate": "Charlie Shepherd",
+        "margin": 30998,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "8B": {
+        "district": "8B",
+        "district_num": 8,
+        "seat": "B",
+        "dem_votes": 0,
+        "rep_votes": 25208,
+        "other_votes": 0,
+        "total_votes": 25208,
+        "dem_candidate": "",
+        "rep_candidate": "Megan C. Blanksma",
+        "margin": 25208,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "9B": {
+        "district": "9B",
+        "district_num": 9,
+        "seat": "B",
+        "dem_votes": 0,
+        "rep_votes": 28548,
+        "other_votes": 0,
+        "total_votes": 28548,
+        "dem_candidate": "",
+        "rep_candidate": "Judy Boyle",
+        "margin": 28548,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "10B": {
+        "district": "10B",
+        "district_num": 10,
+        "seat": "B",
+        "dem_votes": 0,
+        "rep_votes": 33900,
+        "other_votes": 0,
+        "total_votes": 33900,
+        "dem_candidate": "",
+        "rep_candidate": "Bruce D. Skaug",
+        "margin": 33900,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "11B": {
+        "district": "11B",
+        "district_num": 11,
+        "seat": "B",
+        "dem_votes": 3131,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 3131,
+        "dem_candidate": "Marisela Pesina",
+        "rep_candidate": "",
+        "margin": -3131,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "12B": {
+        "district": "12B",
+        "district_num": 12,
+        "seat": "B",
+        "dem_votes": 0,
+        "rep_votes": 9960,
+        "other_votes": 0,
+        "total_votes": 9960,
+        "dem_candidate": "",
+        "rep_candidate": "Jaron Crane",
+        "margin": 9960,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "13B": {
+        "district": "13B",
+        "district_num": 13,
+        "seat": "B",
+        "dem_votes": 0,
+        "rep_votes": 10113,
+        "other_votes": 0,
+        "total_votes": 10113,
+        "dem_candidate": "",
+        "rep_candidate": "Kenny Wroten",
+        "margin": 10113,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "14B": {
+        "district": "14B",
+        "district_num": 14,
+        "seat": "B",
+        "dem_votes": 12586,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 12586,
+        "dem_candidate": "Shelley Brock",
+        "rep_candidate": "",
+        "margin": -12586,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "15B": {
+        "district": "15B",
+        "district_num": 15,
+        "seat": "B",
+        "dem_votes": 8643,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 8643,
+        "dem_candidate": "Jeff Nafsinger",
+        "rep_candidate": "",
+        "margin": -8643,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "16B": {
+        "district": "16B",
+        "district_num": 16,
+        "seat": "B",
+        "dem_votes": 10618,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 10618,
+        "dem_candidate": "Colin Nash",
+        "rep_candidate": "",
+        "margin": -10618,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "17B": {
+        "district": "17B",
+        "district_num": 17,
+        "seat": "B",
+        "dem_votes": 10325,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 10325,
+        "dem_candidate": "Sue Chew",
+        "rep_candidate": "",
+        "margin": -10325,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "18B": {
+        "district": "18B",
+        "district_num": 18,
+        "seat": "B",
+        "dem_votes": 11756,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 11756,
+        "dem_candidate": "Brooke Green",
+        "rep_candidate": "",
+        "margin": -11756,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "19B": {
+        "district": "19B",
+        "district_num": 19,
+        "seat": "B",
+        "dem_votes": 16916,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 16916,
+        "dem_candidate": "Chris Mathias",
+        "rep_candidate": "",
+        "margin": -16916,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "20B": {
+        "district": "20B",
+        "district_num": 20,
+        "seat": "B",
+        "dem_votes": 0,
+        "rep_votes": 13602,
+        "other_votes": 0,
+        "total_votes": 13602,
+        "dem_candidate": "",
+        "rep_candidate": "James D Holtzclaw",
+        "margin": 13602,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "21B": {
+        "district": "21B",
+        "district_num": 21,
+        "seat": "B",
+        "dem_votes": 0,
+        "rep_votes": 13565,
+        "other_votes": 0,
+        "total_votes": 13565,
+        "dem_candidate": "",
+        "rep_candidate": "Jeff Ehlers",
+        "margin": 13565,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "23B": {
+        "district": "23B",
+        "district_num": 23,
+        "seat": "B",
+        "dem_votes": 0,
+        "rep_votes": 27012,
+        "other_votes": 0,
+        "total_votes": 27012,
+        "dem_candidate": "",
+        "rep_candidate": "Tina Lambert",
+        "margin": 27012,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24B": {
+        "district": "24B",
+        "district_num": 24,
+        "seat": "B",
+        "dem_votes": 0,
+        "rep_votes": 26580,
+        "other_votes": 0,
+        "total_votes": 26580,
+        "dem_candidate": "",
+        "rep_candidate": "Steve Miller",
+        "margin": 26580,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "25B": {
+        "district": "25B",
+        "district_num": 25,
+        "seat": "B",
+        "dem_votes": 0,
+        "rep_votes": 8278,
+        "other_votes": 0,
+        "total_votes": 8278,
+        "dem_candidate": "",
+        "rep_candidate": "Gregory Lanting",
+        "margin": 8278,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "26B": {
+        "district": "26B",
+        "district_num": 26,
+        "seat": "B",
+        "dem_votes": 15668,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 15668,
+        "dem_candidate": "Karma Metzler Fitzgerald",
+        "rep_candidate": "",
+        "margin": -15668,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "27B": {
+        "district": "27B",
+        "district_num": 27,
+        "seat": "B",
+        "dem_votes": 0,
+        "rep_votes": 22114,
+        "other_votes": 0,
+        "total_votes": 22114,
+        "dem_candidate": "",
+        "rep_candidate": "Clay Handy",
+        "margin": 22114,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28B": {
+        "district": "28B",
+        "district_num": 28,
+        "seat": "B",
+        "dem_votes": 0,
+        "rep_votes": 25972,
+        "other_votes": 0,
+        "total_votes": 25972,
+        "dem_candidate": "",
+        "rep_candidate": "Dan Garner",
+        "margin": 25972,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "29B": {
+        "district": "29B",
+        "district_num": 29,
+        "seat": "B",
+        "dem_votes": 7321,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 7321,
+        "dem_candidate": "Nate Roberts",
+        "rep_candidate": "",
+        "margin": -7321,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "30B": {
+        "district": "30B",
+        "district_num": 30,
+        "seat": "B",
+        "dem_votes": 8108,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 8108,
+        "dem_candidate": "Travis Oler",
+        "rep_candidate": "",
+        "margin": -8108,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "31B": {
+        "district": "31B",
+        "district_num": 31,
+        "seat": "B",
+        "dem_votes": 4632,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 4632,
+        "dem_candidate": "Wayne Talmadge",
+        "rep_candidate": "",
+        "margin": -4632,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
+        },
+        "no_data": false
+      },
+      "32B": {
+        "district": "32B",
+        "district_num": 32,
+        "seat": "B",
+        "dem_votes": 0,
+        "rep_votes": 10258,
+        "other_votes": 0,
+        "total_votes": 10258,
+        "dem_candidate": "",
+        "rep_candidate": "Wendy Horman",
+        "margin": 10258,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "33B": {
+        "district": "33B",
+        "district_num": 33,
+        "seat": "B",
+        "dem_votes": 0,
+        "rep_votes": 8649,
+        "other_votes": 0,
+        "total_votes": 8649,
+        "dem_candidate": "",
+        "rep_candidate": "Marco Erickson",
+        "margin": 8649,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "34B": {
+        "district": "34B",
+        "district_num": 34,
+        "seat": "B",
+        "dem_votes": 0,
+        "rep_votes": 7099,
+        "other_votes": 0,
+        "total_votes": 7099,
+        "dem_candidate": "",
+        "rep_candidate": "Britt Raybould",
+        "margin": 7099,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "35B": {
+        "district": "35B",
+        "district_num": 35,
+        "seat": "B",
+        "dem_votes": 0,
+        "rep_votes": 27194,
+        "other_votes": 0,
+        "total_votes": 27194,
+        "dem_candidate": "",
+        "rep_candidate": "Josh Wheeler",
+        "margin": 27194,
+        "margin_pct": 100,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

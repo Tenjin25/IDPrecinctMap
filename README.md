@@ -61,6 +61,7 @@ There are three district contest directories in the repo:
 - the old `data/district_contests` directory is treated as a legacy fallback
 - 2026-line district views load from `data/district_contests_2026_lines`
 - 2022-line state house seat selectors may also pull `state_house_a` / `state_house_b` from the legacy fallback directory when those seat entries are not present in the renamed 2022-lines manifest
+- canonical Idaho house manifests now prefer one `state_house` entry per year, backed by `state_house_state_house_<year>.json` files with seat-level rows keyed like `19A` and `19B`
 
 ### Reports
 
@@ -94,6 +95,12 @@ District VoteHub tooltips are intentionally compact:
 - top line: district code such as `CD-01`, `HD-19`, or `SD-14`
 - second line: chamber label such as `Congressional District`, `State House`, or `State Senate`
 - Idaho state house remains double-stacked for seat A / seat B, but each stacked card uses the same compact header pattern
+
+For Idaho state house specifically:
+
+- the frontend now prefers unified `contest_type: "state_house"` payloads
+- older `state_house_a` / `state_house_b` requests are treated as compatibility aliases
+- the selector should show one `State House (year)` option instead of separate seat A / seat B options when a canonical yearly payload exists
 
 The frontend also normalizes statewide office keys so older aliases and current payload names resolve consistently:
 
@@ -179,6 +186,7 @@ Purpose:
 - builds district contest payloads for the renamed `data/district_contests_2022_lines`
 - builds congressional payloads for `data/district_contests_2026_lines`
 - updates the manifests in both directories
+- synthesizes canonical Idaho house files such as `state_house_state_house_2022.json` and `state_house_state_house_2024.json` from the legacy split-seat files when needed
 
 ### Remove uncontested contests from manifests
 
