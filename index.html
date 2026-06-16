@@ -10307,7 +10307,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-06-14-01';
+    const DATA_CACHE_BUSTER = '2026-06-14-02';
     const APP_BUILD_ID = '2026-06-14-01';
 
     function withCacheBuster(path) {
@@ -11684,6 +11684,15 @@ document.addEventListener('DOMContentLoaded', function() {
       return `${normalizeDistrictLinesYear(linesYear)} lines`;
     }
 
+    function canonicalizeDistrictContestTypeForScope(scope, contestType) {
+      const scopeKey = String(scope || '').trim().toLowerCase();
+      const contestKey = canonicalizeContestType(contestType);
+      if (scopeKey === 'state_house' && (contestKey === 'state_house_a' || contestKey === 'state_house_b')) {
+        return 'state_house';
+      }
+      return contestKey;
+    }
+
     function getActiveDistrictContestsDir(linesYear = currentDistrictLinesYear, scope = null) {
       const y = normalizeDistrictLinesYear(linesYear);
       const dirs = CONFIG.paths?.district_contests_dirs || {};
@@ -11710,6 +11719,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const contestKey = canonicalizeContestType(contestType);
       const isDirectDistrictOfficeContest = (
         contestKey === 'us_house'
+        || contestKey === 'state_house'
         || contestKey === 'state_house_a'
         || contestKey === 'state_house_b'
         || contestKey === 'state_senate'
@@ -18675,10 +18685,11 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
     async function loadDistrictSlice(scope, contestType, year, linesYearOverride = currentDistrictLinesYear) {
-      const key = `${scope}_${contestType}_${year}`;
+      const resolvedContestType = canonicalizeDistrictContestTypeForScope(scope, contestType);
+      const key = `${scope}_${resolvedContestType}_${year}`;
       const linesYear = normalizeDistrictLinesYear(linesYearOverride);
       const cacheKey = `${linesYear}|${key}`;
-      const modeledDef = getModeledContestDefinition(contestType, year);
+      const modeledDef = getModeledContestDefinition(resolvedContestType, year);
       if (modeledDef) {
         const sig = getModeledDefSignature(modeledDef);
         const modeledKey = `${linesYear}|${String(scope || '').trim()}|${sig}`;
@@ -18705,15 +18716,15 @@ document.addEventListener('DOMContentLoaded', function() {
         const hasScopedManifestEntry = activeDistrictManifest.some(entry => (
           entry
           && (entry.scope || '').toString().trim() === String(scope || '').trim()
-          && (entry.contest_type || '').toString().trim() === String(contestType || '').trim()
+          && canonicalizeDistrictContestTypeForScope(scope, entry.contest_type) === resolvedContestType
           && Number(entry.year) === Number(year)
         ));
-        if (!hasScopedManifestEntry && isStatewideContestEntry({ contest_type: contestType })) {
+        if (!hasScopedManifestEntry && isStatewideContestEntry({ contest_type: resolvedContestType })) {
           districtSliceCache.set(cacheKey, null);
           return null;
         }
 
-        const candidatePaths = getPreferredDistrictSlicePaths(scope, contestType, year, linesYear);
+        const candidatePaths = getPreferredDistrictSlicePaths(scope, resolvedContestType, year, linesYear);
         for (const path of candidatePaths) {
           try {
             const payload = await loadJSON(path);
@@ -18726,7 +18737,7 @@ document.addEventListener('DOMContentLoaded', function() {
           try { await ensureDistrictElectionDataLoaded(); } catch (_) {}
         }
         const fallback = linesYear === 2022
-          ? (districtElectionDataJSON?.results_by_year?.[year]?.[scope]?.[contestType] || null)
+          ? (districtElectionDataJSON?.results_by_year?.[year]?.[scope]?.[resolvedContestType] || null)
           : null;
         districtSliceCache.set(cacheKey, fallback);
         return fallback;
@@ -19022,6 +19033,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	        return modeledDef.displayName;
 	      }
 	      const contestKey = canonicalizeContestType(contestType);
+	      if (contestKey === 'state_house') return 'State House';
 	      if (contestKey === 'state_house_a') return 'State House A';
 	      if (contestKey === 'state_house_b') return 'State House B';
 	      const nameMap = {
@@ -19092,6 +19104,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function formatGroupedContestOptionLabel(contestType, year) {
       const key = String(contestType || '').trim().toLowerCase();
+      if (key === 'state_house') return `State House (${year})`;
       if (key === 'state_house_a') return `State House A (${year})`;
       if (key === 'state_house_b') return `State House B (${year})`;
       if (key === 'us_house_d1') return `District 1 (${year})`;
@@ -19345,11 +19358,28 @@ document.addEventListener('DOMContentLoaded', function() {
           if (demTotal > 0 || repTotal > 0) return demTotal > 0 && repTotal > 0;
           return true;
         }
+        const canonicalStateHouseYears = new Set(
+          (manifestEntries || [])
+            .filter(entry => (
+              entry
+              && String(entry.scope || '').trim() === 'state_house'
+              && canonicalizeContestType(entry.contest_type) === 'state_house'
+              && Number.isFinite(Number(entry.year))
+            ))
+            .map(entry => Number(entry.year))
+        );
 	      (manifestEntries || []).forEach(entry => {
 	        const contestType = canonicalizeContestType(entry.contest_type);
 	        const year = Number(entry.year);
 	        const rows = Number(entry.rows || entry.districts || 0) || 0;
 	        if (!contestType || rows <= 0) return;
+          if (
+            String(entry.scope || '').trim() === 'state_house'
+            && (contestType === 'state_house_a' || contestType === 'state_house_b')
+            && canonicalStateHouseYears.has(year)
+          ) {
+            return;
+          }
 
           // Hide older NC judicial contests until we have reliable D/R-alignment (endorsement) data.
           // NC appellate judicial races are nonpartisan in older cycles; without endorsements they read as "OTHER".
@@ -19368,7 +19398,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	        if (contestType === 'us_senate') return 'US Senate';
 	        if (contestType === 'us_house') return 'US House';
 	        if (contestType === 'us_house_d1' || contestType === 'us_house_d2') return 'US House';
-	        if (contestType === 'state_house_a' || contestType === 'state_house_b') return 'State House';
+	        if (contestType === 'state_house' || contestType === 'state_house_a' || contestType === 'state_house_b') return 'State House';
 	        if (contestType === 'state_senate') return 'State Senate';
 	        if (contestType === 'governor') return 'Governor';
 	        if (contestType === 'lieutenant_governor') return 'Lieutenant Governor';
@@ -19543,8 +19573,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const priorityByType = {
         us_house: 0,
-        state_house_a: 0,
-        state_house_b: 1,
+        state_house: 0,
+        state_house_a: 1,
+        state_house_b: 2,
         state_senate: 0
       };
 
@@ -31389,7 +31420,18 @@ document.addEventListener('DOMContentLoaded', function() {
       return key === 'state_house' || key.startsWith('state_house_');
     }
 
+    function getUnifiedStateHouseManifestEntry(year) {
+      const targetYear = Number(year);
+      return (Array.isArray(getActiveDistrictManifest()) ? getActiveDistrictManifest() : []).find(entry => (
+        entry
+        && entry.scope === 'state_house'
+        && canonicalizeContestType(entry.contest_type) === 'state_house'
+        && Number(entry.year) === targetYear
+      )) || null;
+    }
+
     function getStateHouseSeatContestTypesForYear(year) {
+      if (getUnifiedStateHouseManifestEntry(year)) return ['state_house'];
       const targetYear = Number(year);
       const manifestEntries = Array.isArray(getActiveDistrictManifest()) ? getActiveDistrictManifest() : [];
       const seatTypes = manifestEntries
@@ -31401,6 +31443,37 @@ document.addEventListener('DOMContentLoaded', function() {
       const source = unique.length ? unique : fallback;
       const rank = { state_house_a: 0, state_house_b: 1 };
       return source.slice().sort((a, b) => (rank[a] ?? 99) - (rank[b] ?? 99) || a.localeCompare(b));
+    }
+
+    function getStateHouseSeatEntriesFromUnifiedPayload(payload, districtNum) {
+      const targetDistrict = Number(districtNum);
+      const results = payload?.general?.results || {};
+      const entries = [];
+      for (const [resultKey, row] of Object.entries(results)) {
+        const districtRaw = String(row?.district || resultKey || '').trim().toUpperCase();
+        const districtMatch = districtRaw.match(/^0*([0-9]{1,2})\s*([AB])$/i);
+        const rowDistrictNum = Number(row?.district_num);
+        const districtValue = Number.isFinite(rowDistrictNum) ? rowDistrictNum : Number(districtMatch?.[1]);
+        if (!Number.isFinite(districtValue) || districtValue !== targetDistrict) continue;
+        const seat = String(row?.seat || districtMatch?.[2] || '').trim().toUpperCase();
+        if (seat !== 'A' && seat !== 'B') continue;
+        entries.push({
+          contestType: `state_house_${seat.toLowerCase()}`,
+          row: {
+            ...row,
+            district: `${districtValue}${seat}`,
+            district_num: districtValue,
+            seat,
+          },
+          fallbackCandidates: null,
+          payloadMeta: {
+            ...(payload?.meta || {}),
+            seat_label: seat,
+            seat_key: seat,
+          }
+        });
+      }
+      return entries.sort((a, b) => String(a?.payloadMeta?.seat_label || '').localeCompare(String(b?.payloadMeta?.seat_label || '')));
     }
 
     async function resolveDistrictFallbackCandidates(contestType, year, row) {
@@ -31416,7 +31489,14 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     async function loadStateHouseSeatDisplayEntries(year, districtNum) {
-      const seatTypes = getStateHouseSeatContestTypesForYear(year);
+      if (getUnifiedStateHouseManifestEntry(year)) {
+        try {
+          const unifiedPayload = await loadDistrictSlice('state_house', 'state_house', year);
+          const unifiedEntries = getStateHouseSeatEntriesFromUnifiedPayload(unifiedPayload, districtNum);
+          if (unifiedEntries.length) return unifiedEntries;
+        } catch (_) {}
+      }
+      const seatTypes = getStateHouseSeatContestTypesForYear(year).filter(type => type !== 'state_house');
       const entries = [];
       for (const contestType of seatTypes) {
         try {
@@ -31432,9 +31512,11 @@ document.addEventListener('DOMContentLoaded', function() {
       return entries;
     }
 
-    function getStateHouseSeatLabel(contestType, payloadMeta = null) {
+    function getStateHouseSeatLabel(contestType, payloadMeta = null, row = null) {
       const metaSeatLabel = (payloadMeta?.seat_label || '').toString().trim();
       if (metaSeatLabel) return metaSeatLabel;
+      const rowSeat = (row?.seat || '').toString().trim().toUpperCase();
+      if (rowSeat === 'A' || rowSeat === 'B') return rowSeat;
       const key = String(contestType || '').trim().toLowerCase();
       if (key === 'state_house_a') return 'A';
       if (key === 'state_house_b') return 'B';
@@ -31468,7 +31550,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const marginCall = winnerMarginCall(repVotes, demVotes, totalVotes, repCandidate, demCandidate, signedMarginPct);
       return {
         contestType,
-        seatLabel: getStateHouseSeatLabel(contestType, entry?.payloadMeta || null),
+        seatLabel: getStateHouseSeatLabel(contestType, entry?.payloadMeta || null, row),
         demCandidate,
         repCandidate,
         demVotes,
@@ -31543,6 +31625,43 @@ document.addEventListener('DOMContentLoaded', function() {
         `)
         .join('');
       return sections || '<div style="color:#999;">No historical data</div>';
+    }
+
+    async function getUnifiedStateHouseTrendEntries(districtNum) {
+      const entries = (getActiveDistrictManifest() || [])
+        .filter(f => f && f.scope === 'state_house' && canonicalizeContestType(f.contest_type) === 'state_house' && Number.isFinite(Number(f.year)))
+        .slice()
+        .sort((a, b) => Number(a.year) - Number(b.year));
+      const seatSeriesByLabel = new Map([['A', []], ['B', []]]);
+      for (const entry of entries) {
+        const year = Number(entry.year);
+        const payload = await loadDistrictSlice('state_house', 'state_house', year);
+        const seatRows = getStateHouseSeatEntriesFromUnifiedPayload(payload, districtNum);
+        for (const seatEntry of seatRows) {
+          const row = seatEntry?.row || {};
+          const seatLabel = getStateHouseSeatLabel(seatEntry?.contestType, seatEntry?.payloadMeta || null, row);
+          if (!seatSeriesByLabel.has(seatLabel)) seatSeriesByLabel.set(seatLabel, []);
+          seatSeriesByLabel.get(seatLabel).push({
+            year,
+            dem_votes: Number(row.dem_votes) || 0,
+            rep_votes: Number(row.rep_votes) || 0,
+            other_votes: Number(row.other_votes) || 0,
+            total_votes: Number(row.total_votes) || 0,
+            dem_candidate: (row.dem_candidate || '').toString().trim(),
+            rep_candidate: (row.rep_candidate || '').toString().trim(),
+            winner: row.winner || '',
+            margin_pct: Number(row.margin_pct) || 0,
+            coverage_pct: payload?.meta?.match_coverage_pct
+          });
+        }
+      }
+      return Array.from(seatSeriesByLabel.entries())
+        .filter(([, series]) => Array.isArray(series) && series.length > 0)
+        .map(([seatLabel, series]) => ({
+          contestType: `state_house_${String(seatLabel || '').toLowerCase()}`,
+          year: series[series.length - 1]?.year || 0,
+          series
+        }));
     }
 
     function buildDistrictExtraRaceLinesHTML(infoRow, thresholdPct = 30) {
@@ -31751,12 +31870,16 @@ document.addEventListener('DOMContentLoaded', function() {
         try {
           const el = document.getElementById('district-trends');
           if (chamber === 'house' && isStateHouseSeatContestType(contestType)) {
-            const trendEntries = [];
-            for (const seatType of getStateHouseSeatContestTypesForYear(year)) {
-              try {
-                const series = await getDistrictTrendSeries(scope, seatType, districtNum);
-                trendEntries.push({ contestType: seatType, year: Number(year), series });
-              } catch (_) {}
+            const trendEntries = getUnifiedStateHouseManifestEntry(year)
+              ? await getUnifiedStateHouseTrendEntries(districtNum)
+              : [];
+            if (!trendEntries.length) {
+              for (const seatType of getStateHouseSeatContestTypesForYear(year).filter(type => type !== 'state_house')) {
+                try {
+                  const series = await getDistrictTrendSeries(scope, seatType, districtNum);
+                  trendEntries.push({ contestType: seatType, year: Number(year), series });
+                } catch (_) {}
+              }
             }
             if (reqId !== districtSidebarRequestId) return;
             if (el) el.innerHTML = renderDistrictTrendSectionsHTML(trendEntries);

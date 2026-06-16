@@ -86,9 +86,30 @@ function main() {
     const entries = Array.isArray(manifest.files) ? manifest.files : [];
     const kept = [];
     const removed = [];
+    const canonicalStateHouseYears = new Set(
+      entries
+        .filter(entry => (
+          entry
+          && String(entry.scope || '').trim() === 'state_house'
+          && String(entry.contest_type || '').trim() === 'state_house'
+          && Number.isFinite(Number(entry.year))
+        ))
+        .map(entry => Number(entry.year))
+    );
 
     for (const entry of entries) {
       const fileName = String(entry?.file || '').trim();
+      const scope = String(entry?.scope || '').trim();
+      const contestType = String(entry?.contest_type || '').trim();
+      const year = Number(entry?.year);
+      if (
+        scope === 'state_house'
+        && (contestType === 'state_house_a' || contestType === 'state_house_b')
+        && canonicalStateHouseYears.has(year)
+      ) {
+        removed.push(entry);
+        continue;
+      }
       if (!fileName) {
         kept.push(entry);
         continue;
