@@ -5,7 +5,10 @@
   "meta": {
     "office": "State House Seat B",
     "source": "2022_General_Canvass.zip",
-    "candidate_count": 1
+    "candidate_count": 1,
+    "office_group": "state_house",
+    "seat_label": "Seat B",
+    "seat_key": "b"
   },
   "general": {
     "results": {
@@ -260,6 +263,18 @@
         "margin_pct": 100.0,
         "winner": "REP",
         "color": "#a50f15"
+      },
+      "22": {
+        "dem_votes": 6559,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 6559,
+        "dem_candidate": "Dawn Pierce",
+        "rep_candidate": "",
+        "margin": -6559,
+        "margin_pct": -100.0,
+        "winner": "DEM",
+        "color": "#08306b"
       },
       "23": {
         "dem_votes": 0,

@@ -15,7 +15,7 @@
       "B"
     ],
     "lines_year": 2022,
-    "candidate_count": 69
+    "candidate_count": 70
   },
   "general": {
     "results": {
@@ -422,13 +422,13 @@
         "district": "22A",
         "district_num": 22,
         "seat": "A",
-        "dem_votes": 13838,
+        "dem_votes": 7279,
         "rep_votes": 0,
         "other_votes": 0,
-        "total_votes": 13838,
+        "total_votes": 7279,
         "dem_candidate": "Natalie R. MacLachlan",
         "rep_candidate": "",
-        "margin": -13838,
+        "margin": -7279,
         "margin_pct": -100,
         "winner": "DEM",
         "color": "#08306b",
@@ -1080,6 +1080,25 @@
         "color": "#a50f15",
         "competitiveness": {
           "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "22B": {
+        "district": "22B",
+        "district_num": 22,
+        "seat": "B",
+        "dem_votes": 6559,
+        "rep_votes": 0,
+        "other_votes": 0,
+        "total_votes": 6559,
+        "dem_candidate": "Dawn Pierce",
+        "rep_candidate": "",
+        "margin": -6559,
+        "margin_pct": -100,
+        "winner": "DEM",
+        "color": "#08306b",
+        "competitiveness": {
+          "color": "#08306b"
         },
         "no_data": false
       },

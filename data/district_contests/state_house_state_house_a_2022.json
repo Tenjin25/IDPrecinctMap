@@ -5,7 +5,10 @@
   "meta": {
     "office": "State House Seat A",
     "source": "2022_General_Canvass.zip",
-    "candidate_count": 1
+    "candidate_count": 1,
+    "office_group": "state_house",
+    "seat_label": "Seat A",
+    "seat_key": "a"
   },
   "general": {
     "results": {
@@ -262,13 +265,13 @@
         "color": "#08306b"
       },
       "22": {
-        "dem_votes": 13838,
+        "dem_votes": 7279,
         "rep_votes": 0,
         "other_votes": 0,
-        "total_votes": 13838,
+        "total_votes": 7279,
         "dem_candidate": "Natalie R. MacLachlan",
         "rep_candidate": "",
-        "margin": -13838,
+        "margin": -7279,
         "margin_pct": -100.0,
         "winner": "DEM",
         "color": "#08306b"
