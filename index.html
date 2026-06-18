@@ -10309,7 +10309,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-06-14-02';
+    const DATA_CACHE_BUSTER = '2026-06-18-01';
     const APP_BUILD_ID = '2026-06-14-01';
 
     function withCacheBuster(path) {
@@ -10380,7 +10380,6 @@ document.addEventListener('DOMContentLoaded', function() {
         district_contests_dir: withBase('./data/district_contests_2022_lines'),
         district_contests_2022_lines_dir: withBase('./data/district_contests_2022_lines'),
         district_contests_legacy_dir: withBase('./data/district_contests'),
-        district_contests_2020_2024_dir: withBase('./data/district_contests_2020_2024'),
         district_contests_dirs: {
           '2022': withBase('./data/district_contests_2022_lines'),
           '2024': withBase('./data/district_contests_2022_lines'),
@@ -10391,8 +10390,8 @@ document.addEventListener('DOMContentLoaded', function() {
         state_senate_info: withBase('./data/id_state_senate_districts.csv'),
         district_descriptions: withBase('./data/district_descriptions.json'),
         contests_dir: withBase('./data/contests'),
-        reports_match_year_summary: withBase('./data/reports/precinct_match_year_summary_fresh_2026-03-19.csv'),
-        reports_top_unmatched: withBase('./data/reports/precinct_match_top_unmatched_file_county.csv'),
+        reports_match_year_summary: '',
+        reports_top_unmatched: '',
         crosswalks: {
           congressional: withBase('./data/crosswalks/precinct_to_cd119_from_2020_vtd20_nhgis_popweighted.csv'),
           congressional_2022: withBase('./data/crosswalks/precinct_to_cd119_from_2020_vtd20_nhgis_popweighted.csv'),
@@ -11713,7 +11712,6 @@ document.addEventListener('DOMContentLoaded', function() {
       const ly = normalizeDistrictLinesYear(linesYear);
       const key = `${scope}_${contestType}_${year}`;
       const out = [];
-      const calibrated2020Dir = (CONFIG.paths?.district_contests_2020_2024_dir || '').toString().trim();
       const baseDir = (getActiveDistrictContestsDir(linesYear, scope) || '').toString().trim();
       const legacy2022Dir = ly === 2022
         ? (((CONFIG.paths?.district_contests_legacy_dir || '').toString().trim()))
@@ -11727,11 +11725,6 @@ document.addEventListener('DOMContentLoaded', function() {
         || contestKey === 'state_senate'
       );
 
-      // Prefer calibrated slices only for congressional scope on 2022 lines.
-      // Legislative scopes continue to use the primary district_contests data.
-      if (ly === 2022 && scope === 'congressional' && !isDirectDistrictOfficeContest && Number.isFinite(y) && y >= 2020 && calibrated2020Dir) {
-        out.push(`${calibrated2020Dir}/${key}.json`);
-      }
       if (ly === 2022 && isDirectDistrictOfficeContest) {
         if (baseDir) out.push(`${baseDir}/${key}.json`);
         if (legacy2022Dir) out.push(`${legacy2022Dir}/${key}.json`);
@@ -25886,9 +25879,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     async function ensureUnmatchedAuditDataLoaded() {
       if (Array.isArray(unmatchedYearSummaryRows) && Array.isArray(unmatchedTopRows)) return;
+      const yearSummaryPath = (CONFIG.paths?.reports_match_year_summary || '').toString().trim();
+      const topUnmatchedPath = (CONFIG.paths?.reports_top_unmatched || '').toString().trim();
+      if (!yearSummaryPath && !topUnmatchedPath) {
+        unmatchedYearSummaryRows = [];
+        unmatchedTopRows = [];
+        return;
+      }
       const [yearRes, topRes] = await Promise.allSettled([
-        loadCSV(CONFIG.paths.reports_match_year_summary),
-        loadCSV(CONFIG.paths.reports_top_unmatched)
+        yearSummaryPath ? loadCSV(yearSummaryPath) : Promise.resolve(''),
+        topUnmatchedPath ? loadCSV(topUnmatchedPath) : Promise.resolve('')
       ]);
       unmatchedYearSummaryRows = yearRes.status === 'fulfilled' ? parseCSV(yearRes.value) : [];
       unmatchedTopRows = topRes.status === 'fulfilled' ? parseCSV(topRes.value) : [];
