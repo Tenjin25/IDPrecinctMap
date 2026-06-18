@@ -12,7 +12,6 @@ OPENELECTIONS_DIR = ROOT / "data" / "openelections-data-id"
 CANVASS_2022_DIR = ROOT / "data" / "2022_General_Canvass" / "2022_General_Canvass"
 CONTESTS_DIR = ROOT / "data" / "contests"
 DISTRICT_CONTESTS_2022_DIR = ROOT / "data" / "district_contests"
-DISTRICT_CONTESTS_2022_DIR = ROOT / "data" / "district_contests_2022_lines"
 DISTRICT_CONTESTS_2026_DIR = ROOT / "data" / "district_contests_2026_lines"
 
 DISTRICT_YEARS = {2022, 2024}
@@ -350,6 +349,22 @@ def parse_precinct_canvass_sheet(path: Path, sheet_name: str, header_row_index: 
         return pd.DataFrame()
 
     office_row = raw.iloc[header_row_index].tolist()
+    if (
+        path.name == "22 General Legislative - Precinct.xlsx"
+        and sheet_name == "Leg Dist 22"
+    ):
+        normalized_offices = [
+            "" if pd.isna(value) else str(value).strip().upper()
+            for value in office_row
+        ]
+        if normalized_offices.count("ST REP A") == 2 and "ST REP B" not in normalized_offices:
+            seen_house_a = 0
+            for idx, label in enumerate(normalized_offices):
+                if label != "ST REP A":
+                    continue
+                seen_house_a += 1
+                if seen_house_a == 2:
+                    office_row[idx] = "ST REP B"
     party_row = raw.iloc[header_row_index + 1].tolist()
     candidate_row = raw.iloc[header_row_index + 2].tolist()
     data_rows = raw.iloc[header_row_index + 3 :].copy()

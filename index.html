@@ -31344,6 +31344,8 @@ document.addEventListener('DOMContentLoaded', function() {
           aggregated[key] = {
             district: String(districtNum),
             district_num: districtNum,
+            seat_count: 0,
+            seat_winners: [],
             dem_votes: 0,
             rep_votes: 0,
             other_votes: 0,
@@ -31353,6 +31355,8 @@ document.addEventListener('DOMContentLoaded', function() {
           };
         }
         const bucket = aggregated[key];
+        bucket.seat_count += 1;
+        bucket.seat_winners.push(String(row?.winner || '').trim().toUpperCase());
         bucket.dem_votes += Number(row?.dem_votes || 0);
         bucket.rep_votes += Number(row?.rep_votes || 0);
         bucket.other_votes += Number(row?.other_votes || 0);
@@ -31363,12 +31367,34 @@ document.addEventListener('DOMContentLoaded', function() {
 
       Object.values(aggregated).forEach((row) => {
         const totalVotes = Number(row.total_votes || 0) || (Number(row.dem_votes || 0) + Number(row.rep_votes || 0) + Number(row.other_votes || 0));
-        const signed = signedMarginPctFromVotes(row.dem_votes, row.rep_votes, totalVotes);
-        const winner = winnerFromSignedMarginPct(signed);
+        const seatWinners = Array.from(new Set((row.seat_winners || []).filter(Boolean)));
+        const hasSplitOutcome = seatWinners.includes('DEM') && seatWinners.includes('REP');
+        const hasCompleteSeatSet = Number(row.seat_count || 0) >= 2;
         row.total_votes = totalVotes;
         row.margin = Math.round(Number(row.rep_votes || 0) - Number(row.dem_votes || 0));
+        if (!hasCompleteSeatSet) {
+          row.margin_pct = 0;
+          row.winner = 'TIE';
+          row.color = '#9ca3af';
+          row.competitiveness = { color: '#9ca3af' };
+          row.no_data = true;
+          row.incomplete_seat_data = true;
+          return;
+        }
+        if (hasSplitOutcome) {
+          row.margin_pct = 0;
+          row.winner = 'TIE';
+          row.color = '#d6c3a1';
+          row.competitiveness = { color: '#d6c3a1' };
+          row.no_data = false;
+          row.split_seat_outcome = true;
+          return;
+        }
+        const signed = signedMarginPctFromVotes(row.dem_votes, row.rep_votes, totalVotes);
+        const winner = winnerFromSignedMarginPct(signed);
         row.margin_pct = signed;
         row.winner = winner === 'T' ? 'TIE' : (winner === 'R' ? 'REP' : 'DEM');
+        row.no_data = !totalVotes;
       });
 
       return aggregated;
@@ -34218,6 +34244,9 @@ document.addEventListener('DOMContentLoaded', function() {
             const row = districtResults[districtId] || {};
             if (!statewideDemCandidate) statewideDemCandidate = stripRunningMateName((row.dem_candidate || '').toString().trim());
             if (!statewideRepCandidate) statewideRepCandidate = stripRunningMateName((row.rep_candidate || '').toString().trim());
+            const hasIncompleteSeatData = !!row.incomplete_seat_data;
+            const hasSplitSeatOutcome = !!row.split_seat_outcome;
+            const hasSpecialDistrictResult = hasIncompleteSeatData || hasSplitSeatOutcome;
             const adjusted = applyScenarioShiftToVotes(
               '',
               Number(row.dem_votes) || 0,
@@ -34228,7 +34257,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const demVotes = Number(adjusted.dem || 0);
             const repVotes = Number(adjusted.rep || 0);
             const rowTotalVotes = Number(adjusted.total || 0);
-            if (rowTotalVotes <= 0) return;
+            if (rowTotalVotes <= 0 && !hasSpecialDistrictResult) return;
 
             totalDem += demVotes;
             totalRep += repVotes;
@@ -34251,6 +34280,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 demoRow?.pacific_vap_pct ?? demoRow?.pacific_pct ?? demoRow?.Pacific,
                 demoRow?.multiracial_vap_pct ?? demoRow?.multiracial_pct ?? demoRow?.Multiracial
               );
+            } else if (hasSpecialDistrictResult) {
+              color = row.color || (hasIncompleteSeatData ? '#9ca3af' : '#d6c3a1');
             } else if (mode === 'flips') {
               const prevRow = prevResults ? (prevResults[String(districtId)] || prevResults[String(Number(districtId))] || null) : null;
               const prevSigned = prevRow ? Number(prevRow.margin_pct || 0) : 0;
@@ -34275,7 +34306,9 @@ document.addEventListener('DOMContentLoaded', function() {
               margin_pct: signed,
               winner: winner === 'T' ? 'TIE' : (winner === 'R' ? 'REP' : 'DEM'),
               color,
-              competitiveness: { color }
+              competitiveness: { color },
+              incomplete_seat_data: hasIncompleteSeatData,
+              split_seat_outcome: hasSplitSeatOutcome
             });
 
             if (!isNaN(districtNum)) {
