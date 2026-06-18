@@ -12,7 +12,7 @@
       right: 8px !important;
       z-index: 10002 !important;
       font-size: 20px !important;
-      background: #2563eb !important;
+      background: var(--ui-accent-2) !important;
       color: #fff !important;
       border-radius: 8px !important;
       min-width: 44px !important;
@@ -554,7 +554,7 @@
     <meta name="author" content="Shamar Davis">
     <meta name="copyright" content="© 2026 Shamar Does Elections. All Rights Reserved.">
     <!-- Watermark: SDE Creator Attribution | Created by Shamar Davis | Copyright 2026 Shamar Does Elections -->
-    <meta property="og:title" content="NC Election Atlas (2000-2024)">
+    <meta property="og:title" content="Idaho Election Atlas (2000-2024)">
     <meta property="og:description" content="Interactive visualization of Idaho election trends from 2000 to 2024, with county, precinct, and district views.">
     <meta property="og:image" content="preview.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -576,11 +576,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Manrope', 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
-  color: #17375e;
+  color: #24343a;
   background:
     radial-gradient(circle at top left, rgba(217, 180, 74, 0.16), transparent 24%),
-    radial-gradient(circle at top right, rgba(120, 169, 199, 0.18), transparent 28%),
-    linear-gradient(180deg, #f4efe2 0%, #edf3f6 100%);
+    radial-gradient(circle at top right, rgba(92, 124, 73, 0.16), transparent 28%),
+    linear-gradient(180deg, #f4efe2 0%, #eef1e8 100%);
   overflow: hidden;
   touch-action: pan-x pan-y;
   -webkit-font-smoothing: antialiased;
@@ -592,7 +592,7 @@ body {
   left: 0;
   width: 100vw !important;
   height: 100vh;
-  background: #e9f0f4;
+  background: #ecefe7;
   transition: left 0.3s cubic-bezier(.4,0,.2,1), width 0.3s cubic-bezier(.4,0,.2,1);
   z-index: 1;
   touch-action: pan-x pan-y pinch-zoom;
@@ -618,19 +618,19 @@ html, body { height: var(--app-height); }
 body { height: var(--app-height); }
 #map { height: var(--app-height); }
 :root {
-  --ui-text: #17375e;
-  --ui-text-strong: #102743;
-  --ui-muted: #5f7187;
+  --ui-text: #24343a;
+  --ui-text-strong: #18242a;
+  --ui-muted: #5d6458;
   --ui-panel: rgba(249, 246, 238, 0.95);
   --ui-panel-strong: rgba(244, 239, 226, 0.98);
-  --ui-border: rgba(23, 55, 94, 0.16);
-  --ui-border-strong: rgba(23, 55, 94, 0.28);
-  --ui-shadow: 0 16px 36px rgba(16, 39, 67, 0.18);
-  --ui-header-start: #17375e;
-  --ui-header-end: #2f6da4;
+  --ui-border: rgba(36, 52, 58, 0.16);
+  --ui-border-strong: rgba(36, 52, 58, 0.28);
+  --ui-shadow: 0 16px 36px rgba(24, 36, 42, 0.16);
+  --ui-header-start: #48624f;
+  --ui-header-end: #7d5a34;
   --ui-accent: #d9b44a;
-  --ui-accent-deep: #ba8f2b;
-  --ui-water: #78a9c7;
+  --ui-accent-deep: #a8842b;
+  --ui-water: #7f9687;
   --ui-pine: #45624f;
 }
 
@@ -1230,8 +1230,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 }
 
 .minimize-btn {
-  background: #2563eb;
-  border: 1px solid #1d4ed8;
+  background: var(--ui-accent-2);
+  border: 1px solid #6b4d2e;
   border-radius: 6px;
   width: 30px;
   height: 30px;
@@ -1245,8 +1245,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   transition: all 0.2s ease;
 }
 .minimize-btn:hover {
-  background: #1d4ed8;
-  border-color: #2563eb;
+  background: #6b4d2e;
+  border-color: var(--ui-accent-2);
   transform: scale(1.05);
 }
 
@@ -2828,33 +2828,33 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 
   /* Statewide base theme tokens */
   :root {
-    --state-blue: #2f6da3;
-    --state-blue-strong: #1d4f79;
+    --state-blue: #496956;
+    --state-blue-strong: #355142;
     --state-red: #b4573a;
     --state-red-strong: #8d3f28;
-    --state-ribbon: linear-gradient(90deg, #2d5b88 0%, #f5efe4 48%, #b4573a 100%);
-    --state-accent-gradient: linear-gradient(135deg, #2f6da3 0%, #4c7a45 52%, #b4573a 100%);
+    --state-ribbon: linear-gradient(90deg, #496956 0%, #f5efe4 48%, #b4573a 100%);
+    --state-accent-gradient: linear-gradient(135deg, #496956 0%, #c49a3a 52%, #b4573a 100%);
     --ui-bg: rgba(249, 246, 238, 0.95);
-    --ui-border: rgba(23, 55, 94, 0.16);
-    --ui-shadow: 0 16px 36px rgba(16, 39, 67, 0.18);
-    --ui-text: #17375e;
-    --ui-muted: #5f7187;
+    --ui-border: rgba(36, 52, 58, 0.16);
+    --ui-shadow: 0 16px 36px rgba(24, 36, 42, 0.16);
+    --ui-text: #24343a;
+    --ui-muted: #5d6458;
     --ui-accent: #d9b44a;
-    --ui-accent-2: #2f6da4;
+    --ui-accent-2: #7d5a34;
   }
 
   body {
     font-family: 'Manrope', 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
     background:
-      radial-gradient(circle at 14% 10%, rgba(47, 109, 163, 0.16) 0%, rgba(220, 232, 241, 0.58) 28%, rgba(243, 246, 251, 0) 58%),
+      radial-gradient(circle at 14% 10%, rgba(73, 105, 86, 0.18) 0%, rgba(228, 236, 225, 0.62) 28%, rgba(243, 246, 251, 0) 58%),
       radial-gradient(circle at 84% 10%, rgba(76, 122, 69, 0.14) 0%, rgba(226, 234, 214, 0.38) 22%, rgba(243, 246, 251, 0) 56%),
       radial-gradient(circle at 50% 100%, rgba(180, 87, 58, 0.12) 0%, rgba(243, 226, 208, 0.32) 20%, rgba(243, 246, 251, 0) 48%),
-      #f3f6fb;
+      #f3f1e8;
     color: var(--ui-text);
   }
 
   #map {
-    background: linear-gradient(180deg, #e9eff7 0%, #e7edf7 46%, #f0ecf1 100%);
+    background: linear-gradient(180deg, #edf1e8 0%, #e7ece3 46%, #efe8de 100%);
   }
 
   .main-controls,
@@ -3467,8 +3467,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 
   .mode-toggle.active,
   .viz-mode-btn.active {
-    background: linear-gradient(180deg, #3b82f6 0%, #2563eb 100%);
-    box-shadow: 0 8px 18px rgba(37, 99, 235, 0.32);
+    background: linear-gradient(180deg, #8a6438 0%, #6b4d2e 100%);
+    box-shadow: 0 8px 18px rgba(107, 77, 46, 0.28);
   }
 
   .legend-item {
@@ -7632,8 +7632,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 
     #desktop-fly-search:focus {
       outline: none;
-      border-color: #2563eb;
-      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+      border-color: var(--ui-accent-2);
+      box-shadow: 0 0 0 3px rgba(125, 90, 52, 0.14);
     }
 
     .desktop-fly-submit {
@@ -7642,12 +7642,12 @@ body.focus-active #hover-tooltip[data-context="preview"] {
       padding: 0 16px;
       border: none;
       border-radius: 14px;
-      background: linear-gradient(180deg, #2563eb 0%, #1d4ed8 100%);
+      background: linear-gradient(180deg, #8a6438 0%, #6b4d2e 100%);
       color: #fff;
       font-size: 14px;
       font-weight: 800;
       cursor: pointer;
-      box-shadow: 0 12px 24px rgba(37, 99, 235, 0.20);
+      box-shadow: 0 12px 24px rgba(107, 77, 46, 0.20);
     }
 
     .desktop-fly-helper {
@@ -8974,23 +8974,23 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 
   /* Ribbon + UI aesthetic polish */
   :root {
-    --state-ribbon: linear-gradient(92deg, #1f4d77 0%, #3e7aa7 25%, #f3ead7 51%, #698652 75%, #b35f3f 100%);
-    --state-accent-gradient: linear-gradient(136deg, #275b87 0%, #5d7c49 54%, #b35f3f 100%);
+    --state-ribbon: linear-gradient(92deg, #4a6855 0%, #7d9a6e 25%, #f3ead7 51%, #698652 75%, #b35f3f 100%);
+    --state-accent-gradient: linear-gradient(136deg, #4a6855 0%, #b78f3c 54%, #b35f3f 100%);
     --ui-bg: rgba(246, 241, 232, 0.96);
     --ui-border: rgba(25, 45, 66, 0.17);
     --ui-shadow: 0 20px 44px rgba(22, 36, 52, 0.18);
-    --ui-text: #16283a;
+    --ui-text: #24343a;
     --ui-muted: #5f6758;
     --ui-accent: #5d7c49;
-    --ui-accent-2: #275b87;
+    --ui-accent-2: #7d5a34;
   }
 
   body {
     background:
-      radial-gradient(circle at 16% 10%, rgba(47, 109, 163, 0.16) 0%, rgba(47, 109, 163, 0) 44%),
+      radial-gradient(circle at 16% 10%, rgba(74, 104, 85, 0.16) 0%, rgba(74, 104, 85, 0) 44%),
       radial-gradient(circle at 86% 9%, rgba(76, 122, 69, 0.14) 0%, rgba(76, 122, 69, 0) 40%),
       radial-gradient(circle at 52% 104%, rgba(180, 87, 58, 0.12) 0%, rgba(180, 87, 58, 0) 36%),
-      #f3f6fb;
+      #f3f1e8;
   }
 
   @media (min-width: 769px) {
@@ -18734,6 +18734,13 @@ document.addEventListener('DOMContentLoaded', function() {
             districtSliceCache.set(cacheKey, payload);
             return payload;
           } catch (_) {}
+        }
+
+        // If the manifest says a real district slice exists, don't silently
+        // substitute the older synthesized fallback payloads.
+        if (hasScopedManifestEntry) {
+          districtSliceCache.set(cacheKey, null);
+          return null;
         }
 
         if (linesYear === 2022 && !districtElectionDataJSON) {

@@ -353,24 +353,33 @@ def parse_precinct_canvass_sheet(path: Path, sheet_name: str, header_row_index: 
         path.name == "22 General Legislative - Precinct.xlsx"
         and sheet_name == "Leg Dist 22"
     ):
-        normalized_offices = [
+        uppercase_offices = [
             "" if pd.isna(value) else str(value).strip().upper()
             for value in office_row
         ]
-        if normalized_offices.count("ST REP A") == 2 and "ST REP B" not in normalized_offices:
+        if uppercase_offices.count("ST REP A") == 2 and "ST REP B" not in uppercase_offices:
             seen_house_a = 0
-            for idx, label in enumerate(normalized_offices):
+            for idx, label in enumerate(uppercase_offices):
                 if label != "ST REP A":
                     continue
                 seen_house_a += 1
                 if seen_house_a == 2:
                     office_row[idx] = "ST REP B"
+    normalized_offices = []
+    last_office = ""
+    for value in office_row:
+        office = "" if pd.isna(value) else str(value).strip()
+        if office:
+            last_office = office
+        normalized_offices.append(last_office)
+    office_row = normalized_offices
     party_row = raw.iloc[header_row_index + 1].tolist()
     candidate_row = raw.iloc[header_row_index + 2].tolist()
     data_rows = raw.iloc[header_row_index + 3 :].copy()
 
     records: list[dict[str, object]] = []
     current_county = ""
+    pending_county_subtotal = False
 
     for _, row in data_rows.iterrows():
         precinct_cell = row.iloc[0]
@@ -383,10 +392,15 @@ def parse_precinct_canvass_sheet(path: Path, sheet_name: str, header_row_index: 
         non_key_values = [v for v in row.iloc[1:].tolist() if not pd.isna(v) and str(v).strip() != ""]
         if not non_key_values:
             current_county = norm_county(precinct_text)
+            pending_county_subtotal = True
             continue
 
         if not current_county:
             continue
+        if pending_county_subtotal and precinct_text == current_county:
+            pending_county_subtotal = False
+            continue
+        pending_county_subtotal = False
 
         for col_idx in range(1, len(row)):
             candidate = "" if pd.isna(candidate_row[col_idx]) else str(candidate_row[col_idx]).strip()
