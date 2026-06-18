@@ -6069,9 +6069,9 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     margin: 0;
     padding: 0 14px;
     border-radius: 999px;
-    background: linear-gradient(135deg, rgba(185, 28, 28, 0.96) 0%, rgba(29, 78, 216, 0.92) 100%);
-    border: 1px solid rgba(148, 163, 184, 0.18);
-    box-shadow: 0 14px 30px rgba(37, 99, 235, 0.16), 0 8px 22px rgba(185, 28, 28, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.16);
+    background: linear-gradient(135deg, rgba(69, 98, 79, 0.96) 0%, rgba(169, 132, 43, 0.94) 100%);
+    border: 1px solid rgba(126, 86, 10, 0.22);
+    box-shadow: 0 14px 30px rgba(69, 98, 79, 0.18), 0 8px 22px rgba(169, 132, 43, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.14);
     color: #f8fafc !important;
     font-size: 14px;
     font-weight: 800;
@@ -6084,7 +6084,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     width: 8px;
     height: 8px;
     border-radius: 999px;
-    background: linear-gradient(135deg, var(--state-red) 0%, var(--state-blue) 100%);
+    background: linear-gradient(135deg, var(--ui-accent) 0%, var(--ui-pine) 100%);
     box-shadow: 0 0 0 4px rgba(248, 250, 252, 0.12);
     flex: 0 0 auto;
   }
@@ -6132,9 +6132,9 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     gap: 10px;
     padding: 14px;
     border-radius: 18px;
-    background: linear-gradient(135deg, rgba(15, 23, 42, 0.97) 0%, rgba(30, 41, 59, 0.93) 100%);
+    background: linear-gradient(135deg, rgba(60, 83, 68, 0.98) 0%, rgba(125, 90, 52, 0.94) 100%);
     color: #f8fafc;
-    box-shadow: 0 16px 34px rgba(15, 23, 42, 0.20);
+    box-shadow: 0 16px 34px rgba(36, 52, 58, 0.20);
   }
 
   .control-summary-head,
@@ -6166,8 +6166,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .control-summary-mode {
-    background: rgba(96, 165, 250, 0.16);
-    color: #bfdbfe;
+    background: rgba(217, 180, 74, 0.18);
+    color: #f8e6b5;
   }
 
   .control-summary-title {
@@ -6183,8 +6183,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .control-summary-pill-muted {
-    background: rgba(148, 163, 184, 0.18);
-    color: #cbd5e1;
+    background: rgba(255, 248, 222, 0.14);
+    color: rgba(248, 246, 239, 0.88);
   }
 
   .view-toggle-row {
@@ -6193,24 +6193,25 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     gap: 8px !important;
     padding: 6px;
     border-radius: 16px;
-    background: rgba(15, 23, 42, 0.05);
-    border: 1px solid rgba(148, 163, 184, 0.18);
+    background: rgba(69, 98, 79, 0.08);
+    border: 1px solid rgba(126, 86, 10, 0.16);
   }
 
   .view-toggle-btn {
     min-height: 42px;
     border-radius: 12px;
-    background: rgba(255, 255, 255, 0.76);
-    color: #334155;
+    background: rgba(255, 250, 242, 0.88);
+    color: var(--ui-text-strong);
     font-size: 12px;
     font-weight: 800;
     box-shadow: none;
   }
 
   .view-toggle-btn.active {
-    background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
-    color: #fff;
-    box-shadow: 0 12px 22px rgba(15, 23, 42, 0.16);
+    background: linear-gradient(180deg, var(--ui-accent) 0%, var(--ui-accent-deep) 100%);
+    color: #1f2937;
+    border-color: rgba(126, 86, 10, 0.32);
+    box-shadow: 0 12px 22px rgba(169, 132, 43, 0.20);
   }
 
   .viz-modes,
@@ -8522,12 +8523,12 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .tool-chip-btn {
-    background: #0f766e;
+    background: linear-gradient(135deg, var(--ui-pine) 0%, var(--ui-header-start) 100%);
     color: #ffffff;
     border-radius: 8px;
     height: 32px;
-    border: none;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+    border: 1px solid rgba(69, 98, 79, 0.24);
+    box-shadow: 0 2px 8px rgba(36, 52, 58, 0.12);
     font-size: 11px;
     display: inline-flex;
     align-items: center;
@@ -8539,7 +8540,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .tool-chip-btn:hover {
-    background: #0b5f5a;
+    background: linear-gradient(135deg, #385645 0%, #4b6b55 100%);
   }
 
   .tool-chip-btn:focus-visible,
@@ -8551,29 +8552,31 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .tool-chip-btn.tool-chip-btn-ghost {
-    background: #155e75;
+    background: linear-gradient(135deg, #7d5a34 0%, #a8842b 100%);
   }
 
   .tool-chip-btn.tool-chip-btn-ghost:hover {
-    background: #0e7490;
+    background: linear-gradient(135deg, #6e4f2d 0%, #957625 100%);
   }
 
   .tool-chip-btn.tool-chip-btn-muted {
-    background: #334155;
+    background: linear-gradient(135deg, rgba(93, 100, 88, 0.96) 0%, rgba(69, 98, 79, 0.96) 100%);
   }
 
   .tool-chip-btn.tool-chip-btn-muted:hover {
-    background: #1e293b;
+    background: linear-gradient(135deg, rgba(79, 86, 75, 0.98) 0%, rgba(56, 82, 66, 0.98) 100%);
   }
 
   #smart-insights-toggle[aria-pressed="true"] {
-    background: #0f766e;
-    box-shadow: 0 0 0 2px rgba(45, 212, 191, 0.24), 0 10px 22px rgba(15, 23, 42, 0.14);
+    background: linear-gradient(135deg, var(--ui-accent) 0%, var(--ui-accent-deep) 100%);
+    color: #1f2937;
+    box-shadow: 0 0 0 2px rgba(217, 180, 74, 0.24), 0 10px 22px rgba(36, 52, 58, 0.14);
   }
 
   #follow-hover-toggle[aria-pressed="true"] {
-    background: #0f766e;
-    box-shadow: 0 0 0 2px rgba(45, 212, 191, 0.24), 0 10px 22px rgba(15, 23, 42, 0.14);
+    background: linear-gradient(135deg, var(--ui-accent) 0%, var(--ui-accent-deep) 100%);
+    color: #1f2937;
+    box-shadow: 0 0 0 2px rgba(217, 180, 74, 0.24), 0 10px 22px rgba(36, 52, 58, 0.14);
   }
 
   @media (min-width: 769px) {
@@ -8586,11 +8589,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     height: 38px;
     min-width: 168px;
     border-radius: 8px;
-    border: 1px solid rgba(148, 163, 184, 0.72);
-    background: #0b6a63;
+    border: 1px solid rgba(126, 86, 10, 0.28);
+    background: linear-gradient(135deg, var(--ui-pine) 0%, var(--ui-header-start) 100%);
     color: #ffffff !important;
     -webkit-text-fill-color: #ffffff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 2px 8px rgba(36, 52, 58, 0.12);
     font-size: 15px;
     font-weight: 700;
     line-height: 1.25;
@@ -10309,8 +10312,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-06-18-01';
-    const APP_BUILD_ID = '2026-06-14-01';
+    const DATA_CACHE_BUSTER = '2026-06-18-02';
+    const APP_BUILD_ID = '2026-06-18-02';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -12473,6 +12476,34 @@ document.addEventListener('DOMContentLoaded', function() {
       return '';
     }
 
+    function getDistrictGeometryFallbackPaths(scope, linesYear = currentDistrictLinesYear) {
+      const y = normalizeDistrictLinesYear(linesYear);
+      if (scope === 'congressional') {
+        const ordered = [];
+        if (y === 2026) {
+          ordered.push(CONFIG.paths.districts_2026, CONFIG.paths.districts_2024, CONFIG.paths.districts, './data/census/tl_2008_16_cd110.geojson');
+        } else if (y === 2022) {
+          ordered.push(CONFIG.paths.districts_2024, CONFIG.paths.districts_2022, CONFIG.paths.districts, './data/census/tl_2008_16_cd110.geojson');
+        } else {
+          ordered.push(CONFIG.paths.districts_2024, CONFIG.paths.districts, './data/census/tl_2008_16_cd110.geojson');
+        }
+        return [...new Set(ordered.filter(Boolean))];
+      }
+      if (scope === 'state_house') {
+        const ordered = y === 2026
+          ? [CONFIG.paths.state_house_2024, CONFIG.paths.state_house, './data/census/tl_2008_16_sldl.geojson']
+          : [CONFIG.paths.state_house_2024, CONFIG.paths.state_house_2022, CONFIG.paths.state_house, './data/census/tl_2008_16_sldl.geojson'];
+        return [...new Set(ordered.filter(Boolean))];
+      }
+      if (scope === 'state_senate') {
+        const ordered = y === 2026
+          ? [CONFIG.paths.state_senate_2024, CONFIG.paths.state_senate, './data/census/tl_2008_16_sldu.geojson']
+          : [CONFIG.paths.state_senate_2024, CONFIG.paths.state_senate_2022, CONFIG.paths.state_senate, './data/census/tl_2008_16_sldu.geojson'];
+        return [...new Set(ordered.filter(Boolean))];
+      }
+      return [];
+    }
+
     function updateDistrictLinesToggleUI() {
       const y = normalizeDistrictLinesYear(currentDistrictLinesYear);
       const btn2022 = document.getElementById('district-lines-2022');
@@ -12496,13 +12527,21 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     async function loadDistrictGeometry(scope, linesYear = currentDistrictLinesYear) {
-      const path = getDistrictGeometryPath(scope, linesYear);
-      if (!path) return null;
-      const cacheKey = `${scope}:${path}`;
-      if (districtGeometryCache.has(cacheKey)) return districtGeometryCache.get(cacheKey);
-      const data = await loadJSON(path);
-      districtGeometryCache.set(cacheKey, data);
-      return data;
+      const paths = getDistrictGeometryFallbackPaths(scope, linesYear);
+      if (!paths.length) return null;
+      let lastError = null;
+      for (const path of paths) {
+        const cacheKey = `${scope}:${path}`;
+        if (districtGeometryCache.has(cacheKey)) return districtGeometryCache.get(cacheKey);
+        try {
+          const data = await loadJSON(path);
+          districtGeometryCache.set(cacheKey, data);
+          return data;
+        } catch (err) {
+          lastError = err;
+        }
+      }
+      throw lastError || new Error(`No district geometry available for ${scope}`);
     }
 
     async function refreshDistrictGeometrySources(linesYear = currentDistrictLinesYear) {
@@ -32302,11 +32341,15 @@ document.addEventListener('DOMContentLoaded', function() {
           }
           window['state-house__search_geojson'] = stateHouseGeoJSON;
         }
+      } catch (err) {
+        console.warn('State house geometry not loaded:', err.message);
+      }
+      try {
         const stateHouseCSV = await loadCSV(CONFIG.paths.state_house_info);
         stateHouseInfo = parseCSV(stateHouseCSV);
         setStatus('State house districts loaded');
       } catch (err) {
-        console.warn('State house resources not loaded:', err.message);
+        console.warn('State house metadata not loaded:', err.message);
       }
 
       try {
@@ -32324,11 +32367,15 @@ document.addEventListener('DOMContentLoaded', function() {
           }
           window['state-senate__search_geojson'] = stateSenateGeoJSON;
         }
+      } catch (err) {
+        console.warn('State senate geometry not loaded:', err.message);
+      }
+      try {
         const stateSenateCSV = await loadCSV(CONFIG.paths.state_senate_info);
         stateSenateInfo = parseCSV(stateSenateCSV);
         setStatus('State senate districts loaded');
       } catch (err) {
-        console.warn('State senate resources not loaded:', err.message);
+        console.warn('State senate metadata not loaded:', err.message);
       }
 
       syncCurrentViewLayersAfterHydration();
