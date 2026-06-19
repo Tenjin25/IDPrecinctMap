@@ -31437,13 +31437,7 @@ document.addEventListener('DOMContentLoaded', function() {
           return;
         }
         if (hasSplitOutcome) {
-          row.margin_pct = 0;
-          row.winner = 'TIE';
-          row.color = '#d6c3a1';
-          row.competitiveness = { color: '#d6c3a1' };
-          row.no_data = false;
           row.split_seat_outcome = true;
-          return;
         }
         const signed = signedMarginPctFromVotes(row.dem_votes, row.rep_votes, totalVotes);
         const winner = winnerFromSignedMarginPct(signed);

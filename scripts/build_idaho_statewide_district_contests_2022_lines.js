@@ -24,6 +24,11 @@ const STATEWIDE_2022_WORKBOOK_PATH = path.join(
   '2022_General_Canvass',
   '22 General Statewide - Precinct.xlsx'
 );
+const CLEANED_2022_LEGISLATIVE_CSV_PATH = path.join(
+  DATA_DIR,
+  '2022_General_Canvass',
+  '2022_legislative_precinct_cleaned.csv'
+);
 
 const CROSSWALKS = {
   congressional: {
@@ -1027,6 +1032,115 @@ function firstExistingPath(paths) {
   return '';
 }
 
+function buildUnifiedStateHouse2022FromCleanedCsv() {
+  if (!fs.existsSync(CLEANED_2022_LEGISLATIVE_CSV_PATH)) return null;
+  const rows = parseCsv(fs.readFileSync(CLEANED_2022_LEGISLATIVE_CSV_PATH, 'utf8'));
+  const totalsByDistrictSeat = new Map();
+  const uniqueCandidates = new Set();
+
+  for (const row of rows) {
+    if (clean(row.office_type) !== 'state_house') continue;
+    const districtNum = Number(row.district_num);
+    const seat = upper(row.seat);
+    if (!Number.isFinite(districtNum) || districtNum <= 0 || !['A', 'B'].includes(seat)) continue;
+
+    const key = `${districtNum}${seat}`;
+    if (!totalsByDistrictSeat.has(key)) {
+      totalsByDistrictSeat.set(key, {
+        district: key,
+        district_num: districtNum,
+        seat,
+        dem_votes: 0,
+        rep_votes: 0,
+        other_votes: 0,
+        total_votes: 0,
+        dem_candidates: new Map(),
+        rep_candidates: new Map(),
+      });
+    }
+    const bucket = totalsByDistrictSeat.get(key);
+    const votes = Number(row.votes) || 0;
+    const party = upper(row.party_norm);
+    const candidate = clean(row.candidate);
+    if (candidate) uniqueCandidates.add(candidate);
+
+    bucket.total_votes += votes;
+    if (party === 'DEM') {
+      bucket.dem_votes += votes;
+      if (candidate) bucket.dem_candidates.set(candidate, (bucket.dem_candidates.get(candidate) || 0) + votes);
+    } else if (party === 'REP') {
+      bucket.rep_votes += votes;
+      if (candidate) bucket.rep_candidates.set(candidate, (bucket.rep_candidates.get(candidate) || 0) + votes);
+    } else {
+      bucket.other_votes += votes;
+    }
+  }
+
+  const results = {};
+  for (const [districtKey, bucket] of Array.from(totalsByDistrictSeat.entries()).sort((a, b) => {
+    const districtDiff = Number(a[1].district_num) - Number(b[1].district_num);
+    if (districtDiff) return districtDiff;
+    return clean(a[1].seat).localeCompare(clean(b[1].seat));
+  })) {
+    const totalVotes = Number(bucket.total_votes) || 0;
+    const demVotes = Math.round(Number(bucket.dem_votes) || 0);
+    const repVotes = Math.round(Number(bucket.rep_votes) || 0);
+    const otherVotes = Math.round(Number(bucket.other_votes) || 0);
+    const margin = repVotes - demVotes;
+    const marginPct = totalVotes > 0 ? Number(((margin / totalVotes) * 100).toFixed(4)) : 0;
+    const winner = totalVotes > 0
+      ? (margin > 0 ? 'REP' : (margin < 0 ? 'DEM' : 'TIE'))
+      : 'TIE';
+    const color = totalVotes > 0 ? pickColor(marginPct) : '#9ca3af';
+    const demCandidate = Array.from(bucket.dem_candidates.entries()).sort((a, b) => {
+      if (b[1] !== a[1]) return b[1] - a[1];
+      return a[0].localeCompare(b[0]);
+    })[0]?.[0] || '';
+    const repCandidate = Array.from(bucket.rep_candidates.entries()).sort((a, b) => {
+      if (b[1] !== a[1]) return b[1] - a[1];
+      return a[0].localeCompare(b[0]);
+    })[0]?.[0] || '';
+
+    results[districtKey] = {
+      district: districtKey,
+      district_num: Number(bucket.district_num),
+      seat: clean(bucket.seat),
+      dem_votes: demVotes,
+      rep_votes: repVotes,
+      other_votes: otherVotes,
+      total_votes: totalVotes,
+      dem_candidate: demCandidate,
+      rep_candidate: repCandidate,
+      margin,
+      margin_pct: marginPct,
+      winner,
+      color,
+      competitiveness: { color },
+      no_data: totalVotes <= 0,
+    };
+  }
+
+  if (!Object.keys(results).length) return null;
+  return {
+    scope: 'state_house',
+    contest_type: 'state_house',
+    year: 2022,
+    state: 'ID',
+    meta: {
+      match_coverage_pct: null,
+      weighted_vote_coverage_pct: null,
+      source: 'idaho_unified_state_house_from_cleaned_csv',
+      office: 'State House',
+      office_group: 'State House',
+      district_format: 'number+seat',
+      seat_labels: ['A', 'B'],
+      lines_year: 2022,
+      candidate_count: uniqueCandidates.size || null,
+    },
+    general: { results },
+  };
+}
+
 function buildUnifiedStateHousePayload(year, payloadA, payloadB) {
   const seatPayloads = [
     { seat: 'A', payload: payloadA },
@@ -1108,6 +1222,19 @@ function buildUnifiedStateHousePayload(year, payloadA, payloadB) {
 function synthesizeUnifiedStateHouseEntries(manifest2022, new2022Entries) {
   const legacyDir = path.join(DATA_DIR, 'district_contests');
   const years = new Set();
+  const cleaned2022Unified = buildUnifiedStateHouse2022FromCleanedCsv();
+  if (cleaned2022Unified) {
+    const fileName = 'state_house_state_house_2022.json';
+    writeJson(path.join(OUT_2022_DIR, fileName), cleaned2022Unified);
+    new2022Entries.push({
+      year: 2022,
+      scope: 'state_house',
+      contest_type: 'state_house',
+      file: fileName,
+      districts: Object.keys(cleaned2022Unified.general.results || {}).length,
+      office: 'State House',
+    });
+  }
   const candidateDirs = [OUT_2022_DIR, legacyDir];
   for (const dir of candidateDirs) {
     if (!fs.existsSync(dir)) continue;
@@ -1117,6 +1244,7 @@ function synthesizeUnifiedStateHouseEntries(manifest2022, new2022Entries) {
     }
   }
   for (const year of years) {
+    if (year === 2022 && cleaned2022Unified) continue;
     const payloadAPath = firstExistingPath([
       path.join(OUT_2022_DIR, `state_house_state_house_a_${year}.json`),
       path.join(legacyDir, `state_house_state_house_a_${year}.json`),
@@ -1243,3 +1371,5 @@ function main() {
 }
 
 main();
+
+
