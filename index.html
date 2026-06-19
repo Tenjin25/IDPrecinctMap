@@ -19076,8 +19076,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	      }
 	      const contestKey = canonicalizeContestType(contestType);
 	      if (contestKey === 'state_house') return 'State House';
-	      if (contestKey === 'state_house_a') return 'State House A';
-	      if (contestKey === 'state_house_b') return 'State House B';
+	      if (contestKey === 'state_house_a') return 'State House';
+	      if (contestKey === 'state_house_b') return 'State House';
 	      const nameMap = {
 	        'president': 'President of the United States',
 	        'county_assessor': 'County Assessor',
@@ -19147,8 +19147,8 @@ document.addEventListener('DOMContentLoaded', function() {
     function formatGroupedContestOptionLabel(contestType, year) {
       const key = String(contestType || '').trim().toLowerCase();
       if (key === 'state_house') return `State House (${year})`;
-      if (key === 'state_house_a') return `State House A (${year})`;
-      if (key === 'state_house_b') return `State House B (${year})`;
+      if (key === 'state_house_a') return `State House (${year})`;
+      if (key === 'state_house_b') return `State House (${year})`;
       if (key === 'us_house_d1') return `District 1 (${year})`;
       if (key === 'us_house_d2') return `District 2 (${year})`;
       return `${formatContestName(contestType, year)} (${year})`;
@@ -26802,6 +26802,9 @@ document.addEventListener('DOMContentLoaded', function() {
           return;
         }
 
+        const voteCounterSummary = String(contestType).trim().toLowerCase() === 'state_house'
+          ? summarizeUnifiedStateHouseEntries(seatEntries, Number(year))
+          : null;
         let demCandidate = (primaryEntry.row.dem_candidate || '').toString().trim();
         let repCandidate = (primaryEntry.row.rep_candidate || '').toString().trim();
         if (!demCandidate) demCandidate = (primaryEntry.fallbackCandidates?.dem || '').toString().trim();
@@ -26809,17 +26812,23 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!demCandidate) demCandidate = getCandidateName(year, formatContestName(primaryEntry.contestType, year), 'Democrat');
         if (!repCandidate) repCandidate = getCandidateName(year, formatContestName(primaryEntry.contestType, year), 'Republican');
 
-        const demVotes = Number(primaryEntry.row.dem_votes || 0);
-        const repVotes = Number(primaryEntry.row.rep_votes || 0);
-        const otherVotes = Number(primaryEntry.row.other_votes || 0);
+        const demVotes = voteCounterSummary ? Number(voteCounterSummary.demVotes || 0) : Number(primaryEntry.row.dem_votes || 0);
+        const repVotes = voteCounterSummary ? Number(voteCounterSummary.repVotes || 0) : Number(primaryEntry.row.rep_votes || 0);
+        const otherVotes = voteCounterSummary ? Number(voteCounterSummary.otherVotes || 0) : Number(primaryEntry.row.other_votes || 0);
+        const hoverSubLabel = String(contestType).trim().toLowerCase() === 'state_house'
+          ? `${formatContestLabel('state_house', year)} (A+B)`
+          : `${formatContestLabel(primaryEntry.contestType, year)}`;
         setVoteCounterHoverState(
           `Hover: ${districtLabel} ${districtNum}`,
-          `${formatContestLabel(primaryEntry.contestType, year)}`,
+          hoverSubLabel,
           demVotes,
           repVotes,
           otherVotes,
-          { demCandidate, repCandidate },
-          { kind: 'district', scope, districtNum: Number(districtNum), contestType: primaryEntry.contestType, year: Number(year) }
+          {
+            demCandidate: voteCounterSummary?.demCandidate || demCandidate,
+            repCandidate: voteCounterSummary?.repCandidate || repCandidate
+          },
+          { kind: 'district', scope, districtNum: Number(districtNum), contestType: String(contestType).trim().toLowerCase() === 'state_house' ? 'state_house' : primaryEntry.contestType, year: Number(year) }
         );
 
         const pinnedShell = !!(tooltipPinned || (forceTooltip && isTouchInteractionMode()));
@@ -31696,6 +31705,30 @@ document.addEventListener('DOMContentLoaded', function() {
       };
     }
 
+    function summarizeUnifiedStateHouseEntries(entries, year) {
+      const summaries = (Array.isArray(entries) ? entries : [])
+        .map(entry => summarizeStateHouseSeatEntry(entry, year))
+        .filter(summary => summary && Number(summary.totalVotes || 0) > 0);
+      if (!summaries.length) return null;
+      const demVotes = summaries.reduce((sum, item) => sum + Number(item.demVotes || 0), 0);
+      const repVotes = summaries.reduce((sum, item) => sum + Number(item.repVotes || 0), 0);
+      const otherVotes = summaries.reduce((sum, item) => sum + Number(item.otherVotes || 0), 0);
+      const totalVotes = summaries.reduce((sum, item) => sum + Number(item.totalVotes || 0), 0);
+      const signedMarginPct = signedMarginPctFromVotes(demVotes, repVotes, totalVotes);
+      const winnerTone = signedMarginPct > 0 ? 'rep' : (signedMarginPct < 0 ? 'dem' : 'tie');
+      const demCandidate = summaries.map(item => item.demCandidate).filter(Boolean).join(' / ');
+      const repCandidate = summaries.map(item => item.repCandidate).filter(Boolean).join(' / ');
+      return {
+        demVotes,
+        repVotes,
+        otherVotes,
+        totalVotes,
+        signedMarginPct,
+        winnerTone,
+        demCandidate,
+        repCandidate
+      };
+    }
     function renderStateHouseVotehubTooltipHTML(entries, year, districtNum, selectedContestType) {
       if (!Array.isArray(entries) || !entries.length) {
         return '<div style="color:#94a3b8;">No seat results for this district.</div>';
