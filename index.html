@@ -4383,11 +4383,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-pill-value.dem {
-    color: var(--state-blue-strong);
+    color: #2563eb;
   }
 
   .focus-pill-value.rep {
-    color: var(--state-red-strong);
+    color: #dc2626;
   }
 
   .focus-pill-value.tie {
@@ -28087,23 +28087,10 @@ document.addEventListener('DOMContentLoaded', function() {
       // Split-ticket (Pres-Gov lens) and vote breakdown go into progressive disclosure.
       const splitInsight = getSplitTicketCountyInsight(norm, contestType, demVotes, repVotes, totalVotes);
 
-      // For colorblind mode, use the correct accessibility palette for Republican vote breakdown
-      let repColor = '#dc2626';
-      if (isColorblind) {
-        if (parseFloat(marginPct) >= 40) repColor = '#cc5500';
-        else if (parseFloat(marginPct) >= 30 && parseFloat(marginPct) <= 39.99) repColor = '#ff6600';
-        else if (parseFloat(marginPct) >= 20 && parseFloat(marginPct) <= 29.99) repColor = '#ff8833';
-        else if (parseFloat(marginPct) >= 10 && parseFloat(marginPct) <= 19.99) repColor = '#ffaa55';
-        else if (parseFloat(marginPct) >= 5.51 && parseFloat(marginPct) <= 9.99) repColor = '#ffcc77';
-        else if (parseFloat(marginPct) >= 1 && parseFloat(marginPct) <= 5.5) repColor = '#ffdd99';
-        else if (parseFloat(marginPct) >= 0.51 && parseFloat(marginPct) <= 0.99) repColor = '#ffeecc';
-        else repColor = '#cccccc';
-      } else {
-        repColor = '#dc2626';
-      }
-      let demColor;
-      if (isColorblind) demColor = cbColorForMargin(parseFloat(marginPct), 'D');
-      else demColor = '#2563eb';
+      // Keep party labels in the selected-panel vote breakdown on canonical party colors
+      // so candidate names and percentages stay visually consistent with the rest of the panel.
+      const repColor = '#dc2626';
+      const demColor = '#2563eb';
 
       focusContent += `
         <details class="focus-disclosure" id="county-vote-details">
@@ -34840,5 +34827,3 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 </body>
 </html>
-
-
