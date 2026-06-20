@@ -159,6 +159,9 @@ Then open:
 
 - `http://localhost:8000/`
 
+Selected-panel note:
+The History timeline in the selected county and district panel follows the active visualization mode, so `Margins`, `Winners`, `Shift`, and `Flips` each render different timeline labels.
+
 Opening `index.html` directly can work for inspection, but a local server is better for debugging data fetches and manifest issues.
 
 ## Build scripts
@@ -300,3 +303,4 @@ When editing this repo:
 - keep line-vintage naming explicit
 - update `index.html` path hooks when directory names or manifest layout change
 - bump the cache-buster whenever frontend-loaded assets materially change
+

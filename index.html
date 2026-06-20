@@ -3103,8 +3103,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     box-shadow: inset 0 0 0 1px rgba(255,255,255,0.25);
   }
 
-  .meta-chip.dem .dot { background: #2563eb; }
-  .meta-chip.rep .dot { background: #dc2626; }
+  .meta-chip.dem .dot { background: var(--state-blue); }
+  .meta-chip.rep .dot { background: var(--state-red); }
   .meta-chip.tie .dot { background: #94a3b8; }
   .meta-chip.shift .dot { background: #0ea5e9; }
   .meta-chip.flip .dot { background: #a855f7; }
@@ -3125,8 +3125,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     letter-spacing: 0.02em;
   }
 
-  .meta-chip.shift .shift-value.rep { color: #b91c1c; }
-  .meta-chip.shift .shift-value.dem { color: #1d4ed8; }
+  .meta-chip.shift .shift-value.rep { color: var(--state-red-strong); }
+  .meta-chip.shift .shift-value.dem { color: var(--state-blue-strong); }
   .meta-chip.shift .shift-value.tie { color: #475569; }
 
   .meta-chip.shift .shift-years {
@@ -3135,15 +3135,15 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .meta-chip.flip.dem {
-    border-color: rgba(37, 99, 235, 0.65);
-    background: rgba(37, 99, 235, 0.18);
-    color: #dbeafe;
+    border-color: rgba(73, 105, 86, 0.48);
+    background: rgba(73, 105, 86, 0.18);
+    color: #e7efe9;
   }
 
   .meta-chip.flip.rep {
-    border-color: rgba(220, 38, 38, 0.65);
-    background: rgba(220, 38, 38, 0.18);
-    color: #fee2e2;
+    border-color: rgba(180, 87, 58, 0.48);
+    background: rgba(180, 87, 58, 0.18);
+    color: #f5e5de;
   }
 
 	  .meta-chip.flip {
@@ -3657,7 +3657,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     flex: 0 0 auto;
     padding: 6px 10px;
     border-radius: 999px;
-    background: linear-gradient(135deg, rgba(220, 38, 38, 0.24) 0%, rgba(37, 99, 235, 0.22) 100%);
+    background: linear-gradient(135deg, rgba(180, 87, 58, 0.26) 0%, rgba(73, 105, 86, 0.24) 100%);
     color: #e2e8f0;
     font-size: 11px;
     font-weight: 800;
@@ -3666,12 +3666,12 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .map-topbar-badge .badge-state-name {
-    color: #3b82f6;
+    color: var(--state-blue);
     text-shadow: 0 1px 0 rgba(15, 23, 42, 0.55);
   }
 
   .map-topbar-badge .badge-atlas-name {
-    color: #ef4444;
+    color: var(--state-red);
     text-shadow: 0 1px 0 rgba(15, 23, 42, 0.55);
   }
 
@@ -3977,7 +3977,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
 
   .fly-search-option[data-tone="district"] span,
   .fly-search-option[data-tone="precinct"] span {
-    color: #1d4ed8;
+    color: var(--state-blue-strong);
   }
 
   .panel-eyebrow {
@@ -3986,7 +3986,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     padding: 6px 10px;
     border-radius: 999px;
     background: rgba(37, 99, 235, 0.10);
-    color: #1d4ed8;
+    color: var(--state-blue-strong);
     font-size: 11px;
     font-weight: 800;
     letter-spacing: 0.08em;
@@ -4383,11 +4383,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-pill-value.dem {
-    color: #1d4ed8;
+    color: var(--state-blue-strong);
   }
 
   .focus-pill-value.rep {
-    color: #dc2626;
+    color: var(--state-red-strong);
   }
 
   .focus-pill-value.tie {
@@ -4463,12 +4463,12 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-bar-label.dem {
-    color: #1d4ed8;
+    color: var(--state-blue-strong);
     text-align: left;
   }
 
   .focus-bar-label.rep {
-    color: #b91c1c;
+    color: var(--state-red-strong);
     text-align: right;
   }
 
@@ -4495,7 +4495,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-bar-segment.dem {
-    background: linear-gradient(90deg, #2563eb, #60a5fa);
+    background: linear-gradient(90deg, var(--state-blue-strong), var(--state-blue));
   }
 
   .focus-bar-segment.other {
@@ -4503,7 +4503,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-bar-segment.rep {
-    background: linear-gradient(90deg, #f87171, #dc2626);
+    background: linear-gradient(90deg, var(--state-red), var(--state-red-strong));
   }
 
   .focus-bar-midpoint {
@@ -4632,12 +4632,12 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trend-summary-badge.rep {
-    color: #b91c1c;
+    color: var(--state-red-strong);
     background: rgba(254, 226, 226, 0.78);
   }
 
   .focus-trend-summary-badge.dem {
-    color: #1d4ed8;
+    color: var(--state-blue-strong);
     background: rgba(219, 234, 254, 0.82);
   }
 
@@ -4908,13 +4908,13 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trajectory-status.tone-dem {
-    color: #1d4ed8;
+    color: var(--state-blue-strong);
     border-color: rgba(37, 99, 235, 0.2);
     background: rgba(219, 234, 254, 0.88);
   }
 
   .focus-trajectory-status.tone-rep {
-    color: #b91c1c;
+    color: var(--state-red-strong);
     border-color: rgba(220, 38, 38, 0.2);
     background: rgba(254, 226, 226, 0.84);
   }
@@ -4976,13 +4976,13 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trajectory-trendline.tone-rep {
-    color: #b91c1c;
+    color: var(--state-red-strong);
     border-color: rgba(220, 38, 38, 0.22);
     background: rgba(254, 242, 242, 0.86);
   }
 
   .focus-trajectory-trendline.tone-dem {
-    color: #1d4ed8;
+    color: var(--state-blue-strong);
     border-color: rgba(37, 99, 235, 0.22);
     background: rgba(239, 246, 255, 0.9);
   }
@@ -5117,11 +5117,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trajectory-value.tone-dem {
-    color: #1d4ed8;
+    color: var(--state-blue-strong);
   }
 
   .focus-trajectory-value.tone-rep {
-    color: #b91c1c;
+    color: var(--state-red-strong);
   }
 
   .focus-trajectory-value.tone-neutral {
@@ -5137,11 +5137,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trajectory-arrow.tone-dem {
-    color: #1d4ed8;
+    color: var(--state-blue-strong);
   }
 
   .focus-trajectory-arrow.tone-rep {
-    color: #b91c1c;
+    color: var(--state-red-strong);
   }
 
   .focus-trajectory-arrow.tone-neutral {
@@ -5354,12 +5354,12 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trend-dot-badge.rep {
-    color: #b91c1c;
+    color: var(--state-red-strong);
     background: rgba(254, 226, 226, 0.82);
   }
 
   .focus-trend-dot-badge.dem {
-    color: #1d4ed8;
+    color: var(--state-blue-strong);
     background: rgba(219, 234, 254, 0.86);
   }
 
@@ -5377,11 +5377,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trend-dot-value.dem {
-    color: #1d4ed8;
+    color: var(--state-blue-strong);
   }
 
   .focus-trend-dot-value.rep {
-    color: #dc2626;
+    color: var(--state-red-strong);
   }
 
   .focus-trend-dot-value.tie {
@@ -5446,12 +5446,12 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trend-dot-shift.rep {
-    color: #b91c1c;
+    color: var(--state-red-strong);
     background: rgba(254, 226, 226, 0.78);
   }
 
   .focus-trend-dot-shift.dem {
-    color: #1d4ed8;
+    color: var(--state-blue-strong);
     background: rgba(219, 234, 254, 0.84);
   }
 
@@ -5508,11 +5508,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trend-stat-value.dem {
-    color: #1d4ed8;
+    color: var(--state-blue-strong);
   }
 
   .focus-trend-stat-value.rep {
-    color: #b91c1c;
+    color: var(--state-red-strong);
   }
 
   .focus-trend-stat-value.tie {
@@ -5619,12 +5619,12 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trend-entry-badge.dem {
-    color: #1d4ed8;
+    color: var(--state-blue-strong);
     background: rgba(219, 234, 254, 0.86);
   }
 
   .focus-trend-entry-badge.rep {
-    color: #b91c1c;
+    color: var(--state-red-strong);
     background: rgba(254, 226, 226, 0.82);
   }
 
@@ -5637,11 +5637,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trend-entry-call.dem {
-    color: #1d4ed8;
+    color: var(--state-blue-strong);
   }
 
   .focus-trend-entry-call.rep {
-    color: #b91c1c;
+    color: var(--state-red-strong);
   }
 
   .focus-trend-entry-call.tie {
@@ -5674,11 +5674,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trend-entry-scale .dem {
-    color: #1d4ed8;
+    color: var(--state-blue-strong);
   }
 
   .focus-trend-entry-scale .rep {
-    color: #b91c1c;
+    color: var(--state-red-strong);
     text-align: right;
   }
 
@@ -5720,12 +5720,12 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trend-chip.dem {
-    color: #1d4ed8;
+    color: var(--state-blue-strong);
     background: rgba(219, 234, 254, 0.84);
   }
 
   .focus-trend-chip.rep {
-    color: #b91c1c;
+    color: var(--state-red-strong);
     background: rgba(254, 226, 226, 0.78);
   }
 
@@ -6630,8 +6630,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     color: #0f172a;
   }
 
-  .statewide-call[data-party="dem"] { color: #1d4ed8; }
-  .statewide-call[data-party="rep"] { color: #b91c1c; }
+  .statewide-call[data-party="dem"] { color: var(--state-blue-strong); }
+  .statewide-call[data-party="rep"] { color: var(--state-red-strong); }
   .statewide-call[data-party="tie"] { color: #475569; }
 
   .statewide-subline {
@@ -6717,15 +6717,15 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .statewide-share-chip.dem {
-    color: #1d4ed8;
-    background: rgba(219, 234, 254, 0.72);
-    border-color: rgba(96, 165, 250, 0.32);
+    color: var(--state-blue-strong);
+    background: rgba(73, 105, 86, 0.18);
+    border-color: rgba(73, 105, 86, 0.28);
   }
 
   .statewide-share-chip.rep {
-    color: #b91c1c;
-    background: rgba(254, 226, 226, 0.76);
-    border-color: rgba(248, 113, 113, 0.30);
+    color: var(--state-red-strong);
+    background: rgba(180, 87, 58, 0.16);
+    border-color: rgba(180, 87, 58, 0.28);
   }
 
   .statewide-share-chip.other {
@@ -7068,11 +7068,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .legend-axis .rep {
-    color: #b91c1c;
+    color: var(--state-red-strong);
   }
 
   .legend-axis .dem {
-    color: #1d4ed8;
+    color: var(--state-blue-strong);
   }
 
   .legend-scale-caption {
@@ -7101,11 +7101,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .legend-scale-caption .rep {
-    color: #b91c1c;
+    color: var(--state-red-strong);
   }
 
   .legend-scale-caption .dem {
-    color: #1d4ed8;
+    color: var(--state-blue-strong);
   }
 
   .legend-chip-row {
@@ -7249,8 +7249,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     margin-left: auto;
   }
 
-  .vote-lead[data-party="dem"] { color: #1d4ed8; }
-  .vote-lead[data-party="rep"] { color: #b91c1c; }
+  .vote-lead[data-party="dem"] { color: var(--state-blue-strong); }
+  .vote-lead[data-party="rep"] { color: var(--state-red-strong); }
   .vote-lead[data-party="tie"] { color: #475569; }
 
   .vote-counter-row {
@@ -7294,8 +7294,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     flex: 0 0 auto;
   }
 
-  .vote-item.dem .vote-swatch { background: #2563eb; }
-  .vote-item.rep .vote-swatch { background: #dc2626; }
+  .vote-item.dem .vote-swatch { background: var(--state-blue); }
+  .vote-item.rep .vote-swatch { background: var(--state-red); }
   .vote-item.other .vote-swatch { background: #64748b; }
 
   .vote-count {
@@ -7349,8 +7349,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     transition: width 240ms ease;
   }
 
-  .vote-share-fill.dem { background: linear-gradient(90deg, #60a5fa 0%, #2563eb 100%); }
-  .vote-share-fill.rep { background: linear-gradient(90deg, #fb7185 0%, #dc2626 100%); }
+  .vote-share-fill.dem { background: linear-gradient(90deg, var(--state-blue) 0%, var(--state-blue-strong) 100%); }
+  .vote-share-fill.rep { background: linear-gradient(90deg, var(--state-red) 0%, var(--state-red-strong) 100%); }
   .vote-share-fill.other { background: linear-gradient(90deg, #94a3b8 0%, #64748b 100%); }
 
   /* Safe fallback: if one-line layout overflows, JS adds .layout-stacked per card. */
@@ -9961,7 +9961,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <label for="model-bonus">Candidate overperformance</label>
                 <input id="model-bonus" type="range" min="0" max="1.5" step="0.1" value="1" data-testid="model-bonus" aria-label="Model candidate bonus scale" />
                 <span class="scenario-value" id="model-bonus-value">1.0x</span>
-                <div class="scenario-help">Scales county-level overperformance effects (for example, Cooper crossover strength) with guardrails.</div>
+                <div class="scenario-help">Scales county-level overperformance effects with guardrails.</div>
               </div>
               <div class="scenario-row scenario-row-actions" id="model-reset-row" style="display:none;">
                 <span></span>
@@ -10809,7 +10809,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let districtDescriptions = null; // Optional labels like "Sampson & Bladen Counties" or "Concord–Harrisburg"
     let countyDemographics = null; // County-level VAP (18+) + total-pop race/ethnicity from DP1 (includes AIAN/native)
     let countyPopulationEstimatesByNorm = null; // Map<string countyNorm, growth/estimate summary from Vintage 2025 county estimates>
-    let countyPopulationEstimateStatewide = null; // Statewide NC summary from the same file
+    let countyPopulationEstimateStatewide = null; // Statewide summary from the same file
 
     // --- County raw-vote deltas (cycle-to-cycle) for hover tooltips ---
     // Cache by (contestType, fromYear, toYear) so hover rendering stays synchronous/fast.
@@ -15700,74 +15700,31 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         const classifyCountyBehaviorType = (county, totals = null) => {
-          // Senate calibration: force Wake into metro-core routing even if a context label is missing/noisy.
-          if (isSenateDeviationModel && county === 'WAKE') return 'urban';
-          const ctx = getCountyCensusContextSafe(county);
-          const pattern = String(ctx?.patternLabel || '').toLowerCase();
+          void totals;
           const pop = Number(countyPopulationEstimatesByNorm?.get(county)?.population2025 || 0);
-          if (/urban anchor|urban county/.test(pattern) || pop >= 550000) return 'urban';
-          if (/metro spillover|outer-suburban|suburban/.test(pattern) || pop >= 180000) return 'suburban';
-          if (/small-metro|transition|coastal growth/.test(pattern) || pop >= 90000) return 'exurban';
+          if (pop >= 350000) return 'urban';
+          if (pop >= 120000) return 'suburban';
+          if (pop >= 50000) return 'exurban';
           return 'rural';
         };
 
-        // County cluster classifier (used for optional calibration + diagnostics).
-        // These are intentionally coarse buckets (not an ontology), to keep model behavior stable and readable.
-        const COLLEGE_COUNTIES = new Set([
-          'ORANGE', 'DURHAM', 'WATAUGA', 'PITT', 'NEW HANOVER',
-          'BUNCOMBE', 'FORSYTH', 'WAKE', 'GUILFORD', 'MECKLENBURG'
-        ]);
-        const APPALACHIAN_COUNTIES = new Set([
-          'ASHE', 'AVERY', 'BURKE', 'CALDWELL', 'CHEROKEE', 'CLAY', 'GRAHAM',
-          'HAYWOOD', 'HENDERSON', 'JACKSON', 'MCDOWELL', 'MITCHELL', 'POLK',
-          'RUTHERFORD', 'SWAIN', 'TRANSYLVANIA', 'WATAUGA', 'YANCEY', 'WILKES'
-        ]);
-        const EASTERN_NC_COUNTIES = new Set([
-          'BEAUFORT', 'BERTIE', 'BLADEN', 'BRUNSWICK', 'CAMDEN', 'CARTERET', 'CHOWAN',
-          'CRAVEN', 'CURRITUCK', 'DARE', 'DUPLIN', 'EDGECOMBE', 'GATES', 'GREENE',
-          'HALIFAX', 'HERTFORD', 'HYDE', 'JONES', 'LENOIR', 'MARTIN', 'NASH',
-          'NEW HANOVER', 'NORTHAMPTON', 'ONSLOW', 'PAMLICO', 'PASQUOTANK', 'PENDER',
-          'PERQUIMANS', 'PITT', 'ROBESON', 'SAMPSON', 'SCOTLAND', 'TYRRELL',
-          'WASHINGTON', 'WAYNE', 'WILSON'
-        ]);
-
+        // Generic county clustering for non-prototype modeling paths.
         const inferCountyCluster = (county, totals = null) => {
-          const ctx = getCountyCensusContextSafe(county);
-          const patternRaw = String(ctx?.patternLabel || '').trim();
-          const pattern = patternRaw.toLowerCase();
-          const note = String(ctx?.noteLabel || '').toLowerCase();
-          const pop = Number(countyPopulationEstimatesByNorm?.get(county)?.population2025 || 0);
           const countyType = classifyCountyBehaviorType(county, totals);
-
-          // Senate calibration: Wake should route with Mecklenburg/Durham-style urban-core handling.
-          if (isSenateDeviationModel && county === 'WAKE') return 'urban_core';
-
-          if (COLLEGE_COUNTIES.has(county) && countyType !== 'urban') return 'college';
-          if (/military|institutional hubs/i.test(note)) return 'military_institutional';
-          if (/coastal/i.test(pattern)) return 'coastal';
-          if (/black belt/i.test(pattern)) return 'black_belt';
-          if (/urban anchor/i.test(pattern) || pop >= 850000) return 'urban_core';
-          if (/metro spillover|outer-suburban/.test(pattern)) return 'outer_suburb_exurb';
-          if (/small-metro|transition/.test(pattern) && pop >= 110000) return 'small_city_industrial';
-          if (APPALACHIAN_COUNTIES.has(county) && (countyType === 'rural' || countyType === 'exurban')) return 'appalachian_rural_white';
-          if (countyType === 'suburban' && pop >= 220000) return 'inner_suburb';
-          if (countyType === 'exurban') return 'outer_suburb_exurb';
           if (countyType === 'urban') return 'urban_core';
-          return 'rural_white';
+          if (countyType === 'suburban') return 'inner_suburb';
+          if (countyType === 'exurban') return 'outer_suburb_exurb';
+          return 'rural_low_churn';
         };
 
         // Senate-only archetype labeling used for internal calibration/diagnostics.
-        // This keeps county-family evaluation explicit without adding any new UI surfaces.
         const classifySenateCountyFamily = (county, countyType, cluster, isRealignedFormerDemFederalCounty) => {
-          if (county === 'WAKE' || cluster === 'urban_core') return 'urban_core';
+          void county;
+          void isRealignedFormerDemFederalCounty;
+          if (cluster === 'urban_core') return 'urban_core';
           if (cluster === 'inner_suburb') return 'metro_suburban';
           if (cluster === 'outer_suburb_exurb' || countyType === 'exurban') return 'growth_exurban';
-          if (isRealignedFormerDemFederalCounty) return 'realigned_former_d_federal';
-          if (cluster === 'black_belt') return 'black_belt_residual_crossover';
-          if (cluster === 'rural_white' || cluster === 'appalachian_rural_white' || countyType === 'rural') {
-            return 'rural_white_appalachian';
-          }
-          return 'metro_suburban';
+          return 'rural_low_churn';
         };
 
         const pickComparableYears = (contestType, recentYear) => {
@@ -15931,7 +15888,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const realignedFormerDemFederalCountySet = new Set(
           (Array.isArray(modeledDef?.candidateBonusRealignedFormerDemFederalCounties)
             ? modeledDef.candidateBonusRealignedFormerDemFederalCounties
-            : ['ROBESON', 'BLADEN', 'SCOTLAND'])
+            : [])
             .map(v => normalizeCountyToken(v))
             .filter(Boolean)
         );
@@ -16324,9 +16281,9 @@ document.addEventListener('DOMContentLoaded', function() {
               const isInstitutional = /military|institutional hubs/i.test(note);
 
               let pts = basePts;
-              if (/Urban anchor/i.test(pattern)) pts = Number(modeledDef?.candidateBonusUrbanPts);
-              else if (/Metro spillover|outer-suburban/i.test(pattern)) pts = Number(modeledDef?.candidateBonusMetroPts);
-              else if (/Coastal growth/i.test(pattern)) pts = Number(modeledDef?.candidateBonusCoastalPts);
+              if (/Treasure Valley core|Boise metro core|Spokane-Coeur d'Alene CSA growth/i.test(pattern)) pts = Number(modeledDef?.candidateBonusUrbanPts);
+              else if (/Boise CSA spillover|outer ring|exurban expansion/i.test(pattern)) pts = Number(modeledDef?.candidateBonusMetroPts);
+              else if (/Panhandle amenity|Resort and mountain-amenity/i.test(pattern)) pts = Number(modeledDef?.candidateBonusCoastalPts);
               else if (/Small-metro|transition/i.test(pattern)) pts = Number(modeledDef?.candidateBonusTransitionPts);
               else if (/Slow-growth|declining county|Rural slowdown/i.test(pattern)) pts = Number(modeledDef?.candidateBonusSlowPts);
               if (!Number.isFinite(pts)) pts = basePts;
@@ -16409,7 +16366,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 );
                 if (!Number.isFinite(govSigned) || !Number.isFinite(presSigned)) return;
 
-                // Positive means Cooper ran more Democratic than President in that county.
+                // Positive means the modeled candidate ran more Democratic than the baseline in that county.
                 const delta = presSigned - govSigned;
                 if (!Number.isFinite(delta) || delta <= 0.05) return;
 
@@ -16440,10 +16397,9 @@ document.addEventListener('DOMContentLoaded', function() {
               const countyType = classifyCountyBehaviorType(county, baseCountyTotals.get(county));
               const cluster = String(countyClusterByCounty.get(county) || 'rural_white');
               const senateFamily = classifySenateCountyFamily(county, countyType, cluster, isRealignedFormerDemFederalCounty);
-              const isEasternNcCounty = EASTERN_NC_COUNTIES.has(county);
+              const isEasternNcCounty = false;
               let countyRoleScale = 1;
-              // Cooper rural overperformance signal (2016/2020) tends to be more relevant to a Senate model
-              // than the urban-core signal; weight it a bit more without changing the overall bonus framework.
+              // Generic rural overperformance signal: keep extra crossover effects somewhat more conservative outside major metros.
               if (countyType === 'rural') countyRoleScale = 1.30;
               else if (countyType === 'exurban') countyRoleScale = 1.15;
               else if (countyType === 'suburban') countyRoleScale = 1.06;
@@ -16469,7 +16425,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
               const damp = 0.70 + (0.30 * Math.max(0.12, Math.min(1, wSum / Math.max(1, entries.length))));
 
-              // Variability brake: if the county's Cooper-vs-Pres delta is highly uneven across years,
+              // Variability brake: if the county's candidate-vs-baseline delta is highly uneven across years,
               // treat more of it as personal/one-cycle and keep the transferable component smaller.
               const deltaVals = entries.map(r => Number(r?.delta)).filter(Number.isFinite);
               const spread = deltaVals.length ? (Math.max(...deltaVals) - Math.min(...deltaVals)) : 0;
@@ -16508,16 +16464,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 : 0.30;
               const personalFederalScale = computeFederalizationBrake(absPresNow, fedBrakeMargin, deepRedMargin, personalFedFloor);
 
-              // Durable component (reusable crossover) + personal component (Cooper-specific). Keep both capped.
+              // Durable component (reusable crossover) + personal component. Keep both capped.
               let durablePts = rawPts * durableShare * (0.55 + (0.45 * reusableScore));
               let personalPts = rawPts * personalShare * (0.35 + (0.65 * (1 - reusableScore)));
 
-              // Durable crossover signal should be strongest in rural / Black Belt / eastern counties.
+              // Durable crossover signal should be strongest in lower-churn rural counties.
               let durableRegionalBoost = 1;
               if (countyType === 'rural') durableRegionalBoost *= 1.08;
-              if (senateFamily === 'black_belt_residual_crossover') durableRegionalBoost *= 1.10;
-              if (senateFamily === 'realigned_former_d_federal') durableRegionalBoost *= 1.07;
-              if (isEasternNcCounty) durableRegionalBoost *= 1.06;
+              if (senateFamily === 'rural_crossover') durableRegionalBoost *= 1.10;
+              if (senateFamily === 'realigned_rural') durableRegionalBoost *= 1.07;
+              if (isEasternNcCounty) durableRegionalBoost *= 1.00;
               durablePts *= durableRegionalBoost;
 
               // Realignment-aware fade: in counties with strong Trump-era federal movement, treat more of the
@@ -16556,9 +16512,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 // Edge-case calibration: keep a bit more fade in well-known realignment counties, but avoid
                 // wiping out crossover capacity entirely (they're not "ordinary" crossover, but not 0 either).
-                if (county === 'ROBESON') score = clamp01(score * 1.08);
-                else if (county === 'BLADEN') score = clamp01(score * 1.08);
-                else if (county === 'SCOTLAND') score = clamp01(score * 1.06);
+                void county;
 
                 // If the county historically had large D-overperformance vs the federal baseline but is realigning,
                 // treat a bit more of that as personal (i.e., fade the personal component slightly further).
@@ -16771,7 +16725,7 @@ document.addEventListener('DOMContentLoaded', function() {
           const senateIncumbentBoostRaw = Number(modeledDef?.incumbentBoostPts);
           const senateIncumbentParty = String(modeledDef?.incumbentParty || '').trim().toUpperCase();
           const senateAnomalyCountySet = new Set(
-            (Array.isArray(modeledDef?.anomalyClampCounties) ? modeledDef.anomalyClampCounties : ['ROBESON', 'BLADEN', 'SCOTLAND'])
+            (Array.isArray(modeledDef?.anomalyClampCounties) ? modeledDef.anomalyClampCounties : [])
               .map(v => normalizeCountyToken(v))
               .filter(Boolean)
           );
@@ -16990,11 +16944,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 federalizationBrake = clamp01(lerp(federalizationBrake, 1, 0.18));
               } else if (senateFamily === 'growth_exurban') {
                 federalizationBrake = clamp01(lerp(federalizationBrake, 1, 0.10));
-              } else if (senateFamily === 'black_belt_residual_crossover') {
+              } else if (senateFamily === 'rural_crossover') {
                 federalizationBrake = clamp01(federalizationBrake * 0.96);
-              } else if (senateFamily === 'realigned_former_d_federal') {
+              } else if (senateFamily === 'realigned_rural') {
                 federalizationBrake = clamp01(federalizationBrake * 0.92);
-              } else if (senateFamily === 'rural_white_appalachian') {
+              } else if (senateFamily === 'rural_low_churn') {
                 federalizationBrake = clamp01(federalizationBrake * 0.88);
               }
             }
@@ -17036,8 +16990,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 + (0.08 * unstableScore)
               );
               anomalyScore *= (0.70 + (0.30 * (1 - durableScore)));
-              if (senateFamily === 'realigned_former_d_federal') anomalyScore = clamp01(anomalyScore * 1.12);
-              else if (senateFamily === 'rural_white_appalachian') anomalyScore = clamp01(anomalyScore * 1.05);
+              if (senateFamily === 'realigned_rural') anomalyScore = clamp01(anomalyScore * 1.12);
+              else if (senateFamily === 'rural_low_churn') anomalyScore = clamp01(anomalyScore * 1.05);
               else if (senateFamily === 'metro_suburban') anomalyScore = clamp01(anomalyScore * 0.92);
               if (senateAnomalyCountySet.has(county)) anomalyScore = Math.max(anomalyScore, 0.65);
 
@@ -17156,8 +17110,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                   const federalTrend = Math.max(0, (0.60 * shift20to24) + (0.25 * shift16to24) + (0.15 * senateShift));
                   let score = clamp01((federalTrend - minTrend) / Math.max(1e-6, (maxTrend - minTrend)));
-                  if (county === 'ROBESON') score = clamp01(score * 1.08);
-                  else if (county === 'BLADEN') score = clamp01(score * 1.05);
+                  void county;
                   senateDeviation *= lerp(1, floor, score);
                 }
                 const devReliability = (0.55 + (0.45 * reliabilityScale)) * countyShrinkScale;
@@ -17387,8 +17340,8 @@ document.addEventListener('DOMContentLoaded', function() {
                   portability *= (0.70 + (0.30 * reliabilityScale));
                   portability *= (0.75 + (0.25 * outlierBrake));
                   portability *= (1 - (0.35 * anomalyScore));
-                  if (senateFamily === 'rural_white_appalachian') portability *= 0.88;
-                  else if (senateFamily === 'realigned_former_d_federal') portability *= 0.90;
+                  if (senateFamily === 'rural_low_churn') portability *= 0.88;
+                  else if (senateFamily === 'realigned_rural') portability *= 0.90;
                   else if (senateFamily === 'metro_suburban') portability *= 1.04;
                   if (isRealignedFormerDemFederalCounty) portability *= 0.82;
                   targetSigned += sign * senateIncumbentBoostPts * polarizedScale * portability;
@@ -17458,11 +17411,11 @@ document.addEventListener('DOMContentLoaded', function() {
               const turnoutRealigningRuralMul = Number.isFinite(Number(modeledDef?.turnoutRealigningRuralMul)) ? Math.max(0.5, Math.min(1.6, Number(modeledDef.turnoutRealigningRuralMul))) : 1.15;
               const turnoutRuralWhiteMul = Number.isFinite(Number(modeledDef?.turnoutRuralWhiteMul)) ? Math.max(0.5, Math.min(1.5, Number(modeledDef.turnoutRuralWhiteMul))) : 0.92;
               if (senateFamily === 'urban_core') turnoutClassMul = turnoutUrbanCoreMul;
-              else if (senateFamily === 'black_belt_residual_crossover') turnoutClassMul = turnoutBlackBeltMul;
+              else if (senateFamily === 'rural_crossover') turnoutClassMul = turnoutBlackBeltMul;
               else if (senateFamily === 'metro_suburban') turnoutClassMul = turnoutSuburbanMul;
               else if (senateFamily === 'growth_exurban') turnoutClassMul = turnoutGrowthExurbMul;
-              else if (senateFamily === 'realigned_former_d_federal') turnoutClassMul = turnoutRealigningRuralMul;
-              else if (senateFamily === 'rural_white_appalachian') turnoutClassMul = turnoutRuralWhiteMul;
+              else if (senateFamily === 'realigned_rural') turnoutClassMul = turnoutRealigningRuralMul;
+              else if (senateFamily === 'rural_low_churn') turnoutClassMul = turnoutRuralWhiteMul;
             }
             turnoutSignedShift = turnoutShift
               * behavior.turnoutBias
@@ -17480,13 +17433,7 @@ document.addEventListener('DOMContentLoaded', function() {
               if (Number.isFinite(pres24) && federalRealignmentScore >= minScore && Number.isFinite(targetSigned)) {
                 const capRaw = Number(modeledDef?.senateMaxOverPresCapPts);
                 let capPts = Number.isFinite(capRaw) ? Math.max(0, capRaw) : 0.75;
-                if (county === 'ROBESON' && Number.isFinite(Number(modeledDef?.senateMaxOverPresRobesonCapPts))) {
-                  capPts = Math.max(0, Number(modeledDef.senateMaxOverPresRobesonCapPts));
-                } else if (county === 'BLADEN' && Number.isFinite(Number(modeledDef?.senateMaxOverPresBladenCapPts))) {
-                  capPts = Math.max(0, Number(modeledDef.senateMaxOverPresBladenCapPts));
-                } else if (county === 'SCOTLAND' && Number.isFinite(Number(modeledDef?.senateMaxOverPresScotlandCapPts))) {
-                  capPts = Math.max(0, Number(modeledDef.senateMaxOverPresScotlandCapPts));
-                }
+                void county;
 
                 const capScale = (0.45 + (0.55 * reliabilityScale)) * (0.70 + (0.30 * federalizationBrake));
                 const scoreNorm = clamp01((federalRealignmentScore - minScore) / Math.max(1e-6, (1 - minScore)));
@@ -17574,7 +17521,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             let swingPct = baseCountySignedRaw - (baseCountySignedRaw + elasticPull);
 
-            // Correction role 4: candidate bonus applies Cooper portability after federal/realignment brakes.
+            // Correction role 4: candidate bonus applies portability after federal/realignment brakes.
             if (modeledDef?.candidateBonusEnabled && candidateBonusByCounty) {
               const bonus = Number(candidateBonusByCounty.get(county) || 0);
               const durableBonusRaw = Number(candidateBonusDurableByCounty?.get(county));
@@ -17614,10 +17561,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 let durableApplied = durableRaw * mult * confScale * durableRealignmentScale * durableAdjustmentScale;
 
                 const durablePriorityCounty =
-                  senateFamily === 'realigned_former_d_federal'
-                  || senateFamily === 'black_belt_residual_crossover'
+                  senateFamily === 'realigned_rural'
+                  || senateFamily === 'rural_crossover'
                   || countyType === 'rural'
-                  || EASTERN_NC_COUNTIES.has(county);
+                  ;
                 const durableFloorScale = durablePriorityCounty ? durablePriorityFloor : durableGeneralFloor;
                 const durableFloorApplied = durableRaw * mult * durableFloorScale * (0.55 + (0.45 * countyConfidence));
                 durableApplied = Math.max(durableApplied, durableFloorApplied);
@@ -17644,13 +17591,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 const bonusRepeatability = clamp01(bonusDurableScore * (1 - bonusGapScore));
                 durableApplied *= (1 - (0.22 * anomalyScore));
                 personalApplied *= (1 - (0.40 * anomalyScore));
-                if (senateFamily === 'black_belt_residual_crossover') {
+                if (senateFamily === 'rural_crossover') {
                   durableApplied *= (0.88 + (0.12 * bonusRepeatability));
                   personalApplied *= (0.72 + (0.28 * bonusRepeatability));
-                } else if (senateFamily === 'realigned_former_d_federal') {
+                } else if (senateFamily === 'realigned_rural') {
                   durableApplied *= 0.92;
                   personalApplied *= 0.84;
-                } else if (senateFamily === 'rural_white_appalachian') {
+                } else if (senateFamily === 'rural_low_churn') {
                   durableApplied *= 0.90;
                   personalApplied *= 0.78;
                 } else if (senateFamily === 'metro_suburban') {
@@ -19246,6 +19193,38 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
 
+    function shouldRefreshDistrictDetailsOnContestChange() {
+      const view = String(currentView || '').toLowerCase();
+      if (!(view === 'districts' || view === 'state_house' || view === 'state_senate')) return false;
+      const detailsDiv = document.getElementById('county-details');
+      if (detailsDiv && detailsDiv.style && detailsDiv.style.display === 'none') return false;
+      return /^(cd|hd|sd):\d+$/i.test(getFocusURLTokenFromState());
+    }
+
+    function queueDistrictDetailsRefresh() {
+      if (!shouldRefreshDistrictDetailsOnContestChange()) return;
+      const key = getFocusURLTokenFromState();
+      const match = String(key || '').match(/^(cd|hd|sd):(\d+)$/i);
+      if (!match) return;
+      const scope = String(match[1] || '').toLowerCase();
+      const districtNum = Number(match[2]);
+      if (!Number.isFinite(districtNum)) return;
+      const refresh = () => {
+        try {
+          if (scope === 'cd') {
+            showDistrictDetails(districtNum);
+          } else {
+            showStateDistrictDetails(districtNum, scope === 'hd' ? 'house' : 'senate');
+          }
+        } catch (_) {}
+      };
+      if (typeof window.requestAnimationFrame === 'function') {
+        window.requestAnimationFrame(refresh);
+      } else {
+        setTimeout(refresh, 0);
+      }
+    }
+
     function queueContestSelection(contestKey) {
       const key = (contestKey || '').toString().trim();
       const seq = ++contestSelectionSeq;
@@ -19486,8 +19465,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	      function getPreferredContestGroupLabelsForView(view = currentView) {
 	        if (view === 'districts') return ['US House'];
-	        if (view === 'state_house') return ['State House'];
-	        if (view === 'state_senate') return ['State Senate'];
 	        return [];
 	      }
 
@@ -19502,10 +19479,14 @@ document.addEventListener('DOMContentLoaded', function() {
 	      });
 
 	      const preferredLabels = getPreferredContestGroupLabelsForView();
+	      const bottomLabels = new Set(['State House', 'State Senate']);
+	      const groupedLabels = Array.from(grouped.keys());
 	      const orderedLabels = [
-	        ...preferredLabels.filter(l => grouped.has(l)),
-	        ...groupOrder.filter(l => grouped.has(l)),
-	        ...Array.from(grouped.keys()).filter(l => !groupOrder.includes(l)).sort((a, b) => a.localeCompare(b))
+	        ...preferredLabels.filter(l => grouped.has(l) && !bottomLabels.has(l)),
+	        ...groupOrder.filter(l => grouped.has(l) && !bottomLabels.has(l)),
+	        ...groupedLabels.filter(l => !groupOrder.includes(l) && !bottomLabels.has(l)).sort((a, b) => a.localeCompare(b)),
+	        ...groupOrder.filter(l => grouped.has(l) && bottomLabels.has(l)),
+	        ...groupedLabels.filter(l => !groupOrder.includes(l) && bottomLabels.has(l)).sort((a, b) => a.localeCompare(b))
 	      ];
 
 	      const fragment = document.createDocumentFragment();
@@ -22431,7 +22412,8 @@ document.addEventListener('DOMContentLoaded', function() {
       let statewide = null;
       (Array.isArray(rows) ? rows : []).forEach(row => {
         const countyName = (row?.county_name || '').toString().trim();
-        const countyNorm = normalizeCountyToken(row?.county_norm || countyName);
+        const csvCountyNorm = normalizeCountyToken(row?.county_norm || countyName);
+        const countyNorm = normalizeCountyToken(countyName.replace(/County/ig, '').trim()) || csvCountyNorm;
         if (!countyName || !countyNorm) return;
 
         const population2020 = Number(row?.population_2020 || 0);
@@ -22477,8 +22459,12 @@ document.addEventListener('DOMContentLoaded', function() {
           changePct2023To2024: Number.isFinite(changePct2023To2024) ? changePct2023To2024 : NaN
         };
 
-        if (countyNorm === 'NORTH CAROLINA') statewide = entry;
-        else byNorm.set(countyNorm, entry);
+        if (countyNorm === 'IDAHO' || countyNorm === 'STATEWIDE' || csvCountyNorm === 'IDAHO' || csvCountyNorm === 'STATEWIDE') {
+          statewide = entry;
+        } else {
+          byNorm.set(countyNorm, entry);
+          if (csvCountyNorm && csvCountyNorm !== countyNorm) byNorm.set(csvCountyNorm, entry);
+        }
       });
       return { byNorm, statewide };
     }
@@ -22492,143 +22478,133 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function getNcCensusContext(countyNorm) {
       const norm = String(countyNorm || '').trim().toUpperCase();
-      const urbanAnchor = new Set(['WAKE', 'MECKLENBURG', 'DURHAM', 'ORANGE', 'GUILFORD', 'FORSYTH', 'BUNCOMBE']);
-      const metroSpillover = new Set(['JOHNSTON', 'UNION', 'CABARRUS', 'IREDELL', 'HARNETT', 'CHATHAM', 'PENDER', 'FRANKLIN', 'GASTON', 'CLEVELAND']);
-      const coastalGrowth = new Set(['BRUNSWICK', 'NEW HANOVER', 'PENDER', 'ONSLOW', 'CURRITUCK', 'CARTERET']);
-      const ruralSlowdown = new Set(['ROBESON', 'BLADEN', 'RICHMOND', 'ANSON', 'MARTIN', 'GATES', 'HALIFAX', 'SCOTLAND', 'WASHINGTON', 'BERTIE', 'NORTHAMPTON']);
-      const mixedTransition = new Set(['PASQUOTANK', 'ALAMANCE', 'DAVIDSON', 'ROWAN', 'NASH', 'PITT', 'CUMBERLAND', 'RANDOLPH', 'CATAWBA', 'WAYNE', 'CRAVEN']);
-      const institutionalHub = new Set(['CUMBERLAND', 'HOKE', 'ONSLOW', 'WAYNE', 'CRAVEN']);
+      const treasureValleyCore = new Set(['ADA', 'CANYON']);
+      const boiseCsaOuter = new Set(['BOISE', 'ELMORE', 'GEM', 'OWYHEE', 'PAYETTE']);
+      const eastIdahoCorridor = new Set(['BANNOCK', 'BINGHAM', 'BONNEVILLE', 'BUTTE', 'FREMONT', 'JEFFERSON', 'MADISON']);
+      const panhandleMetro = new Set(['KOOTENAI']);
+      const panhandleAmenity = new Set(['BONNER', 'BOUNDARY']);
+      const panhandleLegacy = new Set(['BENEWAH', 'CLEARWATER', 'SHOSHONE']);
+      const resortAmenity = new Set(['BLAINE', 'CAMAS', 'CUSTER', 'TETON', 'VALLEY']);
+      const magicValleyHub = new Set(['GOODING', 'JEROME', 'MINIDOKA', 'TWIN FALLS']);
+      const magicValleyAg = new Set(['CASSIA', 'LINCOLN', 'POWER']);
+      const collegeBiState = new Set(['LATAH', 'MADISON']);
+      const lewistonValley = new Set(['NEZ PERCE']);
+      const utahBorder = new Set(['BEAR LAKE', 'CARIBOU', 'FRANKLIN', 'ONEIDA']);
+      const ruralLegacy = new Set(['ADAMS', 'CLARK', 'IDAHO', 'LEMHI', 'LEWIS', 'WASHINGTON']);
 
+      let regionKey = 'mixed_local';
       let signalEmoji = '📊';
       let signalLabel = 'Steady population signal';
       let patternEmoji = '🧭';
       let patternLabel = 'Mixed local and regional forces';
       let noteEmoji = '🗳️';
       let noteLabel = 'Population change may shape the electorate over time, even when margins remain stable in the short run.';
-      let sourceNote = 'Qualitative context inspired by recent Census population-estimate patterns; not a raw population table.';
+      let sourceNote = 'Based on Idaho county population estimates.';
 
       const estimate = countyPopulationEstimatesByNorm?.get(norm) || null;
       const statewide = countyPopulationEstimateStatewide || null;
       const totalPct = Number(estimate?.changePct2020To2025);
       const recentPct = Number(estimate?.changePct2024To2025);
-      const priorPct = Number(estimate?.changePct2023To2024);
       const stateTotalPct = Number(statewide?.changePct2020To2025);
-      const slowedIn2025 = Number.isFinite(recentPct) && Number.isFinite(priorPct) && recentPct + 0.05 < priorPct;
-      const aboveStatewide = Number.isFinite(totalPct) && Number.isFinite(stateTotalPct) && totalPct > stateTotalPct + 1.25;
-      const belowStatewide = Number.isFinite(totalPct) && Number.isFinite(stateTotalPct) && totalPct < stateTotalPct - 1.25;
-      const isFlatOrDeclining = (Number.isFinite(totalPct) && totalPct < 1) || (Number.isFinite(recentPct) && recentPct < 0);
-      const isUrbanish = urbanAnchor.has(norm) || metroSpillover.has(norm) || mixedTransition.has(norm) || (Number(estimate?.population2025) >= 150000);
-      const isInstitutionalHub = institutionalHub.has(norm);
+      const highGrowth = Number.isFinite(totalPct) && (totalPct >= 10 || (Number.isFinite(stateTotalPct) && totalPct > stateTotalPct + 1.25));
+      const slowGrowth = (Number.isFinite(totalPct) && totalPct < 2) || (Number.isFinite(recentPct) && recentPct < 0);
 
       if (estimate) {
         signalLabel = `Population ${formatPopulationChangePct(totalPct)} since 2020`;
         noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. 2024 to 2025 change: ${formatPopulationChangePct(recentPct)}.`;
-        sourceNote = 'Based on county population estimates configured for this Idaho atlas.';
+        sourceNote = 'Based on 2020–2025 Census county estimates; regional labels reflect Idaho growth systems rather than prototype state buckets.';
 
-        if (urbanAnchor.has(norm)) {
+        if (treasureValleyCore.has(norm)) {
+          regionKey = 'treasure_valley_core';
           signalEmoji = '🏙️';
           patternEmoji = '🧲';
-          patternLabel = slowedIn2025
-            ? 'Urban anchor with slower 2025 growth'
-            : 'Urban anchor with continued growth';
-          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Growth since 2020 is ${formatPopulationChangePct(totalPct)}, versus ${formatPopulationChangePct(stateTotalPct)} statewide. ${slowedIn2025 ? 'Growth cooled compared with 2023 to 2024.' : 'The county is still adding residents at a steady clip.'}`;
-        } else if (coastalGrowth.has(norm) && !belowStatewide) {
-          signalEmoji = '🌊';
-          patternEmoji = '🏖️';
-          patternLabel = slowedIn2025
-            ? 'Coastal growth still positive but cooling in 2025'
-            : 'Coastal growth running above the statewide pace';
-          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Since 2020, this county is ${formatPopulationChangePct(totalPct)}${aboveStatewide ? ', faster than the statewide pace.' : '.'}`;
-        } else if (metroSpillover.has(norm) && (aboveStatewide || Number(totalPct) >= 8)) {
+          patternLabel = highGrowth ? 'Treasure Valley core / Boise metro engine' : 'Boise metro core';
+          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. This is the population engine of the Boise area, so small changes in turnout or migration can echo statewide.`;
+        } else if (boiseCsaOuter.has(norm)) {
+          regionKey = 'boise_csa_outer';
           signalEmoji = '📈';
-          patternEmoji = '🌆';
-          patternLabel = slowedIn2025
-            ? 'Metro spillover growth with a slower 2025 pace'
-            : 'Metro spillover / outer-suburban expansion';
-          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. The county is ${formatPopulationChangePct(totalPct)} since 2020 and ${formatPopulationChangePct(recentPct)} from 2024 to 2025.`;
-        } else if (mixedTransition.has(norm) && !isFlatOrDeclining) {
-          signalEmoji = aboveStatewide ? '📈' : '⚖️';
-          patternEmoji = '🏡';
-          patternLabel = slowedIn2025
-            ? 'Small-metro / outer-suburban transition with cooling growth'
-            : 'Small-metro / outer-suburban transition';
-          const statewideClause = Number.isFinite(stateTotalPct)
-            ? ` versus ${formatPopulationChangePct(stateTotalPct)} statewide`
-            : '';
-          const slowdownClause = slowedIn2025 ? ' Growth cooled compared with 2023 to 2024.' : '';
-          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Growth since 2020 is ${formatPopulationChangePct(totalPct)}${statewideClause}. 2024 to 2025 change: ${formatPopulationChangePct(recentPct)}.${slowdownClause} Counties in this bucket often sit between metro growth and rural stability, so partisan change can be gradual.`;
-        } else if (isUrbanish && (belowStatewide || slowedIn2025) && !isFlatOrDeclining) {
-          signalEmoji = '🏙️';
-          patternEmoji = '🧭';
-          patternLabel = 'Urban county with slower growth than statewide';
-          const slowdownClause = slowedIn2025 ? 'Growth cooled compared with 2023 to 2024.' : '';
-          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Growth since 2020 is ${formatPopulationChangePct(totalPct)}, versus ${formatPopulationChangePct(stateTotalPct)} statewide. ${slowdownClause} Slower growth can mean less in-migration-driven electorate churn, so political change may show up more through turnout, registration, and coalition shifts than sheer population inflow.`;
-        } else if (isUrbanish && isFlatOrDeclining) {
-          signalEmoji = '🏙️';
-          patternEmoji = '📉';
-          patternLabel = 'Urban county with flat/declining population';
-          const hubClause = isInstitutionalHub
-            ? 'In institutional hubs (e.g., military-heavy counties like Cumberland/Fayetteville), year-to-year estimates can be choppy, and political change may track voter turnover and participation as much as net in-migration.'
-            : 'Flat or declining growth often means less in-migration-driven electorate churn, so shifts may show up more through turnout and coalition change than sheer population inflow.';
-          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Since 2020 this county is ${formatPopulationChangePct(totalPct)}, while the 2024 to 2025 change was ${formatPopulationChangePct(recentPct)}. ${hubClause}`;
-        } else if (ruralSlowdown.has(norm) || isFlatOrDeclining) {
-          signalEmoji = Number.isFinite(totalPct) && totalPct < 0 ? '📉' : '🌾';
-          patternEmoji = '⬇️';
-          patternLabel = 'Slow-growth or declining county';
-          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Since 2020 this county is ${formatPopulationChangePct(totalPct)}, while the 2024 to 2025 change was ${formatPopulationChangePct(recentPct)}.`;
+          patternEmoji = '🚗';
+          patternLabel = highGrowth ? 'Boise CSA spillover / exurban expansion' : 'Boise CSA outer ring';
+          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Housing spillover and commuter growth from the Boise area can change the electorate faster here than in the rural interior.`;
+        } else if (panhandleMetro.has(norm)) {
+          regionKey = 'panhandle_metro';
+          signalEmoji = '🌲';
+          patternEmoji = '🛣️';
+          patternLabel = "Spokane-Coeur d'Alene CSA growth";
+          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. This county sits on Idaho's cross-border Panhandle growth axis, where in-migration and job spillover can add churn.`;
+        } else if (panhandleAmenity.has(norm)) {
+          regionKey = 'panhandle_amenity';
+          signalEmoji = '🏔️';
+          patternEmoji = '🌲';
+          patternLabel = 'Panhandle amenity / in-migration growth';
+          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Lake-and-mountain counties often absorb amenity and retiree migration, so new residents can matter as much as natural increase.`;
+        } else if (panhandleLegacy.has(norm)) {
+          regionKey = 'panhandle_legacy';
+          signalEmoji = '🌲';
+          patternEmoji = '🪵';
+          patternLabel = slowGrowth ? 'Panhandle legacy / slower-growth county' : 'Panhandle legacy county';
+          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. This part of the Panhandle usually changes more slowly than Kootenai or Bonner, making turnout and coalition shifts especially important.`;
+        } else if (eastIdahoCorridor.has(norm)) {
+          regionKey = 'east_idaho_corridor';
+          signalEmoji = '🛣️';
+          patternEmoji = '🏘️';
+          patternLabel = highGrowth ? 'Eastern Idaho CSA corridor growth' : 'Eastern Idaho regional-hub corridor';
+          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. This county sits in the Idaho Falls-Rexburg-Blackfoot growth corridor, where institutions and family-driven growth can reshape the electorate steadily.`;
+        } else if (resortAmenity.has(norm)) {
+          regionKey = 'resort_amenity';
+          signalEmoji = '⛷️';
+          patternEmoji = '🏔️';
+          patternLabel = highGrowth ? 'Resort and mountain-amenity growth' : 'Resort / amenity county';
+          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Resort counties can change through second-home demand, service hiring, and new arrivals, which makes future turnout mix especially important.`;
+        } else if (magicValleyHub.has(norm)) {
+          regionKey = 'magic_valley_hub';
+          signalEmoji = '🏭';
+          patternEmoji = '🚚';
+          patternLabel = 'Magic Valley regional hub';
+          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Growth here tends to come through south-central service, agriculture-adjacent industry, and logistics rather than pure metro spillover.`;
+        } else if (magicValleyAg.has(norm)) {
+          regionKey = 'magic_valley_ag';
+          signalEmoji = '🌾';
+          patternEmoji = '🚜';
+          patternLabel = 'Magic Valley agricultural belt';
+          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Population change is usually gradual in the agricultural belt, so election movement often depends more on turnout than on migration shocks.`;
+        } else if (collegeBiState.has(norm)) {
+          regionKey = 'college_bistate';
+          signalEmoji = '🎓';
+          patternEmoji = '🌉';
+          patternLabel = norm == 'LATAH' ? 'Pullman-Moscow university micropolitan' : 'College-centered eastern Idaho county';
+          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Student churn, faculty migration, and adjacent labor markets can make these counties look different from their neighbors.`;
+        } else if (lewistonValley.has(norm)) {
+          regionKey = 'lewiston_valley';
+          signalEmoji = '🚢';
+          patternEmoji = '🌾';
+          patternLabel = 'Lewiston-Clarkston regional hub';
+          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. The local labor market is more bi-state and industrial than Idaho's fastest growth corridors, so political change can be slower and more turnout-driven.`;
+        } else if (utahBorder.has(norm)) {
+          regionKey = 'utah_border';
+          signalEmoji = '🧭';
+          patternEmoji = '🛣️';
+          patternLabel = 'Utah-border commuter / trade corridor';
+          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Cross-border family, trade, and commuting ties matter more here than Boise-area spillover.`;
+        } else if (ruralLegacy.has(norm) || slowGrowth) {
+          regionKey = 'rural_legacy';
+          signalEmoji = '🌾';
+          patternEmoji = '🪵';
+          patternLabel = 'Rural legacy / slower-growth county';
+          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Population change here is modest by Idaho standards, so future movement is more likely to come from turnout and composition shifts than from rapid in-migration.`;
         } else {
+          regionKey = 'mixed_local';
           signalEmoji = '⚖️';
           patternEmoji = '🏡';
-          patternLabel = aboveStatewide
-            ? 'Above-state growth county'
-            : 'Mixed-growth county';
-          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. Growth since 2020 is ${formatPopulationChangePct(totalPct)}${Number.isFinite(stateTotalPct) ? ` versus ${formatPopulationChangePct(stateTotalPct)} statewide` : ''}.`;
+          patternLabel = highGrowth ? 'Fast-growing county outside the major hubs' : 'Mixed local growth county';
+          noteLabel = `2025 estimate: ${Number(estimate.population2025 || 0).toLocaleString()}. This county sits outside Idaho's biggest growth engines but still has its own population backdrop.`;
         }
-
-        if (isInstitutionalHub && !/institutional hubs|military/i.test(noteLabel)) {
-          noteLabel += ' Military hubs can show choppy year-to-year estimates; political change may track turnover as much as net in-migration.';
-        }
-      }
-
-      if (!estimate && urbanAnchor.has(norm)) {
-        signalEmoji = '🏙️';
-        signalLabel = 'Urban anchor county';
-        patternEmoji = '🧲';
-        patternLabel = 'Jobs and institutions pull in growth';
-        noteLabel = 'Large urban counties often absorb new voters first, which can reshape both county margins and nearby suburbs.';
-      } else if (!estimate && coastalGrowth.has(norm)) {
-        signalEmoji = '📈';
-        signalLabel = 'High-growth coastal county';
-        patternEmoji = '🏖️';
-        patternLabel = 'Coastal migration and retirement growth';
-        noteLabel = 'Coastal growth can boost raw turnout quickly and may either strengthen or soften the existing partisan lean depending on who is moving in.';
-      } else if (!estimate && metroSpillover.has(norm)) {
-        signalEmoji = '📈';
-        signalLabel = 'High-growth county';
-        patternEmoji = '🌆';
-        patternLabel = 'Metro spillover / outer-suburban expansion';
-        noteLabel = 'Fast-growing outer-ring counties often show the clearest link between Census-era growth and changing election results.';
-      } else if (!estimate && ruralSlowdown.has(norm)) {
-        signalEmoji = '🌾';
-        signalLabel = 'Slow-growth or declining county';
-        patternEmoji = '⬇️';
-        patternLabel = 'Rural slowdown / Black Belt population loss';
-        noteLabel = 'Places with slower growth or population loss can still shift sharply when the electorate changes composition rather than simply adding new residents.';
-      } else if (!estimate && mixedTransition.has(norm)) {
-        signalEmoji = '⚖️';
-        signalLabel = 'Mixed-growth county';
-        patternEmoji = '🏡';
-        patternLabel = 'Small-metro / outer-suburban transition';
-        noteLabel = 'These counties often sit between metro growth and rural stability, making them useful early-warning signs for political change.';
-      }
-
-      if (!/institutional hubs|military/i.test(noteLabel) && isInstitutionalHub) {
-        noteLabel += ' Military hubs can show choppy year-to-year estimates; political change may track turnover as much as net in-migration.';
       }
 
       return {
         title: 'Census Context',
         countyNorm: norm,
+        regionKey,
         changePct2020To2025: Number.isFinite(totalPct) ? totalPct : NaN,
         changePct2024To2025: Number.isFinite(recentPct) ? recentPct : NaN,
         stateChangePct2020To2025: Number.isFinite(stateTotalPct) ? stateTotalPct : NaN,
@@ -22659,12 +22635,12 @@ document.addEventListener('DOMContentLoaded', function() {
         (Number.isFinite(stateTotalPct) && totalPct > stateTotalPct + 1.25)
       );
       const slowGrowth = (Number.isFinite(totalPct) && totalPct < 1) || (Number.isFinite(recentPct) && recentPct < 0);
-      const demGrowthPattern = /Urban anchor|Metro spillover|outer-suburban|Above-state growth county|Coastal growth/i.test(patternLabel);
+      const demGrowthPattern = /Treasure Valley|Boise CSA spillover|Spokane-Coeur d'Alene|Panhandle amenity|Eastern Idaho CSA corridor|Resort and mountain-amenity|Fast-growing county outside the major hubs/i.test(patternLabel);
       const repGrowthPattern = /Slow-growth|declining county|Rural slowdown/i.test(patternLabel);
       const growthLabel = (() => {
-        if (/Metro spillover|outer-suburban expansion/i.test(patternLabel)) return 'fast outer-suburban growth';
-        if (/Urban anchor/i.test(patternLabel)) return 'continued urban growth';
-        if (/Coastal growth/i.test(patternLabel)) return 'fast coastal growth';
+        if (/Boise CSA spillover|outer ring|exurban expansion/i.test(patternLabel)) return 'Boise spillover growth';
+        if (/Treasure Valley core|Boise metro core/i.test(patternLabel)) return 'Treasure Valley growth';
+        if (/Panhandle amenity|Resort and mountain-amenity/i.test(patternLabel)) return 'amenity-driven growth';
         if (/Above-state growth county/i.test(patternLabel)) return 'above-average growth';
         return 'fast county growth';
       })();
@@ -22896,10 +22872,10 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!raw) return '';
         if (/Slow-growth/i.test(raw)) return 'Slow-growth county';
         if (/declin/i.test(raw)) return 'Declining county';
-        if (/Urban anchor/i.test(raw)) return 'Urban anchor county';
-        if (/Metro spillover/i.test(raw)) return 'Metro spillover county';
+        if (/Treasure Valley core|Boise metro core/i.test(raw)) return 'Treasure Valley core';
+        if (/Boise CSA spillover/i.test(raw)) return 'Boise CSA spillover';
         if (/outer-suburban/i.test(raw)) return 'Outer-suburban county';
-        if (/Coastal/i.test(raw)) return 'Coastal growth county';
+        if (/Panhandle amenity|Resort and mountain-amenity/i.test(raw)) return 'Amenity-growth county';
         if (/Above-state/i.test(raw)) return 'Fast-growth county';
         return raw.replace(/\s+or\s+declining\b/i, '').trim();
       }
@@ -23097,9 +23073,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const stateSigned = ((sr - sd) / two) * 100;
         const delta = Number(selectedSigned) - stateSigned;
         if (!Number.isFinite(delta)) return '';
-        if (Math.abs(delta) < 0.005) return 'Compared with NC: about even';
+        if (Math.abs(delta) < 0.005) return 'Compared with Idaho: about even';
         const word = delta > 0 ? 'redder' : 'bluer';
-        return `Compared with NC: ${Math.abs(delta).toFixed(2)} pts ${word}`;
+        return `Compared with Idaho: ${Math.abs(delta).toFixed(2)} pts ${word}`;
       })();
 
       function buildNarrativeSentence(options = {}) {
@@ -23430,7 +23406,7 @@ document.addEventListener('DOMContentLoaded', function() {
         totalPct >= 8 ||
         (Number.isFinite(stateTotalPct) && totalPct > stateTotalPct + 1.25)
       );
-      const demGrowthPattern = /Urban anchor|Metro spillover|outer-suburban|Above-state growth county|Coastal growth/i.test(patternLabel);
+      const demGrowthPattern = /Treasure Valley|Boise CSA spillover|Spokane-Coeur d'Alene|Panhandle amenity|Eastern Idaho CSA corridor|Resort and mountain-amenity|Fast-growing county outside the major hubs/i.test(patternLabel);
 
       function getSignedMarginTowardGop(row) {
         if (!row) return 0;
@@ -28046,7 +28022,7 @@ document.addEventListener('DOMContentLoaded', function() {
           </div>
         `
       });
-      miniCards.push({ k: 'Compared with NC', v: vsNcShort || '—' });
+      miniCards.push({ k: 'Compared with Idaho', v: vsNcShort || '—' });
       miniCards.push({ k: 'Total votes', v: totalVotes.toLocaleString() });
       miniCards.push({ k: 'What to watch', v: 'Whether the next cycle confirms this direction.', id: 'county-watch' });
 
@@ -28066,9 +28042,9 @@ document.addEventListener('DOMContentLoaded', function() {
           <div class="focus-why-kicker">Why it votes this way</div>
           <p class="focus-why-head" id="county-why-head">${escapeHtml((() => {
             const pat = String(censusContext?.patternLabel || '').trim();
-            if (/Metro spillover|outer-suburban/i.test(pat)) return 'Suburban growth is reshaping the electorate here.';
-            if (/Urban anchor/i.test(pat)) return 'Urban growth keeps this county politically dynamic.';
-            if (/Coastal growth/i.test(pat)) return 'Migration-driven growth can move margins quickly here.';
+            if (/Boise CSA spillover/i.test(pat)) return 'Boise-area spillover is reshaping the electorate here.';
+            if (/Treasure Valley core|Boise metro core/i.test(pat)) return 'Treasure Valley growth keeps this county politically dynamic.';
+            if (/Spokane-Coeur d'Alene|Panhandle amenity|Resort and mountain-amenity/i.test(pat)) return 'In-migration can move margins more quickly here than in the Idaho interior.';
             if (/Slow-growth|declin/i.test(pat)) return 'Slow growth often locks in today’s political lean.';
             if (pat) return 'Population change is part of this county’s political story.';
             return 'Local turnout and long-run change shape this county.';
@@ -28568,22 +28544,12 @@ document.addEventListener('DOMContentLoaded', function() {
         } catch (_) {}
       } catch (_) {}
 
-      el.innerHTML = sorted
-        .map(s => {
-          const win = (s.winner || '').toString().toUpperCase();
-          const color = win === 'REP' ? '#ef4444' : (win === 'DEM' ? '#3b82f6' : '#a3a3a3');
-          const winnerLast = getWinnerLastName(s, {
-            contestType,
-            year: Number(s.year),
-            office: formatContestName(contestType, Number(s.year))
-          });
-          const marginAbs = countyMarginPctDisplayValue(s.rep_votes, s.dem_votes, s.total_votes);
-          const label = (win === 'REP' || win === 'DEM')
-            ? `${winnerLast} +${formatCountyMarginPctForDisplay(marginAbs)}%`
-            : 'Tie';
-          return `<div style="display:flex;justify-content:space-between;gap:10px;"><span style="color:#64748b;">${escapeHtml(s.year)}</span><span style="color:${escapeHtml(color)};font-weight:800;">${escapeHtml(label)}</span></div>`;
-        })
-        .join('');
+      el.innerHTML = renderSelectedPanelTimelineHTML(sorted, {
+        mode: getSelectedPanelTimelineMode(),
+        contestType,
+        precision: 'county',
+        compactRows: true
+      });
     } catch (err) {
       const el = document.getElementById('county-trends');
       if (el) el.innerHTML = '<div style="color:#999;">Failed to load trends</div>';
@@ -31529,25 +31495,111 @@ document.addEventListener('DOMContentLoaded', function() {
       `;
     }
 
-    function renderDistrictTrendLinesHTML(series) {
+    function getSelectedPanelTimelineMode() {
+      const mode = String(currentVizMode || 'margins').trim().toLowerCase();
+      if (mode === 'winners' || mode === 'shift' || mode === 'flips') return mode;
+      return 'margins';
+    }
+
+    function getSelectedPanelTimelineSignedPct(row) {
+      const signedRaw = Number(row?.margin_pct);
+      if (Number.isFinite(signedRaw)) return signedRaw;
+      return signedMarginPctFromVotes(
+        Number(row?.dem_votes || 0),
+        Number(row?.rep_votes || 0),
+        Number(row?.total_votes || 0)
+      );
+    }
+
+    function getSelectedPanelTimelineShiftLabel(delta, prevYear) {
+      if (!Number.isFinite(Number(delta))) {
+        return prevYear ? `First result after ${prevYear}` : 'First available result';
+      }
+      const value = Number(delta);
+      if (Math.abs(value) < TREND_SHIFT_NOISE_PTS) {
+        return prevYear ? `No meaningful shift since ${prevYear}` : 'No meaningful shift';
+      }
+      return `${value > 0 ? 'R' : 'D'}+${Math.abs(value).toFixed(2)} since ${prevYear}`;
+    }
+
+    function getSelectedPanelTimelineFlipLabel(prevSigned, currentSigned, prevYear) {
+      if (!Number.isFinite(Number(prevSigned))) return 'First available result';
+      const info = flipInfo(Number(prevSigned), Number(currentSigned));
+      if (!info?.flipped) return prevYear ? `No flip since ${prevYear}` : 'No flip';
+      return `Flip ${info.from}->${info.to} since ${prevYear}`;
+    }
+
+    function renderSelectedPanelTimelineHTML(series, options = {}) {
       if (!series || series.length === 0) return '<div style="color:#999;">No historical data</div>';
-      return series
+      const mode = String(options?.mode || getSelectedPanelTimelineMode()).trim().toLowerCase();
+      const contestType = String(options?.contestType || '').trim();
+      const useCountyPrecision = String(options?.precision || '').toLowerCase() === 'county';
+      const compactRows = options?.compactRows === true;
+      const sorted = series
         .slice()
-        .sort((a, b) => a.year - b.year)
-        .map(s => {
-          const win = (s.winner || '').toString().toUpperCase();
-          const color = win === 'REP' ? '#ef4444' : (win === 'DEM' ? '#3b82f6' : '#a3a3a3');
-          const label = winnerMarginCall(
-            Number(s.rep_votes || 0),
-            Number(s.dem_votes || 0),
-            Number(s.total_votes || 0),
-            s.rep_candidate,
-            s.dem_candidate,
-            Number(s.margin_pct)
-          ).text;
-          return `<div style="margin-top:4px;color:${color};font-weight:800;">${s.year}: ${label}</div>`;
+        .sort((a, b) => Number(a?.year) - Number(b?.year));
+      return sorted
+        .map((row, idx) => {
+          const year = Number(row?.year);
+          const win = (row?.winner || '').toString().toUpperCase();
+          const winnerColor = win === 'REP' ? '#ef4444' : (win === 'DEM' ? '#3b82f6' : '#64748b');
+          const signed = getSelectedPanelTimelineSignedPct(row);
+          const prev = idx > 0 ? sorted[idx - 1] : null;
+          const prevSigned = prev ? getSelectedPanelTimelineSignedPct(prev) : NaN;
+          const prevYear = prev ? Number(prev?.year) : null;
+          let label = 'Tie';
+          let color = winnerColor;
+
+          if (mode === 'winners') {
+            label = win === 'TIE'
+              ? 'Tie'
+              : `${getWinnerLastName(row, {
+                  contestType,
+                  year,
+                  office: contestType ? formatContestName(contestType, year) : ''
+                })} won`;
+          } else if (mode === 'shift') {
+            const delta = Number.isFinite(prevSigned) ? (signed - prevSigned) : NaN;
+            label = getSelectedPanelTimelineShiftLabel(delta, prevYear);
+            color = !Number.isFinite(delta) || Math.abs(delta) < TREND_SHIFT_NOISE_PTS
+              ? '#64748b'
+              : (delta > 0 ? '#ef4444' : '#3b82f6');
+          } else if (mode === 'flips') {
+            label = getSelectedPanelTimelineFlipLabel(prevSigned, signed, prevYear);
+            const flipMeta = Number.isFinite(prevSigned) ? flipInfo(prevSigned, signed) : null;
+            color = flipMeta?.flipped
+              ? (flipMeta.to === 'R' ? '#ef4444' : '#3b82f6')
+              : '#64748b';
+          } else if (useCountyPrecision) {
+            const marginAbs = countyMarginPctDisplayValue(Number(row?.rep_votes || 0), Number(row?.dem_votes || 0), Number(row?.total_votes || 0));
+            label = (win === 'REP' || win === 'DEM')
+              ? `${getWinnerLastName(row, {
+                  contestType,
+                  year,
+                  office: contestType ? formatContestName(contestType, year) : ''
+                })} +${formatCountyMarginPctForDisplay(marginAbs)}%`
+              : 'Tie';
+          } else {
+            label = winnerMarginCall(
+              Number(row?.rep_votes || 0),
+              Number(row?.dem_votes || 0),
+              Number(row?.total_votes || 0),
+              row?.rep_candidate,
+              row?.dem_candidate,
+              signed
+            ).text;
+          }
+
+          if (compactRows) {
+            return `<div style="display:flex;justify-content:space-between;gap:10px;"><span style="color:#64748b;">${escapeHtml(year)}</span><span style="color:${escapeHtml(color)};font-weight:800;">${escapeHtml(label)}</span></div>`;
+          }
+          return `<div style="margin-top:4px;color:${escapeHtml(color)};font-weight:800;">${escapeHtml(year)}: ${escapeHtml(label)}</div>`;
         })
         .join('');
+    }
+
+    function renderDistrictTrendLinesHTML(series, options = {}) {
+      return renderSelectedPanelTimelineHTML(series, options);
     }
 
     function isStateHouseSeatContestType(contestType) {
@@ -31723,6 +31775,7 @@ document.addEventListener('DOMContentLoaded', function() {
         repCandidate
       };
     }
+
     function renderStateHouseVotehubTooltipHTML(entries, year, districtNum, selectedContestType) {
       if (!Array.isArray(entries) || !entries.length) {
         return '<div style="color:#94a3b8;">No seat results for this district.</div>';
@@ -31770,7 +31823,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .join('');
     }
 
-    function renderDistrictTrendSectionsHTML(entries) {
+    function renderDistrictTrendSectionsHTML(entries, options = {}) {
       if (!Array.isArray(entries) || !entries.length) {
         return '<div style="color:#999;">No historical data</div>';
       }
@@ -31779,7 +31832,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .map(entry => `
           <div style="margin-top:10px;">
             <div style="font-size:13px;font-weight:800;color:#334155;margin-bottom:4px;">${formatContestName(entry.contestType, entry.year)}</div>
-            ${renderDistrictTrendLinesHTML(entry.series)}
+            ${renderDistrictTrendLinesHTML(entry.series, { ...options, contestType: entry.contestType })}
           </div>
         `)
         .join('');
@@ -34223,6 +34276,7 @@ document.addEventListener('DOMContentLoaded', function() {
         setStatewideContestTitle(`US House (${year})`);
         setStatus(`Applied contest: US House ${year}`);
       }
+      queueDistrictDetailsRefresh();
     }
 
     async function applyStatewideContestToDistricts(contestType, year) {
@@ -34362,7 +34416,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 demoRow?.multiracial_vap_pct ?? demoRow?.multiracial_pct ?? demoRow?.Multiracial
               );
             } else if (hasSpecialDistrictResult) {
-              color = row.color || (hasIncompleteSeatData ? '#9ca3af' : '#d6c3a1');
+              color = row.color || '#f7f7f7';
             } else if (mode === 'flips') {
               const prevRow = prevResults ? (prevResults[String(districtId)] || prevResults[String(Number(districtId))] || null) : null;
               const prevSigned = prevRow ? Number(prevRow.margin_pct || 0) : 0;
@@ -34579,6 +34633,7 @@ document.addEventListener('DOMContentLoaded', function() {
         setStatus(mapped > 0
           ? `Applied demographic mode for ${getReadableViewLabel(currentView)}.`
           : `No district demographic rows found for ${getReadableViewLabel(currentView)}.`);
+        queueDistrictDetailsRefresh();
         return;
       }
 
@@ -34736,6 +34791,7 @@ document.addEventListener('DOMContentLoaded', function() {
             repCandidate: statewideTotals.repCandidate || resolvedStatewideCandidates().repCandidate
           }
         );
+        queueDistrictDetailsRefresh();
         return;
       }
 
@@ -34777,6 +34833,7 @@ document.addEventListener('DOMContentLoaded', function() {
           repCandidate: statewideTotals.repCandidate || resolvedStatewideCandidates().repCandidate
         }
       );
+      queueDistrictDetailsRefresh();
     }
 
     window.onload = init;
