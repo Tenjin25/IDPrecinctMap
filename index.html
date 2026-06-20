@@ -4463,12 +4463,12 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-bar-label.dem {
-    color: var(--state-blue-strong);
+    color: #2563eb;
     text-align: left;
   }
 
   .focus-bar-label.rep {
-    color: var(--state-red-strong);
+    color: #dc2626;
     text-align: right;
   }
 
@@ -25857,8 +25857,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const winnerUpper = winner.toUpperCase();
       const winnerColor = winnerUpper.includes('(R)') || winnerUpper.includes('REPUBLICAN')
-        ? '#fecaca'
-        : (winnerUpper.includes('(D)') || winnerUpper.includes('DEMOCRATIC') ? '#bfdbfe' : '#e2e8f0');
+        ? '#dc2626'
+        : (winnerUpper.includes('(D)') || winnerUpper.includes('DEMOCRATIC') ? '#2563eb' : '#e2e8f0');
       ctx.fillStyle = winnerColor;
       ctx.font = `800 ${variant.winnerFont}px "Manrope", "Segoe UI", Arial, sans-serif`;
       drawWrappedHeadline(winner, 250, variant.valueY1, width - 330, variant.winnerLine, 2);
