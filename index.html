@@ -2832,6 +2832,10 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     --state-blue-strong: #355142;
     --state-red: #b4573a;
     --state-red-strong: #8d3f28;
+    --party-blue: #2563eb;
+    --party-blue-strong: #1d4ed8;
+    --party-red: #dc2626;
+    --party-red-strong: #b91c1c;
     --state-ribbon: linear-gradient(90deg, #496956 0%, #f5efe4 48%, #b4573a 100%);
     --state-accent-gradient: linear-gradient(135deg, #496956 0%, #c49a3a 52%, #b4573a 100%);
     --ui-bg: rgba(249, 246, 238, 0.95);
@@ -3103,8 +3107,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     box-shadow: inset 0 0 0 1px rgba(255,255,255,0.25);
   }
 
-  .meta-chip.dem .dot { background: var(--state-blue); }
-  .meta-chip.rep .dot { background: var(--state-red); }
+  .meta-chip.dem .dot { background: #2563eb; }
+  .meta-chip.rep .dot { background: #dc2626; }
   .meta-chip.tie .dot { background: #94a3b8; }
   .meta-chip.shift .dot { background: #0ea5e9; }
   .meta-chip.flip .dot { background: #a855f7; }
@@ -3125,8 +3129,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     letter-spacing: 0.02em;
   }
 
-  .meta-chip.shift .shift-value.rep { color: var(--state-red-strong); }
-  .meta-chip.shift .shift-value.dem { color: var(--state-blue-strong); }
+  .meta-chip.shift .shift-value.rep { color: #b91c1c; }
+  .meta-chip.shift .shift-value.dem { color: #1d4ed8; }
   .meta-chip.shift .shift-value.tie { color: #475569; }
 
   .meta-chip.shift .shift-years {
@@ -4383,7 +4387,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-pill-value.dem {
-    color: #2563eb;
+    color: #1d4ed8;
   }
 
   .focus-pill-value.rep {
@@ -4463,12 +4467,12 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-bar-label.dem {
-    color: #2563eb;
+    color: #1d4ed8;
     text-align: left;
   }
 
   .focus-bar-label.rep {
-    color: #dc2626;
+    color: #b91c1c;
     text-align: right;
   }
 
@@ -4495,7 +4499,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-bar-segment.dem {
-    background: linear-gradient(90deg, #1d4ed8, #3b82f6);
+    background: linear-gradient(90deg, #2563eb, #60a5fa);
   }
 
   .focus-bar-segment.other {
@@ -4503,7 +4507,7 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-bar-segment.rep {
-    background: linear-gradient(90deg, #ef4444, #dc2626);
+    background: linear-gradient(90deg, #f87171, #dc2626);
   }
 
   .focus-bar-midpoint {
@@ -4632,12 +4636,12 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trend-summary-badge.rep {
-    color: var(--state-red-strong);
+    color: #b91c1c;
     background: rgba(254, 226, 226, 0.78);
   }
 
   .focus-trend-summary-badge.dem {
-    color: var(--state-blue-strong);
+    color: #1d4ed8;
     background: rgba(219, 234, 254, 0.82);
   }
 
@@ -4908,13 +4912,13 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trajectory-status.tone-dem {
-    color: var(--state-blue-strong);
+    color: #1d4ed8;
     border-color: rgba(37, 99, 235, 0.2);
     background: rgba(219, 234, 254, 0.88);
   }
 
   .focus-trajectory-status.tone-rep {
-    color: var(--state-red-strong);
+    color: #b91c1c;
     border-color: rgba(220, 38, 38, 0.2);
     background: rgba(254, 226, 226, 0.84);
   }
@@ -4976,13 +4980,13 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trajectory-trendline.tone-rep {
-    color: var(--state-red-strong);
+    color: #b91c1c;
     border-color: rgba(220, 38, 38, 0.22);
     background: rgba(254, 242, 242, 0.86);
   }
 
   .focus-trajectory-trendline.tone-dem {
-    color: var(--state-blue-strong);
+    color: #1d4ed8;
     border-color: rgba(37, 99, 235, 0.22);
     background: rgba(239, 246, 255, 0.9);
   }
@@ -5117,11 +5121,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trajectory-value.tone-dem {
-    color: var(--state-blue-strong);
+    color: #1d4ed8;
   }
 
   .focus-trajectory-value.tone-rep {
-    color: var(--state-red-strong);
+    color: #b91c1c;
   }
 
   .focus-trajectory-value.tone-neutral {
@@ -5137,11 +5141,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trajectory-arrow.tone-dem {
-    color: var(--state-blue-strong);
+    color: #1d4ed8;
   }
 
   .focus-trajectory-arrow.tone-rep {
-    color: var(--state-red-strong);
+    color: #b91c1c;
   }
 
   .focus-trajectory-arrow.tone-neutral {
@@ -5354,12 +5358,12 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trend-dot-badge.rep {
-    color: var(--state-red-strong);
+    color: #b91c1c;
     background: rgba(254, 226, 226, 0.82);
   }
 
   .focus-trend-dot-badge.dem {
-    color: var(--state-blue-strong);
+    color: #1d4ed8;
     background: rgba(219, 234, 254, 0.86);
   }
 
@@ -5377,11 +5381,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trend-dot-value.dem {
-    color: var(--state-blue-strong);
+    color: #1d4ed8;
   }
 
   .focus-trend-dot-value.rep {
-    color: var(--state-red-strong);
+    color: #dc2626;
   }
 
   .focus-trend-dot-value.tie {
@@ -5446,12 +5450,12 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trend-dot-shift.rep {
-    color: var(--state-red-strong);
+    color: #b91c1c;
     background: rgba(254, 226, 226, 0.78);
   }
 
   .focus-trend-dot-shift.dem {
-    color: var(--state-blue-strong);
+    color: #1d4ed8;
     background: rgba(219, 234, 254, 0.84);
   }
 
@@ -5508,11 +5512,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trend-stat-value.dem {
-    color: var(--state-blue-strong);
+    color: #1d4ed8;
   }
 
   .focus-trend-stat-value.rep {
-    color: var(--state-red-strong);
+    color: #b91c1c;
   }
 
   .focus-trend-stat-value.tie {
@@ -5619,12 +5623,12 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trend-entry-badge.dem {
-    color: var(--state-blue-strong);
+    color: #1d4ed8;
     background: rgba(219, 234, 254, 0.86);
   }
 
   .focus-trend-entry-badge.rep {
-    color: var(--state-red-strong);
+    color: #b91c1c;
     background: rgba(254, 226, 226, 0.82);
   }
 
@@ -5637,11 +5641,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trend-entry-call.dem {
-    color: var(--state-blue-strong);
+    color: #1d4ed8;
   }
 
   .focus-trend-entry-call.rep {
-    color: var(--state-red-strong);
+    color: #b91c1c;
   }
 
   .focus-trend-entry-call.tie {
@@ -5674,11 +5678,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trend-entry-scale .dem {
-    color: var(--state-blue-strong);
+    color: #1d4ed8;
   }
 
   .focus-trend-entry-scale .rep {
-    color: var(--state-red-strong);
+    color: #b91c1c;
     text-align: right;
   }
 
@@ -5720,12 +5724,12 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .focus-trend-chip.dem {
-    color: var(--state-blue-strong);
+    color: #1d4ed8;
     background: rgba(219, 234, 254, 0.84);
   }
 
   .focus-trend-chip.rep {
-    color: var(--state-red-strong);
+    color: #b91c1c;
     background: rgba(254, 226, 226, 0.78);
   }
 
@@ -6630,8 +6634,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     color: #0f172a;
   }
 
-  .statewide-call[data-party="dem"] { color: #2563eb; }
-  .statewide-call[data-party="rep"] { color: #dc2626; }
+  .statewide-call[data-party="dem"] { color: #1d4ed8; }
+  .statewide-call[data-party="rep"] { color: #b91c1c; }
   .statewide-call[data-party="tie"] { color: #475569; }
 
   .statewide-subline {
@@ -6717,15 +6721,15 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .statewide-share-chip.dem {
-    color: var(--state-blue-strong);
-    background: rgba(73, 105, 86, 0.18);
-    border-color: rgba(73, 105, 86, 0.28);
+    color: #1d4ed8;
+    background: rgba(219, 234, 254, 0.72);
+    border-color: rgba(96, 165, 250, 0.32);
   }
 
   .statewide-share-chip.rep {
-    color: var(--state-red-strong);
-    background: rgba(180, 87, 58, 0.16);
-    border-color: rgba(180, 87, 58, 0.28);
+    color: #b91c1c;
+    background: rgba(254, 226, 226, 0.76);
+    border-color: rgba(248, 113, 113, 0.30);
   }
 
   .statewide-share-chip.other {
@@ -7068,11 +7072,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .legend-axis .rep {
-    color: var(--state-red-strong);
+    color: #b91c1c;
   }
 
   .legend-axis .dem {
-    color: var(--state-blue-strong);
+    color: #1d4ed8;
   }
 
   .legend-scale-caption {
@@ -7101,11 +7105,11 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   }
 
   .legend-scale-caption .rep {
-    color: var(--state-red-strong);
+    color: #b91c1c;
   }
 
   .legend-scale-caption .dem {
-    color: var(--state-blue-strong);
+    color: #1d4ed8;
   }
 
   .legend-chip-row {
@@ -7249,8 +7253,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     margin-left: auto;
   }
 
-  .vote-lead[data-party="dem"] { color: #2563eb; }
-  .vote-lead[data-party="rep"] { color: #dc2626; }
+  .vote-lead[data-party="dem"] { color: #1d4ed8; }
+  .vote-lead[data-party="rep"] { color: #b91c1c; }
   .vote-lead[data-party="tie"] { color: #475569; }
 
   .vote-counter-row {
@@ -7294,8 +7298,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     flex: 0 0 auto;
   }
 
-  .vote-item.dem .vote-swatch { background: var(--state-blue); }
-  .vote-item.rep .vote-swatch { background: var(--state-red); }
+  .vote-item.dem .vote-swatch { background: #2563eb; }
+  .vote-item.rep .vote-swatch { background: #dc2626; }
   .vote-item.other .vote-swatch { background: #64748b; }
 
   .vote-count {
@@ -7349,8 +7353,8 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     transition: width 240ms ease;
   }
 
-  .vote-share-fill.dem { background: linear-gradient(90deg, #3b82f6 0%, #1d4ed8 100%); }
-  .vote-share-fill.rep { background: linear-gradient(90deg, #ef4444 0%, #dc2626 100%); }
+  .vote-share-fill.dem { background: linear-gradient(90deg, #60a5fa 0%, #2563eb 100%); }
+  .vote-share-fill.rep { background: linear-gradient(90deg, #fb7185 0%, #dc2626 100%); }
   .vote-share-fill.other { background: linear-gradient(90deg, #94a3b8 0%, #64748b 100%); }
 
   /* Safe fallback: if one-line layout overflows, JS adds .layout-stacked per card. */
@@ -9200,6 +9204,236 @@ body.focus-active #hover-tooltip[data-context="preview"] {
     }
   }
     </style>
+
+
+  <!-- Desktop Idaho theme override: keep party red/blue text, but make the desktop shell use Idaho pine/gold/earth accents. -->
+  <style id="desktop-idaho-theme-overrides">
+    @media (min-width: 769px) {
+      :root {
+        --desktop-idaho-pine: var(--ui-pine, #45624f);
+        --desktop-idaho-pine-strong: var(--state-blue-strong, #355142);
+        --desktop-idaho-gold: var(--ui-accent, #d9b44a);
+        --desktop-idaho-gold-deep: var(--ui-accent-deep, #a8842b);
+        --desktop-idaho-earth: var(--ui-accent-2, #7d5a34);
+        --desktop-idaho-paper: var(--ui-panel, rgba(249, 246, 238, 0.95));
+        --desktop-idaho-border: var(--ui-border, rgba(36, 52, 58, 0.16));
+      }
+
+      body {
+        background:
+          radial-gradient(circle at top left, rgba(217, 180, 74, 0.18), transparent 24%),
+          radial-gradient(circle at top right, rgba(92, 124, 73, 0.18), transparent 28%),
+          linear-gradient(180deg, #f4efe2 0%, #eef1e8 100%) !important;
+        color: var(--ui-text, #24343a) !important;
+      }
+
+      #map {
+        background: #ecefe7 !important;
+      }
+
+      button:focus-visible,
+      input:focus-visible,
+      select:focus-visible,
+      summary:focus-visible,
+      a:focus-visible {
+        outline-color: rgba(217, 180, 74, 0.82) !important;
+      }
+
+      .map-topbar,
+      .main-controls,
+      .vote-counter,
+      .viz-modes,
+      .legend,
+      .status-panel {
+        background: var(--desktop-idaho-paper) !important;
+        border-color: var(--desktop-idaho-border) !important;
+        box-shadow: 0 16px 36px rgba(24, 36, 42, 0.16) !important;
+        color: var(--ui-text, #24343a) !important;
+      }
+
+      .map-topbar::before,
+      .main-controls::before,
+      .vote-counter::before,
+      .legend::before {
+        background: linear-gradient(90deg, var(--desktop-idaho-pine) 0%, var(--desktop-idaho-gold) 50%, var(--desktop-idaho-earth) 100%) !important;
+      }
+
+      .map-topbar-title,
+      .map-topbar-copy strong,
+      .controls-header h3,
+      .legend-header h4,
+      .vote-counter-title,
+      .section-kicker,
+      .control-group label,
+      .panel-eyebrow,
+      .context-title,
+      .result-card .rc-title {
+        color: var(--ui-text-strong, #18242a) !important;
+      }
+
+      .map-topbar-copy,
+      .controls-subtitle,
+      .context-subtitle,
+      .legend-note,
+      .result-card .rc-sub,
+      .result-card .rc-chip .k,
+      .status-panel,
+      .meta-subtle {
+        color: var(--ui-muted, #5d6458) !important;
+      }
+
+      .panel-eyebrow,
+      .context-banner,
+      .map-topbar-chip,
+      .context-chip,
+      .region-jump-btn:hover,
+      .control-group select:focus,
+      .control-group input:focus,
+      .fly-search-option:hover,
+      .legend-swatch-card:hover {
+        background: rgba(217, 180, 74, 0.12) !important;
+        border-color: rgba(168, 132, 43, 0.34) !important;
+        color: var(--desktop-idaho-pine-strong) !important;
+      }
+
+      .viz-mode-btn {
+        color: var(--ui-muted, #5d6458) !important;
+      }
+
+      .viz-mode-btn:hover,
+      .viz-modes-inline .viz-mode-btn:hover {
+        background: rgba(217, 180, 74, 0.14) !important;
+        color: var(--desktop-idaho-pine-strong) !important;
+      }
+
+      .viz-mode-btn.active,
+      .mode-toggle.active,
+      .mode-toggle[aria-pressed="true"],
+      .tool-toggle.active,
+      .tool-btn.active,
+      .map-topbar-toggle.active {
+        background: linear-gradient(135deg, var(--desktop-idaho-pine) 0%, var(--desktop-idaho-earth) 100%) !important;
+        color: #fff8e8 !important;
+        border-color: rgba(217, 180, 74, 0.42) !important;
+        box-shadow: 0 8px 18px rgba(69, 98, 79, 0.20) !important;
+      }
+
+      .viz-mode-btn.active::after {
+        border-top-color: var(--desktop-idaho-earth) !important;
+      }
+
+      .minimize-btn,
+      #controls-minimize-btn,
+      #legend-minimize-btn,
+      #accessibility-toggle,
+      #label-toggle,
+      #precinct-toggle,
+      #split-ticket-toggle,
+      #gps-locate-btn,
+      #follow-hover-toggle,
+      #snapshot-share-btn,
+      #copy-link-btn,
+      #smart-insights-toggle,
+      #reset-view-btn,
+      #scenario-reset-btn {
+        border-color: rgba(168, 132, 43, 0.38) !important;
+        box-shadow: 0 8px 18px rgba(69, 98, 79, 0.16) !important;
+      }
+
+      .minimize-btn,
+      #controls-minimize-btn,
+      #legend-minimize-btn {
+        background: linear-gradient(180deg, var(--desktop-idaho-gold) 0%, var(--desktop-idaho-earth) 100%) !important;
+        color: #fff8e8 !important;
+      }
+
+      .controls-collapsed-label {
+        background: linear-gradient(135deg, var(--desktop-idaho-pine-strong) 0%, var(--desktop-idaho-earth) 100%) !important;
+        border-color: rgba(217, 180, 74, 0.28) !important;
+        box-shadow: 0 12px 26px rgba(69, 98, 79, 0.18), inset 0 1px 0 rgba(255,255,255,0.16) !important;
+        color: #fff8e8 !important;
+      }
+
+      .controls-collapsed-label::before {
+        background: linear-gradient(135deg, var(--desktop-idaho-gold) 0%, #f6deb1 100%) !important;
+        box-shadow: 0 0 0 4px rgba(217, 180, 74, 0.16) !important;
+      }
+
+      .control-group select,
+      .control-group input,
+      .contest-search-input,
+      .region-jump-btn,
+      .result-card,
+      .result-card .rc-chip,
+      .legend-swatch-card,
+      .fly-search-option,
+      .smart-insight-card,
+      .trajectory-card,
+      .county-insight-card,
+      .census-check,
+      .focus-story,
+      .focus-story-mini {
+        background: rgba(255, 252, 244, 0.88) !important;
+        border-color: rgba(36, 52, 58, 0.14) !important;
+        color: var(--ui-text, #24343a) !important;
+      }
+
+      .control-group select:hover,
+      .control-group input:hover,
+      .region-jump-btn:hover,
+      .result-card:hover,
+      .smart-insight-card:hover,
+      .trajectory-card:hover,
+      .county-insight-card:hover {
+        border-color: rgba(168, 132, 43, 0.34) !important;
+        box-shadow: 0 10px 24px rgba(69, 98, 79, 0.12) !important;
+      }
+
+      .controls-header,
+      .vote-counter-context,
+      .legend-header,
+      .result-card .rc-bar,
+      .focus-trend,
+      .focus-watch,
+      .status-panel {
+        border-color: rgba(36, 52, 58, 0.14) !important;
+      }
+
+      .fly-search-option[data-tone="district"] span,
+      .fly-search-option[data-tone="precinct"] span,
+      .legend-axis .rep,
+      .legend-scale-caption .rep,
+      .legend-axis .dem,
+      .legend-scale-caption .dem {
+        color: var(--desktop-idaho-pine-strong) !important;
+      }
+
+      .statewide-card,
+      .county-summary-card,
+      .timeline-item,
+      .timeline-row,
+      .winner-card,
+      .contest-card {
+        background: rgba(255, 252, 244, 0.86) !important;
+        border-color: rgba(36, 52, 58, 0.14) !important;
+      }
+
+      .confidence-fill,
+      .scenario-slider::-webkit-slider-thumb,
+      .scenario-slider::-moz-range-thumb,
+      .selected-region-marker,
+      .selected-region-pulse {
+        background: var(--desktop-idaho-gold) !important;
+        border-color: var(--desktop-idaho-earth) !important;
+      }
+
+      .loading-spinner,
+      .district-lines-loading-hint .spinner svg circle {
+        border-top-color: var(--desktop-idaho-earth) !important;
+        stroke: var(--desktop-idaho-earth) !important;
+      }
+    }
+  </style>
 </head>
 <body>
 <!-- Move JS to script block -->
@@ -10312,8 +10546,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-06-20-01';
-    const APP_BUILD_ID = '2026-06-20-01';
+    const DATA_CACHE_BUSTER = '2026-06-20-02';
+    const APP_BUILD_ID = '2026-06-20-02';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
