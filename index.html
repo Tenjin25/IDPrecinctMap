@@ -10546,8 +10546,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-28-opacity-presets-v1';
-    const APP_BUILD_ID = '2026-08-28-opacity-presets-v1';
+    const DATA_CACHE_BUSTER = '2026-08-28-opacity-presets-v2';
+    const APP_BUILD_ID = '2026-08-28-opacity-presets-v2';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -15583,12 +15583,47 @@ document.addEventListener('DOMContentLoaded', function() {
       queueVoteBreakdownLayoutMeasure();
     });
 
+    function staticAssetRetryPath(requestPath, attempt) {
+      try {
+        const url = new URL(requestPath, window.location.href);
+        url.searchParams.set('_retry', `${attempt}-${Date.now()}`);
+        return url.toString();
+      } catch (_) {
+        const sep = String(requestPath).includes('?') ? '&' : '?';
+        return `${requestPath}${sep}_retry=${attempt}-${Date.now()}`;
+      }
+    }
+
+    async function fetchStaticAsset(requestPath) {
+      const maxAttempts = 3;
+      let lastError = null;
+      for (let attempt = 0; attempt < maxAttempts; attempt += 1) {
+        const retrying = attempt > 0;
+        const url = retrying ? staticAssetRetryPath(requestPath, attempt) : requestPath;
+        let response = null;
+        try {
+          response = await fetch(url, { cache: retrying ? 'no-store' : 'force-cache' });
+        } catch (error) {
+          lastError = error;
+          if (attempt === maxAttempts - 1) throw error;
+        }
+        if (response?.ok) return response;
+        if (response) {
+          const error = new Error(`${requestPath} fetch failed: ${response.status}`);
+          const transient = response.status === 408 || response.status === 429 || response.status >= 500;
+          if (!transient || attempt === maxAttempts - 1) throw error;
+          lastError = error;
+        }
+        await new Promise(resolve => setTimeout(resolve, attempt === 0 ? 250 : 700));
+      }
+      throw lastError || new Error(`${requestPath} fetch failed`);
+    }
+
     async function loadJSON(path) {
       const requestPath = withCacheBuster(path);
       if (jsonInflightByPath.has(requestPath)) return jsonInflightByPath.get(requestPath);
       const p = atlasPerf(`json:${requestPath}`, async () => {
-        const r = await fetch(requestPath, { cache: 'force-cache' });
-        if (!r.ok) throw new Error(`${requestPath} fetch failed: ${r.status}`);
+        const r = await fetchStaticAsset(requestPath);
         return r.json();
       });
       jsonInflightByPath.set(requestPath, p);
@@ -15603,8 +15638,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const requestPath = withCacheBuster(path);
 	      if (csvInflightByPath.has(requestPath)) return csvInflightByPath.get(requestPath);
 	      const p = atlasPerf(`csv:${requestPath}`, async () => {
-	        const r = await fetch(requestPath, { cache: 'force-cache' });
-	        if (!r.ok) throw new Error(`${requestPath} fetch failed: ${r.status}`);
+	        const r = await fetchStaticAsset(requestPath);
 	        return r.text();
 	      });
 	      csvInflightByPath.set(requestPath, p);
