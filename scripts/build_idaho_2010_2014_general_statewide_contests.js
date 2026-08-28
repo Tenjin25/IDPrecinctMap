@@ -19,6 +19,38 @@ const PALETTE = [
 
 const YEAR_SPECS = [
   {
+    year: 2006,
+    sourceFile: path.join(ROOT, 'data', '06gen_stwd_pct.xls'),
+    sheets: [
+      {
+        sheetName: 'page 2',
+        partyRow: 3,
+        candidateRow: 4,
+        dataStartRow: 5,
+        contests: [
+          {
+            contestType: 'state_treasurer',
+            office: 'State Treasurer',
+            startCol: 1,
+            endCol: 2,
+          },
+          {
+            contestType: 'attorney_general',
+            office: 'Attorney General',
+            startCol: 3,
+            endCol: 4,
+          },
+          {
+            contestType: 'superintendent_public_instruction',
+            office: 'Superintendent of Public Instruction',
+            startCol: 5,
+            endCol: 6,
+          },
+        ],
+      },
+    ],
+  },
+  {
     year: 2010,
     sourceFile: path.join(ROOT, 'data', '2010', '10gen_stwd_pct.xls'),
     sheets: [
@@ -81,6 +113,15 @@ const YEAR_SPECS = [
 const MANAGED_CONTEST_TYPES = new Set(
   YEAR_SPECS.flatMap((yearSpec) => yearSpec.sheets.flatMap((sheet) => sheet.contests.map((contest) => contest.contestType)))
 );
+const MANAGED_CONTEST_KEYS = new Set(
+  YEAR_SPECS.flatMap((yearSpec) => yearSpec.sheets.flatMap((sheet) => (
+    sheet.contests.map((contest) => `${Number(yearSpec.year)}|${contest.contestType}`)
+  )))
+);
+const REQUESTED_CONTEST_TYPES = new Set(process.argv.slice(2).map((value) => String(value || '').trim()).filter(Boolean));
+const ACTIVE_CONTEST_TYPES = REQUESTED_CONTEST_TYPES.size
+  ? new Set(Array.from(REQUESTED_CONTEST_TYPES).filter((contestType) => MANAGED_CONTEST_TYPES.has(contestType)))
+  : MANAGED_CONTEST_TYPES;
 
 function cleanCell(value) {
   return String(value == null ? '' : value).replace(/\r?\n/g, ' ').trim();
@@ -98,7 +139,13 @@ function isBlank(value) {
 }
 
 function normalizeCounty(value) {
-  return cleanCell(value).replace(/\s+County$/i, '').toUpperCase();
+  return cleanCell(value)
+    .replace(/\s*\((?:CONTINUED|CONT\.?)\)\s*/gi, ' ')
+    .replace(/\bCONTINUED\b|\bCONT\.?/gi, ' ')
+    .replace(/\s+County$/i, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toUpperCase();
 }
 
 function normalizePrecinct(value) {
@@ -109,6 +156,16 @@ function normalizePrecinct(value) {
     return Number.isInteger(numeric) ? String(numeric) : text;
   }
   return text.toUpperCase();
+}
+
+function isSummaryPrecinct(value) {
+  const text = normalizePrecinct(value);
+  return text.includes('CO. TOTAL')
+    || text.includes('CO TOTAL')
+    || text.includes('COUNTY TOTAL')
+    || text.includes('STATE TOTAL')
+    || text.includes('GRAND TOTAL')
+    || /^TOTAL\b/.test(text);
 }
 
 function normalizeParty(value) {
@@ -183,13 +240,15 @@ function parseSheet(workbook, sheetSpec) {
     const remaining = row.slice(1);
     const isCountyHeader = remaining.every(isBlank);
     if (isCountyHeader) {
-      currentCounty = normalizeCounty(firstCell);
+      const rawHeader = cleanCell(firstCell).toUpperCase();
+      const header = normalizeCounty(firstCell);
+      currentCounty = header === 'STATEWIDE' || rawHeader.endsWith(' COUNTY') ? '' : header;
       continue;
     }
     if (!currentCounty) continue;
 
     const precinct = normalizePrecinct(firstCell);
-    if (!precinct) continue;
+    if (!precinct || isSummaryPrecinct(precinct)) continue;
     const rowKey = `${currentCounty} - ${precinct}`;
 
     for (const contest of sheetSpec.contests) {
@@ -244,10 +303,10 @@ function readManifest() {
 function upsertManifestEntries(manifest, entries) {
   const byKey = new Map();
   for (const entry of manifest.files || []) {
-    if (MANAGED_CONTEST_TYPES.has(String(entry.contest_type || '')) && (Number(entry.year) === 2010 || Number(entry.year) === 2014)) {
+    const key = `${Number(entry.year)}|${String(entry.contest_type || '')}`;
+    if (ACTIVE_CONTEST_TYPES.has(String(entry.contest_type || '')) && MANAGED_CONTEST_KEYS.has(key)) {
       continue;
     }
-    const key = `${Number(entry.year)}|${String(entry.contest_type || '')}`;
     byKey.set(key, entry);
   }
   for (const entry of entries) {
@@ -261,11 +320,18 @@ function upsertManifestEntries(manifest, entries) {
 }
 
 function main() {
+  if (REQUESTED_CONTEST_TYPES.size && !ACTIVE_CONTEST_TYPES.size) {
+    throw new Error(`No supported contest types requested: ${Array.from(REQUESTED_CONTEST_TYPES).join(', ')}`);
+  }
   const manifest = readManifest();
   const newEntries = [];
 
   for (const yearSpec of YEAR_SPECS) {
-    for (const contestType of MANAGED_CONTEST_TYPES) {
+    const configuredContestTypes = new Set(
+      yearSpec.sheets.flatMap((sheet) => sheet.contests.map((contest) => contest.contestType))
+    );
+    for (const contestType of configuredContestTypes) {
+      if (!ACTIVE_CONTEST_TYPES.has(contestType)) continue;
       const outPath = path.join(CONTESTS_DIR, `${contestType}_${yearSpec.year}.json`);
       if (fs.existsSync(outPath)) fs.unlinkSync(outPath);
     }
@@ -291,6 +357,7 @@ function main() {
     }
 
     for (const [contestType, records] of Array.from(contestRecords.entries()).sort()) {
+      if (!ACTIVE_CONTEST_TYPES.has(contestType)) continue;
       const rows = buildContestRows(records);
       if (!rows.length) continue;
       if (!isContestedContest(rows)) {
@@ -314,6 +381,8 @@ function main() {
         year: yearSpec.year,
         contest_type: contestType,
         file: outName,
+        rows: rows.length,
+        office: officeByContestType.get(contestType) || contestType,
       });
       console.log(`Wrote ${outName} (${rows.length} rows)`);
     }

@@ -1,0 +1,590 @@
+{
+  "year": 2006,
+  "scope": "state_senate",
+  "contest_type": "superintendent_public_instruction",
+  "meta": {
+    "match_coverage_pct": 97.18,
+    "matched_precinct_keys": 929,
+    "total_precinct_keys": 956,
+    "weighted_vote_coverage_pct": 100,
+    "direct_match_vote_coverage_pct": 97.21,
+    "modeled_residual_vote_pct": 2.79,
+    "modeled_residual_votes": 12355,
+    "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
+    "office": "Superintendent of Public Instruction",
+    "office_group": null,
+    "seat_label": null,
+    "seat_key": null,
+    "nongeo_allocation_mode": "county_matched_vote_weighted",
+    "candidate_count": null,
+    "precinct_basis_breakdown": {
+      "modern_2020_vtd20_rows": 37,
+      "legacy_2008_vtd00_rows": 3,
+      "direct_2022_districtcoded_rows": 889
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "dem_votes": 7308,
+        "rep_votes": 8480,
+        "other_votes": 0,
+        "total_votes": 15788,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 1172,
+        "margin_pct": 7.4234,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 8069,
+        "rep_votes": 8744,
+        "other_votes": 0,
+        "total_votes": 16813,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 675,
+        "margin_pct": 4.0148,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "3": {
+        "dem_votes": 5040,
+        "rep_votes": 6090,
+        "other_votes": 0,
+        "total_votes": 11130,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 1050,
+        "margin_pct": 9.434,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "4": {
+        "dem_votes": 4496,
+        "rep_votes": 5783,
+        "other_votes": 0,
+        "total_votes": 10280,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 1287,
+        "margin_pct": 12.5195,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "5": {
+        "dem_votes": 3113,
+        "rep_votes": 5226,
+        "other_votes": 0,
+        "total_votes": 8340,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 2113,
+        "margin_pct": 25.3357,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "6": {
+        "dem_votes": 9579,
+        "rep_votes": 6242,
+        "other_votes": 0,
+        "total_votes": 15821,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": -3337,
+        "margin_pct": -21.0922,
+        "winner": "DEM",
+        "color": "#08519c",
+        "competitiveness": {
+          "color": "#08519c"
+        },
+        "no_data": false
+      },
+      "7": {
+        "dem_votes": 8574,
+        "rep_votes": 8243,
+        "other_votes": 0,
+        "total_votes": 16817,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": -331,
+        "margin_pct": -1.9682,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "8": {
+        "dem_votes": 6616,
+        "rep_votes": 7369,
+        "other_votes": 0,
+        "total_votes": 13985,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 753,
+        "margin_pct": 5.3843,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "9": {
+        "dem_votes": 5123,
+        "rep_votes": 7653,
+        "other_votes": 0,
+        "total_votes": 12776,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 2530,
+        "margin_pct": 19.8028,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "10": {
+        "dem_votes": 3401,
+        "rep_votes": 4820,
+        "other_votes": 0,
+        "total_votes": 8222,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 1419,
+        "margin_pct": 17.2586,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 3680,
+        "rep_votes": 4510,
+        "other_votes": 0,
+        "total_votes": 8190,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 830,
+        "margin_pct": 10.1343,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 3957,
+        "rep_votes": 5403,
+        "other_votes": 0,
+        "total_votes": 9361,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 1446,
+        "margin_pct": 15.4471,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "13": {
+        "dem_votes": 4279,
+        "rep_votes": 6224,
+        "other_votes": 0,
+        "total_votes": 10503,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 1945,
+        "margin_pct": 18.5185,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "14": {
+        "dem_votes": 4488,
+        "rep_votes": 5313,
+        "other_votes": 0,
+        "total_votes": 9801,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 825,
+        "margin_pct": 8.4175,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 6470,
+        "rep_votes": 4809,
+        "other_votes": 0,
+        "total_votes": 11280,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": -1661,
+        "margin_pct": -14.7252,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "16": {
+        "dem_votes": 9885,
+        "rep_votes": 8968,
+        "other_votes": 0,
+        "total_votes": 18853,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": -917,
+        "margin_pct": -4.8639,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "17": {
+        "dem_votes": 11860,
+        "rep_votes": 9130,
+        "other_votes": 0,
+        "total_votes": 20990,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": -2730,
+        "margin_pct": -13.0062,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "18": {
+        "dem_votes": 8998,
+        "rep_votes": 8537,
+        "other_votes": 0,
+        "total_votes": 17535,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": -461,
+        "margin_pct": -2.629,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "19": {
+        "dem_votes": 11846,
+        "rep_votes": 10513,
+        "other_votes": 0,
+        "total_votes": 22359,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": -1333,
+        "margin_pct": -5.9618,
+        "winner": "DEM",
+        "color": "#6baed6",
+        "competitiveness": {
+          "color": "#6baed6"
+        },
+        "no_data": false
+      },
+      "20": {
+        "dem_votes": 1076,
+        "rep_votes": 1083,
+        "other_votes": 0,
+        "total_votes": 2158,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 7,
+        "margin_pct": 0.3244,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "21": {
+        "dem_votes": 5096,
+        "rep_votes": 3594,
+        "other_votes": 0,
+        "total_votes": 8691,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": -1502,
+        "margin_pct": -17.2822,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "22": {
+        "dem_votes": 4255,
+        "rep_votes": 4145,
+        "other_votes": 0,
+        "total_votes": 8400,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": -110,
+        "margin_pct": -1.3095,
+        "winner": "DEM",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "23": {
+        "dem_votes": 4014,
+        "rep_votes": 5742,
+        "other_votes": 0,
+        "total_votes": 9756,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 1728,
+        "margin_pct": 17.7122,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 3761,
+        "rep_votes": 4491,
+        "other_votes": 0,
+        "total_votes": 8252,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 730,
+        "margin_pct": 8.8463,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 7531,
+        "rep_votes": 8296,
+        "other_votes": 0,
+        "total_votes": 15827,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 765,
+        "margin_pct": 4.8335,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 7617,
+        "rep_votes": 5710,
+        "other_votes": 0,
+        "total_votes": 13327,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": -1907,
+        "margin_pct": -14.3093,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 5319,
+        "rep_votes": 6946,
+        "other_votes": 0,
+        "total_votes": 12265,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 1627,
+        "margin_pct": 13.2654,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 5981,
+        "rep_votes": 7317,
+        "other_votes": 0,
+        "total_votes": 13298,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 1336,
+        "margin_pct": 10.0466,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 9646,
+        "rep_votes": 6560,
+        "other_votes": 0,
+        "total_votes": 16207,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": -3086,
+        "margin_pct": -19.0412,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "30": {
+        "dem_votes": 6382,
+        "rep_votes": 7356,
+        "other_votes": 0,
+        "total_votes": 13738,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 974,
+        "margin_pct": 7.0898,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 5953,
+        "rep_votes": 9121,
+        "other_votes": 0,
+        "total_votes": 15074,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 3168,
+        "margin_pct": 21.0163,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 4237,
+        "rep_votes": 4448,
+        "other_votes": 0,
+        "total_votes": 8686,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 211,
+        "margin_pct": 2.4292,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 8844,
+        "rep_votes": 6926,
+        "other_votes": 0,
+        "total_votes": 15770,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": -1918,
+        "margin_pct": -12.1623,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
+        },
+        "no_data": false
+      },
+      "34": {
+        "dem_votes": 2753,
+        "rep_votes": 5188,
+        "other_votes": 0,
+        "total_votes": 7941,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 2435,
+        "margin_pct": 30.6636,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 6763,
+        "rep_votes": 8189,
+        "other_votes": 0,
+        "total_votes": 14952,
+        "dem_candidate": "Jana L. Jones",
+        "rep_candidate": "Tom Luna",
+        "margin": 1426,
+        "margin_pct": 9.5372,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      }
+    }
+  }
+}

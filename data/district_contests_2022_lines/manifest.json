@@ -194,6 +194,14 @@
     },
     {
       "year": 2006,
+      "scope": "congressional",
+      "contest_type": "superintendent_public_instruction",
+      "file": "congressional_superintendent_public_instruction_2006.json",
+      "districts": 2,
+      "office": "Superintendent of Public Instruction"
+    },
+    {
+      "year": 2006,
       "scope": "state_house",
       "contest_type": "governor",
       "file": "state_house_governor_2006.json",
@@ -218,6 +226,14 @@
     },
     {
       "year": 2006,
+      "scope": "state_house",
+      "contest_type": "superintendent_public_instruction",
+      "file": "state_house_superintendent_public_instruction_2006.json",
+      "districts": 35,
+      "office": "Superintendent of Public Instruction"
+    },
+    {
+      "year": 2006,
       "scope": "state_senate",
       "contest_type": "governor",
       "file": "state_senate_governor_2006.json",
@@ -239,6 +255,14 @@
       "file": "state_senate_state_controller_2006.json",
       "districts": 35,
       "office": "State Controller"
+    },
+    {
+      "year": 2006,
+      "scope": "state_senate",
+      "contest_type": "superintendent_public_instruction",
+      "file": "state_senate_superintendent_public_instruction_2006.json",
+      "districts": 35,
+      "office": "Superintendent of Public Instruction"
     },
     {
       "year": 2008,
@@ -299,6 +323,14 @@
     {
       "year": 2010,
       "scope": "congressional",
+      "contest_type": "superintendent_public_instruction",
+      "file": "congressional_superintendent_public_instruction_2010.json",
+      "districts": 2,
+      "office": "Superintendent of Public Instruction"
+    },
+    {
+      "year": 2010,
+      "scope": "congressional",
       "contest_type": "us_senate",
       "file": "congressional_us_senate_2010.json",
       "districts": 2,
@@ -315,6 +347,14 @@
     {
       "year": 2010,
       "scope": "state_house",
+      "contest_type": "superintendent_public_instruction",
+      "file": "state_house_superintendent_public_instruction_2010.json",
+      "districts": 35,
+      "office": "Superintendent of Public Instruction"
+    },
+    {
+      "year": 2010,
+      "scope": "state_house",
       "contest_type": "us_senate",
       "file": "state_house_us_senate_2010.json",
       "districts": 35,
@@ -327,6 +367,14 @@
       "file": "state_senate_governor_2010.json",
       "districts": 35,
       "office": "Governor"
+    },
+    {
+      "year": 2010,
+      "scope": "state_senate",
+      "contest_type": "superintendent_public_instruction",
+      "file": "state_senate_superintendent_public_instruction_2010.json",
+      "districts": 35,
+      "office": "Superintendent of Public Instruction"
     },
     {
       "year": 2010,
@@ -371,6 +419,14 @@
     {
       "year": 2014,
       "scope": "congressional",
+      "contest_type": "superintendent_public_instruction",
+      "file": "congressional_superintendent_public_instruction_2014.json",
+      "districts": 2,
+      "office": "Superintendent of Public Instruction"
+    },
+    {
+      "year": 2014,
+      "scope": "congressional",
       "contest_type": "us_senate",
       "file": "congressional_us_senate_2014.json",
       "districts": 2,
@@ -387,6 +443,14 @@
     {
       "year": 2014,
       "scope": "state_house",
+      "contest_type": "superintendent_public_instruction",
+      "file": "state_house_superintendent_public_instruction_2014.json",
+      "districts": 35,
+      "office": "Superintendent of Public Instruction"
+    },
+    {
+      "year": 2014,
+      "scope": "state_house",
       "contest_type": "us_senate",
       "file": "state_house_us_senate_2014.json",
       "districts": 35,
@@ -399,6 +463,14 @@
       "file": "state_senate_governor_2014.json",
       "districts": 35,
       "office": "Governor"
+    },
+    {
+      "year": 2014,
+      "scope": "state_senate",
+      "contest_type": "superintendent_public_instruction",
+      "file": "state_senate_superintendent_public_instruction_2014.json",
+      "districts": 35,
+      "office": "Superintendent of Public Instruction"
     },
     {
       "year": 2014,

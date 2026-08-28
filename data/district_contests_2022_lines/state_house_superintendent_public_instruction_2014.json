@@ -3,29 +3,37 @@
   "scope": "state_house",
   "contest_type": "superintendent_public_instruction",
   "meta": {
-    "match_coverage_pct": 38.03,
-    "matched_precinct_keys": 386,
-    "total_precinct_keys": 1015,
-    "weighted_vote_coverage_pct": 7.45,
+    "match_coverage_pct": 99.27,
+    "matched_precinct_keys": 958,
+    "total_precinct_keys": 965,
+    "weighted_vote_coverage_pct": 100,
+    "direct_match_vote_coverage_pct": 96.76,
+    "modeled_residual_vote_pct": 3.24,
+    "modeled_residual_votes": 13868,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "Superintendent of Public Instruction",
-    "nongeo_allocation_mode": "precinct_population_weighted",
+    "office_group": null,
+    "seat_label": null,
+    "seat_key": null,
+    "nongeo_allocation_mode": "county_matched_vote_weighted",
+    "candidate_count": null,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 353,
-      "legacy_2008_vtd00_rows": 33
+      "modern_2020_vtd20_rows": 154,
+      "legacy_2008_vtd00_rows": 135,
+      "direct_2022_districtcoded_rows": 669
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 1936,
-        "rep_votes": 3267,
+        "dem_votes": 5557,
+        "rep_votes": 8616,
         "other_votes": 0,
-        "total_votes": 5203,
+        "total_votes": 14173,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 1331,
-        "margin_pct": 25.5814,
+        "margin": 3059,
+        "margin_pct": 21.5833,
         "winner": "REP",
         "color": "#de2d26",
         "competitiveness": {
@@ -34,14 +42,14 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 3050,
-        "rep_votes": 4705,
+        "dem_votes": 5976,
+        "rep_votes": 9310,
         "other_votes": 0,
-        "total_votes": 7755,
+        "total_votes": 15286,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 1655,
-        "margin_pct": 21.3411,
+        "margin": 3334,
+        "margin_pct": 21.8108,
         "winner": "REP",
         "color": "#de2d26",
         "competitiveness": {
@@ -50,14 +58,14 @@
         "no_data": false
       },
       "3": {
-        "dem_votes": 2372,
-        "rep_votes": 5518,
+        "dem_votes": 2476,
+        "rep_votes": 4868,
         "other_votes": 0,
-        "total_votes": 7890,
+        "total_votes": 7344,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 3146,
-        "margin_pct": 39.8733,
+        "margin": 2392,
+        "margin_pct": 32.5708,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -66,14 +74,14 @@
         "no_data": false
       },
       "4": {
-        "dem_votes": 4,
-        "rep_votes": 6,
+        "dem_votes": 5422,
+        "rep_votes": 7593,
         "other_votes": 0,
-        "total_votes": 10,
+        "total_votes": 13015,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 2,
-        "margin_pct": 20,
+        "margin": 2171,
+        "margin_pct": 16.6808,
         "winner": "REP",
         "color": "#fb6a4a",
         "competitiveness": {
@@ -82,62 +90,62 @@
         "no_data": false
       },
       "5": {
-        "dem_votes": 557,
-        "rep_votes": 1171,
+        "dem_votes": 3564,
+        "rep_votes": 6534,
         "other_votes": 0,
-        "total_votes": 1728,
+        "total_votes": 10099,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 614,
-        "margin_pct": 35.5324,
+        "margin": 2970,
+        "margin_pct": 29.4089,
         "winner": "REP",
-        "color": "#a50f15",
+        "color": "#de2d26",
         "competitiveness": {
-          "color": "#a50f15"
+          "color": "#de2d26"
         },
         "no_data": false
       },
       "6": {
-        "dem_votes": 1353,
-        "rep_votes": 1304,
+        "dem_votes": 8782,
+        "rep_votes": 6738,
         "other_votes": 0,
-        "total_votes": 2657,
+        "total_votes": 15519,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": -49,
-        "margin_pct": -1.8442,
+        "margin": -2044,
+        "margin_pct": -13.171,
         "winner": "DEM",
-        "color": "#cbd5e1",
+        "color": "#2171b5",
         "competitiveness": {
-          "color": "#cbd5e1"
+          "color": "#2171b5"
         },
         "no_data": false
       },
       "7": {
-        "dem_votes": 3686,
-        "rep_votes": 3651,
+        "dem_votes": 6388,
+        "rep_votes": 8470,
         "other_votes": 0,
-        "total_votes": 7337,
+        "total_votes": 14859,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": -35,
-        "margin_pct": -0.477,
-        "winner": "DEM",
-        "color": "#cbd5e1",
+        "margin": 2082,
+        "margin_pct": 14.0117,
+        "winner": "REP",
+        "color": "#fb6a4a",
         "competitiveness": {
-          "color": "#cbd5e1"
+          "color": "#fb6a4a"
         },
         "no_data": false
       },
       "8": {
-        "dem_votes": 3440,
-        "rep_votes": 4937,
+        "dem_votes": 5380,
+        "rep_votes": 7578,
         "other_votes": 0,
-        "total_votes": 8377,
+        "total_votes": 12958,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 1497,
-        "margin_pct": 17.8704,
+        "margin": 2198,
+        "margin_pct": 16.9625,
         "winner": "REP",
         "color": "#fb6a4a",
         "competitiveness": {
@@ -146,14 +154,14 @@
         "no_data": false
       },
       "9": {
-        "dem_votes": 1906,
-        "rep_votes": 3045,
+        "dem_votes": 4030,
+        "rep_votes": 6924,
         "other_votes": 0,
-        "total_votes": 4951,
+        "total_votes": 10954,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 1139,
-        "margin_pct": 23.0055,
+        "margin": 2894,
+        "margin_pct": 26.4196,
         "winner": "REP",
         "color": "#de2d26",
         "competitiveness": {
@@ -162,30 +170,14 @@
         "no_data": false
       },
       "10": {
-        "dem_votes": 1728,
-        "rep_votes": 2893,
+        "dem_votes": 3992,
+        "rep_votes": 4255,
         "other_votes": 0,
-        "total_votes": 4621,
+        "total_votes": 8247,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 1165,
-        "margin_pct": 25.211,
-        "winner": "REP",
-        "color": "#de2d26",
-        "competitiveness": {
-          "color": "#de2d26"
-        },
-        "no_data": false
-      },
-      "11": {
-        "dem_votes": 3737,
-        "rep_votes": 3878,
-        "other_votes": 0,
-        "total_votes": 7614,
-        "dem_candidate": "Jana Jones",
-        "rep_candidate": "Sherri Ybarra",
-        "margin": 141,
-        "margin_pct": 1.8519,
+        "margin": 263,
+        "margin_pct": 3.189,
         "winner": "REP",
         "color": "#cbd5e1",
         "competitiveness": {
@@ -193,47 +185,63 @@
         },
         "no_data": false
       },
-      "12": {
-        "dem_votes": 63,
-        "rep_votes": 86,
+      "11": {
+        "dem_votes": 4873,
+        "rep_votes": 7599,
         "other_votes": 0,
-        "total_votes": 150,
+        "total_votes": 12472,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 23,
-        "margin_pct": 15.3333,
+        "margin": 2726,
+        "margin_pct": 21.857,
         "winner": "REP",
-        "color": "#fb6a4a",
+        "color": "#de2d26",
         "competitiveness": {
-          "color": "#fb6a4a"
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 4334,
+        "rep_votes": 5271,
+        "other_votes": 0,
+        "total_votes": 9605,
+        "dem_candidate": "Jana Jones",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 937,
+        "margin_pct": 9.7553,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
         },
         "no_data": false
       },
       "13": {
-        "dem_votes": 486,
-        "rep_votes": 714,
+        "dem_votes": 5070,
+        "rep_votes": 5606,
         "other_votes": 0,
-        "total_votes": 1201,
+        "total_votes": 10676,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 228,
-        "margin_pct": 18.9842,
+        "margin": 536,
+        "margin_pct": 5.0206,
         "winner": "REP",
-        "color": "#fb6a4a",
+        "color": "#fcae91",
         "competitiveness": {
-          "color": "#fb6a4a"
+          "color": "#fcae91"
         },
         "no_data": false
       },
       "14": {
-        "dem_votes": 5483,
-        "rep_votes": 7206,
+        "dem_votes": 9266,
+        "rep_votes": 12645,
         "other_votes": 0,
-        "total_votes": 12689,
+        "total_votes": 21911,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 1723,
-        "margin_pct": 13.5787,
+        "margin": 3379,
+        "margin_pct": 15.4215,
         "winner": "REP",
         "color": "#fb6a4a",
         "competitiveness": {
@@ -242,174 +250,126 @@
         "no_data": false
       },
       "15": {
-        "dem_votes": 4536,
-        "rep_votes": 3715,
+        "dem_votes": 7184,
+        "rep_votes": 5661,
         "other_votes": 0,
-        "total_votes": 8251,
+        "total_votes": 12845,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": -821,
-        "margin_pct": -9.9503,
+        "margin": -1523,
+        "margin_pct": -11.8568,
         "winner": "DEM",
-        "color": "#6baed6",
+        "color": "#2171b5",
         "competitiveness": {
-          "color": "#6baed6"
+          "color": "#2171b5"
         },
         "no_data": false
       },
       "16": {
-        "dem_votes": 0,
-        "rep_votes": 0,
+        "dem_votes": 9386,
+        "rep_votes": 4976,
         "other_votes": 0,
-        "total_votes": 0,
+        "total_votes": 14362,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": -4410,
+        "margin_pct": -30.706,
+        "winner": "DEM",
+        "color": "#08306b",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#08306b"
         },
-        "no_data": true
+        "no_data": false
       },
       "17": {
-        "dem_votes": 0,
-        "rep_votes": 0,
+        "dem_votes": 8023,
+        "rep_votes": 3573,
         "other_votes": 0,
-        "total_votes": 0,
+        "total_votes": 11596,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": -4450,
+        "margin_pct": -38.3753,
+        "winner": "DEM",
+        "color": "#08306b",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#08306b"
         },
-        "no_data": true
+        "no_data": false
       },
       "18": {
-        "dem_votes": 0,
-        "rep_votes": 0,
+        "dem_votes": 10678,
+        "rep_votes": 5317,
         "other_votes": 0,
-        "total_votes": 0,
+        "total_votes": 15995,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": -5361,
+        "margin_pct": -33.5167,
+        "winner": "DEM",
+        "color": "#08306b",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#08306b"
         },
-        "no_data": true
+        "no_data": false
       },
       "19": {
-        "dem_votes": 0,
-        "rep_votes": 0,
+        "dem_votes": 13760,
+        "rep_votes": 4243,
         "other_votes": 0,
-        "total_votes": 0,
+        "total_votes": 18003,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
+        "margin": -9517,
+        "margin_pct": -52.8634,
+        "winner": "DEM",
+        "color": "#08306b",
         "competitiveness": {
-          "color": "#9ca3af"
+          "color": "#08306b"
         },
-        "no_data": true
+        "no_data": false
       },
       "20": {
-        "dem_votes": 796,
-        "rep_votes": 967,
+        "dem_votes": 5986,
+        "rep_votes": 6604,
         "other_votes": 0,
-        "total_votes": 1763,
+        "total_votes": 12590,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 171,
-        "margin_pct": 9.6994,
+        "margin": 618,
+        "margin_pct": 4.9087,
         "winner": "REP",
-        "color": "#fcae91",
+        "color": "#cbd5e1",
         "competitiveness": {
-          "color": "#fcae91"
+          "color": "#cbd5e1"
         },
         "no_data": false
       },
       "21": {
-        "dem_votes": 1199,
-        "rep_votes": 1439,
+        "dem_votes": 7258,
+        "rep_votes": 7075,
         "other_votes": 0,
-        "total_votes": 2638,
+        "total_votes": 14333,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 240,
-        "margin_pct": 9.0978,
-        "winner": "REP",
-        "color": "#fcae91",
+        "margin": -183,
+        "margin_pct": -1.2768,
+        "winner": "DEM",
+        "color": "#cbd5e1",
         "competitiveness": {
-          "color": "#fcae91"
+          "color": "#cbd5e1"
         },
         "no_data": false
       },
       "22": {
-        "dem_votes": 0,
-        "rep_votes": 0,
+        "dem_votes": 4560,
+        "rep_votes": 5783,
         "other_votes": 0,
-        "total_votes": 0,
+        "total_votes": 10343,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
-        "competitiveness": {
-          "color": "#9ca3af"
-        },
-        "no_data": true
-      },
-      "23": {
-        "dem_votes": 2013,
-        "rep_votes": 3632,
-        "other_votes": 0,
-        "total_votes": 5645,
-        "dem_candidate": "Jana Jones",
-        "rep_candidate": "Sherri Ybarra",
-        "margin": 1619,
-        "margin_pct": 28.6802,
-        "winner": "REP",
-        "color": "#de2d26",
-        "competitiveness": {
-          "color": "#de2d26"
-        },
-        "no_data": false
-      },
-      "24": {
-        "dem_votes": 2574,
-        "rep_votes": 3125,
-        "other_votes": 0,
-        "total_votes": 5699,
-        "dem_candidate": "Jana Jones",
-        "rep_candidate": "Sherri Ybarra",
-        "margin": 551,
-        "margin_pct": 9.6684,
-        "winner": "REP",
-        "color": "#fcae91",
-        "competitiveness": {
-          "color": "#fcae91"
-        },
-        "no_data": false
-      },
-      "25": {
-        "dem_votes": 1686,
-        "rep_votes": 2168,
-        "other_votes": 0,
-        "total_votes": 3854,
-        "dem_candidate": "Jana Jones",
-        "rep_candidate": "Sherri Ybarra",
-        "margin": 482,
-        "margin_pct": 12.5065,
+        "margin": 1223,
+        "margin_pct": 11.8244,
         "winner": "REP",
         "color": "#fb6a4a",
         "competitiveness": {
@@ -417,31 +377,79 @@
         },
         "no_data": false
       },
-      "26": {
-        "dem_votes": 2120,
-        "rep_votes": 2493,
+      "23": {
+        "dem_votes": 749,
+        "rep_votes": 1782,
         "other_votes": 0,
-        "total_votes": 4613,
+        "total_votes": 2531,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 373,
-        "margin_pct": 8.0858,
+        "margin": 1033,
+        "margin_pct": 40.8139,
         "winner": "REP",
-        "color": "#fcae91",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#fcae91"
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 5114,
+        "rep_votes": 5418,
+        "other_votes": 0,
+        "total_votes": 10531,
+        "dem_candidate": "Jana Jones",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 304,
+        "margin_pct": 2.8867,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 5919,
+        "rep_votes": 6190,
+        "other_votes": 0,
+        "total_votes": 12110,
+        "dem_candidate": "Jana Jones",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 271,
+        "margin_pct": 2.2378,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 7218,
+        "rep_votes": 5194,
+        "other_votes": 0,
+        "total_votes": 12412,
+        "dem_candidate": "Jana Jones",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": -2024,
+        "margin_pct": -16.3068,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
         },
         "no_data": false
       },
       "27": {
-        "dem_votes": 4749,
-        "rep_votes": 6335,
+        "dem_votes": 4636,
+        "rep_votes": 6347,
         "other_votes": 0,
-        "total_votes": 11084,
+        "total_votes": 10983,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 1586,
-        "margin_pct": 14.3089,
+        "margin": 1711,
+        "margin_pct": 15.5786,
         "winner": "REP",
         "color": "#fb6a4a",
         "competitiveness": {
@@ -450,30 +458,30 @@
         "no_data": false
       },
       "28": {
-        "dem_votes": 629,
-        "rep_votes": 1828,
+        "dem_votes": 4785,
+        "rep_votes": 6214,
         "other_votes": 0,
-        "total_votes": 2457,
+        "total_votes": 11000,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 1199,
-        "margin_pct": 48.7993,
+        "margin": 1429,
+        "margin_pct": 12.9909,
         "winner": "REP",
-        "color": "#a50f15",
+        "color": "#fb6a4a",
         "competitiveness": {
-          "color": "#a50f15"
+          "color": "#fb6a4a"
         },
         "no_data": false
       },
       "29": {
-        "dem_votes": 857,
-        "rep_votes": 604,
+        "dem_votes": 6957,
+        "rep_votes": 4890,
         "other_votes": 0,
-        "total_votes": 1461,
+        "total_votes": 11848,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": -253,
-        "margin_pct": -17.3169,
+        "margin": -2067,
+        "margin_pct": -17.446,
         "winner": "DEM",
         "color": "#2171b5",
         "competitiveness": {
@@ -482,15 +490,15 @@
         "no_data": false
       },
       "30": {
-        "dem_votes": 3620,
-        "rep_votes": 3826,
+        "dem_votes": 8275,
+        "rep_votes": 7524,
         "other_votes": 0,
-        "total_votes": 7446,
+        "total_votes": 15799,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 206,
-        "margin_pct": 2.7666,
-        "winner": "REP",
+        "margin": -751,
+        "margin_pct": -4.7535,
+        "winner": "DEM",
         "color": "#cbd5e1",
         "competitiveness": {
           "color": "#cbd5e1"
@@ -498,14 +506,14 @@
         "no_data": false
       },
       "31": {
-        "dem_votes": 1800,
-        "rep_votes": 3162,
+        "dem_votes": 5342,
+        "rep_votes": 8595,
         "other_votes": 0,
-        "total_votes": 4962,
+        "total_votes": 13937,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 1362,
-        "margin_pct": 27.4486,
+        "margin": 3253,
+        "margin_pct": 23.3407,
         "winner": "REP",
         "color": "#de2d26",
         "competitiveness": {
@@ -514,30 +522,30 @@
         "no_data": false
       },
       "32": {
-        "dem_votes": 1741,
-        "rep_votes": 1289,
+        "dem_votes": 3007,
+        "rep_votes": 2628,
         "other_votes": 0,
-        "total_votes": 3030,
+        "total_votes": 5635,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": -452,
-        "margin_pct": -14.9175,
+        "margin": -379,
+        "margin_pct": -6.7258,
         "winner": "DEM",
-        "color": "#2171b5",
+        "color": "#6baed6",
         "competitiveness": {
-          "color": "#2171b5"
+          "color": "#6baed6"
         },
         "no_data": false
       },
       "33": {
-        "dem_votes": 5352,
-        "rep_votes": 3325,
+        "dem_votes": 8087,
+        "rep_votes": 5239,
         "other_votes": 0,
-        "total_votes": 8677,
+        "total_votes": 13327,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": -2027,
-        "margin_pct": -23.3606,
+        "margin": -2848,
+        "margin_pct": -21.3702,
         "winner": "DEM",
         "color": "#08519c",
         "competitiveness": {
@@ -546,34 +554,34 @@
         "no_data": false
       },
       "34": {
-        "dem_votes": 0,
-        "rep_votes": 0,
+        "dem_votes": 2783,
+        "rep_votes": 4118,
         "other_votes": 0,
-        "total_votes": 0,
+        "total_votes": 6901,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 0,
-        "margin_pct": 0,
-        "winner": "TIE",
-        "color": "#9ca3af",
-        "competitiveness": {
-          "color": "#9ca3af"
-        },
-        "no_data": true
-      },
-      "35": {
-        "dem_votes": 1149,
-        "rep_votes": 1715,
-        "other_votes": 0,
-        "total_votes": 2864,
-        "dem_candidate": "Jana Jones",
-        "rep_candidate": "Sherri Ybarra",
-        "margin": 566,
-        "margin_pct": 19.7626,
+        "margin": 1335,
+        "margin_pct": 19.345,
         "winner": "REP",
         "color": "#fb6a4a",
         "competitiveness": {
           "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "35": {
+        "dem_votes": 6664,
+        "rep_votes": 7670,
+        "other_votes": 0,
+        "total_votes": 14334,
+        "dem_candidate": "Jana Jones",
+        "rep_candidate": "Sherri Ybarra",
+        "margin": 1006,
+        "margin_pct": 7.0183,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
         },
         "no_data": false
       }

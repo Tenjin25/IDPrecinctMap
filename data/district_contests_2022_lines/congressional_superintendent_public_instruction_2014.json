@@ -3,29 +3,37 @@
   "scope": "congressional",
   "contest_type": "superintendent_public_instruction",
   "meta": {
-    "match_coverage_pct": 38.03,
-    "matched_precinct_keys": 386,
-    "total_precinct_keys": 1015,
-    "weighted_vote_coverage_pct": 7.45,
+    "match_coverage_pct": 99.79,
+    "matched_precinct_keys": 963,
+    "total_precinct_keys": 965,
+    "weighted_vote_coverage_pct": 100,
+    "direct_match_vote_coverage_pct": 100,
+    "modeled_residual_vote_pct": 0,
+    "modeled_residual_votes": 0,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "Superintendent of Public Instruction",
-    "nongeo_allocation_mode": "precinct_population_weighted",
+    "office_group": null,
+    "seat_label": null,
+    "seat_key": null,
+    "nongeo_allocation_mode": "none",
+    "candidate_count": null,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 353,
-      "legacy_2008_vtd00_rows": 33
+      "modern_2020_vtd20_rows": 83,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 880
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 31985,
-        "rep_votes": 45568,
+        "dem_votes": 89795,
+        "rep_votes": 117749,
         "other_votes": 0,
-        "total_votes": 77553,
+        "total_votes": 207544,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 13583,
-        "margin_pct": 17.5145,
+        "margin": 27954,
+        "margin_pct": 13.469,
         "winner": "REP",
         "color": "#fb6a4a",
         "competitiveness": {
@@ -34,18 +42,18 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 32635,
-        "rep_votes": 36439,
+        "dem_votes": 121688,
+        "rep_votes": 99300,
         "other_votes": 0,
-        "total_votes": 69074,
+        "total_votes": 220988,
         "dem_candidate": "Jana Jones",
         "rep_candidate": "Sherri Ybarra",
-        "margin": 3804,
-        "margin_pct": 5.5071,
-        "winner": "REP",
-        "color": "#fcae91",
+        "margin": -22388,
+        "margin_pct": -10.1309,
+        "winner": "DEM",
+        "color": "#2171b5",
         "competitiveness": {
-          "color": "#fcae91"
+          "color": "#2171b5"
         },
         "no_data": false
       }

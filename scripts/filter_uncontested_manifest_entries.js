@@ -64,8 +64,9 @@ function countPositiveBuckets(totals) {
 }
 
 function isContested(entry, payload, kind) {
-  const candidateCount = Number(payload?.meta?.candidate_count);
-  if (Number.isFinite(candidateCount)) {
+  const candidateCountRaw = payload?.meta?.candidate_count;
+  const candidateCount = Number(candidateCountRaw);
+  if (candidateCountRaw !== null && candidateCountRaw !== '' && Number.isFinite(candidateCount)) {
     return candidateCount >= 2;
   }
   const totals = kind === 'district'

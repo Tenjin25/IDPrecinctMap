@@ -3,49 +3,57 @@
   "scope": "congressional",
   "contest_type": "superintendent_public_instruction",
   "meta": {
-    "match_coverage_pct": 37.82,
-    "matched_precinct_keys": 382,
-    "total_precinct_keys": 1010,
-    "weighted_vote_coverage_pct": 6.74,
+    "match_coverage_pct": 98.96,
+    "matched_precinct_keys": 951,
+    "total_precinct_keys": 961,
+    "weighted_vote_coverage_pct": 100,
+    "direct_match_vote_coverage_pct": 97.88,
+    "modeled_residual_vote_pct": 2.12,
+    "modeled_residual_votes": 9463,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "Superintendent of Public Instruction",
-    "nongeo_allocation_mode": "precinct_population_weighted",
+    "office_group": null,
+    "seat_label": null,
+    "seat_key": null,
+    "nongeo_allocation_mode": "county_matched_vote_weighted",
+    "candidate_count": null,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 341,
-      "legacy_2008_vtd00_rows": 41
+      "modern_2020_vtd20_rows": 0,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 951
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 41888,
-        "rep_votes": 22267,
+        "dem_votes": 127125,
+        "rep_votes": 72216,
         "other_votes": 0,
-        "total_votes": 64155,
+        "total_votes": 199341,
         "dem_candidate": "Tom Luna",
         "rep_candidate": "Stan Olson",
-        "margin": -19621,
-        "margin_pct": -30.5837,
-        "winner": "DEM",
-        "color": "#08306b",
-        "competitiveness": {
-          "color": "#08306b"
-        },
-        "no_data": false
-      },
-      "2": {
-        "dem_votes": 43749,
-        "rep_votes": 27998,
-        "other_votes": 0,
-        "total_votes": 71747,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -15751,
-        "margin_pct": -21.9535,
+        "margin": -54909,
+        "margin_pct": -27.5453,
         "winner": "DEM",
         "color": "#08519c",
         "competitiveness": {
           "color": "#08519c"
+        },
+        "no_data": false
+      },
+      "2": {
+        "dem_votes": 142956,
+        "rep_votes": 103882,
+        "other_votes": 0,
+        "total_votes": 246838,
+        "dem_candidate": "Tom Luna",
+        "rep_candidate": "Stan Olson",
+        "margin": -39074,
+        "margin_pct": -15.8298,
+        "winner": "DEM",
+        "color": "#2171b5",
+        "competitiveness": {
+          "color": "#2171b5"
         },
         "no_data": false
       }

@@ -60,8 +60,15 @@ const MANAGED_CONTEST_TYPES = new Set([
   'attorney_general',
   'superintendent_public_instruction',
 ]);
+const CLI_ARGS = process.argv.slice(2).map(clean).filter(Boolean);
+const REPORT_UNMATCHED = CLI_ARGS.includes('--report-unmatched');
+const REQUESTED_CONTEST_TYPES = new Set(CLI_ARGS.filter((arg) => !arg.startsWith('--')));
+const ACTIVE_CONTEST_TYPES = REQUESTED_CONTEST_TYPES.size
+  ? new Set(Array.from(REQUESTED_CONTEST_TYPES).filter((contestType) => MANAGED_CONTEST_TYPES.has(contestType)))
+  : MANAGED_CONTEST_TYPES;
 const MIN_YEAR = 2000;
 const MAX_YEAR = 2024;
+const UNMATCHED_DIAGNOSTICS = new Map();
 
 const PALETTE = [
   [-30.0, '#08306b'],
@@ -84,8 +91,25 @@ function upper(value) {
 
 function normalizeCountyToken(value) {
   let out = upper(value).replace(/\s+/g, ' ');
-  out = out.replace(/\bCONT\.?/g, '').replace(/\s+/g, ' ').trim();
+  out = out
+    .replace(/\s*\((?:CONTINUED|CONT\.?)\)\s*/g, ' ')
+    .replace(/\bCONTINUED\b|\bCONT\.?/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
   return out;
+}
+
+function recordUnmatchedDiagnostic(year, scope, row) {
+  if (!REPORT_UNMATCHED || scope !== 'state_house') return;
+  const key = String(Number(year) || 'unknown');
+  if (!UNMATCHED_DIAGNOSTICS.has(key)) UNMATCHED_DIAGNOSTICS.set(key, new Map());
+  const label = clean(row?.county) || '(blank)';
+  const votes = Number(row?.total_votes)
+    || (Number(row?.dem_votes) || 0) + (Number(row?.rep_votes) || 0) + (Number(row?.other_votes) || 0);
+  const rows = UNMATCHED_DIAGNOSTICS.get(key);
+  const current = rows.get(label) || { label, votes: 0 };
+  current.votes += votes;
+  rows.set(label, current);
 }
 
 function parseCsv(text) {
@@ -535,8 +559,9 @@ function isPrecinctContestPayload(payload) {
 }
 
 function isContestedPrecinctPayload(payload) {
-  const candidateCount = Number(payload?.meta?.candidate_count);
-  if (Number.isFinite(candidateCount)) {
+  const candidateCountRaw = payload?.meta?.candidate_count;
+  const candidateCount = Number(candidateCountRaw);
+  if (candidateCountRaw !== null && candidateCountRaw !== '' && Number.isFinite(candidateCount)) {
     return candidateCount >= 2;
   }
   let dem = 0;
@@ -742,7 +767,7 @@ function buildLegacyNumericLinks(rowLabel, year, crosswalkPair, countyFipsByName
   return crosswalkPair?.legacy?.byPrecinct?.get(precinctKey) || [];
 }
 
-function inferStructuredLegislativeDistrict(rowLabel) {
+function inferStructuredLegislativeDistrict(rowLabel, year) {
   const normalized = normalizeCountyToken(rowLabel);
   if (!normalized.includes(' - ')) return null;
   const [countyNorm, rawToken] = normalized.split(' - ', 2);
@@ -753,7 +778,18 @@ function inferStructuredLegislativeDistrict(rowLabel) {
     .trim();
 
   let districtNum = null;
-  if (countyNorm === 'ADA') {
+  const numericYear = Number(year);
+  if (numericYear === 2018 && countyNorm === 'CANYON') {
+    const match = cleanedToken.match(/^\d{2}~([0-9]{1,2})$/);
+    districtNum = match ? Number(match[1]) : null;
+  } else if (numericYear === 2018 && countyNorm === 'KOOTENAI') {
+    const match = cleanedToken.match(/^ABS LEG DIST(?:RICT)?\s+([0-9]{1,2})(?:\s|$)/);
+    districtNum = match ? Number(match[1]) : null;
+  } else if (numericYear === 2018 && countyNorm === 'BONNER' && /^(?:BEACH|SELLE)$/.test(cleanedToken)) {
+    districtNum = 1;
+  } else if (numericYear === 2018 && countyNorm === 'NEZ PERCE' && cleanedToken === 'ABSENTEE') {
+    districtNum = 6;
+  } else if (countyNorm === 'ADA') {
     const match = cleanedToken.match(/^([0-9]{2})[0-9]{2}$/);
     districtNum = match ? Number(match[1]) : null;
   } else if (countyNorm === 'CANYON') {
@@ -775,12 +811,12 @@ function inferStructuredLegislativeDistrict(rowLabel) {
   return districtNum;
 }
 
-function buildStructuredDirectLinks(rowLabel, scope, crosswalkPair, uniqueCongressionalByLegDistrict) {
+function buildStructuredDirectLinks(rowLabel, year, scope, crosswalkPair, uniqueCongressionalByLegDistrict) {
   const normalized = normalizeCountyToken(rowLabel);
   if (!normalized.includes(' - ')) return [];
   const [countyNorm] = normalized.split(' - ', 2);
 
-  const structuredDistrict = inferStructuredLegislativeDistrict(rowLabel);
+  const structuredDistrict = inferStructuredLegislativeDistrict(rowLabel, year);
   if (Number.isFinite(structuredDistrict)) {
     if (scope === 'state_house' || scope === 'state_senate') {
       return [{ districtNum: structuredDistrict, weight: 1 }];
@@ -837,6 +873,8 @@ function aggregateContestToScope(
 ) {
   const contestType = clean(payload.contest_type || manifestEntry?.contest_type);
   const totalsByDistrict = new Map();
+  const matchedVotesByCountyDistrict = new Map();
+  const unmatchedRows = [];
   let matchedPrecinctKeys = 0;
   let totalPrecinctKeys = 0;
   let weightedVoteSum = 0;
@@ -845,6 +883,7 @@ function aggregateContestToScope(
   let modernMatchCount = 0;
   let legacyMatchCount = 0;
   let directMatchCount = 0;
+  let residualAllocatedVoteSum = 0;
 
   for (const row of payload.rows || []) {
     const rowLabel = clean(row.county);
@@ -882,6 +921,7 @@ function aggregateContestToScope(
     if (!links.length) {
       for (const match of buildStructuredDirectLinks(
         rowLabel,
+        payload.year || manifestEntry?.year,
         scope,
         crosswalkPair,
         uniqueCongressionalByLegDistrict
@@ -912,7 +952,11 @@ function aggregateContestToScope(
       }
     }
     const normalizedLinks = normalizeDistrictLinks(links);
-    if (!normalizedLinks.length) continue;
+    if (!normalizedLinks.length) {
+      recordUnmatchedDiagnostic(payload.year || manifestEntry?.year, scope, row);
+      unmatchedRows.push(row);
+      continue;
+    }
 
     const demVotes = Number(row.dem_votes) || 0;
     const repVotes = Number(row.rep_votes) || 0;
@@ -926,6 +970,10 @@ function aggregateContestToScope(
     if (!resolved.basis) directMatchCount += 1;
     if (!statewideDemCandidate) statewideDemCandidate = clean(row.dem_candidate);
     if (!statewideRepCandidate) statewideRepCandidate = clean(row.rep_candidate);
+    const normalizedRowLabel = normalizeCountyToken(rowLabel);
+    const [countyNorm] = normalizedRowLabel.split(' - ', 2);
+    if (!matchedVotesByCountyDistrict.has(countyNorm)) matchedVotesByCountyDistrict.set(countyNorm, new Map());
+    const countyDistrictVotes = matchedVotesByCountyDistrict.get(countyNorm);
 
     for (const link of normalizedLinks) {
       const districtNum = Number(link.districtNum);
@@ -939,7 +987,41 @@ function aggregateContestToScope(
       bucket.rep += repVotes * weight;
       bucket.other += otherVotes * weight;
       bucket.total += totalVotes * weight;
+      countyDistrictVotes.set(districtNum, (countyDistrictVotes.get(districtNum) || 0) + totalVotes * weight);
       weightedVoteSum += totalVotes * weight;
+    }
+  }
+
+  for (const row of unmatchedRows) {
+    const rowLabel = clean(row.county);
+    const normalizedRowLabel = normalizeCountyToken(rowLabel);
+    const [countyNorm] = normalizedRowLabel.split(' - ', 2);
+    const countyDistrictVotes = matchedVotesByCountyDistrict.get(countyNorm);
+    if (!countyDistrictVotes?.size) continue;
+    const allocationLinks = normalizeDistrictLinks(
+      Array.from(countyDistrictVotes.entries()).map(([districtNum, weight]) => ({ districtNum, weight }))
+    );
+    if (!allocationLinks.length) continue;
+
+    const demVotes = Number(row.dem_votes) || 0;
+    const repVotes = Number(row.rep_votes) || 0;
+    const otherVotes = Number(row.other_votes) || 0;
+    const totalVotes = Number(row.total_votes) || (demVotes + repVotes + otherVotes);
+    if (totalVotes <= 0) continue;
+
+    for (const link of allocationLinks) {
+      const districtNum = Number(link.districtNum);
+      const weight = Number(link.weight);
+      if (!Number.isFinite(districtNum) || !Number.isFinite(weight) || weight <= 0) continue;
+      if (!totalsByDistrict.has(districtNum)) {
+        totalsByDistrict.set(districtNum, { dem: 0, rep: 0, other: 0, total: 0 });
+      }
+      const bucket = totalsByDistrict.get(districtNum);
+      bucket.dem += demVotes * weight;
+      bucket.rep += repVotes * weight;
+      bucket.other += otherVotes * weight;
+      bucket.total += totalVotes * weight;
+      residualAllocatedVoteSum += totalVotes * weight;
     }
   }
 
@@ -981,6 +1063,12 @@ function aggregateContestToScope(
   const statewideTotal = (payload.rows || []).reduce((sum, row) => sum + (Number(row.total_votes) || 0), 0);
   const matchCoveragePct = totalPrecinctKeys ? Number(((matchedPrecinctKeys / totalPrecinctKeys) * 100).toFixed(2)) : 0;
   const voteCoveragePct = statewideTotal ? Number(((weightedVoteSum / statewideTotal) * 100).toFixed(2)) : 0;
+  const allocatedCoveragePct = statewideTotal
+    ? Number((((weightedVoteSum + residualAllocatedVoteSum) / statewideTotal) * 100).toFixed(2))
+    : 0;
+  const residualAllocatedPct = statewideTotal
+    ? Number(((residualAllocatedVoteSum / statewideTotal) * 100).toFixed(2))
+    : 0;
   return {
     year: Number(payload.year || manifestEntry?.year),
     scope,
@@ -989,23 +1077,26 @@ function aggregateContestToScope(
       match_coverage_pct: matchCoveragePct,
       matched_precinct_keys: matchedPrecinctKeys,
       total_precinct_keys: totalPrecinctKeys,
-      weighted_vote_coverage_pct: voteCoveragePct,
+      weighted_vote_coverage_pct: allocatedCoveragePct,
+      direct_match_vote_coverage_pct: voteCoveragePct,
+      modeled_residual_vote_pct: residualAllocatedPct,
+      modeled_residual_votes: Math.round(residualAllocatedVoteSum),
       source: 'idaho_hybrid_precinct_crosswalk_population_weighted',
       office: clean(payload?.meta?.office) || clean(manifestEntry?.office) || contestType,
       office_group: clean(payload?.meta?.office_group) || null,
       seat_label: clean(payload?.meta?.seat_label) || null,
       seat_key: clean(payload?.meta?.seat_key) || null,
-      nongeo_allocation_mode: 'precinct_population_weighted',
-        candidate_count: Number(payload?.meta?.candidate_count) || null,
-        precinct_basis_breakdown: {
-          modern_2020_vtd20_rows: modernMatchCount,
-          legacy_2008_vtd00_rows: legacyMatchCount,
-          direct_2022_districtcoded_rows: directMatchCount,
-        },
+      nongeo_allocation_mode: residualAllocatedVoteSum > 0 ? 'county_matched_vote_weighted' : 'none',
+      candidate_count: Number(payload?.meta?.candidate_count) || null,
+      precinct_basis_breakdown: {
+        modern_2020_vtd20_rows: modernMatchCount,
+        legacy_2008_vtd00_rows: legacyMatchCount,
+        direct_2022_districtcoded_rows: directMatchCount,
       },
-      general: { results },
-    };
-  }
+    },
+    general: { results },
+  };
+}
 
 function filterExistingEntries(manifest, scopeGuard = null) {
   const files = Array.isArray(manifest.files) ? manifest.files : [];
@@ -1020,7 +1111,7 @@ function filterExistingEntries(manifest, scopeGuard = null) {
     }
     if (scopeGuard && scope !== scopeGuard) return true;
     if (!MANAGED_SCOPES.has(scope)) return true;
-    if (!MANAGED_CONTEST_TYPES.has(contestType)) return true;
+    if (!ACTIVE_CONTEST_TYPES.has(contestType)) return true;
     return false;
   });
 }
@@ -1272,6 +1363,9 @@ function synthesizeUnifiedStateHouseEntries(manifest2022, new2022Entries) {
 }
 
 function main() {
+  if (REQUESTED_CONTEST_TYPES.size && !ACTIVE_CONTEST_TYPES.size) {
+    throw new Error(`No supported contest types requested: ${Array.from(REQUESTED_CONTEST_TYPES).join(', ')}`);
+  }
   const sourceManifest = loadSourceManifest();
   const countyByPrecinct = readModernCountyByPrecinctKey();
   const crosswalkPairs = Object.fromEntries(
@@ -1299,7 +1393,7 @@ function main() {
 
   for (const entry of sourceManifest.files || []) {
     const contestType = clean(entry.contest_type);
-    if (!MANAGED_CONTEST_TYPES.has(contestType)) continue;
+    if (!ACTIVE_CONTEST_TYPES.has(contestType)) continue;
     const sourcePath = path.join(CONTESTS_DIR, clean(entry.file));
     if (!fs.existsSync(sourcePath)) continue;
     const payload = readJson(sourcePath);
@@ -1368,6 +1462,13 @@ function main() {
   writeJson(MANIFEST_2026_PATH, manifest2026);
   console.log(`Wrote ${new2022Entries.length} district entries to 2022-lines manifest`);
   console.log(`Wrote ${new2026Entries.length} congressional entries to 2026-lines manifest`);
+  if (REPORT_UNMATCHED) {
+    for (const [year, rows] of Array.from(UNMATCHED_DIAGNOSTICS.entries()).sort((a, b) => Number(a[0]) - Number(b[0]))) {
+      const topRows = Array.from(rows.values()).sort((a, b) => b.votes - a.votes).slice(0, 25);
+      console.log(`Top unmatched ${year} state_house rows:`);
+      for (const row of topRows) console.log(`- ${row.label}: ${Math.round(row.votes)} votes`);
+    }
+  }
 }
 
 main();

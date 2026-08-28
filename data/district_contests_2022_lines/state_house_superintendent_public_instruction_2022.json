@@ -3,34 +3,37 @@
   "scope": "state_house",
   "contest_type": "superintendent_public_instruction",
   "meta": {
-    "match_coverage_pct": 98.9,
-    "matched_precinct_keys": 988,
+    "match_coverage_pct": 99.9,
+    "matched_precinct_keys": 998,
     "total_precinct_keys": 999,
-    "weighted_vote_coverage_pct": 99.18,
+    "weighted_vote_coverage_pct": 100,
+    "direct_match_vote_coverage_pct": 100,
+    "modeled_residual_vote_pct": 0,
+    "modeled_residual_votes": 0,
     "source": "idaho_hybrid_precinct_crosswalk_population_weighted",
     "office": "Superintendent of Public Instruction",
     "office_group": null,
     "seat_label": null,
     "seat_key": null,
-    "nongeo_allocation_mode": "precinct_population_weighted",
+    "nongeo_allocation_mode": "none",
     "candidate_count": 2,
     "precinct_basis_breakdown": {
-      "modern_2020_vtd20_rows": 97,
-      "legacy_2008_vtd00_rows": 111,
-      "direct_2022_districtcoded_rows": 780
+      "modern_2020_vtd20_rows": 3,
+      "legacy_2008_vtd00_rows": 0,
+      "direct_2022_districtcoded_rows": 995
     }
   },
   "general": {
     "results": {
       "1": {
-        "dem_votes": 5555,
-        "rep_votes": 15248,
+        "dem_votes": 6174,
+        "rep_votes": 16383,
         "other_votes": 0,
-        "total_votes": 20804,
+        "total_votes": 22557,
         "dem_candidate": "Terry L. Gilbert",
         "rep_candidate": "Debbie Critchfield",
-        "margin": 9693,
-        "margin_pct": 46.592,
+        "margin": 10209,
+        "margin_pct": 45.2587,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -39,14 +42,14 @@
         "no_data": false
       },
       "2": {
-        "dem_votes": 3607,
-        "rep_votes": 15426,
+        "dem_votes": 3643,
+        "rep_votes": 15822,
         "other_votes": 0,
-        "total_votes": 19032,
+        "total_votes": 19465,
         "dem_candidate": "Terry L. Gilbert",
         "rep_candidate": "Debbie Critchfield",
-        "margin": 11819,
-        "margin_pct": 62.1007,
+        "margin": 12179,
+        "margin_pct": 62.5687,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -103,14 +106,14 @@
         "no_data": false
       },
       "6": {
-        "dem_votes": 7531,
-        "rep_votes": 10165,
+        "dem_votes": 8317,
+        "rep_votes": 11754,
         "other_votes": 0,
-        "total_votes": 17696,
+        "total_votes": 20071,
         "dem_candidate": "Terry L. Gilbert",
         "rep_candidate": "Debbie Critchfield",
-        "margin": 2634,
-        "margin_pct": 14.8847,
+        "margin": 3437,
+        "margin_pct": 17.1242,
         "winner": "REP",
         "color": "#fb6a4a",
         "competitiveness": {
@@ -119,14 +122,14 @@
         "no_data": false
       },
       "7": {
-        "dem_votes": 5011,
-        "rep_votes": 15997,
+        "dem_votes": 4225,
+        "rep_votes": 14408,
         "other_votes": 0,
-        "total_votes": 21008,
+        "total_votes": 18633,
         "dem_candidate": "Terry L. Gilbert",
         "rep_candidate": "Debbie Critchfield",
-        "margin": 10986,
-        "margin_pct": 52.2944,
+        "margin": 10183,
+        "margin_pct": 54.6504,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -391,14 +394,14 @@
         "no_data": false
       },
       "24": {
-        "dem_votes": 3217,
-        "rep_votes": 11197,
+        "dem_votes": 3759,
+        "rep_votes": 15491,
         "other_votes": 0,
-        "total_votes": 14413,
+        "total_votes": 19250,
         "dem_candidate": "Terry L. Gilbert",
         "rep_candidate": "Debbie Critchfield",
-        "margin": 7980,
-        "margin_pct": 55.3667,
+        "margin": 11732,
+        "margin_pct": 60.9455,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -407,14 +410,14 @@
         "no_data": false
       },
       "25": {
-        "dem_votes": 2258,
-        "rep_votes": 10308,
+        "dem_votes": 1716,
+        "rep_votes": 6014,
         "other_votes": 0,
-        "total_votes": 12567,
+        "total_votes": 7730,
         "dem_candidate": "Terry L. Gilbert",
         "rep_candidate": "Debbie Critchfield",
-        "margin": 8050,
-        "margin_pct": 64.0567,
+        "margin": 4298,
+        "margin_pct": 55.6016,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -455,14 +458,14 @@
         "no_data": false
       },
       "28": {
-        "dem_votes": 3362,
-        "rep_votes": 10917,
+        "dem_votes": 3536,
+        "rep_votes": 11796,
         "other_votes": 0,
-        "total_votes": 14279,
+        "total_votes": 15332,
         "dem_candidate": "Terry L. Gilbert",
         "rep_candidate": "Debbie Critchfield",
-        "margin": 7555,
-        "margin_pct": 52.9099,
+        "margin": 8260,
+        "margin_pct": 53.8742,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -471,14 +474,14 @@
         "no_data": false
       },
       "29": {
-        "dem_votes": 6432,
-        "rep_votes": 7751,
+        "dem_votes": 6629,
+        "rep_votes": 7762,
         "other_votes": 0,
-        "total_votes": 14182,
+        "total_votes": 14391,
         "dem_candidate": "Terry L. Gilbert",
         "rep_candidate": "Debbie Critchfield",
-        "margin": 1319,
-        "margin_pct": 9.3005,
+        "margin": 1133,
+        "margin_pct": 7.873,
         "winner": "REP",
         "color": "#fcae91",
         "competitiveness": {
@@ -506,11 +509,11 @@
         "dem_votes": 2264,
         "rep_votes": 14735,
         "other_votes": 0,
-        "total_votes": 17000,
+        "total_votes": 16999,
         "dem_candidate": "Terry L. Gilbert",
         "rep_candidate": "Debbie Critchfield",
         "margin": 12471,
-        "margin_pct": 73.3588,
+        "margin_pct": 73.3631,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -519,14 +522,14 @@
         "no_data": false
       },
       "32": {
-        "dem_votes": 1684,
-        "rep_votes": 6550,
+        "dem_votes": 3188,
+        "rep_votes": 11255,
         "other_votes": 0,
-        "total_votes": 8235,
+        "total_votes": 14443,
         "dem_candidate": "Terry L. Gilbert",
         "rep_candidate": "Debbie Critchfield",
-        "margin": 4866,
-        "margin_pct": 59.0893,
+        "margin": 8067,
+        "margin_pct": 55.854,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -535,14 +538,14 @@
         "no_data": false
       },
       "33": {
-        "dem_votes": 5593,
-        "rep_votes": 12588,
+        "dem_votes": 4289,
+        "rep_votes": 8593,
         "other_votes": 0,
-        "total_votes": 18181,
+        "total_votes": 12882,
         "dem_candidate": "Terry L. Gilbert",
         "rep_candidate": "Debbie Critchfield",
-        "margin": 6995,
-        "margin_pct": 38.4742,
+        "margin": 4304,
+        "margin_pct": 33.411,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
@@ -567,14 +570,14 @@
         "no_data": false
       },
       "35": {
-        "dem_votes": 4171,
-        "rep_votes": 12746,
+        "dem_votes": 4277,
+        "rep_votes": 13022,
         "other_votes": 0,
-        "total_votes": 16916,
+        "total_votes": 17299,
         "dem_candidate": "Terry L. Gilbert",
         "rep_candidate": "Debbie Critchfield",
-        "margin": 8575,
-        "margin_pct": 50.6917,
+        "margin": 8745,
+        "margin_pct": 50.5521,
         "winner": "REP",
         "color": "#a50f15",
         "competitiveness": {
