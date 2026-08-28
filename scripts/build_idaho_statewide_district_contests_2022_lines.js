@@ -1098,12 +1098,19 @@ function aggregateContestToScope(
   };
 }
 
+function shouldManageUnifiedStateHouse() {
+  return !REQUESTED_CONTEST_TYPES.size
+    || ['state_house', 'state_house_a', 'state_house_b'].some((contestType) => ACTIVE_CONTEST_TYPES.has(contestType));
+}
+
 function filterExistingEntries(manifest, scopeGuard = null) {
   const files = Array.isArray(manifest.files) ? manifest.files : [];
   return files.filter((entry) => {
     const scope = clean(entry.scope);
     const contestType = clean(entry.contest_type);
     if (
+      shouldManageUnifiedStateHouse()
+      &&
       scope === 'state_house'
       && (contestType === 'state_house' || contestType === 'state_house_a' || contestType === 'state_house_b')
     ) {
@@ -1442,7 +1449,9 @@ function main() {
     }
   }
 
-  synthesizeUnifiedStateHouseEntries(manifest2022, new2022Entries);
+  if (shouldManageUnifiedStateHouse()) {
+    synthesizeUnifiedStateHouseEntries(manifest2022, new2022Entries);
+  }
 
   manifest2022.files = manifest2022.files.concat(new2022Entries).sort((a, b) => {
     const yearDiff = Number(a.year) - Number(b.year);

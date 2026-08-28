@@ -26,462 +26,94 @@
   "general": {
     "results": {
       "1": {
-        "dem_votes": 10453,
-        "rep_votes": 5821,
+        "dem_votes": 5821,
+        "rep_votes": 10453,
         "other_votes": 0,
         "total_votes": 16274,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -4632,
-        "margin_pct": -28.4626,
-        "winner": "DEM",
-        "color": "#08519c",
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 4632,
+        "margin_pct": 28.4626,
+        "winner": "REP",
+        "color": "#de2d26",
         "competitiveness": {
-          "color": "#08519c"
+          "color": "#de2d26"
         },
         "no_data": false
       },
       "2": {
-        "dem_votes": 12869,
-        "rep_votes": 7000,
+        "dem_votes": 7000,
+        "rep_votes": 12869,
         "other_votes": 0,
         "total_votes": 19869,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -5869,
-        "margin_pct": -29.5385,
-        "winner": "DEM",
-        "color": "#08519c",
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 5869,
+        "margin_pct": 29.5385,
+        "winner": "REP",
+        "color": "#de2d26",
         "competitiveness": {
-          "color": "#08519c"
+          "color": "#de2d26"
         },
         "no_data": false
       },
       "3": {
-        "dem_votes": 9237,
-        "rep_votes": 3880,
+        "dem_votes": 3880,
+        "rep_votes": 9237,
         "other_votes": 0,
         "total_votes": 13117,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -5357,
-        "margin_pct": -40.8401,
-        "winner": "DEM",
-        "color": "#08306b",
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 5357,
+        "margin_pct": 40.8401,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#08306b"
+          "color": "#a50f15"
         },
         "no_data": false
       },
       "4": {
-        "dem_votes": 6701,
-        "rep_votes": 3502,
+        "dem_votes": 3502,
+        "rep_votes": 6701,
         "other_votes": 0,
         "total_votes": 10203,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -3199,
-        "margin_pct": -31.3535,
-        "winner": "DEM",
-        "color": "#08306b",
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 3199,
+        "margin_pct": 31.3535,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#08306b"
+          "color": "#a50f15"
         },
         "no_data": false
       },
       "5": {
-        "dem_votes": 6182,
-        "rep_votes": 2556,
+        "dem_votes": 2556,
+        "rep_votes": 6182,
         "other_votes": 0,
         "total_votes": 8739,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -3626,
-        "margin_pct": -41.4922,
-        "winner": "DEM",
-        "color": "#08306b",
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 3626,
+        "margin_pct": 41.4922,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#08306b"
+          "color": "#a50f15"
         },
         "no_data": false
       },
       "6": {
-        "dem_votes": 8681,
-        "rep_votes": 7799,
+        "dem_votes": 7799,
+        "rep_votes": 8681,
         "other_votes": 0,
         "total_votes": 16480,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -882,
-        "margin_pct": -5.3519,
-        "winner": "DEM",
-        "color": "#6baed6",
-        "competitiveness": {
-          "color": "#6baed6"
-        },
-        "no_data": false
-      },
-      "7": {
-        "dem_votes": 11127,
-        "rep_votes": 6086,
-        "other_votes": 0,
-        "total_votes": 17213,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -5041,
-        "margin_pct": -29.286,
-        "winner": "DEM",
-        "color": "#08519c",
-        "competitiveness": {
-          "color": "#08519c"
-        },
-        "no_data": false
-      },
-      "8": {
-        "dem_votes": 9713,
-        "rep_votes": 5612,
-        "other_votes": 0,
-        "total_votes": 15325,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -4101,
-        "margin_pct": -26.7602,
-        "winner": "DEM",
-        "color": "#08519c",
-        "competitiveness": {
-          "color": "#08519c"
-        },
-        "no_data": false
-      },
-      "9": {
-        "dem_votes": 9935,
-        "rep_votes": 4326,
-        "other_votes": 0,
-        "total_votes": 14261,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -5609,
-        "margin_pct": -39.331,
-        "winner": "DEM",
-        "color": "#08306b",
-        "competitiveness": {
-          "color": "#08306b"
-        },
-        "no_data": false
-      },
-      "10": {
-        "dem_votes": 5954,
-        "rep_votes": 2963,
-        "other_votes": 0,
-        "total_votes": 8917,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -2991,
-        "margin_pct": -33.5427,
-        "winner": "DEM",
-        "color": "#08306b",
-        "competitiveness": {
-          "color": "#08306b"
-        },
-        "no_data": false
-      },
-      "11": {
-        "dem_votes": 5815,
-        "rep_votes": 3166,
-        "other_votes": 0,
-        "total_votes": 8981,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -2649,
-        "margin_pct": -29.4956,
-        "winner": "DEM",
-        "color": "#08519c",
-        "competitiveness": {
-          "color": "#08519c"
-        },
-        "no_data": false
-      },
-      "12": {
-        "dem_votes": 6009,
-        "rep_votes": 2986,
-        "other_votes": 0,
-        "total_votes": 8995,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -3023,
-        "margin_pct": -33.6076,
-        "winner": "DEM",
-        "color": "#08306b",
-        "competitiveness": {
-          "color": "#08306b"
-        },
-        "no_data": false
-      },
-      "13": {
-        "dem_votes": 6436,
-        "rep_votes": 3295,
-        "other_votes": 0,
-        "total_votes": 9731,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -3141,
-        "margin_pct": -32.2783,
-        "winner": "DEM",
-        "color": "#08306b",
-        "competitiveness": {
-          "color": "#08306b"
-        },
-        "no_data": false
-      },
-      "14": {
-        "dem_votes": 5609,
-        "rep_votes": 3393,
-        "other_votes": 0,
-        "total_votes": 9001,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -2216,
-        "margin_pct": -24.6195,
-        "winner": "DEM",
-        "color": "#08519c",
-        "competitiveness": {
-          "color": "#08519c"
-        },
-        "no_data": false
-      },
-      "15": {
-        "dem_votes": 6010,
-        "rep_votes": 5580,
-        "other_votes": 0,
-        "total_votes": 11591,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -430,
-        "margin_pct": -3.7098,
-        "winner": "DEM",
-        "color": "#cbd5e1",
-        "competitiveness": {
-          "color": "#cbd5e1"
-        },
-        "no_data": false
-      },
-      "16": {
-        "dem_votes": 10063,
-        "rep_votes": 8185,
-        "other_votes": 0,
-        "total_votes": 18248,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -1878,
-        "margin_pct": -10.2915,
-        "winner": "DEM",
-        "color": "#2171b5",
-        "competitiveness": {
-          "color": "#2171b5"
-        },
-        "no_data": false
-      },
-      "17": {
-        "dem_votes": 10069,
-        "rep_votes": 9613,
-        "other_votes": 0,
-        "total_votes": 19682,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -456,
-        "margin_pct": -2.3168,
-        "winner": "DEM",
-        "color": "#cbd5e1",
-        "competitiveness": {
-          "color": "#cbd5e1"
-        },
-        "no_data": false
-      },
-      "18": {
-        "dem_votes": 8889,
-        "rep_votes": 6637,
-        "other_votes": 0,
-        "total_votes": 15527,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -2252,
-        "margin_pct": -14.5038,
-        "winner": "DEM",
-        "color": "#2171b5",
-        "competitiveness": {
-          "color": "#2171b5"
-        },
-        "no_data": false
-      },
-      "19": {
-        "dem_votes": 14355,
-        "rep_votes": 10706,
-        "other_votes": 0,
-        "total_votes": 25061,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -3649,
-        "margin_pct": -14.5605,
-        "winner": "DEM",
-        "color": "#2171b5",
-        "competitiveness": {
-          "color": "#2171b5"
-        },
-        "no_data": false
-      },
-      "20": {
-        "dem_votes": 1605,
-        "rep_votes": 1233,
-        "other_votes": 0,
-        "total_votes": 2837,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -372,
-        "margin_pct": -13.1124,
-        "winner": "DEM",
-        "color": "#2171b5",
-        "competitiveness": {
-          "color": "#2171b5"
-        },
-        "no_data": false
-      },
-      "21": {
-        "dem_votes": 4893,
-        "rep_votes": 4532,
-        "other_votes": 0,
-        "total_votes": 9425,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -361,
-        "margin_pct": -3.8302,
-        "winner": "DEM",
-        "color": "#cbd5e1",
-        "competitiveness": {
-          "color": "#cbd5e1"
-        },
-        "no_data": false
-      },
-      "22": {
-        "dem_votes": 4923,
-        "rep_votes": 3606,
-        "other_votes": 0,
-        "total_votes": 8530,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -1317,
-        "margin_pct": -15.4396,
-        "winner": "DEM",
-        "color": "#2171b5",
-        "competitiveness": {
-          "color": "#2171b5"
-        },
-        "no_data": false
-      },
-      "23": {
-        "dem_votes": 6487,
-        "rep_votes": 2931,
-        "other_votes": 0,
-        "total_votes": 9418,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -3556,
-        "margin_pct": -37.7575,
-        "winner": "DEM",
-        "color": "#08306b",
-        "competitiveness": {
-          "color": "#08306b"
-        },
-        "no_data": false
-      },
-      "24": {
-        "dem_votes": 4967,
-        "rep_votes": 3029,
-        "other_votes": 0,
-        "total_votes": 7996,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -1938,
-        "margin_pct": -24.2371,
-        "winner": "DEM",
-        "color": "#08519c",
-        "competitiveness": {
-          "color": "#08519c"
-        },
-        "no_data": false
-      },
-      "25": {
-        "dem_votes": 9081,
-        "rep_votes": 5898,
-        "other_votes": 0,
-        "total_votes": 14979,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -3183,
-        "margin_pct": -21.2497,
-        "winner": "DEM",
-        "color": "#08519c",
-        "competitiveness": {
-          "color": "#08519c"
-        },
-        "no_data": false
-      },
-      "26": {
-        "dem_votes": 6540,
-        "rep_votes": 5763,
-        "other_votes": 0,
-        "total_votes": 12303,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -777,
-        "margin_pct": -6.3155,
-        "winner": "DEM",
-        "color": "#6baed6",
-        "competitiveness": {
-          "color": "#6baed6"
-        },
-        "no_data": false
-      },
-      "27": {
-        "dem_votes": 8085,
-        "rep_votes": 3848,
-        "other_votes": 0,
-        "total_votes": 11933,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -4237,
-        "margin_pct": -35.5066,
-        "winner": "DEM",
-        "color": "#08306b",
-        "competitiveness": {
-          "color": "#08306b"
-        },
-        "no_data": false
-      },
-      "28": {
-        "dem_votes": 7500,
-        "rep_votes": 4796,
-        "other_votes": 0,
-        "total_votes": 12296,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -2704,
-        "margin_pct": -21.9909,
-        "winner": "DEM",
-        "color": "#08519c",
-        "competitiveness": {
-          "color": "#08519c"
-        },
-        "no_data": false
-      },
-      "29": {
-        "dem_votes": 6907,
-        "rep_votes": 7934,
-        "other_votes": 0,
-        "total_votes": 14840,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": 1027,
-        "margin_pct": 6.9205,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 882,
+        "margin_pct": 5.3519,
         "winner": "REP",
         "color": "#fcae91",
         "competitiveness": {
@@ -489,63 +121,367 @@
         },
         "no_data": false
       },
-      "30": {
-        "dem_votes": 7172,
-        "rep_votes": 5717,
+      "7": {
+        "dem_votes": 6086,
+        "rep_votes": 11127,
         "other_votes": 0,
-        "total_votes": 12889,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -1455,
-        "margin_pct": -11.2887,
-        "winner": "DEM",
-        "color": "#2171b5",
+        "total_votes": 17213,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 5041,
+        "margin_pct": 29.286,
+        "winner": "REP",
+        "color": "#de2d26",
         "competitiveness": {
-          "color": "#2171b5"
+          "color": "#de2d26"
         },
         "no_data": false
       },
-      "31": {
-        "dem_votes": 10526,
-        "rep_votes": 4841,
+      "8": {
+        "dem_votes": 5612,
+        "rep_votes": 9713,
         "other_votes": 0,
-        "total_votes": 15368,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -5685,
-        "margin_pct": -36.9925,
-        "winner": "DEM",
-        "color": "#08306b",
+        "total_votes": 15325,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 4101,
+        "margin_pct": 26.7602,
+        "winner": "REP",
+        "color": "#de2d26",
         "competitiveness": {
-          "color": "#08306b"
+          "color": "#de2d26"
         },
         "no_data": false
       },
-      "32": {
-        "dem_votes": 5782,
-        "rep_votes": 3784,
+      "9": {
+        "dem_votes": 4326,
+        "rep_votes": 9935,
         "other_votes": 0,
-        "total_votes": 9566,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -1998,
-        "margin_pct": -20.8865,
-        "winner": "DEM",
-        "color": "#08519c",
+        "total_votes": 14261,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 5609,
+        "margin_pct": 39.331,
+        "winner": "REP",
+        "color": "#a50f15",
         "competitiveness": {
-          "color": "#08519c"
+          "color": "#a50f15"
         },
         "no_data": false
       },
-      "33": {
-        "dem_votes": 7453,
-        "rep_votes": 6330,
+      "10": {
+        "dem_votes": 2963,
+        "rep_votes": 5954,
         "other_votes": 0,
-        "total_votes": 13783,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -1123,
-        "margin_pct": -8.1477,
+        "total_votes": 8917,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 2991,
+        "margin_pct": 33.5427,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "11": {
+        "dem_votes": 3166,
+        "rep_votes": 5815,
+        "other_votes": 0,
+        "total_votes": 8981,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 2649,
+        "margin_pct": 29.4956,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "12": {
+        "dem_votes": 2986,
+        "rep_votes": 6009,
+        "other_votes": 0,
+        "total_votes": 8995,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 3023,
+        "margin_pct": 33.6076,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "13": {
+        "dem_votes": 3295,
+        "rep_votes": 6436,
+        "other_votes": 0,
+        "total_votes": 9731,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 3141,
+        "margin_pct": 32.2783,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "14": {
+        "dem_votes": 3393,
+        "rep_votes": 5609,
+        "other_votes": 0,
+        "total_votes": 9001,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 2216,
+        "margin_pct": 24.6195,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "15": {
+        "dem_votes": 5580,
+        "rep_votes": 6010,
+        "other_votes": 0,
+        "total_votes": 11591,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 430,
+        "margin_pct": 3.7098,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "16": {
+        "dem_votes": 8185,
+        "rep_votes": 10063,
+        "other_votes": 0,
+        "total_votes": 18248,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 1878,
+        "margin_pct": 10.2915,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "17": {
+        "dem_votes": 9613,
+        "rep_votes": 10069,
+        "other_votes": 0,
+        "total_votes": 19682,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 456,
+        "margin_pct": 2.3168,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "18": {
+        "dem_votes": 6637,
+        "rep_votes": 8889,
+        "other_votes": 0,
+        "total_votes": 15527,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 2252,
+        "margin_pct": 14.5038,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "19": {
+        "dem_votes": 10706,
+        "rep_votes": 14355,
+        "other_votes": 0,
+        "total_votes": 25061,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 3649,
+        "margin_pct": 14.5605,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "20": {
+        "dem_votes": 1233,
+        "rep_votes": 1605,
+        "other_votes": 0,
+        "total_votes": 2837,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 372,
+        "margin_pct": 13.1124,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "21": {
+        "dem_votes": 4532,
+        "rep_votes": 4893,
+        "other_votes": 0,
+        "total_votes": 9425,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 361,
+        "margin_pct": 3.8302,
+        "winner": "REP",
+        "color": "#cbd5e1",
+        "competitiveness": {
+          "color": "#cbd5e1"
+        },
+        "no_data": false
+      },
+      "22": {
+        "dem_votes": 3606,
+        "rep_votes": 4923,
+        "other_votes": 0,
+        "total_votes": 8530,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 1317,
+        "margin_pct": 15.4396,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "23": {
+        "dem_votes": 2931,
+        "rep_votes": 6487,
+        "other_votes": 0,
+        "total_votes": 9418,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 3556,
+        "margin_pct": 37.7575,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "24": {
+        "dem_votes": 3029,
+        "rep_votes": 4967,
+        "other_votes": 0,
+        "total_votes": 7996,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 1938,
+        "margin_pct": 24.2371,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "25": {
+        "dem_votes": 5898,
+        "rep_votes": 9081,
+        "other_votes": 0,
+        "total_votes": 14979,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 3183,
+        "margin_pct": 21.2497,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "26": {
+        "dem_votes": 5763,
+        "rep_votes": 6540,
+        "other_votes": 0,
+        "total_votes": 12303,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 777,
+        "margin_pct": 6.3155,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
+      "27": {
+        "dem_votes": 3848,
+        "rep_votes": 8085,
+        "other_votes": 0,
+        "total_votes": 11933,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 4237,
+        "margin_pct": 35.5066,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "28": {
+        "dem_votes": 4796,
+        "rep_votes": 7500,
+        "other_votes": 0,
+        "total_votes": 12296,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 2704,
+        "margin_pct": 21.9909,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "29": {
+        "dem_votes": 7934,
+        "rep_votes": 6907,
+        "other_votes": 0,
+        "total_votes": 14840,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": -1027,
+        "margin_pct": -6.9205,
         "winner": "DEM",
         "color": "#6baed6",
         "competitiveness": {
@@ -553,35 +489,99 @@
         },
         "no_data": false
       },
+      "30": {
+        "dem_votes": 5717,
+        "rep_votes": 7172,
+        "other_votes": 0,
+        "total_votes": 12889,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 1455,
+        "margin_pct": 11.2887,
+        "winner": "REP",
+        "color": "#fb6a4a",
+        "competitiveness": {
+          "color": "#fb6a4a"
+        },
+        "no_data": false
+      },
+      "31": {
+        "dem_votes": 4841,
+        "rep_votes": 10526,
+        "other_votes": 0,
+        "total_votes": 15368,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 5685,
+        "margin_pct": 36.9925,
+        "winner": "REP",
+        "color": "#a50f15",
+        "competitiveness": {
+          "color": "#a50f15"
+        },
+        "no_data": false
+      },
+      "32": {
+        "dem_votes": 3784,
+        "rep_votes": 5782,
+        "other_votes": 0,
+        "total_votes": 9566,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 1998,
+        "margin_pct": 20.8865,
+        "winner": "REP",
+        "color": "#de2d26",
+        "competitiveness": {
+          "color": "#de2d26"
+        },
+        "no_data": false
+      },
+      "33": {
+        "dem_votes": 6330,
+        "rep_votes": 7453,
+        "other_votes": 0,
+        "total_votes": 13783,
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 1123,
+        "margin_pct": 8.1477,
+        "winner": "REP",
+        "color": "#fcae91",
+        "competitiveness": {
+          "color": "#fcae91"
+        },
+        "no_data": false
+      },
       "34": {
-        "dem_votes": 4847,
-        "rep_votes": 2748,
+        "dem_votes": 2748,
+        "rep_votes": 4847,
         "other_votes": 0,
         "total_votes": 7595,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -2099,
-        "margin_pct": -27.6366,
-        "winner": "DEM",
-        "color": "#08519c",
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 2099,
+        "margin_pct": 27.6366,
+        "winner": "REP",
+        "color": "#de2d26",
         "competitiveness": {
-          "color": "#08519c"
+          "color": "#de2d26"
         },
         "no_data": false
       },
       "35": {
-        "dem_votes": 9206,
-        "rep_votes": 6001,
+        "dem_votes": 6001,
+        "rep_votes": 9206,
         "other_votes": 0,
         "total_votes": 15207,
-        "dem_candidate": "Tom Luna",
-        "rep_candidate": "Stan Olson",
-        "margin": -3205,
-        "margin_pct": -21.0758,
-        "winner": "DEM",
-        "color": "#08519c",
+        "dem_candidate": "Stan Olson",
+        "rep_candidate": "Tom Luna",
+        "margin": 3205,
+        "margin_pct": 21.0758,
+        "winner": "REP",
+        "color": "#de2d26",
         "competitiveness": {
-          "color": "#08519c"
+          "color": "#de2d26"
         },
         "no_data": false
       }

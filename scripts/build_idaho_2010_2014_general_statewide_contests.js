@@ -70,6 +70,10 @@ const YEAR_SPECS = [
             office: 'Superintendent of Public Instruction',
             startCol: 10,
             endCol: 11,
+            partyByCandidate: {
+              'Tom Luna': 'REP',
+              'Stan Olson': 'DEM',
+            },
           },
         ],
       },
@@ -258,12 +262,13 @@ function parseSheet(workbook, sheetSpec) {
         const votes = parseNumber(row[col]);
         if (!Number.isFinite(votes)) continue;
         const partyLabel = cleanCell(partyRow[col]);
+        const partyOverride = contest.partyByCandidate?.[candidate] || '';
         const record = {
           countyNorm: currentCounty,
           precinctNorm: precinct,
           rowKey,
           partyLabel,
-          partyNorm: normalizeParty(partyLabel),
+          partyNorm: partyOverride || normalizeParty(partyLabel),
           candidate,
           votes: Math.trunc(votes),
         };
