@@ -9529,23 +9529,6 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     };
   }
-  const districtLines2022Btn = document.getElementById('district-lines-2022');
-  if (districtLines2022Btn) {
-    districtLines2022Btn.onclick = function() {
-      if (typeof setDistrictLinesMode === 'function') {
-        setDistrictLinesMode(2022).catch(() => {});
-      }
-    };
-  }
-  const districtLines2026Btn = document.getElementById('district-lines-2026');
-  if (districtLines2026Btn) {
-    districtLines2026Btn.onclick = function() {
-      if (typeof setDistrictLinesMode === 'function') {
-        setDistrictLinesMode(2026).catch(() => {});
-      }
-    };
-  }
-
   const splitTicketBtn = document.getElementById('split-ticket-toggle');
   if (splitTicketBtn) {
     if (typeof syncSplitTicketToggleUI === 'function') syncSplitTicketToggleUI();
@@ -10102,17 +10085,6 @@ document.addEventListener('DOMContentLoaded', function() {
                   <button id="state-senate-view" class="view-toggle-btn" onclick="setMapView('state_senate')" data-testid="view-state-senate" aria-label="Show state senate districts view" aria-pressed="false">State Senate</button>
                 </div>
             </div>
-            <div class="control-group" style="margin-bottom:10px;">
-                <span class="section-kicker">District Lines</span>
-                <div class="view-toggle-row" style="display:flex;gap:6px;flex-wrap:wrap;">
-                  <button id="district-lines-2022" class="view-toggle-btn active" type="button" data-testid="lines-2022" aria-label="Use 2022 district lines" aria-pressed="true">2022 Lines</button>
-                  <button id="district-lines-2026" class="view-toggle-btn" type="button" data-testid="lines-2026" aria-label="Use 2026 district lines" aria-pressed="false">2026 Lines</button>
-                </div>
-                <div style="margin-top:4px;font-size:11px;color:#6b7280;">
-                  2022 is the current baseline; 2026 previews the newer congressional map where available.
-                </div>
-                <div id="district-lines-loading-hint" class="district-lines-loading-hint" aria-live="polite" aria-atomic="true"></div>
-            </div>
             <div class="control-group viz-inline-group" style="margin-bottom:10px;">
               <span class="section-kicker">Analysis Mode</span>
               <div class="viz-modes-inline" id="viz-modes-inline">
@@ -10520,8 +10492,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-29-district-min-year-v1';
-    const APP_BUILD_ID = '2026-08-29-district-min-year-v1';
+    const DATA_CACHE_BUSTER = '2026-08-29-county-population-v1';
+    const APP_BUILD_ID = '2026-08-29-county-population-v1';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -11887,8 +11859,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function normalizeDistrictLinesYear(raw) {
-      const y = Number(raw);
-      if (y === 2026) return 2026;
+      void raw;
       return 2022;
     }
 
@@ -22651,8 +22622,11 @@ document.addEventListener('DOMContentLoaded', function() {
       (Array.isArray(rows) ? rows : []).forEach(row => {
         const countyName = (row?.county_name || '').toString().trim();
         const csvCountyNorm = normalizeCountyToken(row?.county_norm || countyName);
-        const countyNorm = normalizeCountyToken(countyName.replace(/County/ig, '').trim()) || csvCountyNorm;
+        const countyNorm = normalizeCountyToken(countyName.replace(/\bCounty\b/ig, '').trim()) || csvCountyNorm;
         if (!countyName || !countyNorm) return;
+        const isStatewideRow = countyName.toUpperCase() === 'IDAHO'
+          || countyName.toUpperCase() === 'STATEWIDE'
+          || csvCountyNorm === 'STATEWIDE';
 
         const population2020 = Number(row?.population_2020 || 0);
         const population2021 = Number(row?.population_2021 || 0);
@@ -22697,7 +22671,7 @@ document.addEventListener('DOMContentLoaded', function() {
           changePct2023To2024: Number.isFinite(changePct2023To2024) ? changePct2023To2024 : NaN
         };
 
-        if (countyNorm === 'IDAHO' || countyNorm === 'STATEWIDE' || csvCountyNorm === 'IDAHO' || csvCountyNorm === 'STATEWIDE') {
+        if (isStatewideRow) {
           statewide = entry;
         } else {
           byNorm.set(countyNorm, entry);
