@@ -169,6 +169,13 @@ def normalize_party(raw: str) -> str:
     return "OTHER"
 
 
+def normalize_candidate_name(raw: str) -> str:
+    name = (raw or "").strip()
+    if re.match(r'''^C\.?\s*L\.?\s+["']?Butch["']?\s+Otter$''', name, re.IGNORECASE):
+        return "Butch Otter"
+    return name
+
+
 def extract_year_from_path(path: Path) -> int | None:
     match = re.match(r"^(\d{4})\d{4}__id__general__precinct\.csv$", path.name, re.IGNORECASE)
     return int(match.group(1)) if match else None
@@ -337,7 +344,7 @@ def build_rows_from_file(year: int, path: Path) -> pd.DataFrame:
     df["row_key"] = df["county_norm"] + " - " + df["precinct_norm"]
     df["votes"] = pd.to_numeric(df["votes"], errors="coerce").fillna(0).astype(int)
     df["party_norm"] = df["party"].fillna("").astype(str).map(normalize_party)
-    df["candidate"] = df["candidate"].fillna("").astype(str).str.strip()
+    df["candidate"] = df["candidate"].fillna("").astype(str).map(normalize_candidate_name)
     df["office"] = df["office"].fillna("").astype(str).str.strip()
     df["district"] = df["district"].fillna("").astype(str).str.strip()
     df["year"] = year
@@ -351,7 +358,7 @@ def collect_statewide_frames(df: pd.DataFrame, year: int) -> dict[str, tuple[str
         # Governor candidates as "Governor". Split the two ballots by their
         # known candidate slates before aggregating precinct results.
         if year == 1994 and office_name.strip().lower() == "governor":
-            lieutenant_candidates = {'C.L. "Butch" Otter', "John Peavey"}
+            lieutenant_candidates = {"Butch Otter", "John Peavey"}
             lieutenant_mask = office_df["candidate"].isin(lieutenant_candidates)
             governor_df = office_df[~lieutenant_mask].copy()
             lieutenant_df = office_df[lieutenant_mask].copy()

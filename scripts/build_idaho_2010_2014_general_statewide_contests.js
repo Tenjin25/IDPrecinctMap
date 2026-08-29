@@ -215,6 +215,11 @@ function normalizeParty(value) {
   return 'OTHER';
 }
 
+function normalizeCandidateName(value) {
+  const name = cleanCell(value);
+  return /^C\.?\s*L\.?\s+["']?Butch["']?\s+Otter$/i.test(name) ? 'Butch Otter' : name;
+}
+
 function pickColor(marginPct) {
   const signed = Number(marginPct) || 0;
   for (const [threshold, color] of PALETTE) {
@@ -292,7 +297,7 @@ function parseSheet(workbook, sheetSpec) {
 
     for (const contest of sheetSpec.contests) {
       for (let col = contest.startCol; col <= contest.endCol; col += 1) {
-        const candidate = cleanCell(candidateRow[col]);
+        const candidate = normalizeCandidateName(candidateRow[col]);
         if (!candidate) continue;
         const votes = parseNumber(row[col]);
         if (!Number.isFinite(votes)) continue;
