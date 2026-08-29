@@ -975,11 +975,7 @@ body.focus-active.hover-preview-active .vote-counter {
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-popchange {
-  margin: 6px 0 10px;
-  padding: 9px 10px;
-  border: 1px solid rgba(148,163,184,0.22);
-  border-radius: 9px;
-  background: rgba(148,163,184,0.08);
+  margin-bottom: 8px;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-popchange-grid {
@@ -997,17 +993,17 @@ body.focus-active.hover-preview-active .vote-counter {
 
 #hover-tooltip[data-context="votehub-results"] .vhr-popchange-main.gain,
 #hover-tooltip[data-context="votehub-results"] .vhr-popchange-values.gain {
-  color: #86efac;
+  color: #166534;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-popchange-main.loss,
 #hover-tooltip[data-context="votehub-results"] .vhr-popchange-values.loss {
-  color: #fdba74;
+  color: #92400e;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-popchange-main.flat,
 #hover-tooltip[data-context="votehub-results"] .vhr-popchange-values.flat {
-  color: #cbd5e1;
+  color: #94a3b8;
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-popchange-values {
@@ -1024,7 +1020,7 @@ body.focus-active.hover-preview-active .vote-counter {
 }
 
 #hover-tooltip[data-context="votehub-results"] .vhr-popchange-divider {
-  margin: 10px 0 0;
+  margin: 12px 0 0;
   border-top: 1px solid rgba(148,163,184,0.22);
 }
 
@@ -10546,8 +10542,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-29-popchange-tooltip-v2';
-    const APP_BUILD_ID = '2026-08-29-popchange-tooltip-v2';
+    const DATA_CACHE_BUSTER = '2026-08-29-popchange-tooltip-v3';
+    const APP_BUILD_ID = '2026-08-29-popchange-tooltip-v3';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -26635,8 +26631,8 @@ document.addEventListener('DOMContentLoaded', function() {
           : `${signPct}${pct.toFixed(1)}%`;
         const toneLabel = tone === 'gain' ? 'Growth' : (tone === 'loss' ? 'Decline' : 'Flat');
         return {
-          line: `Population change: ${signAbs}${Math.round(abs).toLocaleString()} · ${pctLine}`,
-          raw: `${p2020.toLocaleString()} → ${p2025.toLocaleString()}`,
+          line: `Population change: ${signAbs}${Math.round(abs).toLocaleString()} (${pctLine})`,
+          raw: `${p2020.toLocaleString()} -> ${p2025.toLocaleString()}`,
           tone,
           label: toneLabel
         };
@@ -26719,7 +26715,6 @@ document.addEventListener('DOMContentLoaded', function() {
             ${popChangeDetailLine}
             ${(currentVizMode === 'population_change' && popChangeHeaderMeta?.label) ? `<div class="tooltip-insight" style="color:${popChangeToneColor};font-weight:700;">${escapeHtml(popChangeHeaderMeta.label)}</div>` : ''}
             ${(currentVizMode === 'shift' && Number.isFinite(shiftDelta) && vizShiftCache?.prevYear) ? '' : shiftLine}
-            ${flipLine}
             ${deltaBlock}
             ${splitInsightLine}
             ${demoLine}
@@ -26728,7 +26723,7 @@ document.addEventListener('DOMContentLoaded', function() {
         ? `${votehubCore}`.trim()
         : `
             ${votehubCore}
-            ${currentVizMode === 'population_change' ? '' : popChangeTopLineMobile}
+            ${popChangeTopLineMobile}
             <details class="tooltip-more" aria-label="More details">
               <summary>More details</summary>
               <div class="tooltip-more-body">${detailLines}</div>
@@ -29293,7 +29288,7 @@ document.addEventListener('DOMContentLoaded', function() {
         ? (flipMeta.to === 'R' ? 'rep' : (flipMeta.to === 'D' ? 'dem' : 'tie'))
         : 'tie';
       const flipLabel = (flipMeta && flipMeta.flipped)
-        ? `Flipped ${flipMeta.from === 'R' ? 'R→D' : 'D→R'}${flipYearLabel ? ` since ${String(flipYearLabel)}` : ''}`
+        ? `Flipped ${flipMeta.from === 'R' ? 'R->D' : 'D->R'}${flipYearLabel ? ` since ${String(flipYearLabel)}` : ''}`
         : '';
       const flipLine = flipLabel ? `<div class="vhr-flip ${flipToneClass}">${escapeHtml(flipLabel)}</div>` : '';
 
