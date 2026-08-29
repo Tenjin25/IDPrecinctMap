@@ -19,6 +19,29 @@ const PALETTE = [
 
 const YEAR_SPECS = [
   {
+    year: 2002,
+    sourceFile: path.join(ROOT, 'data', '02gen_stwd_pct.xls'),
+    sheets: [
+      {
+        sheetName: '02gen_stwd pg 2',
+        partyRow: 2,
+        candidateRow: 3,
+        dataStartRow: 4,
+        contests: [
+          { contestType: 'state_controller', office: 'State Controller', startCol: 1, endCol: 3 },
+          { contestType: 'state_treasurer', office: 'State Treasurer', startCol: 4, endCol: 6 },
+          { contestType: 'attorney_general', office: 'Attorney General', startCol: 7, endCol: 8 },
+          {
+            contestType: 'superintendent_public_instruction',
+            office: 'Superintendent of Public Instruction',
+            startCol: 9,
+            endCol: 11,
+          },
+        ],
+      },
+    ],
+  },
+  {
     year: 2006,
     sourceFile: path.join(ROOT, 'data', '06gen_stwd_pct.xls'),
     sheets: [
@@ -117,15 +140,27 @@ const YEAR_SPECS = [
 const MANAGED_CONTEST_TYPES = new Set(
   YEAR_SPECS.flatMap((yearSpec) => yearSpec.sheets.flatMap((sheet) => sheet.contests.map((contest) => contest.contestType)))
 );
-const MANAGED_CONTEST_KEYS = new Set(
-  YEAR_SPECS.flatMap((yearSpec) => yearSpec.sheets.flatMap((sheet) => (
-    sheet.contests.map((contest) => `${Number(yearSpec.year)}|${contest.contestType}`)
-  )))
+const CLI_ARGS = process.argv.slice(2).map((value) => String(value || '').trim()).filter(Boolean);
+const REQUESTED_CONTEST_TYPES = new Set(CLI_ARGS.filter((value) => !value.startsWith('--')));
+const REQUESTED_YEARS = new Set(
+  CLI_ARGS
+    .filter((value) => value.startsWith('--year='))
+    .map((value) => Number(value.slice('--year='.length)))
+    .filter(Number.isFinite)
 );
-const REQUESTED_CONTEST_TYPES = new Set(process.argv.slice(2).map((value) => String(value || '').trim()).filter(Boolean));
 const ACTIVE_CONTEST_TYPES = REQUESTED_CONTEST_TYPES.size
   ? new Set(Array.from(REQUESTED_CONTEST_TYPES).filter((contestType) => MANAGED_CONTEST_TYPES.has(contestType)))
   : MANAGED_CONTEST_TYPES;
+const ACTIVE_YEAR_SPECS = REQUESTED_YEARS.size
+  ? YEAR_SPECS.filter((yearSpec) => REQUESTED_YEARS.has(Number(yearSpec.year)))
+  : YEAR_SPECS;
+const ACTIVE_CONTEST_KEYS = new Set(
+  ACTIVE_YEAR_SPECS.flatMap((yearSpec) => yearSpec.sheets.flatMap((sheet) => (
+    sheet.contests
+      .filter((contest) => ACTIVE_CONTEST_TYPES.has(contest.contestType))
+      .map((contest) => `${Number(yearSpec.year)}|${contest.contestType}`)
+  )))
+);
 
 function cleanCell(value) {
   return String(value == null ? '' : value).replace(/\r?\n/g, ' ').trim();
@@ -309,7 +344,7 @@ function upsertManifestEntries(manifest, entries) {
   const byKey = new Map();
   for (const entry of manifest.files || []) {
     const key = `${Number(entry.year)}|${String(entry.contest_type || '')}`;
-    if (ACTIVE_CONTEST_TYPES.has(String(entry.contest_type || '')) && MANAGED_CONTEST_KEYS.has(key)) {
+    if (ACTIVE_CONTEST_KEYS.has(key)) {
       continue;
     }
     byKey.set(key, entry);
@@ -328,10 +363,13 @@ function main() {
   if (REQUESTED_CONTEST_TYPES.size && !ACTIVE_CONTEST_TYPES.size) {
     throw new Error(`No supported contest types requested: ${Array.from(REQUESTED_CONTEST_TYPES).join(', ')}`);
   }
+  if (REQUESTED_YEARS.size && !ACTIVE_YEAR_SPECS.length) {
+    throw new Error(`No supported years requested: ${Array.from(REQUESTED_YEARS).join(', ')}`);
+  }
   const manifest = readManifest();
   const newEntries = [];
 
-  for (const yearSpec of YEAR_SPECS) {
+  for (const yearSpec of ACTIVE_YEAR_SPECS) {
     const configuredContestTypes = new Set(
       yearSpec.sheets.flatMap((sheet) => sheet.contests.map((contest) => contest.contestType))
     );
@@ -342,7 +380,7 @@ function main() {
     }
   }
 
-  for (const yearSpec of YEAR_SPECS) {
+  for (const yearSpec of ACTIVE_YEAR_SPECS) {
     if (!fs.existsSync(yearSpec.sourceFile)) {
       throw new Error(`Missing source workbook: ${yearSpec.sourceFile}`);
     }
@@ -378,6 +416,7 @@ function main() {
           office: officeByContestType.get(contestType) || contestType,
           source: path.basename(yearSpec.sourceFile),
           aggregation: 'precinct',
+          candidate_count: new Set(records.map((record) => record.candidate).filter(Boolean)).size,
         },
         rows,
       };

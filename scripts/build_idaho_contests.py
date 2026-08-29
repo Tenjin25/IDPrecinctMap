@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import json
 import re
 from pathlib import Path
@@ -41,7 +42,7 @@ STATEWIDE_OFFICE_PATTERNS: list[tuple[re.Pattern[str], dict[str, str]]] = [
     (re.compile(r"^(State Controller|Controller)$", re.IGNORECASE), {"contest_type": "state_controller", "office": "State Controller"}),
     (re.compile(r"^(State Treasurer|Treasurer)$", re.IGNORECASE), {"contest_type": "state_treasurer", "office": "State Treasurer"}),
     (
-        re.compile(r"^(Superintendent of Public Instruction|Publ Instr)$", re.IGNORECASE),
+        re.compile(r"^(Superintendent of Public Instruction|Publ Instr|Supt\. of Pub\. Inst\.)$", re.IGNORECASE),
         {"contest_type": "superintendent_public_instruction", "office": "Superintendent of Public Instruction"},
     ),
     (re.compile(r"^Auditor$", re.IGNORECASE), {"contest_type": "state_auditor", "office": "Auditor"}),
@@ -341,6 +342,85 @@ def build_rows_from_file(year: int, path: Path) -> pd.DataFrame:
     df["district"] = df["district"].fillna("").astype(str).str.strip()
     df["year"] = year
     return df
+
+
+def collect_statewide_frames(df: pd.DataFrame, year: int) -> dict[str, tuple[str, pd.DataFrame]]:
+    frames: dict[str, tuple[str, pd.DataFrame]] = {}
+    for office_name, office_df in df.groupby("office", sort=True):
+        # The 1994 OpenElections source labels both Governor and Lieutenant
+        # Governor candidates as "Governor". Split the two ballots by their
+        # known candidate slates before aggregating precinct results.
+        if year == 1994 and office_name.strip().lower() == "governor":
+            lieutenant_candidates = {'C.L. "Butch" Otter', "John Peavey"}
+            lieutenant_mask = office_df["candidate"].isin(lieutenant_candidates)
+            governor_df = office_df[~lieutenant_mask].copy()
+            lieutenant_df = office_df[lieutenant_mask].copy()
+            if not governor_df.empty:
+                frames["governor"] = ("Governor", governor_df)
+            if not lieutenant_df.empty:
+                frames["lieutenant_governor"] = ("Lieutenant Governor", lieutenant_df)
+            continue
+
+        parsed = parse_statewide_office(office_name, str(office_df["district"].iloc[0]))
+        if parsed:
+            frames[str(parsed["contest_type"])] = (str(parsed["office"]), office_df.copy())
+    return frames
+
+
+def build_selected_statewide_contests(years: set[int], contest_types: set[str]) -> None:
+    manifest_path = CONTESTS_DIR / "manifest.json"
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8")) if manifest_path.exists() else {"files": []}
+    entries_by_key = {
+        (int(entry["year"]), str(entry["contest_type"])): entry
+        for entry in list(manifest.get("files") or [])
+    }
+    generated: set[tuple[int, str]] = set()
+
+    for year, path in statewide_general_precinct_files():
+        if year not in years:
+            continue
+        df = build_rows_from_file(year, path)
+        frames = collect_statewide_frames(df, year)
+        for contest_type, (office_label, office_df) in sorted(frames.items()):
+            if contest_type not in contest_types or not is_multicandidate_contest(office_df):
+                continue
+            rows = build_precinct_rows(office_df)
+            file_name = f"{contest_type}_{year}.json"
+            write_json(
+                CONTESTS_DIR / file_name,
+                {
+                    "year": year,
+                    "contest_type": contest_type,
+                    "meta": {
+                        "office": office_label,
+                        "source": path.name,
+                        "aggregation": "precinct",
+                        "candidate_count": count_real_candidates(office_df),
+                    },
+                    "rows": rows,
+                },
+            )
+            key = (year, contest_type)
+            entries_by_key[key] = {
+                "year": year,
+                "contest_type": contest_type,
+                "file": file_name,
+                "rows": len(rows),
+                "office": office_label,
+            }
+            generated.add(key)
+            print(f"Wrote {file_name} ({len(rows)} rows)")
+
+    requested_pairs = {(year, contest_type) for year in years for contest_type in contest_types}
+    missing = sorted(requested_pairs - generated)
+    if missing:
+        print("No multicandidate source found for: " + ", ".join(f"{year} {contest}" for year, contest in missing))
+
+    write_json(
+        manifest_path,
+        {"files": sorted(entries_by_key.values(), key=lambda entry: (int(entry["year"]), str(entry["contest_type"])))},
+    )
+    print(f"Updated manifest with {len(generated)} selected entries")
 
 
 def parse_precinct_canvass_sheet(path: Path, sheet_name: str, header_row_index: int) -> pd.DataFrame:
@@ -714,15 +794,12 @@ def main() -> None:
     for year, path in statewide_general_precinct_files():
         df = build_rows_from_file(year, path)
 
-        statewide_frames: dict[str, tuple[str, pd.DataFrame]] = {}
+        statewide_frames: dict[str, tuple[str, pd.DataFrame]] = (
+            collect_statewide_frames(df, year) if year in STATEWIDE_OTHER_YEARS else {}
+        )
         district_frames: dict[tuple[str, str], tuple[str, pd.DataFrame]] = {}
 
         for office_name, office_df in df.groupby("office", sort=True):
-            if year in STATEWIDE_OTHER_YEARS:
-                parsed_statewide = parse_statewide_office(office_name, str(office_df["district"].iloc[0]))
-                if parsed_statewide:
-                    statewide_frames[parsed_statewide["contest_type"]] = (str(parsed_statewide["office"]), office_df.copy())
-
             district_groups: list[pd.DataFrame] = []
             if year in DISTRICT_YEARS and office_name.lower() == "state house":
                 district_groups = [group.copy() for _, group in office_df.groupby(office_df["district"].astype(str).str.strip().str.upper().str[-1], sort=True)]
@@ -835,4 +912,13 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Build Idaho statewide and district contest payloads")
+    parser.add_argument("--statewide-years", nargs="+", type=int)
+    parser.add_argument("--contest-types", nargs="+")
+    args = parser.parse_args()
+    if args.statewide_years or args.contest_types:
+        if not args.statewide_years or not args.contest_types:
+            parser.error("--statewide-years and --contest-types must be provided together")
+        build_selected_statewide_contests(set(args.statewide_years), set(args.contest_types))
+    else:
+        main()

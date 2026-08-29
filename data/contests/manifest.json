@@ -16,6 +16,13 @@
     },
     {
       "year": 1994,
+      "contest_type": "lieutenant_governor",
+      "file": "lieutenant_governor_1994.json",
+      "rows": 899,
+      "office": "Lieutenant Governor"
+    },
+    {
+      "year": 1994,
       "contest_type": "secretary_of_state",
       "file": "secretary_of_state_1994.json",
       "rows": 899,
@@ -100,6 +107,13 @@
     },
     {
       "year": 1998,
+      "contest_type": "superintendent_public_instruction",
+      "file": "superintendent_public_instruction_1998.json",
+      "rows": 930,
+      "office": "Superintendent of Public Instruction"
+    },
+    {
+      "year": 1998,
       "contest_type": "us_senate",
       "file": "us_senate_1998.json",
       "rows": 930,
@@ -111,6 +125,13 @@
       "file": "president_2000.json",
       "rows": 929,
       "office": "President of the United States"
+    },
+    {
+      "year": 2002,
+      "contest_type": "attorney_general",
+      "file": "attorney_general_2002.json",
+      "rows": 950,
+      "office": "Attorney General"
     },
     {
       "year": 2002,
@@ -132,6 +153,27 @@
       "file": "secretary_of_state_2002.json",
       "rows": 942,
       "office": "Secretary of State"
+    },
+    {
+      "year": 2002,
+      "contest_type": "state_controller",
+      "file": "state_controller_2002.json",
+      "rows": 950,
+      "office": "State Controller"
+    },
+    {
+      "year": 2002,
+      "contest_type": "state_treasurer",
+      "file": "state_treasurer_2002.json",
+      "rows": 950,
+      "office": "State Treasurer"
+    },
+    {
+      "year": 2002,
+      "contest_type": "superintendent_public_instruction",
+      "file": "superintendent_public_instruction_2002.json",
+      "rows": 950,
+      "office": "Superintendent of Public Instruction"
     },
     {
       "year": 2002,
