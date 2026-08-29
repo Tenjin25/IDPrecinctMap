@@ -66,7 +66,7 @@ const REQUESTED_CONTEST_TYPES = new Set(CLI_ARGS.filter((arg) => !arg.startsWith
 const ACTIVE_CONTEST_TYPES = REQUESTED_CONTEST_TYPES.size
   ? new Set(Array.from(REQUESTED_CONTEST_TYPES).filter((contestType) => MANAGED_CONTEST_TYPES.has(contestType)))
   : MANAGED_CONTEST_TYPES;
-const MIN_YEAR = 2000;
+const MIN_YEAR = 2004;
 const MAX_YEAR = 2024;
 const UNMATCHED_DIAGNOSTICS = new Map();
 
@@ -1106,6 +1106,7 @@ function shouldManageUnifiedStateHouse() {
 function filterExistingEntries(manifest, scopeGuard = null) {
   const files = Array.isArray(manifest.files) ? manifest.files : [];
   return files.filter((entry) => {
+    if (Number(entry.year) < MIN_YEAR) return false;
     const scope = clean(entry.scope);
     const contestType = clean(entry.contest_type);
     if (

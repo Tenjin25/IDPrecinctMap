@@ -10520,8 +10520,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-29-executive-contests-v2';
-    const APP_BUILD_ID = '2026-08-29-executive-contests-v2';
+    const DATA_CACHE_BUSTER = '2026-08-29-district-min-year-v1';
+    const APP_BUILD_ID = '2026-08-29-district-min-year-v1';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -19705,11 +19705,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	        'Court of Appeals'
 	      ];
 
-	      function getPreferredContestGroupLabelsForView(view = currentView) {
-	        if (view === 'districts') return ['US House'];
-	        return [];
-	      }
-
 	      const grouped = new Map(); // label -> Array<{contestType, year}>
 	      Object.keys(contestYearPairs).forEach(contestType => {
 	        const label = groupLabelForContestType(contestType);
@@ -19720,16 +19715,17 @@ document.addEventListener('DOMContentLoaded', function() {
 	        });
 	      });
 
-	      const preferredLabels = getPreferredContestGroupLabelsForView();
-	      const bottomLabels = new Set(['State House', 'State Senate']);
+	      const bottomGroupOrder = currentView === 'districts'
+	        ? ['State House', 'State Senate', 'US House']
+	        : ['State House', 'State Senate'];
+	      const bottomLabels = new Set(bottomGroupOrder);
 	      const groupedLabels = Array.from(grouped.keys());
-	      const orderedLabels = [
-	        ...preferredLabels.filter(l => grouped.has(l) && !bottomLabels.has(l)),
+	      const orderedLabels = Array.from(new Set([
 	        ...groupOrder.filter(l => grouped.has(l) && !bottomLabels.has(l)),
 	        ...groupedLabels.filter(l => !groupOrder.includes(l) && !bottomLabels.has(l)).sort((a, b) => a.localeCompare(b)),
-	        ...groupOrder.filter(l => grouped.has(l) && bottomLabels.has(l)),
+	        ...bottomGroupOrder.filter(l => grouped.has(l)),
 	        ...groupedLabels.filter(l => !groupOrder.includes(l) && bottomLabels.has(l)).sort((a, b) => a.localeCompare(b))
-	      ];
+	      ]));
 
 	      const fragment = document.createDocumentFragment();
 	      orderedLabels.forEach(label => {
@@ -27061,7 +27057,7 @@ document.addEventListener('DOMContentLoaded', function() {
           e.point.y,
           buildTooltipShell(
             '',
-            `${seatsHtml}<div style="margin-top:10px;">${_demoHTML}</div>`,
+            seatsHtml,
             { pinned: pinnedShell, showClose: pinnedShell, copyText }
           ),
           { force: !!forceTooltip, pinned: pinnedShell, context: 'votehub-results', copyText }

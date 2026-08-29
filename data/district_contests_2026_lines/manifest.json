@@ -1,46 +1,6 @@
 {
   "files": [
     {
-      "year": 2000,
-      "scope": "congressional",
-      "contest_type": "president",
-      "file": "congressional_president_2000.json",
-      "districts": 2,
-      "office": "President of the United States"
-    },
-    {
-      "year": 2002,
-      "scope": "congressional",
-      "contest_type": "governor",
-      "file": "congressional_governor_2002.json",
-      "districts": 2,
-      "office": "Governor"
-    },
-    {
-      "year": 2002,
-      "scope": "congressional",
-      "contest_type": "lieutenant_governor",
-      "file": "congressional_lieutenant_governor_2002.json",
-      "districts": 2,
-      "office": "Lieutenant Governor"
-    },
-    {
-      "year": 2002,
-      "scope": "congressional",
-      "contest_type": "secretary_of_state",
-      "file": "congressional_secretary_of_state_2002.json",
-      "districts": 2,
-      "office": "Secretary of State"
-    },
-    {
-      "year": 2002,
-      "scope": "congressional",
-      "contest_type": "us_senate",
-      "file": "congressional_us_senate_2002.json",
-      "districts": 2,
-      "office": "United States Senator"
-    },
-    {
       "year": 2004,
       "scope": "congressional",
       "contest_type": "president",
