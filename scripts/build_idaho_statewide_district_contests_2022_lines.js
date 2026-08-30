@@ -60,7 +60,9 @@ const MANAGED_CONTEST_TYPES = new Set([
   'attorney_general',
   'superintendent_public_instruction',
   'state_senate',
+  'us_house',
 ]);
+const DIRECT_DISTRICT_CONTEST_TYPES = new Set(['state_senate', 'us_house']);
 const CLI_ARGS = process.argv.slice(2).map(clean).filter(Boolean);
 const REPORT_UNMATCHED = CLI_ARGS.includes('--report-unmatched');
 const REQUESTED_CONTEST_TYPES = new Set(CLI_ARGS.filter((arg) => !arg.startsWith('--')));
@@ -1110,6 +1112,7 @@ function filterExistingEntries(manifest, scopeGuard = null) {
     if (Number(entry.year) < MIN_YEAR) return false;
     const scope = clean(entry.scope);
     const contestType = clean(entry.contest_type);
+    if (scopeGuard && contestType === 'us_house') return true;
     if (
       shouldManageUnifiedStateHouse()
       &&
@@ -1371,35 +1374,44 @@ function synthesizeUnifiedStateHouseEntries(manifest2022, new2022Entries) {
   }
 }
 
-function syncDirectStateSenateEntries(new2022Entries) {
+function syncDirectDistrictEntries(new2022Entries) {
   const legacyDir = path.join(DATA_DIR, 'district_contests');
-  const filesByYear = new Map();
-  for (const dir of [legacyDir, OUT_2022_DIR]) {
-    if (!fs.existsSync(dir)) continue;
-    for (const fileName of fs.readdirSync(dir)) {
-      const match = String(fileName).match(/^state_senate_state_senate_(\d{4})\.json$/i);
-      if (match?.[1]) filesByYear.set(Number(match[1]), path.join(dir, fileName));
-    }
-  }
+  const directContests = [
+    { scope: 'state_senate', contestType: 'state_senate', prefix: 'state_senate', office: 'State Senate' },
+    { scope: 'congressional', contestType: 'us_house', prefix: 'congressional', office: 'U.S. House' },
+  ];
 
-  for (const [year, sourcePath] of filesByYear.entries()) {
-    if (year < MIN_YEAR || year > MAX_YEAR) continue;
-    const payload = readJson(sourcePath);
-    const results = payload?.general?.results || {};
-    if (!Object.keys(results).length) continue;
-    const fileName = `state_senate_state_senate_${year}.json`;
-    const outputPath = path.join(OUT_2022_DIR, fileName);
-    if (path.resolve(sourcePath) !== path.resolve(outputPath)) {
-      writeJson(outputPath, payload);
+  for (const config of directContests) {
+    if (REQUESTED_CONTEST_TYPES.size && !ACTIVE_CONTEST_TYPES.has(config.contestType)) continue;
+    const filesByYear = new Map();
+    const filePattern = new RegExp(`^${config.prefix}_${config.contestType}_(\\d{4})\\.json$`, 'i');
+    for (const dir of [legacyDir, OUT_2022_DIR]) {
+      if (!fs.existsSync(dir)) continue;
+      for (const fileName of fs.readdirSync(dir)) {
+        const match = String(fileName).match(filePattern);
+        if (match?.[1]) filesByYear.set(Number(match[1]), path.join(dir, fileName));
+      }
     }
-    new2022Entries.push({
-      year,
-      scope: 'state_senate',
-      contest_type: 'state_senate',
-      file: fileName,
-      districts: Object.keys(results).length,
-      office: clean(payload?.meta?.office) || 'State Senate',
-    });
+
+    for (const [year, sourcePath] of filesByYear.entries()) {
+      if (year < 2022 || year > MAX_YEAR) continue;
+      const payload = readJson(sourcePath);
+      const results = payload?.general?.results || {};
+      if (!Object.keys(results).length) continue;
+      const fileName = `${config.prefix}_${config.contestType}_${year}.json`;
+      const outputPath = path.join(OUT_2022_DIR, fileName);
+      if (path.resolve(sourcePath) !== path.resolve(outputPath)) {
+        writeJson(outputPath, payload);
+      }
+      new2022Entries.push({
+        year,
+        scope: config.scope,
+        contest_type: config.contestType,
+        file: fileName,
+        districts: Object.keys(results).length,
+        office: clean(payload?.meta?.office) || config.office,
+      });
+    }
   }
 }
 
@@ -1435,6 +1447,7 @@ function main() {
   for (const entry of sourceManifest.files || []) {
     const contestType = clean(entry.contest_type);
     if (!ACTIVE_CONTEST_TYPES.has(contestType)) continue;
+    if (DIRECT_DISTRICT_CONTEST_TYPES.has(contestType)) continue;
     const sourcePath = path.join(CONTESTS_DIR, clean(entry.file));
     if (!fs.existsSync(sourcePath)) continue;
     const payload = readJson(sourcePath);
@@ -1486,9 +1499,7 @@ function main() {
   if (shouldManageUnifiedStateHouse()) {
     synthesizeUnifiedStateHouseEntries(manifest2022, new2022Entries);
   }
-  if (!REQUESTED_CONTEST_TYPES.size || ACTIVE_CONTEST_TYPES.has('state_senate')) {
-    syncDirectStateSenateEntries(new2022Entries);
-  }
+  syncDirectDistrictEntries(new2022Entries);
 
   manifest2022.files = manifest2022.files.concat(new2022Entries).sort((a, b) => {
     const yearDiff = Number(a.year) - Number(b.year);
