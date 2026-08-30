@@ -59,6 +59,7 @@ const MANAGED_CONTEST_TYPES = new Set([
   'state_treasurer',
   'attorney_general',
   'superintendent_public_instruction',
+  'state_senate',
 ]);
 const CLI_ARGS = process.argv.slice(2).map(clean).filter(Boolean);
 const REPORT_UNMATCHED = CLI_ARGS.includes('--report-unmatched');
@@ -1370,6 +1371,38 @@ function synthesizeUnifiedStateHouseEntries(manifest2022, new2022Entries) {
   }
 }
 
+function syncDirectStateSenateEntries(new2022Entries) {
+  const legacyDir = path.join(DATA_DIR, 'district_contests');
+  const filesByYear = new Map();
+  for (const dir of [legacyDir, OUT_2022_DIR]) {
+    if (!fs.existsSync(dir)) continue;
+    for (const fileName of fs.readdirSync(dir)) {
+      const match = String(fileName).match(/^state_senate_state_senate_(\d{4})\.json$/i);
+      if (match?.[1]) filesByYear.set(Number(match[1]), path.join(dir, fileName));
+    }
+  }
+
+  for (const [year, sourcePath] of filesByYear.entries()) {
+    if (year < MIN_YEAR || year > MAX_YEAR) continue;
+    const payload = readJson(sourcePath);
+    const results = payload?.general?.results || {};
+    if (!Object.keys(results).length) continue;
+    const fileName = `state_senate_state_senate_${year}.json`;
+    const outputPath = path.join(OUT_2022_DIR, fileName);
+    if (path.resolve(sourcePath) !== path.resolve(outputPath)) {
+      writeJson(outputPath, payload);
+    }
+    new2022Entries.push({
+      year,
+      scope: 'state_senate',
+      contest_type: 'state_senate',
+      file: fileName,
+      districts: Object.keys(results).length,
+      office: clean(payload?.meta?.office) || 'State Senate',
+    });
+  }
+}
+
 function main() {
   if (REQUESTED_CONTEST_TYPES.size && !ACTIVE_CONTEST_TYPES.size) {
     throw new Error(`No supported contest types requested: ${Array.from(REQUESTED_CONTEST_TYPES).join(', ')}`);
@@ -1452,6 +1485,9 @@ function main() {
 
   if (shouldManageUnifiedStateHouse()) {
     synthesizeUnifiedStateHouseEntries(manifest2022, new2022Entries);
+  }
+  if (!REQUESTED_CONTEST_TYPES.size || ACTIVE_CONTEST_TYPES.has('state_senate')) {
+    syncDirectStateSenateEntries(new2022Entries);
   }
 
   manifest2022.files = manifest2022.files.concat(new2022Entries).sort((a, b) => {

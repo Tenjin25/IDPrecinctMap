@@ -755,6 +755,14 @@
     {
       "year": 2022,
       "scope": "state_senate",
+      "contest_type": "state_senate",
+      "file": "state_senate_state_senate_2022.json",
+      "districts": 35,
+      "office": "State Senate"
+    },
+    {
+      "year": 2022,
+      "scope": "state_senate",
       "contest_type": "state_treasurer",
       "file": "state_senate_state_treasurer_2022.json",
       "districts": 35,
