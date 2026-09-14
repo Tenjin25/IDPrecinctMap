@@ -1,1 +1,45 @@
-county_name,CVAP_TOT24
+statefp20,countyfp20,county_geoid20,county_name,CVAP_TOT24
+16,001,16001,Ada County,392085
+16,003,16003,Adams County,3900
+16,005,16005,Bannock County,65494
+16,007,16007,Bear Lake County,4786
+16,009,16009,Benewah County,7888
+16,011,16011,Bingham County,33679
+16,013,16013,Blaine County,18333
+16,015,16015,Boise County,6925
+16,017,16017,Bonner County,40585
+16,019,16019,Bonneville County,87997
+16,021,16021,Boundary County,9612
+16,023,16023,Butte County,1957
+16,025,16025,Camas County,814
+16,027,16027,Canyon County,172390
+16,029,16029,Caribou County,5026
+16,031,16031,Cassia County,15998
+16,033,16033,Clark County,479
+16,035,16035,Clearwater County,7537
+16,037,16037,Custer County,3814
+16,039,16039,Elmore County,20795
+16,041,16041,Franklin County,10348
+16,043,16043,Fremont County,10242
+16,045,16045,Gem County,15464
+16,047,16047,Gooding County,10327
+16,049,16049,Idaho County,13844
+16,051,16051,Jefferson County,21704
+16,053,16053,Jerome County,14719
+16,055,16055,Kootenai County,140010
+16,057,16057,Latah County,32511
+16,059,16059,Lemhi County,6823
+16,061,16061,Lewis County,2858
+16,063,16063,Lincoln County,3421
+16,065,16065,Madison County,41299
+16,067,16067,Minidoka County,14637
+16,069,16069,Nez Perce County,33461
+16,071,16071,Oneida County,3460
+16,073,16073,Owyhee County,8490
+16,075,16075,Payette County,19217
+16,077,16077,Power County,5111
+16,079,16079,Shoshone County,10813
+16,081,16081,Teton County,8760
+16,083,16083,Twin Falls County,65287
+16,085,16085,Valley County,9973
+16,087,16087,Washington County,8261
